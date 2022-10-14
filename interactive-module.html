@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<!--if you don't know the language enter lang="und" dir="auto"-->
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<title>Boilerplate</title>
+	<!--helps rendering on Outlook desktop on Windows-->
+	<!--[if mso]>
+	<noscript>
+  	<xml>
+   	 <o:OfficeDocumentSettings>
+      	<o:PixelsPerInch>96</o:PixelsPerInch>
+   	 </o:OfficeDocumentSettings>
+ 	 </xml>
+	</noscript>
+<![endif]-->
+<!--helps to render text and character entities-->
+<meta http-equiv="Content-Type" content="text/html; charset-utf-8" />
+<!--gives instructions on how to control dimensions and scaling-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--helps to prevent blue links and autolinking on Outlook iOs app-->
+<meta name ="format-detection" content="telephone=no, date=no, email=no">
+<!--fixes bug on iOs-->
+<meta name="x-apple-disable-message-reformatting">
+<!--ensures that dark mode is enabled in the email for users that opt for it-->
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<!--this prevents MSO from falling back to times new roman-->
+<!--[if mso]>
+	<style>
+    span, td, table, div, h1, a {
+      font-family: Arial, serif !important; line-height: 22px;
+    }
+    </style>
+  <![endif]-->
+  <style>
+    /* FONTS */
+    /*font loading method 1/2: import*/
+    @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@700&display=swap');
+
+    /*font loading method 2/2: @fontface declarartion*/
+    @font-face {
+     font-family: 'Museo Sans';
+     src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdj/813373/1612894671vhRC1K9f/MUSEO_300.eot');
+     src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdj/813373/1612894671vhRC1K9f/MUSEO_300.eot?#iefix') format('embedded-opentype'),
+     url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsjl/813373/16128959265AuW1sqE/MUSEO_300.woff2') format('woff2'),
+     url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsjl/813373/16128959265AuW1sqE/MUSEO_300.woff2') format('woff'),
+     url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdx/813373/1612894789FpuK8Jee/MUSEO_300.svg#museo700') format('svg');
+     font-weight: normal;
+     font-style: normal;
+   }
+
+   /* RESET STYLES */
+   /*keeps the rendering agent from resizing the text size*/
+   body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+   /*keeps MSO from adding space to either sides of a table*/
+   table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+   /*keeps MSO from resizing images*/
+   img { -ms-interpolation-mode: bicubic; }
+   img { border: 0px; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+   table { border:collapse: collapse !important; }
+   body { height: 100% !important margin: 0 !important; padding: 0 !important; width: 100% !important; }
+   h1, h2 { margin: 0; line-height: 0px; }
+
+   /* iOS BLUE LINKS - removes default linking on addresses, websites, phone numbers, etc */
+   a[x-apple-data-detectors]  {
+     color: inherit !important;
+     text-decoration: inherit !important;
+     font-size: inherit !important;
+     font-family: inherit !important;
+     font-weight: inherit !important;
+     line-height: inherit !important;
+   }
+   h1 {
+     font-family: 'Chivo', Arial, Helvetica, sans-serif, !important;
+     font-size: 36px;
+     line-height: 48px;
+     font-weight: bold;
+     padding-bottom: 15px;
+   }
+   h2 {
+     font-family: 'Chivo', Arial, Helvetica, sans-serif, !important;
+     font-size: 25px;
+     line-height: 28px;
+     padding-bottom: 5px;
+     font-weight: bold;
+   }
+
+   /* prevents Gmail from changing the text color in email threads */
+   .im {
+     color: inherit !important;
+   }
+
+   /* prevents Gmail from displaying an download button on unlinked images, 2 approaches */
+   .a6S {
+     display: none !important;
+     opacity: 0.01 !important;
+   }
+   * img[tabindex="0"] + div {
+     display: none !important;
+   }
+
+   /* removes default linking in Gmail */
+   u + #body a {
+     color: inherit;
+     text-decoration: inherit;
+     font-size: inherit;
+     font-family: inherit;
+     font-weight: inherit;
+     line-height: inherit;
+   }
+
+   /* removes default a tag linking in Samsumg */
+   #MessageViewBody a {
+     color: inherit;
+     text-decoration: none;
+     font-size: inherit;
+     font-family: inherit;
+     font-weight: inherit;
+     line-height: inherit;
+   }
+
+
+   /* DARK MODE */
+   @media (prefers-color-scheme: dark ) {
+     .dark-text {
+      color: #ffffff; !important;
+    }
+    .dark-mode-slide-1 {
+      background-color: #ff725c;
+    }
+    .dark-mode-slide-2 {
+      background-color: #357edd;
+    }
+    .dark-mode-slide-3 {
+      background-color: #ffb700;
+    }
+    .dark-button-a {
+      background: #7b939f !important;  
+      border-top: 14px solid #7b939f !important; 
+      border-bottom: 12px solid #7b939f !important; 
+      border-left: 20px solid #7b939f !important; 
+      border-right: 20px solid #7b939f !important;
+      color: #ffffff !important;
+    }
+
+    /*This swaps an image when dark mode is triggered. See 2 img tags in body */
+    .light-img {
+      display: none !important;
+      overflow: hidden !important;
+      visibility: hidden !important;
+    }
+    .dark-img {
+      display: block !important;
+      overflow: visible !important;
+      visibility: visible !important;
+    }
+    /*Same styles as above with a prefix. Provides more support for Outlook app on Android */
+    [data.ogsc] .dark-text {
+      color: #ffffff !important;
+    }
+    [data.ogsc] .dark-mode-slide-1 {
+      background-color: #ff725c;
+    }
+    [data.ogsc] .dark-mode-slide-2 {
+      background-color: #357edd;
+    }
+    [data.ogsc] .dark-mode-slide-3 {
+      background-color: #ffb700;
+    }
+    [data.ogsc] .dark-button-a {
+      background: #7b939f !important;  
+      border-top: 14px solid #7b939f !important; 
+      border-bottom: 12px solid #7b939f !important; 
+      border-left: 20px solid #7b939f !important; 
+      border-right: 20px solid #7b939f !important;
+      color: #ffffff !important;
+    }
+    [data.ogsc] .light-img {
+      display: none !important;
+      overflow: hidden !important;
+      visibility: hidden !important;
+    }
+    [data.ogsc] .dark-img {
+      display: block !important;
+      overflow: visible !important;
+      visibility: visible !important;
+    }
+
+  }
+
+  /* RESPONSIVE & MOBILE STYLES*/
+  @media screen and (max-width: 600px) {
+    .fluid {
+     width: 100% !important;
+     height: auto;
+   }
+   .stack-column,
+   .stack-column-center {
+     direction: ltr !important;
+     display: block !important;
+     max-width: 100% !important;
+     width: 100% !important;
+   }
+   .mobile-text-h1 {
+     font-size: 26px;
+     line-height: 40px;
+     padding-bottom: 5px;
+     font-weight: bold;
+   }
+ }
+
+ /*INTERACTIVE*/
+ .slide {
+  display: none;
+}
+
+input { 
+ display: none;
+}
+
+label {
+ color: #ffffff;
+ cursor: pointer;
+ display: none;
+ float: left;
+ padding: 1em 0;
+ text-align: center;
+ width: 233px;
+ display: block;
+ visibility: visible;
+}
+.button:hover {
+ background-color: #000000 !important;
+}
+.slide {
+ clear: both;
+ color: #ffffff;
+ padding: 50px; 
+ width: 600px;
+ display: none;
+}
+.slide1 {
+ background-color: #ff725c;
+}
+.slide2 {
+ background-color: #357edd;
+}
+.slide3 {
+ background-color: #ffb700;
+}
+/*This is a pseudo-selector. When this thing is checked, we're going to target a general sibling */
+#slide1:checked ~ .slide1, 
+#slide2:checked ~ .slide2,
+#slide3:checked ~ .slide3
+{
+ display: block;
+}
+/*Webkit media query, when this works the styles in the CSS above should be reversed. */
+@media screen and (-webkit-min-device-pixel-ratio: 1) {
+ label {
+  display: block !important; 
+  color: #ffffff;
+}
+</style>
+<!--set a body id for Gmail blue links and disable default margins and padding-->
+<body id=body style="margin: 0 !important; padding: 0 !important;">
+ <div style="display: none; max-height: 0; overflow: hidden;">
+  preheader copy
+</div>
+<div style="display: none; max-height: 0; overflow: hidden;">
+  <!--creates whitespace after end of preheader -->
+  &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+</div>
+<!--wrapping content in this div makes it an acessible article for screenreaders -->
+<div role="article" aria-roledescription="email" aria-label="Enter the subject line or descriptor or email here" lang="en" style="font-size:1rem">
+
+  <!--this is a conditional 'ghost' table that only MSO will see. Added becuase MSO doesn't support the max-width attribute in the div below-->
+
+			<!--[if gte mso 9]>
+				<table cellspacing="0" cellpadding="0" border="0" width="600" align="center" role="presentation" style="line-height: 32px;"><tr><td>
+					<![end if]-->
+
+					<!--the container of the email, where you can set text styles -->
+					<center>
+						<div style="color:#000000; font-family: sans-serif; font-size: 18px; line-height: 32px; font-weight: normal; max-width: 600px; padding: 10px;">
+
+							<!--all email content goes under here-->	
+
+							<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+								<tr>
+									<td style="padding: 30px;">
+										<!--nested tables are nice so you can apply styles in the td above-->
+										
+
+
+                    <!-- INTERACTIVE MODULE: START -->
+															<!--[if mso]>
+																<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+	<tbody>
+		<tr>
+			<td bgcolor="#ff725c" align="center" style="font-size: 30px; line-height: 44px; font-weight: bold;">
+				<table>
+					<tbody>
+						<tr>
+							<td bgcolor="#ff725c" align="center" style="padding-top: 20px; font-size: 30px; line-height: 44px; font-weight: bold;">
+								This is Slide 1
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ff725c" style="padding: 20px 20px 0 20px;">
+				<img src="https://placekitten.com/600/300" alt="" width="600" border="0" style="display: block; width: 100%;">
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ff725c" style="padding: 15px 20px 35px 20px; font-family: sans-serif; font-size: 18px; line-height: 28px; text-align: center;">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#357edd" align="center" style="padding-top: 20px; font-size: 30px; line-height: 44px; font-weight: bold;">
+				This is Slide 2
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+	<tbody>
+<tr>
+	<td bgcolor="#357edd" style="padding: 20px 20px 0 20px;">
+		<img src="https://placekitten.com/600/300" alt="" width="600" border="0" style="display: block; width: 100%;">
+	</td>
+</tr>
+<tr>
+	<td bgcolor="#357edd" style="padding: 15px 20px 35px 20px; font-family: sans-serif; font-size: 18px; line-height: 28px; text-align: center;">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	</td>
+</tr>
+<tr>
+	<td bgcolor="#ffb700" align="center" style="padding-top: 20px; font-size: 30px; line-height: 44px; font-weight: bold;">
+		This is Slide 3
+	</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+	<tbody>
+<tr>
+	<td bgcolor="#ffb700" style="padding: 20px 20px 0 20px;">
+		<img src="https://placekitten.com/600/300" alt="" width="600" border="0" style="display: block; width: 100%;">
+	</td>
+</tr>
+<tr>
+	<td bgcolor="#ffb700" style="padding: 15px 20px 40px 20px; font-family: sans-serif; font-size: 18px; line-height: 28px; text-align: center;">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	</td>
+</tr>
+<tbody>
+</table>
+<![endif]-->
+<!--[if !mso]><!--> 
+<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" class="fluid">
+	<tbody>
+		<tr>
+			<td align="center" style="color: #000000; font-family: sans-serif; font-size: 18px; font-weight: normal; line-height: 28px; padding: 50px 10px 60px 10px">
+				<input type="radio" name="slides" id="slide1" checked style="display: none;">
+				<input type="radio" name="slides" id="slide2" style="display: none;">
+				<input type="radio" name="slides" id="slide3" style="display: none;">
+				<label for="slide1" class="show-label dark-mode-slide-1" style="background-color: #ff725c; display: none;">Slide 1</label>
+				<label for="slide2" class="show-label dark-mode-slide-2" style="background-color: #357edd; display: none;">Slide 2</label>
+				<label for="slide3" class="show-label dark-mode-slide-3" style="background-color: #ffb700; display: none;">Slide 3</label>
+				<div class="slide slide1">
+					<h2 style="padding-bottom: 10px;">This is Slide 1</h2>
+					<img alt="" src="https://placekitten.com/600/300" width="600" border="0" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+				<div class="slide slide2">
+					<h2 style="padding-bottom: 10px;">This is Slide 2</h2>
+					<img alt="" src="https://placekitten.com/600/300" width="600" border="0" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+				<div class="slide slide3">
+					<h2 style="padding-bottom: 10px;">This is Slide 3</h2>
+					<img alt="" src="https://placekitten.com/600/300" width="600" border="0" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!--<![endif]-->
+<!-- INTERACTIVE MODULE: END -->
+
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+</div>
+</center>
+<!--this is the close of the MSO ghost table-->
+				<!--[if gte mso 9]>
+					</td> </tr> </table>
+				<![endif]-->
+			</div>
+		</body>
+	</head>
+	</html>
