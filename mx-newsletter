@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" smlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <title>The Mx Group</title>
+
+    <!--[if mso]>
+        <style>
+            * { font-family: Arial, Helvetica, sans-serif !important; }
+            a { text-decoration: none; }
+        </style>
+      <![endif]-->
+
+      <!--[if !mso]><!-->
+      <style type="text/css">
+        @font-face {
+          font-family: 'Museo Sans';
+          src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdj/813373/1612894671vhRC1K9f/MUSEO_300.eot');
+          src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdj/813373/1612894671vhRC1K9f/MUSEO_300.eot?#iefix') format('embedded-opentype'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsjl/813373/16128959265AuW1sqE/MUSEO_300.woff2') format('woff2'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsjl/813373/16128959265AuW1sqE/MUSEO_300.woff2') format('woff'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdx/813373/1612894789FpuK8Jee/MUSEO_300.svg#museo700') format('svg');
+          font-weight: normal;
+          font-style: normal;
+        }
+        @font-face {
+          font-family: 'Museo Sans';
+          src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdl/813373/1612894671h9r2svsr/MUSEO_300ITALIC.eot');
+          src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdl/813373/1612894671h9r2svsr/MUSEO_300ITALIC.eot?#iefix') format('embedded-opentype'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsjg/813373/1612895926CZ1M9ati/MUSEO_300ITALIC.woff2') format('woff2'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsj6/813373/16128958428Bnj9VoI/MUSEO_300ITALIC.woff') format('woff'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsf2/813373/1612894789JE6MwlZy/MUSEO_300ITALIC.svg#museo700') format('svg');
+          font-weight: normal;
+          font-style: italic;
+        }
+        @font-face {
+          font-family: 'Museo Sans';
+          src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdn/813373/1612894671zqknGdW3/MUSEO_700.eot');
+          src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdn/813373/1612894671zqknGdW3/MUSEO_700.eot?#iefix') format('embedded-opentype'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsjj/813373/1612895926VvAT0jEL/MUSEO_700.woff2') format('woff2'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsj4/813373/1612895842LriubsSL/MUSEO_700.woff') format('woff'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdz/813373/1612894789zQelE1zR/MUSEO_700.svg#museo700') format('svg');
+          font-weight: bold;
+          font-style: normal;
+        }
+        @font-face {
+          font-family: 'Museo Sans';
+          src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdq/813373/1612894671tlg6KDaA/MUSEO_700ITALIC.eot');
+          src: url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsdq/813373/1612894671tlg6KDaA/MUSEO_700ITALIC.eot?#iefix') format('embedded-opentype'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsjn/813373/1612895926JlkTAKwN/MUSEO_700ITALIC.woff2') format('woff2'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsjb/813373/1612895842BlaSq99U/MUSEO_700ITALIC.woff') format('woff'),
+          url('https://engage.themxgroup.com/l/813373/2021-02-09/4lsf4/813373/1612894790EBjtBZbE/MUSEO_700ITALIC.svg#museo700') format('svg');
+          font-weight: bold;
+          font-style: italic;
+        }
+      </style> 
+      <!--<![endif]-->
+
+      <style>
+        html,
+        body {
+          background: #f1f3f5;
+          height: 100% !important;
+          margin: 0 auto !important;
+          padding: 0 !important;
+          width: 100% !important;
+          -webkit-font-smoothing: antialiased;
+        }
+        * {
+          -ms-text-size-adjust: 100%;
+          -webkit-text-size-adjust: 100%;
+        }
+        * img[tabindex="0"] + div {
+          display: none !important;
+        }
+        div[style*="margin: 16px 0"] {
+          margin: 0 !important;
+        }
+        table,
+        td {
+          mso-table-lspace: 0pt !important;
+          mso-table-rspace: 0pt !important;
+        }
+        table {
+          border-collapse: collapse !important;
+          border-spacing: 0 !important;
+          margin: 0 auto !important;
+          table-layout: fixed !important;
+        }
+        table table table {
+          table-layout: auto;
+        }
+        img {
+          -ms-interpolation-mode: bicubic;
+        }
+        *[x-apple-data-detectors] {
+          color: inherit !important;
+          text-decoration: none !important;
+        }
+        .x-gmail-data-detectors,
+        .x-gmail-data-detectors *,
+        .aBn {
+          border-bottom: 0 !important;
+          cursor: default !important;
+        }
+        .link-a:hover {
+          color: #BB1643 !important;
+        }
+        .button-link {
+          text-decoration: none !important;
+        }
+        .button-td:hover {
+          background: #BB1643 !important;
+        }
+        .button-a:hover {
+          background: #BB1643 !important;
+          border-top: 15px solid #BB1643 !important;
+          border-bottom: 13px solid #BB1643 !important;
+          border-left: 30px solid #BB1643 !important;
+          border-right: 30px solid #BB1643 !important;
+        }
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+          .email-container {
+            min-width: 375px !important;
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .fluid {
+            height: auto !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            max-width: 100% !important;
+            width: 100% !important;
+          }
+        }
+        @media screen and (max-width: 480px) {
+          .stack-column,
+          .stack-column-center {
+            direction: ltr !important;
+            display: block !important;
+            max-width: 100% !important;
+            width: 100% !important;
+          }
+          .stack-column-center {
+            text-align: center !important;
+          }
+          .center-on-narrow {
+            display: block !important;
+            float: none !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            text-align: center !important;
+          }
+          table.center-on-narrow {
+            display: inline-block !important;
+          }
+          .button-a {
+            border-top: 12px solid #d9154b !important;
+            border-bottom: 10px solid #d9154b !important;
+            border-left: 20px solid #d9154b !important;
+            border-right: 20px solid #d9154b !important;
+            font-size: 16px !important;
+          }
+        }
+      </style>
+
+    </head>
+    <body bgcolor="#f1f3f5" style="margin: 0; mso-line-height-rule: exactly; width: 100%;">
+<div class="mktEditable" id="Email_Content">
+<center style="width: 100%; background: #f1f3f5;">
+<div class="email-container" style="max-width: 580px; margin: auto;"><!--[if mso]>
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 580px;">
+                <tr>
+                <td>
+                <![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+	<tbody>
+		<tr>
+			<td align="center" style="padding: 0 15px;" valign="top"><!-- EMAIL HEADER : BEGIN -->
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="padding: 30px 0; text-align: center;" class=""><a href="http://www.themxgroup.com" target="_blank"><img alt="The Mx Group Monthly" border="0" height="42" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z32h/813373/1614266400nL8d9ptD/logo_mx_monthly__2x.png" width="227"> </a></td>
+					</tr>
+					<tr>
+						<td style="padding-bottom: 15px; color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 22px; line-height: 22px; font-weight: 700; text-align: center;" class="">January 12, 2023</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- EMAIL HEADER : END --><!-- INTRO LETTER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td class="outer-wrapper" style="padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: left;">
+							<tbody>
+								<tr>
+									<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;" class="">All,<br>
+									<br>
+									I hope this finds you well and that you had a wonderful holiday season. The time I spent with family and friends, and the time away from work provides me with the energy and enthusiasm needed to jump back in the saddle and focus on the year ahead. I hope the same is true for you.<br>
+									<br>
+									Leaving ’22 behind and focusing on ‘23&nbsp;– I expect another big year for Mx. We will continue to grow as an organization, as a team and as individuals. This will no doubt require significant commitment and courage as we step up to the challenges that our clients face and help them grow in spite of economic conditions, an evolving B2B landscape and more. As you face these challenges&nbsp;– be confident in our ability to solve them. You are surrounded by people that know the industries our clients work in, who have experience overcoming the challenges our clients are facing, that have expertise in nearly every marketing discipline imaginable. The answers are here, all around us, and it is imperative that we work together to bring those solutions to our clients.<br>
+									<br>
+									This will require us to collaborate and communicate better than we ever have. My advice is to not rely on a process or a technology or matrix to tell you who to talk to when. Rely on each other. Build relationships with one another. And use those relationships to make more impact than ever. It starts now, and it starts with each and every one of us.<br>
+									<br>
+									I look forward to seeing you next week as we conduct our day of service, celebrate our successes and set the course for ’23.<br>
+									<br>
+									Talk soon,<br>
+									Tony</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- INTRO LETTER : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- PROMOTIONS : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="Promotions" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z33c/813373/1614266819UHSCSzU6/icon_promotion.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">Promotions</td>
+								</tr>
+								<!-- PROMOTIONS WITH HEADSHOTS : START -->
+								<tr>
+									<td style="padding-top: 10px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: left; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 20px; color: #293E4D;"><!-- PROMOTION : BEGIN -->
+										<tbody>
+											<tr>
+												<td style="padding-top: 20px; line-height: 1;" class=""><img alt="Kelley Daniels" border="0" height="100" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8k5/813373/1673469237KglP7Vu6/mx_promotions_kelley_daniels.png" style="display: block;" width="100"></td>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px 0 0 15px;" class=""><strong>Kelley Daniels</strong><br>
+												Promoted to Senior Product Manager</td>
+											</tr>
+											<!-- PROMOTION : END --><!-- PROMOTION : BEGIN -->
+										</tbody>
+										<tbody>
+											<tr>
+												<td style="padding-top: 20px; line-height: 1;" class=""><img alt="Ryan Bedillion" border="0" height="100" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8kn/813373/16734692385oPAZeLW/mx_promotions_ryan_bedillion.png" style="display: block;" width="100"></td>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px 0 0 15px;" class=""><strong>Ryan Bedillion</strong><br>
+												Promoted to Production Artist II</td>
+											</tr>
+											<!-- PROMOTION : END --><!-- PROMOTION : BEGIN -->
+										</tbody>
+										<tbody>
+											<tr>
+												<td style="padding-top: 20px; line-height: 1;" class=""><img alt="Laura Marzec" border="0" height="100" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8kc/813373/1673469237R9owWv08/mx_promotions_laura_marzec.png" style="display: block;" width="100"></td>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px 0 0 15px;" class=""><strong>Laura Marzec</strong><br>
+												Promoted to Content Director</td>
+											</tr>
+											<!-- PROMOTION : END --><!-- PROMOTION : BEGIN -->
+										</tbody>
+										<tbody>
+											<tr>
+												<td style="padding-top: 20px; line-height: 1;" class=""><img alt="Paul Matthews" border="0" height="100" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8kk/813373/16734692370jI4qWtW/mx_promotions_lauren_nopar.png" style="display: block;" width="100"></td>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px 0 0 15px;" class=""><strong>Paul Matthews</strong><br>
+												Promoted to Junior Art Director</td>
+											</tr>
+											<!-- PROMOTION : END --><!-- PROMOTION : BEGIN -->
+										</tbody>
+										<tbody>
+											<tr>
+												<td style="padding-top: 20px; line-height: 1;" class=""><img alt="Charles Moore" border="0" height="100" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8k2/813373/1673469237f2VFLst7/mx_promotions_charles_moore.png" style="display: block;" width="100"></td>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px 0 0 15px;" class=""><strong>Charles Moore</strong><br>
+												Promoted to Senior Video Editor</td>
+											</tr>
+											<!-- PROMOTION : END --><!-- PROMOTION : BEGIN -->
+										</tbody>
+										<tbody>
+											<tr>
+												<td style="padding-top: 20px; line-height: 1;" class=""><img alt="Lauren Nopar" border="0" height="100" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8kk/813373/16734692370jI4qWtW/mx_promotions_lauren_nopar.png" style="display: block;" width="100"></td>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px 0 0 15px;" class=""><strong>Lauren Nopar</strong><br>
+												Promoted to Client Operations Manager</td>
+											</tr>
+											<!-- PROMOTION : END --><!-- PROMOTION : BEGIN -->
+										</tbody>
+										<tbody>
+											<tr>
+												<td style="padding-top: 20px; line-height: 1;" class=""><img alt="Jeannette Rentas" border="0" height="100" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8k8/813373/1673469237VlqtfPqC/mx_promotions_jeannette_rentas.png" style="display: block;" width="100"></td>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px 0 0 15px;" class=""><strong>Jeannette Rentas</strong><br>
+												Promoted to Senior Project Manager</td>
+											</tr>
+											<!-- PROMOTION : END --><!-- PROMOTION : BEGIN -->
+										</tbody>
+										<tbody>
+											<tr>
+												<td style="padding-top: 20px; line-height: 1;" class=""><img alt="Bryan Vanco" border="0" height="100" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8jv/813373/1673469237NuE2o6hq/mx_promotions_bryan_vanco.png" style="display: block;" width="100"></td>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px 0 0 15px;" class=""><strong>Bryan Vanco</strong><br>
+												Promoted to Quality Assurance Analyst II</td>
+											</tr>
+											<!-- PROMOTION : END -->
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- PROMOTIONS WITH HEADSHOTS : END -->
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- PROMOTIONS : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- MILESTONES : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 20px;" class=""><img alt="Milestones" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2022-09-28/214dtc/813373/1664400680Z7rjqNGO/icon_popper.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">Milestones</td>
+								</tr>
+								<tr>
+									<td style="padding-bottom: 25px; padding-top: 25px;" class=""><img alt="Happy 5th Anniversary, Kim!" border="0" class="fluid" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8j8/813373/1673469235IFAvQlYD/mx_milestones_kim_stotlar.png" style="display: block;" width="510"></td>
+								</tr>
+								<tr>
+									<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D; text-align: left;" class="">Congratulations to Kim Stotlar on her 5th anniversary at Imagination! Kim started at Imagination as a marketing manager but transitioned to account management where she has excelled at turning around difficult relationships with clients and creating “raving fans”. Her attention to detail, calm demeanor, and ability to handle difficult conversations with clients when necessary have made her a real asset to the Imagination team. In addition to her current client responsibilities, Kim will be taking on account management of Imagination’s newest client, First Citizens Bank, for a large and complex content marketing program. For those of you that don’t know, Kim has her masters degree in healthcare management, has worked as an
+associate at a major consulting firm and is the oldest daughter of Imagination’s founder, Jim Meyers. Thank you for your 5 years of service, Kim!</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- MILESTONES : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- ANNIVERSARIES : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="Anniversaries" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z31h/813373/1614266398HZswqnwA/icon_anniversary.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">Anniversaries</td>
+								</tr>
+								<tr>
+									<td align="center" style="padding-top: 10px; font-size: 0;" valign="top" class=""><!--[if mso]>
+                                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="510">
+                                                    <tr>
+                                                    <td valign="top" width="255">
+                                                    <![endif]-->
+									<div class="stack-column" style="display: inline-block; width: 100%; min-width: 200px; max-width: 255px; vertical-align: top;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D; text-align: center;" width="100%">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>9 Years</strong> / Matt Binz</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>8 Years</strong> / David Brummer</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>5 Years</strong> / Kim Stotlar</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>4 Years</strong> / Allison Merten</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>4 Years</strong> / Lisa Eckardt</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>4 Years</strong> / Lisa Chatroop</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>2 Years</strong> / Kim Jones</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso]>
+                                                    </td>
+                                                    <td valign="top" width="255">
+                                                    <![endif]-->
+
+									<div class="stack-column" style="display: inline-block; width: 100%; min-width: 200px; max-width: 255px; vertical-align: top;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D; text-align: center;" width="100%">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>2 Years</strong> / Leigh Burmesch</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>1 Year</strong> / Kris Apodaca</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>1 Year</strong> / Joan Britt</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>1 Year</strong> / Kim Spurgash</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>1 Year</strong> / Tania Chwala</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>1 Year</strong> / Jack Dubnicek</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso]>
+                                                    </td>
+                                                    </tr>
+                                                    </table>
+                                                  <![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- ANNIVERSARIES : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- NEW MXERS : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="New Mx’ers" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z321/813373/1614266399Iekoc9gK/icon_new_employee.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">New Mx’ers</td>
+								</tr>
+								<tr>
+									<td style="padding-top: 10px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: left; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 20px; color: #293E4D;">
+										<tbody>
+											<tr>
+												<td style="padding-top: 20px; line-height: 1;" class=""><img alt="Karen DeBellis" border="0" height="100" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8j5/813373/1673469235AdlgUEmC/mx_new_employee_karen_debellis.png" style="display: block;" width="100"></td>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px 0 0 15px;" class=""><strong>Karen DeBellis</strong><br>
+												Account Supervisor</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- NEW MXERS : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- OPEN POSITIONS : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="Open Positions" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z325/813373/16142663992rkBQgIn/icon_recruit.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">Open Positions</td>
+								</tr>
+								<tr>
+									<td style="padding-top: 10px; padding-bottom: 30px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class="">Account Supervisor</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class="">Art Director</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class="">Senior Product Manager</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class="">Strategic Planning Director</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class="">Corporate Marketing Manager</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="border-top: 1px solid #D0DFE9; padding-top: 15px; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;" class="">See an up-to-date <a class="link-a" href="https://app.jobvite.com/j?bj=oVd9afwb&s=Employee_Newsletter" style="color: #D9154B;" target="_blank">list of openings</a>.</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- OPEN POSITIONS : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- Mx Values in Action : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="Coworker Kudos" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z32c/813373/1614266399ej80PZZp/icon_thumbs_up.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">Mx Values in Action</td>
+								</tr>
+								<tr>
+									<td style="padding-top: 20px;">
+									<table align="center" bgcolor="#f1f5f8" border="0" cellpadding="0" cellspacing="0" style="width: 100%; text-align: left; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.8)">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px;">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;">
+													<tbody>
+														<tr>
+															<td align="left" style="font-size: 34px; line-height: 40px; color: #758A9B;" valign="top" width="15" class="">“</td>
+															<td align="left" valign="top" class="">I’d like to nominate Gretchen Zachan for <strong>COMMITMENT</strong> for the strategy she used to develop around 25 individual interview scripts for a recent Zekelman shoot. The care and detail put into these documents were the main reason for the project’s success. She also created a huge <strong>IMPACT</strong> for the client by whipping up a new script on the fly when we had a volunteer the day of the shoot from a department that we had not yet covered. We were so prepared going in, and the ability to respond quickly like that was so huge for the client. Thank you!!”</td>
+														</tr>
+														<tr>
+															<td class="">&nbsp;</td>
+															<td style="font-style: italic; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #293E4D; padding-top: 5px;" class="">— submitted by Kyrsten Benoit</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding-top: 20px;">
+									<table align="center" bgcolor="#f1f5f8" border="0" cellpadding="0" cellspacing="0" style="width: 100%; text-align: left; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.8)">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding: 20px;">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;">
+													<tbody>
+														<tr>
+															<td align="left" style="font-size: 34px; line-height: 40px; color: #758A9B;" valign="top" width="15" class="">“</td>
+															<td align="left" valign="top" class="">I’d like to nominate the team that worked on ZI-Strut for <strong>COMMITMENT</strong> for knocking out a massive new product launch for Wheatland and Western. The team put together a catalog, submittal sheets, flyers, website pages, and product illustrations to launch a new line of over 275 products. They also displayed <strong>INNOVATION</strong> as they created all of this work from sometimes tricky source materials, rolled with multiple changes of direction and timing, and adjusted to the addition of more products and categories along the way. This project required thousands of CE comments and incredible attention to detail. Thanks for all pulling together to get this one out the door!”</td>
+														</tr>
+														<tr>
+															<td align="left" style="font-size: 34px; line-height: 40px; color: #758A9B;" valign="top" width="15" class="">&nbsp;</td>
+															<td align="left" style="padding-top: 15px;" valign="top" class="">Team: April Lacey, Ashley Lay, Katie Johnson, Paul Matthews, Sara Hammer, Gretchen Zachan, Henry Minis, Jason VanDenBrook, Tyler Dunn, Trace Fontil, Mark Pajor, Dave Gentry, Ryan Evans, Phil Arnold, Miro Zugovic, and Melissa Aguilar</td>
+														</tr>
+														<tr>
+															<td class="">&nbsp;</td>
+															<td style="font-style: italic; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #293E4D; padding-top: 5px;" class="">— submitted by Kyrsten Benoit</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding-top: 20px; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;" class=""><a class="link-a" href="mailto:mxproud@themxgroup.com" style="color: #D9154B;" target="_blank">Email</a> with the name(s) of the individual(s) you’d like to give recognition to for embodying one or more of <a class="link-a" href="http://bob/display/CORP/Our+Values" style="color: #D9154B;" target="_blank">Our Values</a>!</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- KUDOS : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- BIRTHDAYS : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="Birthdays" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z31m/813373/1614266398ao3aJzjI/icon_cake.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">Birthdays</td>
+								</tr>
+								<tr>
+									<td align="center" style="padding-top: 10px; font-size: 0;" valign="top" class=""><!--[if mso]>
+                                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="510">
+                                                    <tr>
+                                                    <td valign="top" width="255">
+                                                    <![endif]-->
+									<div class="stack-column" style="display: inline-block; width: 100%; min-width: 200px; max-width: 255px; vertical-align: top;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D; text-align: center;" width="100%">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 1</strong> / Kevin Quinn</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 4</strong> / Dave Gentry</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 5</strong> / Eric Von Zee</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 14</strong> / Allison Merten</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 15</strong> / Russell Warrington</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso]>
+                                                    </td>
+                                                    <td valign="top" width="255">
+                                                    <![endif]-->
+
+									<div class="stack-column" style="display: inline-block; width: 100%; min-width: 200px; max-width: 255px; vertical-align: top;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D; text-align: center;" width="100%">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 20</strong> / Anne Marie Purdy</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 23</strong> / Pete Wroblewski</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 26</strong> / Erik Schurtz</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 29</strong> / Manu Nair</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 31</strong> / April Lacey</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso]>
+                                                    </td>
+                                                    </tr>
+                                                    </table>
+                                                  <![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- BIRTHDAYS : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- BIRTHS / PREGNANCIES / BABIES : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="Births" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z31k/813373/1614266398zS5m1Aze/icon_baby.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">Babies</td>
+								</tr>
+								<!-- BIRTH : BEGIN -->
+								<tr>
+									<td style="padding-top: 30px;" class=""><img alt="Lenard's baby" border="0" class="fluid" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8jn/813373/1673469236yqZPJL4c/mx_news_lenard_fudala.png" style="display: block;" width="510"></td>
+								</tr>
+								<tr>
+									<td style="padding-top: 10px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>Enzo Salem Fudala</strong> / Born December 20, 2022</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 7px;" class="">Congratulations to Lenard Fudala and his partner Barbara on the birth of their baby boy!</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- BIRTH : END --><!-- BIRTH : BEGIN -->
+								<tr>
+									<td style="padding-top: 45px;" class=""><img alt="Audrey's baby" border="0" class="fluid" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8jc/813373/1673469236ozNiQtK1/mx_news_audrey_garrigan.png" style="display: block;" width="510"></td>
+								</tr>
+								<tr>
+									<td style="padding-top: 10px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>Eleanor “Ellie” Michelle Garrigan </strong> / Born December 27, 2022</td>
+											</tr>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 7px;" class="">Congratulations to Audrey and Vaughan on the birth of their baby girl!</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- BIRTH : END --><!-- PREGNANCY : BEGIN -->
+								<tr>
+									<td style="padding-top: 45px;" class=""><img alt="Shakira's pregnancy announcement" border="0" class="fluid" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8jr/813373/16734692369BeG7UVa/mx_news_shakira_hines.png" style="display: block;" width="510"></td>
+								</tr>
+								<tr>
+									<td style="padding-top: 20px; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;" class="">Congratulations to Shakira Hines and her husband James on expecting their second child! Baby Boy Hines is due in April 2023.</td>
+								</tr>
+								<!-- PREGNANCY : END -->
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- BIRTHS / PREGNANCIES / BABIES : BEGIN --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- PETS : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="New Pets" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z31y/813373/1614266399vBW4s4Kk/icon_pet.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">New Pets</td>
+								</tr>
+								<!-- PET : BEGIN -->
+								<tr>
+									<td style="padding-top: 30px;" class=""><img alt="Thorne's new cat" border="0" class="fluid" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8jy/813373/1673469237vOB8z1cc/mx_news_thorne_drwal.png" style="display: block;" width="510"></td>
+								</tr>
+								<tr>
+									<td style="padding-top: 20px; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;" class="">Thorne Drwal’s new cat, Callie</td>
+								</tr>
+								<!-- PET : END -->
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- PETS : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- EMPLOYEE NEWS : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="Employee News" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z329/813373/1614266399PGIZuolH/icon_shooting_star.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">Employee News</td>
+								</tr>
+								<!-- NEWS ITEM : BEGIN -->
+								<tr>
+									<td style="padding-top: 30px;" class=""><img alt="Cristina's move" border="0" class="fluid" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8jg/813373/1673469236YwicZkH2/mx_news_cristina_sarnelli.png" style="display: block;" width="510"></td>
+								</tr>
+								<tr>
+									<td style="padding-top: 20px; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;" class="">Congratulations to Cristina Sarnelli and her partner Thomas on their move to Seattle!</td>
+								</tr>
+								<!-- NEWS ITEM : END --><!-- NEWS ITEM : BEGIN -->
+								<tr>
+									<td style="padding-top: 30px;" class=""><img alt="Janick's daughter" border="0" class="fluid" src="https://engage.themxgroup.com/l/813373/2023-01-11/2cy8jk/813373/16734692360tyspoN6/mx_news_janick_laprise.png" style="display: block;" width="510"></td>
+								</tr>
+								<tr>
+									<td style="padding-top: 20px; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;" class="">Congratulations to Janick Laprise’s daughter, Camelia, on her graduation from Vancouver Film School! Camelia spent her time in VFS’s Makeup Design for Film and Television program and is eager to begin working in her field. Check out some of her work on Instagram! @cameliachelich_arts</td>
+								</tr>
+								<!-- NEWS ITEM : END -->
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- EMPLOYEE NEWS : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- EVENTS : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-radius: 5px; box-shadow: 0px 0px 2px 0px rgba(161,190,210,0.4)">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" class="outer-wrapper" style="border-radius: 5px; padding: 20px 20px 30px 20px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td style="padding-bottom: 10px;" class=""><img alt="Events" border="0" height="75" src="https://engage.themxgroup.com/l/813373/2021-02-25/4z31p/813373/16142663986C9oCl4A/icon_event.gif" style="margin: 0 auto; display: block;" width="75"></td>
+								</tr>
+								<tr>
+									<td style="color: #630831; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 32px; line-height: 34px;" class="">Events</td>
+								</tr>
+								<tr>
+									<td style="padding-top: 10px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><strong>January 16</strong> / Day of Service</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding-top: 10px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 0px;" class=""><strong>January 17</strong> / Whole Company Meeting</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding-top: 10px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;">
+										<tbody>
+											<tr>
+												<td style="font-family: 'Museo Sans', Arial, Helvetica, sans-serif; padding-top: 0px;" class=""><strong>January 17</strong> / Cocktail Event Celebration at Puttshack</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- EVENTS : END --><!-- SPACER : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td style="height: 15px; line-height: 15px; font-size: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- SPACER : END --><!-- FEEDBACK : BEGIN -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px;">
+				<tbody>
+					<tr>
+						<td bgcolor="#DAE3EA" class="outer-wrapper" style="border-radius: 5px; padding: 20px 40px 30px 40px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+							<tbody>
+								<tr>
+									<td>
+									<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #293E4D;">
+										<tbody>
+											<tr>
+												<td class=""><strong>Do you have news to share for the next issue? Do you like the content of this monthly newsletter? Is there other content you’d like to see?</strong></td>
+											</tr>
+											<tr>
+												<td style="padding-top: 20px;">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+													<tbody>
+														<tr>
+															<td class="button-td" style="border-radius: 5px; background: #d9154b; text-align: center;">
+															<div class="button-div" style="border-bottom: 3px solid #820d2d; border-radius: 5px;"><a class="button-a" href="https://forms.gle/qpgvrBpnHTzizou4A" style="background: #d9154b; color: #ffffff; border-top: 15px solid #d9154b; border-bottom: 13px solid #d9154b; border-left: 30px solid #d9154b; border-right: 30px solid #d9154b; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 1; text-align: center; text-decoration: none; display: block; border-radius: 5px;">Provide feedback</a></div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- FEEDBACK : END --><!-- EMAIL FOOTER : BEGIN --></td>
+		</tr>
+		<tr>
+			<td style="padding: 40px 25px 0 25px; text-align: center;" class=""><a href="https://twitter.com/mxgroup" target="_blank"><img alt="Twitter logo" border="0" height="24" src="https://engage.themxgroup.com/l/813373/2021-01-21/4691y/813373/1611244342gWprMzqU/icon_twitter_00111D.png" width="26"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/user/mxgroupb2b" target="_blank"><img alt="YouTube logo" border="0" height="24" src="  https://engage.themxgroup.com/l/813373/2021-01-21/4691w/813373/1611244342Mtm2pkpI/icon_youtube_00111D.png" width="24"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/themxgroup" target="_blank"><img alt="LinkedIn logo" border="0" height="24" src=" https://engage.themxgroup.com/l/813373/2021-01-21/4691t/813373/1611244341dwitR0ri/icon_linkedin_00111D.png" width="24"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/TheMxGroup/"
+target="_blank"><img alt="Facebook logo" border="0" height="24" src="https://engage.themxgroup.com/l/813373/2021-01-21/4691p/813373/1611244341dDd6Oa9w/icon_facebook_00111D.png" width="24"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/themxgroup/" target="_blank"><img alt="Instagram logo" border="0" height="24" src="https://engage.themxgroup.com/l/813373/2021-01-21/4691r/813373/1611244341GCrsKk4Y/icon_instagram_00111D.png" width="24"></a></td>
+		</tr>
+		<tr>
+			<td class="x-gmail-data-detectors" style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 15px; color: #00111D; text-align: center; padding: 20px 25px 50px 25px;">7020 High Grove Blvd., Burr Ridge, IL 60527 | <a class="mktNoTok mktNoTrack" href="https://engage.themxgroup.com/email-preference-center" style="color: #00111D;"><span style="color: #00111D;">Manage your email preferences</span></a>.</td>
+		</tr>
+		<tr>
+			<td style="display: none;" class="">https://engage.themxgroup.com/unsubscribe/u/813373</td>
+		</tr>
+		<!-- EMAIL FOOTER : END -->
+	</tbody>
+</table>
+<!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]--></div>
+</center>
+</div>
+</body>
+        </html>
+
