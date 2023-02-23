@@ -1,0 +1,285 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" smlns:o="urn:schemas-microsoft-com:office:office">
+<head> 
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="x-apple-disable-message-reformatting"> 
+	<title>Z Modular</title> 
+<!--[if mso]>
+<style>
+* { font-family: Verdana, Helvetica, sans-serif !important; }
+a { text-decoration: none; }
+</style>
+<![endif]--> 
+<!-- Web Font / @font-face : END --> 
+<style>
+	html,
+	body {
+		height: 100% !important;
+		margin: 0 auto !important;
+		padding: 0 !important;
+		width: 100% !important;
+	}
+	* {
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+	* img[tabindex="0"]+div {
+		display: none !important;
+	}
+	div[style*="margin: 16px 0"] {
+		margin: 0 !important;
+	}
+	a { text-decoration: none; }
+	table,
+	td {
+		mso-table-lspace: 0pt !important;
+		mso-table-rspace: 0pt !important;
+	}
+	table {
+		border-collapse: collapse !important;
+		border-spacing: 0 !important;
+		margin: 0 auto !important;
+		table-layout: fixed !important;
+	}
+	body {
+		background-color: #000000
+		margin: 0 !important;
+		padding: 0;
+		-webkit-font-smoothing: antialiased;
+		width: 100%;
+	}
+	#MessageViewBody, #MessageWebViewDiv{
+		width: 100% !important;
+	}
+	@media only screen and (max-width: 600px) {
+		body {
+			padding: 0 !important;
+		}
+		.resp-img {
+			height: auto !important;
+			width: 100% !important;
+		}
+	}
+
+	@media only screen and (max-width: 480px) {
+		.logo {
+			height: auto !important;
+			width: 100% !important;
+		}
+        .fluid {
+        	height: auto !important;
+			width: 91% !important;
+        }
+		.outer-padding {
+			padding: 20px !important;
+		}
+		.bottom-padding {
+			padding-bottom: 20px !important;
+		}
+		.h2 {
+			font-size: 33px !important;
+			line-height: 33px !important;
+		}
+		.h3 {
+			font-size: 25px !important;
+			line-height: 25px !important;
+		}
+		.h4 {
+			font-size: 18px !important;
+			line-height: 18px !important;
+		}
+		.stack-column,
+		.stack-column-center {
+			direction: ltr !important;
+			display: block !important;
+			max-width: 100% !important;
+			width: 100% !important;
+		}
+		.stack-column-center {
+			text-align: center !important;
+		}
+		.max-width-img {
+			height: auto !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+			max-width: 100% !important;
+		}
+
+		.t-Pad-15 {padding-top: 15px !important;}
+		.b-Pad-15 {padding-bottom: 15px !important;}
+        .b-Pad-9 {padding-bottom: 9px !important;}
+        .t-Pad-9 {padding-top: 9px !important;}
+        
+        .mobile-headline-size {
+        	font-size: 20px !important;
+            line-height: 28px !important;
+        }
+	}
+</style> 
+</head> 
+<body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0" yahoo="fix" style="font-family:'GothamBold', 'Gotham', Verdana, sans-serif; "> 
+	<!-- PREHEADER : INSERT AS FIRST ELEMENT INSIDE BODY TAG --> 
+	<div style="display: none; max-height: 0; overflow: hidden;">
+		Join us on February 7 & 8 for a factory tour and groundbreaking event.
+	</div>
+	<div style="display: none; max-height: 0; overflow: hidden;">
+		<!--creates whitespace after end of preheader --> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+	</div>
+
+	<!-- PREHEADER : END --> 
+	<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"> 
+		<tbody> 
+			<tr> 
+				<td valign="top" bgcolor="#101012" style="padding: 20px 10px;"> 
+					<div style="max-width: 580px; margin: auto;" class="email-container"> 
+<!--[if mso]>
+<table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 580px;">
+<tr>
+<td>
+<![endif]--> 
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center"> 
+	<tbody> 
+		<tr> 
+			<td style="background-color: #E9F1F3;"> 
+				<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #E9F1F3;"> 
+					<tbody> 
+						<tr> 
+							<td align="center" style="padding: 45px 30px 45px 30px;"><a href="https://www.z-modular.com/" target="_blank"><img src="https://mcusercontent.com/6aac96e7b90825c40a0e8519a/images/96355a9a-0163-9ded-a08b-b47297fa0754.png" width="350" alt="Z Modular: Align to Build Better" border="0" style="max-width: 100%;" class="logo"> </a> </td> 
+						</tr> 
+					</table> 
+					<table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #E9F1F3"> 
+							<tr> 
+                                     <!--[if mso]>
+  <td align="center" style="padding: 0 20px 5px 20px; font-family: Verdana, sans-serif; font-size: 51px; mso-line-height-rule:exactly; line-height: 51px; color: #203E45; text-transform: uppercase; font-weight: bold;" class="h2 b-Pad-7">Save the Date
+                                </td>  
+<![endif]--> 
+<!--[if !mso]><!-->
+                                <td align="center" style="padding: 0px 20px 11px 20px; font-family: Verdana, sans-serif; font-size: 51px; mso-line-height-rule:exactly; line-height: 51px; color: #203E45; text-transform: uppercase; font-weight: bold;" class="h2 b-Pad-9">Save the Date
+                                </td>  
+                                	<!--<![endif]--> 
+							</tr> 
+							<tr> 
+								<td align="left" style="max-width: 92%"><img src="https://mcusercontent.com/6aac96e7b90825c40a0e8519a/images/c99fd320-ecb9-f074-7d9f-5551272a03f2.png" width="523" height="2" alt="" border="0" style="display: block; max-height: 2px; background-color: #E9F1F3;" class="fluid"> </td> 
+							</tr>
+							<tr> 
+								<td align="center" style="padding: 15px 20px 0 20px; mso-line-height-rule:exactly; line-height: 1; font-family: Verdana, sans-serif; font-size: 39px; line-height: 39px; color: #E41D38; font-weight: bold; font-style: italic; text-transform: uppercase; mso-cellspacing: 0;" class="h3 t-Pad-9"><strong>February 7&#8209;8, 2023</strong></td> 
+							</tr> 
+							<tr> 
+								<td align="center" style="padding: 15px 20px 10px 20px; font-family: Verdana, sans-serif; font-size: 21px; line-height: 21px; color: #203E45; font-weight: bold; font-style: italic; text-transform: uppercase;" class="h4 t-Pad-15 b-Pad-15"><em><strong>Glendale, Arizona</strong></em></td> 
+							</tr> 
+							<tr> 
+								<td style="display: block; background-color: #E9F1F3;"><img src="https://engage.themxgroup.com/l/813373/2022-12-09/28tdw4/813373/1670623885JYmUAzw0/angle_teal_v2.png"  width="600" alt="" border="0" style="max-width: 100%; display: block;"> </td> 
+							</tr>  
+					</table>
+
+					<div class="gradient" style="background-color: #0f8b9a; background: linear-gradient(0deg, rgba(31, 69, 76,1) 0%, rgba(15, 139, 154,1) 100%);" >
+		
+<table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+	<tbody> 
+		<tr> 
+            <!--[if mso]>
+<td align="left" style="background-color: #0f8b9a; display: block; font-family: Verdana, sans-serif; font-size: 25px; line-height: 36px; color: #E9F1F3; padding: 0 40px 20px 40px;"><strong> You’re invited to an exclusive, ground-breaking ceremony and event hosted by Z-Modular. </strong> 
+<![endif]--> 
+<!--[if !mso]><!-->
+<td align="left" style=" display: block; font-family: Verdana, sans-serif; font-size: 25px; line-height: 36px; color: #E9F1F3; padding: 5px 50px 20px 50px;" class="mobile-headline-size"><strong>You’re invited to an exclusive groundbreaking ceremony and event hosted by Z Modular. </strong> 
+	<!--<![endif]--> 
+	<table width="100%" align="left;" cellspacing="0" cellpadding="0" style="color: #E9F1F3; font-size: 17px; line-height: 27px; font-family: Verdana, sans-serif;">
+		<tr>
+			<td width="20" valign="top" align="left" style="padding-top: 20px; color: #E41D38; font-size: 24px;">&ndash;</td>
+            <td valign="top" align="left" style="padding-top: 20px; padding-left: 5px; padding-bottom: 12px;"><strong>See the future of multi&#8209;family construction in action</strong></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top" align="left" style="color: #E41D38; font-size: 24px;">&ndash;</td>
+            <td valign="top" align="left" style="padding-left: 5px; padding-bottom: 12px;"><strong>Learn how cost, schedule, labor and supply chain risks are mitigated through fully integrated, self&#8209;development</strong> </td>
+		</tr>
+        	<tr>
+			<td width="20" valign="top" align="left" style="color: #E41D38; font-size: 24px;">&ndash;</td>
+                <td valign="top" align="left" style="padding-left: 5px; padding-bottom: 12px;"><strong>Meet the minds behind the only fully integrated modular solution</strong></td>
+		</tr>
+        	<tr>
+			<td width="20" valign="top" align="left" style="color: #E41D38; font-size: 24px;">&ndash;</td>
+                <td valign="top" align="left" style="padding-left: 5px; padding-bottom: 12px;"><strong>Groundbreaking event and community tour during the morning of February&nbsp;8</strong></td>
+		</tr>
+        	<tr>
+			<td width="20" valign="top" align="left" style="color: #E41D38; font-size: 24px;">&ndash;</td>
+                <td valign="top" align="left" style="padding-left: 5px; padding-bottom: 12px;"><strong>Bonus: Full factory tour option during the afternoon of February&nbsp;7</strong></td>
+		</tr>
+	
+	</table>
+    
+    <tr>
+    <!--[if mso]>
+<td align="center" style="background-color: #0f8b9a; padding-bottom: 10px;"><a style="display:inline-block; font-family: Verdana, sans-serif; color: #ffffff; font-size: 18px; line-height: 18px; text-align: center; text-decoration: none; background-color: #E41D38; border-top: 15px solid #E41D38; border-bottom: 15px solid #E41D38; border-left: 30px solid #E41D38; border-right: 30px solid #E41D38;" href="https://www.z-modular.com/lp/groundbreaking/" target="_blank"><span style="color: #ffffff;"><strong>Secure your spot</strong></span></a></td> 
+<!--[if !mso]><!-->
+		<td align="center" style="padding-bottom: 5px;"><a style="display:inline-block; font-family: Verdana, sans-serif; color: #ffffff; font-size: 18px; line-height: 18px; text-align: center; text-decoration: none; background-color: #E41D38; border-top: 15px solid #E41D38; border-bottom: 15px solid #E41D38; border-left: 30px solid #E41D38; border-right: 30px solid #E41D38;" href="https://www.z-modular.com/lp/groundbreaking/" target="_blank"><span style="color: #ffffff;"><strong>&nbsp;&nbsp;Secure your spot&nbsp;&nbsp;</strong></span></a></td> 
+        <!--<![endif]--> 
+	</tr> 
+	<tr> 
+            <!--[if mso]>
+	<td align="center" style="background-color: #0f8b9a; font-family: 'Gotham Book', Verdana, sans-serif; font-size: 16px; line-height: 20px; color: #E9F1F3; padding: 10px 30px 50px 30px;"><em>Watch your inbox for additional information.</em></td> 
+<!--[if !mso]><!-->
+		<td align="center" style="font-family: 'Gotham Book', Verdana, sans-serif; font-size: 15px; line-height: 19px; color: #E9F1F3; padding: 20px 30px 55px 30px;"><em>Keep an eye on your inbox for additional information.</em></td> 
+   <!--<![endif]--> 
+	</tr> 
+    <tr>
+           <!--[if mso]>
+	   <td align="center" style="background-color: #0f8b9a; display: block; font-family: Verdana, sans-serif; font-size: 18px; line-height: 26px; color: #E9F1F3; padding: 5px 60px 15px 60px;" class="mobile-headline-size"><strong>Watch a special message from<br> Barry Zekelman</strong> 
+        </td>
+<!--[if !mso]><!-->
+        <td align="center" style="display: block; font-family: Verdana, sans-serif; font-size: 18px; line-height: 26px; color: #E9F1F3; padding: 5px 60px 15px 60px;" class="mobile-headline-size"><strong>Watch a special message from<br> Barry Zekelman</strong> 
+        </td>
+           <!--<![endif]--> 
+    </tr>
+            
+    <tr> 
+               <!--[if mso]>
+	  	<td align="center" style="display: block; background-color: #0f8b9a; padding: 0px 30px 45px 30px;"><a href="https://youtu.be/DN-2DnbXtZo" target="_blank"><img src="https://storage.pardot.com/813373/1671038453nHPycc8C/21_ZI_5359_video_thumbnail.jpg" width="425" alt="Video message from Barry Zekelman" border="0" style="max-width: 100%;" class="logo"> </a> </td> 
+        </td>
+<!--[if !mso]><!-->
+							<td align="center" style="display: block; padding: 0px 30px 45px 30px;"><a href="https://youtu.be/DN-2DnbXtZo" target="_blank"><img src="https://storage.pardot.com/813373/1671038453nHPycc8C/21_ZI_5359_video_thumbnail.jpg" width="425" alt="Video message from Barry Zekelman" border="0" style="max-width: 100%;" class="logo"> </a> </td> 
+          <!--<![endif]--> 
+						</tr> 
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</td>
+</tr>
+
+<!-- EMAIL CONTENT : END --> 
+<!-- FOOTER : START --> 
+<tr> 
+	<td bgcolor="#000000" style="padding: 10px;"> 
+		<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" style="min-width: 100%; font-family: 'Gotham-Book-Regular', Verdana, Helvetica, sans-serif; font-size: 14px; line-height: 1.5; color: #000000; text-align: center;"> 
+			<tbody> 
+				<tr>
+					<td class="x-gmail-data-detectors" style="font-family:'Gotham-Book-Regular', Verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 15px; color: #ffffff; text-align: center; padding: 20px 20px 30px 20px;">
+						&copy;&nbsp;2022 Zekelman Industries<br>
+						<br>
+						227 West Monroe Street, Suite 2600, Chicago, IL 60606<br><br>
+						<a href="https://www.zekelman.com/privacy-policy/" target="_blank" style="color: #ffffff; text-decoration: underline;"  >Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="*|UNSUB|*" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-text">Unsubscribe</a> </td>
+					</tr>
+				</tbody> 
+			</table> </td> 
+		</tr> 
+		<!-- FOOTER : END --> 
+	</tbody> 
+</table> 
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]--> 
+</div> 
+                <style data-ignore-inlining>@media (prefers-color-scheme: dark) { #_t::before {content:url('https://3weznbx8.emltrk.com/v2/3weznbx8?rd&i=*|UNIQID|*');}} @media (prefers-color-scheme: light) { #_t::before {content:url('https://3weznbx8.emltrk.com/v2/3weznbx8?rl&i=*|UNIQID|*');}} @media print{ #_t {background-image:url('https://3weznbx8.emltrk.com/v2/3weznbx8?p&i=*|UNIQID|*');}} div.OutlookMessageHeader {background-image:url('https://3weznbx8.emltrk.com/v2/3weznbx8?f&i=*|UNIQID|*')} table.moz-email-headers-table {background-image:url('https://3weznbx8.emltrk.com/v2/3weznbx8?f&i=*|UNIQID|*')} blockquote #_t {background-image:url('https://3weznbx8.emltrk.com/v2/3weznbx8?f&i=*|UNIQID|*')} #MailContainerBody #_t {background-image:url('https://3weznbx8.emltrk.com/v2/3weznbx8?f&i=*|UNIQID|*')}</style><div id="_t"></div>
+<img src="https://3weznbx8.emltrk.com/v2/3weznbx8?i=*|UNIQID|*" width="1" height="1" border="0" alt="" />
+                </td> 
+</tr> 
+</tbody> 
+</table>  
+</body>
+</html>
