@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" smlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="x-apple-disable-message-reformatting" />
+ <title>vAuto</title>
+
+ <!--[if mso]>
+  <style>
+   * { font-family: Arial, Helvetica, sans-serif !important; }
+   a { text-decoration: none; }
+  </style>
+<![endif]-->
+
+<!--[if !mso]><!-->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap" />
+<!--<![endif]-->
+
+<style>
+ html,
+ body {
+  background: #ffffff;
+  height: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  width: 100% !important;
+  -webkit-font-smoothing: antialiased;
+ }
+ * {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+ }
+ * img[tabindex="0"] + div {
+  display: none !important;
+ }
+ div[style*="margin: 16px 0"] {
+  margin: 0 !important;
+ }
+ table,
+ td {
+  mso-table-lspace: 0pt !important;
+  mso-table-rspace: 0pt !important;
+ }
+ table {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin: 0 auto !important;
+  table-layout: fixed !important;
+ }
+ table table table {
+  table-layout: auto;
+ }
+ img {
+  -ms-interpolation-mode: bicubic;
+ }
+ *[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+ }
+ .x-gmail-data-detectors,
+ .x-gmail-data-detectors *,
+ .aBn {
+  border-bottom: 0 !important;
+  cursor: default !important;
+ }
+ .link-a:hover {
+  color: #51A4FF !important;
+ }
+ .button-link {
+  text-decoration: none !important;
+ }
+ .button-td:hover {
+  background: #1e89ff !important;
+ }
+ .button-a:hover {
+  background: #1e89ff !important;
+  border-top: 16px solid #1e89ff !important;
+  border-bottom: 16px solid #1e89ff !important;
+  border-left: 30px solid #1e89ff !important;
+  border-right: 30px solid #1e89ff !important;
+ }
+ @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+  .email-container {
+   min-width: 375px !important;
+  }
+ }
+ @media screen and (max-width: 600px) {
+  .fluid {
+   height: auto !important;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   max-width: 100% !important;
+   width: 100% !important;
+  }
+ }
+ @media screen and (max-width: 480px) {
+  .outer-wrapper {
+   padding: 20px 20px 30px 20px !important;
+  }
+  .headline {
+   font-size: 24px !important;
+   line-height: 27px !important;
+  }
+  .caption-padding {
+   padding: 15px 10px 20px 10px !important;
+  }
+  .center-on-narrow {
+   display: block !important;
+   float: none !important;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   text-align: center !important;
+  }
+  .t-Pad-4 { padding-top: 4px !important;}
+  
+  .l-Pad-10 { padding-left: 10px !important;}
+  .l-Pad-15 { padding-left: 15px !important;}
+  .l-Pad-30 { padding-left: 30px !important;}
+  .l-Pad-0 { padding-left: 0px !important;}
+  
+  .r-Pad-15 { padding-right: 15px !important;}
+  
+  .t-Pad-2 { padding-top: 2px !important;}
+  
+  .b-Pad-0 { padding-bottom: 0px !important;}
+  .b-Pad-2 { padding-bottom: 2px !important;}
+  
+  .shrink-table {width: 130px !important;}
+  
+  .shrink-text {font-size: 10px !important; line-height: 10px !important;}
+  
+  .logo-img {
+   width: 100px !important;
+   height: 49px !important;
+  }
+ }
+</style>
+</head>
+<body style="margin: 0; mso-line-height-rule: exactly; width: 100%;">
+ <custom name="opencounter" type="tracking" />
+ <center style="width: 100%;">
+  <div style="max-width: 580px; margin: auto;" class="email-container">
+   <!--[if mso]>
+   <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 580px;">
+   <tr>
+   <td>
+   <![endif]-->
+   <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; max-width: 580px;">
+    <tr>
+     <td align="center" valign="top" style="padding: 20px 0 0 0; line-height: 1; mso-line-height-alt: 1;">
+      <!-- LOGO HEADER : BEGIN -->
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; max-width: 580px;">
+       <tr>
+        <td style="line-height: 1; mso-line-height-alt: 1; padding: 20px 0 20px 40px; background-color: #F0F0F1" class="l-Pad-15">
+         <a href="https://www.vauto.com/"><img src="https://image.e.vauto.com/lib/fe9215747262067e73/m/6/2d47cf98-67b4-4c4e-8922-b4d949ed99e5.png" width="145" height="71" alt="vAuto: Live Market View" class="logo-img" border="0" style="max-width: 145px; max-height: 71px;"></a>
+        </td>
+        <td align="right" style="line-height: 1; padding: 20px 20px 15px 20px; background-color: #F0F0F1;" class="l-Pad-15"><img src="https://image.e.vauto.com/lib/fe9215747262067e73/m/6/e48d0e23-d306-4b9c-97dc-28c0279aa309.png" alt="Cox Automotive NADA 2023 | Jan 26–29" width="130" height="39" style="max-width: 130px; max-height: 39px;">
+        </td>
+       </tr>
+      </table>
+      <!-- LOGO HEADER : END -->
+      <!-- MAIN CONTENT : BEGIN -->
+      <table  cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; max-width: 580px;">
+       <tr>
+        <td  style="padding: 0 0px 0 0px;"><a href="https://www.coxautoinc.com/nada2023/vauto/" target="_blank">
+         <img src="https://image.e.vauto.com/lib/fe9215747262067e73/m/6/b4b7931e-cd53-4278-9a9e-c6221063f3aa.gif" width="580" height="251" border="0" alt="What if the right call was always obvious?" style="display: block;" class="fluid" ></a>
+        </td>
+       </tr>
+       <tr>
+        <td bgcolor="#F0F0F1" style="padding: 25px 30px 30px 30px;" >
+         <table  cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; text-align: left;">
+          <!-- HEADLINE / SUBHEAD SECTION : BEGIN -->
+          <tr>
+           <td>
+            <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%;">
+             
+             
+            </table>
+           </td>
+          </tr>
+          <!-- HEADLINE / SUBHEAD SECTION : END -->
+          <tr>
+           <td style="padding-bottom: 20px;">
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; text-align: center;">
+             <tr>
+              <td style="padding: 5px 20px 0px 20px;">
+               <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; text-align: left;">
+                <tr>
+                 <td style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; line-height: 34px; color: #2B3C4A; font-weight: bold; text-align: center; padding-top: 5px">Yee-haw — it’s NADA!
+                 </td>
+                </tr>
+                     <!-- SUBHEAD : BEGIN -->
+             <tr>
+              <td align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 19px; line-height: 26px; color: #2B3C4A; font-weight: bold; padding-top: 5px;">Can’t wait to see y’all.
+                 </td>
+             </tr>
+             <!-- SUBHEAD : END -->
+             <tr>
+           <td>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; text-align: center;">
+             <tr>
+              <td style="padding: 5px 0px 0px 0px;">
+               <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; text-align: left;">
+             
+                <tr>
+                    <td style="padding-top: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #323232;">Let’s make this NADA Show the best ever. If you haven’t booked a demo, <a href="https://www.coxautoinc.com/nada2023/vauto/" style="color: #68a4fa; text-decoration: none;">book one right here</a>, right now. But heck, just swing by and we’ll take you through all the enhancements to the vAuto suite of products — now anchored by Dale Pollak’s Variable Management approach to driving ever-greater profits regardless of market conditions. Dale will be hosting a workshop explaining the whole thing. Check in with us and check it out.
+                 </td>
+                </tr>
+             
+               </table>
+              </td>
+             </tr>
+            </table>
+           </td>
+          </tr>
+                      <tr>
+                 <td style="padding-top: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #323232;">Better data. Better decisions.
+                 </td>
+                </tr>
+                <tr>
+                 <td style="padding:24px 0px 0 0px;">
+                  <table align="left" border="0" cellpadding="0" cellspacing="0">
+                   <tbody>
+                    <tr>
+                     <td align="left" style="padding: 13px 20px 12px 20px; background-color: #68a4fa;"><a href="https://www.coxautoinc.com/nada2023/vauto/" rel="noopener" style="font-size: 16px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-weight:bold; text-decoration: none;display: inline-block; text-transform: uppercase; color: #ffffff;" target="_blank">Come see us</a></td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </td>
+                </tr>
+                
+                
+               </table>
+              </td>
+             </tr>
+            </table>
+               
+           </td>
+          </tr>
+         </table>
+        </td>
+       </tr>
+      </table>
+      <!-- MAIN CONTENT : END -->
+      <!-- BANNER : BEGIN -->
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; max-width: 580px;">
+       <tr>
+        <td dir="ltr" style="padding: 0 0px 0 0px;">
+         <a href="https://www.coxautoinc.com/nada2023/vauto/"><img src="https://image.e.vauto.com/lib/fe9215747262067e73/m/6/88e81471-3b32-4ad8-8800-c5d0b000f4df.png" width="580" border="0" alt="Let’s Put the Power of Us to Work for You | Cox Automotive at NADA 2023, Jan 26–29" style="display: block;" class="fluid"></a>
+        </td>
+       </tr>
+      </table>
+      <!-- BANNER : END -->
+      <!-- EMAIL FOOTER : BEGIN -->
+      %%=ContentBlockbyID("668725")=%%
+      <!-- EMAIL FOOTER : END -->
+     </td>
+    </tr>
+   </table>
+   <!--[if mso]>
+   </td>
+   </tr>
+   </table>
+<![endif]-->
+    <style data-ignore-inlining>@media (prefers-color-scheme: dark) { #_t::before {content:url('https://o6eno1tu.emltrk.com/v2/o6eno1tu?rd&i=%%subscriberid%%');}} @media (prefers-color-scheme: light) { #_t::before {content:url('https://o6eno1tu.emltrk.com/v2/o6eno1tu?rl&i=%%subscriberid%%');}} @media print{ #_t {background-image:url('https://o6eno1tu.emltrk.com/v2/o6eno1tu?p&i=%%subscriberid%%');}} div.OutlookMessageHeader {background-image:url('https://o6eno1tu.emltrk.com/v2/o6eno1tu?f&i=%%subscriberid%%')} table.moz-email-headers-table {background-image:url('https://o6eno1tu.emltrk.com/v2/o6eno1tu?f&i=%%subscriberid%%')} blockquote #_t {background-image:url('https://o6eno1tu.emltrk.com/v2/o6eno1tu?f&i=%%subscriberid%%')} #MailContainerBody #_t {background-image:url('https://o6eno1tu.emltrk.com/v2/o6eno1tu?f&i=%%subscriberid%%')}</style><div id="_t"></div>
+<img src="https://o6eno1tu.emltrk.com/v2/o6eno1tu?i=%%subscriberid%%" width="1" height="1" border="0" alt="" />
+</div>
+</center>
+</body>
+</html>
