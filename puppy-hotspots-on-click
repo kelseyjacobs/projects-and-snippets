@@ -1,0 +1,165 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<![endif]-->
+  <title>Hotspots on Click</title>
+  
+<!--[if gte mso 9]>
+    <style type="text/css">
+    .fallback { display:block!important; max-height:none; }
+.interactive { display:none !important; }
+    </style>
+  <![endif]-->    
+  
+  <style type="text/css">
+    /* these queries toggle interactive or fallback based on your knowledge of where its supported*/
+    @media only screen and (-webkit-min-device-pixel-ratio:0), (min--moz-device-pixel-ratio:0) {
+      #webkitnocheck:checked ~ .fallback { display:none; }
+      #webkitnocheck:checked ~ div .interactive { display:block !important; max-height:none !important; }
+    }
+    /* Specific Yahoo! Detection */
+    @media screen yahoo {
+      .fallback { display:block!important; max-height:none; }
+      .interactive { display:none !important; }
+    }
+    /* Specific Samsung Mail detection */
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+      #MessageViewBody .fallback, body.MsgBody .fallback { display:block!important; }
+      #MessageViewBody .interactive, body.MsgBody .interactive { display:none !important; }
+      #MessageViewBody .samsung { display:none !important; }
+    }
+    /* Specific Gmail detection */
+    @media screen and (max-width:9999px) {
+      u + .gmailbody .fallback { display:block!important; max-height:none; }
+      u + .gmailbody .interactive { display:none!important; }
+    }
+    
+    
+    
+    @media only screen and (-webkit-min-device-pixel-ratio:0), (min--moz-device-pixel-ratio:0) {
+      .area { position: relative; display: block !important; overflow: hidden; max-width: 640px; max-height: 640px; width: 100vw; height: 100vw; background-image:url(https://place-puppy.com/600x600); background-size:contain; }
+
+      .puppy1, .puppy2, .puppy3 { visibility: visible!important; display: block!important; max-height: 50px!important; position: absolute!important;  width: 50px; height: 50px; background-size: cover; background-position:center; -webkit-animation: pulse 2s ease 0s infinite; border-radius:25px; -webkit-box-shadow: 0px 0px 5px 5px rgba(50,50,50,0.5); cursor:pointer; background-image:url(https://arcdn.net/ActionRocket/Blog-article/hotspots/images/hotspot.png);}
+      
+      /* desktop hotspot positions */  
+      .puppy1 { left: 430px!important; top: 50px!important; }
+      .puppy2 { left: 210px!important; top: 105px!important; }
+      .puppy3 { left: 310px!important; top: 210px!important; }
+      
+      /* these make the popups reveal and hide when clicked */
+      #puppy1:checked ~ div #puppy-content-1 { 
+        display: block!important; 
+        background-image:url(https://arcdn.net/ActionRocket/Blog-article/hotspots/images/lamina.png)!important; 
+        width: 100px !important; 
+        height: 20px !important;
+        background-size: contain; 
+      }
+
+      #puppy2:checked ~ div #puppy-content-2 { 
+        display: block!important; 
+        background-image:url(https://arcdn.net/ActionRocket/Blog-article/hotspots/images/veins.png) !important; 
+        width: 100px !important; 
+        height: 20px !important;
+        background-size: contain; 
+      }
+
+      #puppy3:checked ~ div #puppy-content-3 { 
+        display: block!important; 
+        background-image:url(https://arcdn.net/ActionRocket/Blog-article/hotspots/images/midrib.png)!important; 
+        width: 100px !important; 
+        height: 20px !important;
+        background-size: contain;   
+      }
+
+      /* desktop popup placement */ 
+      #puppy-content-1 { position:absolute; left:420px; top:100px;}
+      #puppy-content-2 { position:absolute; left:215px; top:155px;}
+      #puppy-content-3 { position:absolute; left:310px; top:260px;}
+    }
+    /* keyframe animation - hotspot pulse */ 
+    @-webkit-keyframes pulse { 
+      0% { opacity: 0.7; -webkit-transform: scale(1); } 
+      50% { opacity: 1; -webkit-transform: scale(1.2); } 
+      100% { opacity: 0.7; -webkit-transform: scale(1); } }
+
+    </style>
+
+    <!-- mobile styles -->
+    <style>
+      @media screen and (max-device-width:640px), screen and (max-width:640px) {
+
+        /* mobile popup placement */  
+        #puppy-content-1 { position:absolute; left:60vw; top:23vw; width: 24vw; height: 5vw;}
+        #puppy-content-2 { position:absolute; left:15vw; top:33vw; width: 21vw; height: 4vw;}
+        #puppy-content-3 { position:absolute; left:50vw; top:45vw; width: 21vw; height: 4vw;}
+
+        /* mobile hotspot placement */   
+        .puppy1 { left: 67vw!important; top: 10vw!important; }
+        .puppy2 { left: 35vw!important; top: 20vw!important; }
+        .puppy3 { left: 50vw!important; top: 35vw!important; }
+      }
+    </style>
+  </head>
+  <body style="margin:0!important; padding:0!important; width:100%!important;" class="body" id="body">
+    <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+      <tr>
+        <td align="center" valign="top"><table width="640" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td bgcolor="#EBE8E4"><table width="100%" cellpadding="0" cellspacing="0" align="center" border="0">
+              <tr>
+                <td align="center" style="font-size:1px; line-height:1px;">
+                  <table role="presentation" width="640" style="width:100%;" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top" align="center">
+
+                        <!--[if !mso]><!-- -->
+                        <input type="checkbox" id="webkitnocheck" name="webkit" checked="checked" style="display:none;max-height:0;visibility:hidden;">
+                        <!--<![endif]-->
+
+
+                        <div class="fallback">
+                          <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tr>
+                              <td align="center"><img src="https://place-puppy.com/600x600" width="600" height="600" alt="puppy" style="display: block;"></td>
+                            </tr>
+                          </table>
+                        </div> 
+
+
+                        <div class="samsung"> 
+                          <!--[if !mso]><!-- -->
+                          <div class="interactive" style="mso-hide:all;display:none;max-height:0;overflow:hidden;">
+                            <input type="checkbox" class="leaf" id="puppy1" name="leaf" style="display:none;max-height:0;visibility:hidden;">
+                            <input type="checkbox" class="leaf" id="puppy2" name="leaf" style="display:none;max-height:0;visibility:hidden;">
+                            <input type="checkbox" class="leaf" id="puppy3" name="leaf" style="display:none;max-height:0;visibility:hidden;">
+
+                            <div class="area">
+                              <label class="puppy1" for="puppy1" style="display:none;max-height:0;visibility:hidden;"></label>
+                              <label class="puppy2" for="puppy2" style="display:none;max-height:0;visibility:hidden;"></label>
+                              <label class="puppy3" for="puppy3" style="display:none;max-height:0;visibility:hidden;"></label>
+
+                              <div id="puppy-content-1"></div>
+                              <div id="puppy-content-2"></div>
+                              <div id="puppy-content-3"></div>
+                            </div>
+                          </div>
+                          <!--<![endif]--> 
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+</body>
+</html>
