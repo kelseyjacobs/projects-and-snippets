@@ -1,0 +1,275 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" smlns:o="urn:schemas-microsoft-com:office:office">
+  <head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="x-apple-disable-message-reformatting"> 
+        <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+    <title>Cummins</title> 
+    <style type="text/css">
+    html,
+    body {
+      height: 100% !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+      width: 100% !important;
+    }
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    * img[tabindex="0"] + div {
+      display: none !important;
+    }
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+    table,
+    td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+    table {
+      border-collapse: collapse !important;
+      border-spacing: 0 !important;
+      margin: 0 auto !important;
+      table-layout: fixed !important;
+    }
+    table table table {
+      table-layout: auto;
+    }
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+    *[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+    }
+    .x-gmail-data-detectors,
+    .x-gmail-data-detectors *,
+    .aBn {
+      border-bottom: 0 !important;
+      cursor: default !important;
+    }
+    .text-link:hover {
+      text-decoration: underline !important;
+    }
+    a {
+      text-decoration: none;
+    }
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+      .email-container {
+        min-width: 375px !important;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .resp-img {
+        height: auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+    }
+    @media screen and (max-width: 480px) {
+      u + .body .full-wrap {
+        width: 100% !important;
+        width: 100vw !important;
+      }
+      .inner-padding {
+        padding: 30px 20px !important;
+      }
+      .headline {
+        font-size: 25px !important;
+        line-height: 22px !important;
+      }
+    }
+            /* DARK MODE */
+    @media (prefers-color-scheme: dark ) {
+      .dark-text {
+        color: #ffffff !important;
+      }
+      /*This swaps an image when dark mode is triggered. See 2 img tags in body */
+      .light-img {
+        display: none !important;
+        overflow: hidden !important;
+        visibility: hidden !important;
+      }
+      .dark-img {
+        display: block !important;
+        overflow: visible !important;
+        visibility: visible !important;
+      }
+        .dark-line {
+            border-bottom: 1px solid #ffffff !important;
+        }
+
+      [data.ogsc] .dark-text {
+       color: #ffffff !important;
+     }
+   }
+  </style> 
+  </head> 
+  <body bgcolor="#ffffff" style="margin: 0; mso-line-height-rule: exactly; width: 100%;" class="body"> 
+    <!-- PREHEADER : INSERT AS FIRST ELEMENT INSIDE BODY TAG --> 
+    <div style="display: none; visibility: hidden; mso-hide: all; font-size: 1px; color: #ffffff; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+       Join us, mariner to mariner. We’re very excited to invite you to the Cummins Marine Virtual Showcase! 
+    </div> 
+    <!-- PREHEADER : END --> 
+    <table bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%;" class="full-wrap"> 
+      <tbody> 
+        <tr> 
+          <td> 
+            <center style="width: 100%; background: #ffffff;"> 
+              <div style="max-width: 600px; margin: auto;" class="email-container"> 
+                <!--[if mso]>
+            <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 600px;">
+            <tr>
+            <td>
+            <![endif]--> 
+                <table bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; max-width: 600px;"> 
+                  <tbody> 
+                    <tr> 
+                      <td style="text-align: center; padding: 10px;"> 
+                        <!-- EMAIL CONTENT : BEGIN --> 
+                        <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; min-width: 100%; max-width: 580px;"> 
+                          <!-- HEADER LOGO : BEGIN --> 
+                          <tbody> 
+                          
+                                        <!--Outlook dark mode: w/o this both light and dark versions will show on Outlook--><!--[if mso]>
+                            <tr>
+                            <td align="left" bgcolor="#ffffff" style="padding: 20px 25px;">
+                            <a href="https://www.cummins.com/" target="_blank"><img src="https://storage.pardot.com/813373/1666290537LbtYABfb/cummins_logo_stroke.png" height="45" alt="Cummins" border="0" /></a>
+                              </td>
+                            </tr>
+                          <![endif]--><!--[if !mso]><!-->
+                          
+                          <!-- HEADER LOGO : BEGIN -->
+                          <tr>
+                            <td align="left" bgcolor="#ffffff" style="padding: 20px 25px;">
+                              <a href="https://www.cummins.com/" target="_blank"><img class="light-img" src="https://storage.pardot.com/813373/1666290537LbtYABfb/cummins_logo_stroke.png" height="45" alt="Cummins" border="0" /></a> <a href="https://www.cummins.com/" target="_blank"><img class="dark-img" src="https://engage.themxgroup.com/l/813373/2022-10-20/23q4tk/813373/1666290741rhRL4qN9/cummins_logo_reverse.png" height="45"border="0" style="display: none;" /></a>
+                            </td>
+                          </tr>
+                          <!--<![endif]-->
+                            <!-- HEADER LOGO : END --> 
+                            <!-- HERO IMAGE : BEGIN --> 
+                            <tr> 
+                              <td bgcolor="#ffffff" style="min-width: 100%;"> <a name="" href="now.cummins.com/marine-showcase?utm_source=waterways-journal&amp;utm_medium=email&amp;utm_campaign=ps-marine-brand_awareness&amp;utm_content=virtual-event-invite" target="_blank"><img src="https://via.placeholder.com/580x300" width="580" alt="Join us, mariner to mariner" border="0" style="width: 100%; display: block; height: auto;" class="resp-img"> </a></td> 
+                            </tr> 
+                            <!-- HERO IMAGE : END --> 
+                            <!-- MAIN CONTENT : BEGIN --> 
+                            <tr> 
+                              <td bgcolor="#ffffff" align="left" valign="top" style="padding: 30px;" class="inner-padding"> 
+                                <table width="100%" cellspacing="0" cellpadding="0" style="font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 28px;"> 
+                                  <tbody> 
+                                    <tr> 
+                                      <td style="padding: 0 0px;" class="dark-text">Hello,<br><br> We’re very excited to invite you to the Cummins Marine Virtual Showcase! On Wednesday, April 14, 2021, we will be launching two new products including a Tier 4 solution and previewing our latest technology, PrevenTech®. This year’s event features two industry experts covering the future of marine power&nbsp;—&nbsp;hydrogen and electrification. Stay connected and up to date on industry trends by registering below with the click of a button! We look forward to seeing you, mariner to mariner. </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding: 30px 0px 50px 0px;"> 
+                                        <table cellspacing="0" cellpadding="0" border="0" align="left"> 
+                                          <tbody> 
+                                            <tr> 
+                                              <td style="background: #DA291C; text-align: center; mso-padding-alt: 7px 32px;"> <a name="Connect Now" style="display: inline-block; font-family: 'Helvetica Black', 'Arial Black', Helvetica, Arial, sans-serif; color: #ffffff; font-size: 18px; line-height: 18px; font-weight: 900; text-transform: uppercase; text-align: center; text-decoration: none; background-color: #DA291C; border-top: 15px solid #DA291C; border-bottom: 15px solid #DA291C; border-left: 40px solid #DA291C; border-right: 40px solid #DA291C;" href="now.cummins.com/marine-showcase?utm_source=waterways-journal&amp;utm_medium=email&amp;utm_campaign=ps-marine-brand_awareness&amp;utm_content=virtual-event-invite" target="_blank" class="button-link"><span style="color: #ffffff;">Register Today</span></a> </td> 
+                                            </tr> 
+                                          </tbody> 
+                                        </table> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td bgcolor="#F6F6F6" style="padding: 30px 20px 0px 20px; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 20px;"><strong>Here’s a sneak peak at some of the exciting topics we’ll be covering:</strong> 
+                                        <table width="100%" cellspacing="0" cellpadding="0" style="font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; line-height: 19px;"> 
+                                          <tbody> 
+                                            <tr> 
+                                              <td width="15" valign="top" align="left" style="padding-top: 25px; color: #DA281C; font-size: 18px;">•</td> 
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-top: 25px;">Step into the future of emissions! The QSK60 and QSK38 combine power and Tier 4 emissions standards to propel your success.</td> 
+                                            </tr> 
+                                            <tr> 
+                                              <td width="15" valign="top" align="left" style="padding-top: 15px; color: #DA281C; font-size: 18px;">•</td> 
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-top: 15px;">Looking for an engine manufacturer? Come listen to two experts discuss how Cummins was an incremental partner that provided customized solutions for their unique projects.</td> 
+                                            </tr> 
+                                            <tr> 
+                                              <td width="15" valign="top" align="left" style="padding-top: 15px; color: #DA281C; font-size: 18px;">•</td> 
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-top: 15px;">Cummins’ new B4.5L is our smallest yet, but you won’t lose an ounce of power with this mighty propulsion / auxiliary option.</td> 
+                                            </tr> 
+                                          </tbody> 
+                                        </table> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td bgcolor="#F6F6F6" style="padding: 25px 20px 30px 20px; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; line-height: 19px;"> <a href="https://marineshowcase.cumminsvirtualevents.com/?utm_source=waterways-journal&amp;utm_medium=email&amp;utm_campaign=ps-marine-brand_awareness&amp;utm_content=virtual-event-invite" target="_blank" style="color: #DA281C; text-decoration: underline; font-weight: bold;">Visit our event page</a> to learn more about our event schedule and program details. You can attend any or all events, and will have the opportunity to wander through our virtual space at your leisure. </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 40px; font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 20px;" class="dark-text"> <strong> Presentation lineup</strong><br> <span style="font-size: 14px; line-height: 20px; color: #4D4D4D; font-style: italic;">All times are in CDT.</span> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 15px; font-size: 15px; line-height: 21px;" class="dark-text"> <strong>10:00 a.m.&nbsp;—&nbsp;Tier 4 Powering ACBL on the Inland Waterways</strong> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 15px; font-size: 15px; line-height: 21px;" class="dark-text"> <strong>10:20 a.m.&nbsp;—&nbsp;Smart Vessels With PrevenTech</strong> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 15px; font-size: 15px; line-height: 21px;" class="dark-text"> <strong>10:35 a.m.&nbsp;—&nbsp;Delivering More: The QSK60 Tier&nbsp;4</strong> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 15px; font-size: 15px; line-height: 21px;" class="dark-text"> <strong> 11:00 a.m.&nbsp;—&nbsp;The Electric Decision</strong> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 15px; font-size: 15px; line-height: 21px;" class="dark-text"> <strong>11:20 a.m.&nbsp;—&nbsp;A Military Partnership That Performs</strong> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 15px; font-size: 15px; line-height: 21px;" class="dark-text"> <strong>11:40 a.m.&nbsp;—&nbsp;Small Profile, Big Performance: The&nbsp;B4.5</strong> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 15px; font-size: 15px; line-height: 21px;" class="dark-text"> <strong> 12:00 p.m.&nbsp;—&nbsp;Making Waves With Hydrogen</strong> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 15px; font-size: 15px;line-height: 21px;" class="dark-text">Short on time? Feel free to join any or all of our presentations. </td> 
+                                    </tr> 
+                                    <!-- DIVIDER SPACER : BEGIN --> 
+                                    <tr> 
+                                      <td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #000000; padding-top: 20px;" class="dark-line">&nbsp;</td> 
+                                    </tr> 
+                                    <!-- DIVIDER SPACER : END --> 
+                                    <tr> 
+                                      <td style="padding-top: 25px; font-size: 16px; line-height: 20px;" class="dark-text"><strong>Why Cummins Marine?</strong> </td> 
+                                    </tr> 
+                                    <tr> 
+                                      <td style="padding-top: 10px; font-size: 14px; line-height: 22px;" class="dark-text">Cummins is at the forefront of marine technology. Our newest PrevenTech Marine and FleetguardFIT™ technologies integrate remote diagnostics, allowing you to improve performance anywhere in the world. All of our marine products are designed by our engineering and marine specialists, who pay close attention to performance measures, onboard experience and industry requirements. From the design of your vessel through installation, maintenance and repower, Cummins is your partner every step of the way.</td> 
+                                    </tr> 
+                                      
+                                    <tr> 
+                                      <td style="padding-top: 15px; font-size: 15px;line-height: 21px;" class="dark-text"><strong>Mark your calendars! We look forward to seeing you at the show.</strong> </td> 
+                                    </tr> 
+                                  </tbody> 
+                                </table> </td> 
+                            </tr> 
+                            <!-- MAIN CONTENT : END --> 
+                          </tbody> 
+                        </table> 
+                        <!-- BODY CONTENT : END --> 
+                        <!-- FOOTER : BEGIN --> 
+                        <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; min-width: 100%; max-width: 580px;"> 
+                          <tbody> 
+                            <tr> 
+                              <td valign="top" style="font-family: Helvetica, Arial, sans-serif; font-size: 10px; line-height: 18px; color: #aaaaaa; text-align: left; padding: 0 30px 30px 30px;" class="inner-padding">© 2023 Cummins Inc., Box 3005, Columbus, IN 47202-3005 U.S.A.</td> 
+                            </tr> 
+                          </tbody> 
+                        </table> 
+                        <!-- FOOTER : END --> </td> 
+                    </tr> 
+                  </tbody> 
+                </table> 
+                <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]--> 
+              </div> 
+            </center> </td> 
+        </tr> 
+      </tbody> 
+    </table>  
+  </body>
+</html>
