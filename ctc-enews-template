@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" smlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <title>CGC eNews</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+</style>
+    <style>
+        html,
+        body {
+            background: #f1f3f5;
+            height: 100% !important;
+            margin: 0 auto !important;
+            padding: 0 !important;
+            width: 100% !important;
+            -webkit-font-smoothing: antialiased;
+        }
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        * img[tabindex="0"] + div {
+            display: none !important;
+        }
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+        table {
+            border-collapse: collapse !important;
+            border-spacing: 0 !important;
+            margin: 0 auto !important;
+            table-layout: fixed !important;
+        }
+        table table table {
+            table-layout: auto;
+        }
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+        *[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+        .x-gmail-data-detectors,
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+        }
+        .link-a:hover {
+            color: #BB1643 !important;
+        }
+        .button-link {
+            text-decoration: none !important;
+        }
+        .button-td:hover {
+            background: #BB1643 !important;
+        }
+        .button-a:hover {
+            background: #BB1643 !important;
+            border-top: 15px solid #BB1643 !important;
+            border-bottom: 13px solid #BB1643 !important;
+            border-left: 30px solid #BB1643 !important;
+            border-right: 30px solid #BB1643 !important;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+            .email-container {
+                min-width: 375px !important;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .fluid {
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+            .bg-header {
+             padding: 30px;
+             font-size: 18px !important;
+       line-height: 22px !important;
+            }
+      }
+        @media screen and (max-width: 480px) {
+            .stack-column,
+            .stack-column-center {
+                direction: ltr !important;
+                display: block !important;
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+            .stack-column-center {
+                text-align: center !important;
+            }
+            .center-on-narrow {
+                display: block !important;
+                float: none !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                text-align: center !important;
+            }
+            .making-grade-headline {
+             font-size: 18px;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+            .button-a {
+                border-top: 12px solid #d9154b !important;
+                border-bottom: 10px solid #d9154b !important;
+                border-left: 20px solid #d9154b !important;
+                border-right: 20px solid #d9154b !important;
+                font-size: 16px !important;
+            }
+             .h2 {
+   font-size: 23px !important;
+   line-height: 24px !important;
+     
+  }
+             .h3 {
+   font-size: 16px !important;
+   line-height: 20px !important;
+  }
+          .round-up-mobile {
+   font-size: 28px !important;
+   text-align: center !important;
+ }
+        }
+    </style>
+
+</head>
+<body bgcolor="#f1f3f5" style="margin: 0; mso-line-height-rule: exactly; width: 100%;">
+<div class="mktEditable" id="Email_Content">
+<center style="width: 100%; background: #f1f3f5;">
+<div class="email-container" style="max-width: 580px; margin: auto;"><!--[if mso]>
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 580px;">
+                <tr>
+                <td>
+                <![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <!-- EMAIL HEADER : BEGIN -->
+      
+   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+                          <tbody> 
+                            <tr> 
+                                <td> 
+                                    <a href="https://www.cgccomics.com/"><img src="https://image.email.cgccomics.com/lib/fe3211727364047f731272/m/1/43bddc95-0501-4e15-a8ba-067670baabfe.jpg" style="display: block;" alt="CGC Newsletter | Long Box" width="580" class="fluid"> </a>
+                                </td> 
+                            </tr> 
+                          </tbody> 
+                        </table>
+      <!-- EMAIL HEADER : END -->
+         <!-- MONTH YR : BEGIN -->
+           <table bgcolor="000000" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+        <tbody>
+          <tr>
+           <td align="right" style="padding: 10px 30px 10px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 22px; color: #ffffff; max-width: 580px;" class="h3">Month 2022</td>
+          </tr>
+        </tbody>
+      </table>
+        <!-- MONTH YR  : END -->
+        <!-- INTRO SECTION : BEGIN -->
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+              <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://via.placeholder.com/580x300" alt="" width="580" class="fluid" style="width:100%; display: block;">
+                        </td>
+                  </tr>
+            </tbody>
+          </table>
+         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+  <tbody>
+    <tr>
+     <td bgcolor="#ffffff" style="padding: 20px 30px; color: #2222222; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: center">Lorem ipsum dolor sit amet, proin convallis egestas magna.
+     </td>
+   </tr>
+   <tr>
+     <td bgcolor="#ffffff" style="padding: 0px 30px 25px 30px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  text-align: left">Nam imperdiet id nibh sit amet semper. Integer blandit eu velit a efficitur. Donec placerat dictum elit, et tristique est volutpat in. Suspendisse at metus dolor. Proin convallis egestas magna in condimentum. Nullam semper consequat tellus, nec vehicula elit gravida non. Phasellus rhoncus ligula lorem. <br><br>
+      Nam imperdiet id nibh sit amet semper. Integer blandit eu velit a efficitur. Donec placerat dictum elit, et tristique est volutpat in. Suspendisse at metus dolor. Proin convallis egestas magna in condimentum. Nullam semper consequat tellus, nec vehicula elit gravida non. Phasellus rhoncus ligula lorem. 
+    </td>
+  </tr>
+</tbody>
+</table><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; border-top: 10px solid #f3f3f3;">
+  <tr>
+    <td class="stylingblock-content-wrapper camarker-inner">      
+      <!-- MAKING THE GRADE: BEGIN -->
+      <table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">  <!-- MAKING THE GRADE : BEGIN -->
+        <table bgcolor="C90000" cellspacing="0" cellpadding="0" border="0" align="center" style="text-align: left; width:100%; max-width:580px; ">
+         <tr>
+           <td>
+            <div>
+              <table bgcolor="C90000" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px; text-align: left;"><!-- HERO IMAGE : BEGIN -->
+                <tr>
+                  <td>
+                    <img src="https://image.email.cgccomics.com/lib/fe3211727364047f731272/m/1/dcb10227-048d-44c0-b848-eb071dee2941.jpg?=v2" width="580" alt="Hero Highlights" border="0" style="display: block;" class="fluid"></td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="C90000" style="padding: 0 20px 20px 20px; text-align: left;">
+                     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #ffffff; text-align: left;"> 
+                       <!-- ROW BEGIN -->
+                       <tr>
+            <td align="center" style="background-color: #F3F3F3; padding-top: 30px;" valign="top"><!--[if mso]>
+                              <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                              <tr>
+                                  <td valign="center" style="text-align: left;" width="180" width="180">
+                                  <![endif]-->
+                                  <div style="display: inline-block; margin: 0 -2px; width: 100%; min-width: 100px; max-width: 180px; vertical-align: middle;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+
+                                      <tr>
+                                        <td align="center" style="line-height: 1; padding-bottom: 15px; " valign="top" class=""><a href="#"><img alt="" src="https://via.placeholder.com/150x200" style="display: block;" width="150"></a></td>
+                                      </tr>
+                                    </table>
+                                  </div>
+                  <!--[if mso]>
+                              </td>
+                              <td valign="center" style="text-align: left;" width="390">
+                              <![endif]-->
+                              <div style="display: inline-block; width: 100%; min-width: 240px; max-width: 290px; vertical-align: middle; text-align: left;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+
+                                  <tr>
+                                    <td align="center" style="padding: 0px 20px 0 20px;" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+
+                                        <tr> 
+                                          <td valign="middle" style="padding: 10px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #870303;  text-align: left !important;"><a href="#" style="color: #C90000; text-decoration: none;">Lorem ipsum dolor sit amet</a>
+                                          </td> 
+                                        </tr> 
+                                        <tr>
+                                          <td valign="middle" style="padding: 10px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left !important;">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td valign="middle" style="padding: 10px 0px 20px 0px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left !important;">
+                                            <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+                                          </td>
+                                        </tr>
+
+
+                                      </table>
+                                    </td>
+                                  </tr>
+
+                                </table>
+                              </div>
+                  <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                        <!-- ROW END -->
+                        <!-- ROW BEGIN -->
+                        <tr>
+            <td align="center" style="background-color: #F3F3F3; padding-top: 15px;" valign="top"><!--[if mso]>
+                              <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                              <tr>
+                                  <td valign="center" style="text-align: left;" width="180" width="180">
+                                  <![endif]-->
+                                  <div style="display: inline-block; margin: 0 -2px; width: 100%; min-width: 100px; max-width: 180px; vertical-align: middle;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+
+                                      <tr>
+                                        <td align="center" style="line-height: 1; padding-bottom: 15px; " valign="top" class=""><a href="#"><img alt="" src="https://via.placeholder.com/150x200" style="display: block;" width="150"></a></td>
+                                      </tr>
+
+                                    </table>
+                                  </div>
+                  <!--[if mso]>
+                              </td>
+                              <td valign="center" style="text-align: left;" width="390">
+                              <![endif]-->
+                              <div style="display: inline-block; width: 100%; min-width: 240px; max-width: 290px; vertical-align: middle; text-align: left;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+
+                                  <tr>
+                                    <td align="center" style="padding: 0px 20px 0 20px;" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+
+                                        <tr> 
+                                          <td valign="middle" style="padding: 10px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #870303;  text-align: left !important;"><a href="#" style="color: #C90000; text-decoration: none;">Lorem ipsum dolor sit amet</a>
+                                          </td> 
+                                        </tr> 
+                                        <tr>
+                                          <td valign="middle" style="padding: 10px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left !important;">
+                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td valign="middle" style="padding: 10px 0px 20px 0px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left !important;">
+                                            <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+                                          </td>
+                                        </tr>
+
+
+                                      </table>
+                                    </td>
+                                  </tr>
+
+                                </table>
+                              </div>
+                  <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                        <!-- ROW END -->
+                        <!-- ROW BEGIN -->
+                        <tr>
+            <td align="center" style="background-color: #F3F3F3; padding-top: 15px; padding-bottom: 15px" valign="top"><!--[if mso]>
+                              <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                              <tr>
+                                  <td valign="center" style="text-align: left;" width="180" width="180">
+                                  <![endif]-->
+                                  <div style="display: inline-block; margin: 0 -2px; width: 100%; min-width: 100px; max-width: 180px; vertical-align: middle;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+
+                                      <tr>
+                                        <td align="center" style="line-height: 1; padding-bottom: 15px; " valign="top" class=""><a href="#"><img alt="" src="https://via.placeholder.com/150x200" style="display: block;" width="150"></a></td>
+                                      </tr>
+
+                                    </table>
+                                  </div>
+                  <!--[if mso]>
+                              </td>
+                              <td valign="center" style="text-align: left;" width="390">
+                              <![endif]-->
+                              <div style="display: inline-block; width: 100%; min-width: 240px; max-width: 290px; vertical-align: middle; text-align: left;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+
+                                  <tr>
+                                    <td align="center" style="padding: 0px 20px 0px 20px;" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+
+                                        <tr> 
+                                          <td valign="middle" style="padding: 10px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #870303;  text-align: left !important;"><a href="#" style="color: #C90000; text-decoration: none;">Lorem ipsum dolor sit amet</a>
+                                          </td> 
+                                        </tr> 
+                                        <tr>
+                                          <td valign="middle" style="padding: 10px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left !important;">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td valign="middle" style="padding: 10px 0px 20px 0px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left !important;">
+                                            <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+                                          </td>
+                                        </tr>
+
+
+                                      </table>
+                                    </td>
+                                  </tr>
+
+                                </table>
+                              </div>
+                  <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                        <!-- ROW END -->
+
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </table></td></tr></table>
+        <!-- MAKING THE GRADE : END --></td></tr></table>        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-top: 10px solid #f3f3f3;">
+        <tbody>
+          <tr>
+          <td>
+                               <a href="#"><img src="http://via.placeholder.com/580x150" alt="" width="580" border="0" style="display: block;" class="fluid"></a>  
+            </td>
+          </tr>
+          </tbody>
+</table>  <!-- EVENTS : BEGIN -->
+  <table bgcolor="870303" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; border-top: 10px solid #f3f3f3; max-width: 580px;">
+   <tr>
+     <td>
+      <div>
+        <table bgcolor="870303" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%;">
+          <tr>
+            <td bgcolor="#870303" style="padding: 40px 0; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: center">Events
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="870303" style="padding: 0 30px 30px 30px;">
+             <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif;"> 
+               <!-- EVENT : BEGIN -->
+               <tr>
+                 <td bgcolor="F3F3F3" style="padding: 20px 20px 15px 20px;; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #870303; text-align: center;">
+                  <a href="#" style="color: #870303; text-decoration: none;"> <strong> Event name </strong> </a>
+                </td>
+              </tr>
+              <tr> 
+               <td bgcolor="F3F3F3" align="center" valign="middle" style="background-color: #F3F3F3; font-size: 0; padding-top: 0px; padding-right: 10px; padding-left: 10px;"> 
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                                        <tr>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;"> 
+                                            <tr> 
+                                              <td bgcolor="F3F3F3" align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"><a href="#"> <img src="https://via.placeholder.com/205x155" width="205" height="155" alt="" style="display: block;">  </a></td>
+                                            </tr> 
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 215px; vertical-align: top;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                            <tr>
+                                              <td bgcolor="F3F3F3" align="center" valign="top" style="padding-top: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;" class="stack-column-center">
+                                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                             </td>
+                                           </tr>
+                                           <tr>
+                                            <td bgcolor="F3F3F3" align="center" valign="middle" style="padding-top: 10px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left;" class="stack-column-center">
+                                              <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold; text-decoration: none;"> Read more&nbsp;&gt;</a>
+                                            </td>
+                                          </tr>
+                                        </table> 
+                                      </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> </td> 
+                                    </tr> 
+                                    <!-- EVENT : END --> 
+                                    <!-- EVENT : BEGIN -->
+                                    <tr>
+                                     <td bgcolor="F3F3F3" style="padding: 17px 20px 15px 20px;; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #870303; text-align: center;">
+                                      <a href="#" style="color: #870303; text-decoration: none;"> <strong> Event name </strong> </a>
+                                    </td>
+                                  </tr>
+                                  <tr> 
+                                   <td align="center" valign="middle" style="background-color: #F3F3F3; font-size: 0; padding-top: 0px; padding-right: 10px; padding-left: 10px;"> 
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                                        <tr>
+                                        <td valign="top" width="235">
+                                        <![endif]-->                           
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;"> 
+                                            <tr> 
+                                              <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"><a href="#"> <img src="https://via.placeholder.com/205x155" width="205" height="155" alt="" style="display: block;">  </a></td> 
+                                            </tr> 
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 215px; vertical-align: top;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                            <tr>
+                                              <td align="center" valign="top" style="padding-top: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;" class="stack-column-center">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="center" valign="middle" style="padding-top: 10px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left;" class="stack-column-center">
+                                                <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold; text-decoration: none;"> Read more&nbsp;&gt;</a>
+                                              </td>
+                                            </tr>
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> </td> 
+                                    </tr> 
+                                    <!-- EVENT : END --> 
+                                    <!-- EVENT : BEGIN -->
+                                    <tr>
+                                      <td bgcolor="F3F3F3" style="padding: 17px 20px 15px 20px;; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #870303; text-align: center;"><a href="#" style="color: #870303; text-decoration: none;"><strong>Event name</strong> </a>
+                                      </td>
+                                    </tr>
+                                    <tr> 
+                                     <td align="center" valign="middle" style="background-color: #F3F3F3; font-size: 0; padding-top: 0px; padding-right: 10px; padding-left: 10px;"> 
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                                        <tr>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;"> 
+                                            
+                                            <tr> 
+                                              <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"><a href="#"> <img src="https://via.placeholder.com/205x155" width="205" height="155" alt="" style="display: block;"></a>  </td> 
+                                            </tr> 
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 215px; vertical-align: top;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                            <tr>
+                                              <td align="center" valign="top" style="padding-top: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;" class="stack-column-center">
+                                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                             </td>
+                                           </tr>
+                                           <tr>
+                                            <td align="center" valign="middle" style="padding-top: 10px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left;" class="stack-column-center">
+                                              <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold; text-decoration: none;"> Read more&nbsp;&gt;</a>
+                                            </td>
+                                          </tr>
+                                        </table> 
+                                      </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> </td> 
+                                    </tr> 
+                                    <!-- EVENT: END --> 
+                                    <!-- TEXT LINK AREA : BEGIN -->
+                                    <table bgcolor="#F3F3F3" width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px;">
+                                     <tr>
+                                       <td style="padding: 10px 30px 25px 30px; text-align: center">
+                                        <a href="#" target="_blank" style="color: #870303; text-decoration: none; font-weight: bold;"> See CGC’s full schedule of upcoming events &nbsp;&gt;</a> 
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- TEXT LINK AREA: END --> 
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>                          
+            <!--EVENTS : END --> <!-- EVENTS : BEGIN -->
+ <table bgcolor="#FCA419" cellspacing="0" cellpadding="0" border="0" align="center" style="border-top: 10px solid #ffffff;">
+   <tr>
+     <td>
+      <table bgcolor="#FCA419" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px;">
+        <tr>
+          <td bgcolor="#FCA419" style="padding: 40px 0; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: center">Events
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FCA419" style="padding: 0 30px 30px 30px;">
+           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif;"> 
+             <!-- EVENT : BEGIN -->
+             <tr>
+               <td bgcolor="F3F3F3" style="padding: 20px 20px 15px 20px;; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #870303; text-align: center;">
+                <a href="#" style="color: #870303; text-decoration: none;"> <strong> Event name </strong> </a>
+              </td>
+            </tr>
+            <tr>
+             <td bgcolor="F3F3F3" align="center" valign="top" style="padding: 0 20px 8px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </td>
+          </tr>
+          <tr>
+           <td bgcolor="F3F3F3" align="center" valign="top" style="padding: 0 20px 0px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;">
+            <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+          </td>
+        </tr>
+        <!-- EVENT : END -->
+        <!-- EVENT : BEGIN -->
+        <tr>
+         <td bgcolor="F3F3F3" style="padding: 15px 20px 15px 20px;; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #870303; text-align: center;">
+          <a href="#" style="color: #870303; text-decoration: none;"> <strong> Event name </strong> </a>
+        </td>
+      </tr>
+      <tr>
+       <td bgcolor="F3F3F3" align="center" valign="top" style="padding: 0 20px 8px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;" >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </td>
+    </tr>
+    <tr>
+     <td bgcolor="F3F3F3" align="center" valign="top" style="padding: 0 20px 0px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;">
+      <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+    </td>
+  </tr>
+  <!-- EVENT : END -->
+  <!-- EVENT : BEGIN -->
+  <tr>
+   <td bgcolor="F3F3F3" style="padding: 15px 20px 15px 20px;; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #870303; text-align: center;">
+    <a href="#" style="color: #870303; text-decoration: none;"> <strong> Event name </strong> </a>
+  </td>
+</tr>
+<tr>
+ <td bgcolor="F3F3F3" align="center" valign="top" style="padding: 0 20px 8px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</td>
+</tr>
+<tr>
+ <td bgcolor="F3F3F3" align="center" valign="top" style="padding: 0 20px 0px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;">
+  <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+</td>
+</tr>
+<!-- EVENT : END -->
+<!-- TEXT LINK AREA : BEGIN -->
+<tr>
+ <td bgcolor="F3F3F3" style="padding: 25px 30px 30px 30px; text-align: center">
+  <a href="#" target="_blank" style="color: #870303; text-decoration: none; font-weight: bold; font-size: 15px; line-height: 24px;"> See CGC’s full schedule of upcoming events &nbsp;&gt;</a> 
+</td>
+</tr>
+<!-- TEXT LINK AREA: END --> 
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>                          
+<!-- EVENTS : END -->  <!-- NEW HIRE SPOTLIGHT : BEGIN -->
+                    <table bgcolor="#7ea3cc" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; border-top: 10px solid #f1f3f5;">
+                     <tr>
+                         <td>
+                            <div>
+                                <table bgcolor="#7ea3cc" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px;">
+                                                              <tr>
+                                                                <td bgcolor="#7ea3cc" style="padding: 30px; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: center">New Hire Spotlight
+                  </td>
+                                                            </tr>
+                                                <tr>
+            <td bgcolor="7ea3cc" style="padding: 0 30px 30px 30px;">
+             <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif;"> 
+              <tr>
+               <td bgcolor="F3F3F3" style="padding: 20px 20px 15px 20px;; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #222222; text-align: center;">
+                                                 
+                <table style="background-color: #ffffff; text-align: center; background-color: #F3F3F3; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #222222;"></table>
+               </td>
+              </tr>
+                    <!-- NEW HIRE : BEGIN --> 
+              <tr> 
+               <td align="center" valign="middle" style="background-color: #F3F3F3; font-size: 0; padding-top: 0px; padding-right: 10px; padding-left: 10px;"> 
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                                        <tr>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                                                              
+                                       <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;"> 
+                                            
+                                              <tr> 
+                                                  <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"><a href="#"> <img src="https://via.placeholder.com/205x155" width="205" alt="" style="display: block;">  </a></td> 
+                                              </tr> 
+                                            
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 215px; vertical-align: top;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                            
+                                               <tr> 
+                                              <td align="center" valign="middle" style="padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 19px; line-height: 27px; color: #000000;  text-align: left;" class="stack-column-center"> New hire name
+                                              </td> 
+                                            </tr>
+                                              <tr>
+                                                <td align="center" valign="top" style="padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;" class="stack-column-center">
+                                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus elit odio, condimentum blandit purus ultricies at.
+                                                </td>
+                                              </tr>
+                                            
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                       <![endif]--> </td> 
+                                      </tr> 
+                                      <!-- NEW HIRE  : END --> 
+                       <!-- NEW HIRE : BEGIN --> 
+              <tr> 
+               <td align="center" valign="middle" style="background-color: #F3F3F3; font-size: 0; padding-top: 0px; padding-right: 10px; padding-left: 10px;"> 
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                                        <tr>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                                                              
+                                       <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;"> 
+                                            
+                                              <tr> 
+                                                  <td align="center" valign="middle" style="padding: 5px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"><a href="#"> <img src="https://via.placeholder.com/205x155" width="205"  alt="" style="display: block;">  </a></td> 
+                                              </tr> 
+                                            
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 215px; vertical-align: top;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                            
+                                               <tr> 
+                                              <td align="center" valign="middle" style="padding-top: 5px;font-family: Arial, Helvetica, sans-serif; font-size: 19px; line-height: 27px; color: #000000;  text-align: left;" class="stack-column-center"> New hire name
+                                              </td> 
+                                            </tr>
+                                              <tr>
+                                                <td align="center" valign="top" style="padding-top: 0px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;" class="stack-column-center">
+                                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus elit odio, condimentum blandit purus ultricies at.
+                                                </td>
+                                              </tr>
+                                            
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                       <![endif]--> </td> 
+                                      </tr> 
+                                      <!-- NEW HIRE  : END --> 
+                                     </table>
+                                    </td>
+                                   </tr>
+                                </table>
+                             </div>
+                         </td>
+                     </tr>
+</table>                          
+            <!--   <!-- NEW HIRE SPOTLIGHT : END --> <!-- SIGNATURE SERIES : BEGIN -->
+                    <table cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; border-top: 10px solid #f3f3f3; max-width: 580px;" valign="bottom">
+                     <tr>
+                       <td>
+                        <div style="vertical-align: bottom">
+                          <table bgcolor="#000000" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px;" valign="bottom">
+                           
+                            <!-- INLINE IMAGE 2 : BEGIN --> 
+                            <tr> 
+                              <td align="center" valign="bottom" style="padding: 20px 0 30px 0; font-size: 0;"> 
+                                      <!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="520">
+                                        <tr>
+                                        <td valign="top" width="250">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 250px; max-width: 250px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px;"> 
+                                            <tbody> 
+                                              <tr> 
+                                                <td align="center" valign="middle" style="line-height: 1; font-family: Arial, Helvetica, sans-serif; padding-top: 10px;" class=""><img src="https://image.email.cgccomics.com/lib/fe3211727364047f731272/m/1/aaa6d714-976f-459b-87f4-a52c1307ae2b.png" alt="CGC Signature Series" width="270"></td> 
+                                              </tr> 
+                                            </tbody> 
+                                          </table> 
+                                        </div> 
+                                      <!--[if mso]>
+                                        </td>
+                                        <td valign="bottom" width="270">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 230px; max-width: 270px; vertical-align: bottom;" class="stack-column mobile-width" valign="bottom"> 
+                                          <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="text-align: left;"> 
+                                            <tbody> 
+                                             <tr> 
+                                              <td align="center" valign="bottom" style="padding: 10px 15px 7px 15px; text-align: right; font-style: italic; font-weight: bold; font-size: 36px; font-family: Arial, Helvetica, sans-serif; text-transform: uppercase; color: #ffffff;" class="round-up-mobile">Roundup
+                                              </td> 
+                                            </tr> 
+                                          </tbody> 
+                                        </table> 
+                                      </div> 
+                                      <!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> </td> 
+                                    </tr> 
+                                    <!-- INLINE IMAGE 2: END --> 
+                                    <tr>
+                                      <td bgcolor="#000000" style="padding: 0 30px 30px 30px;">
+                                       <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif;">
+                                         <tr> 
+                                           <td align="center" valign="middle" style="background-color: #F3F3F3; font-size: 0; padding-top: 20px; padding-right: 0px; padding-left: 0px;"> 
+                                            <!-- COLUMN : BEGIN -->
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                                        <tr>
+                                        <td valign="top" width="235">
+                                        <![endif]-->                           
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 250px; vertical-align: middle;" class="stack-column-center"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;">
+                                          <tr>
+                                            <td align="center" valign="top" style="padding-top: 3px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 22px; text-align: left;" class="stack-column-center">
+                                             <table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px;">
+                                              <!-- ITEM : BEGIN -->
+                                              <tr>
+                                                <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a> -&nbsp;Month XX </td>
+                                              </tr>
+                                              <!-- ITEM : BEGIN -->
+                                              <tr>
+                                                <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a> -&nbsp;Month XX</td>
+                                              </tr>
+                                              <!-- ITEM : END -->
+                                              <!-- ITEM : BEGIN -->
+                                              <tr>
+                                                <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a> -&nbsp;Month XX</td>
+                                              </tr>
+                                              <!-- ITEM : END -->
+                                              <!-- ITEM : BEGIN -->
+                                              <tr>
+                                                <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a>  -&nbsp;Month XX</td>
+                                              </tr>
+                                              <!-- ITEM : END -->
+                                              <!-- ITEM : BEGIN -->
+                                              <tr>
+                                                <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a> -&nbsp;Month XX</td>
+                                              </tr>
+                                              <!-- ITEM : END -->
+                                              <!-- ITEM : BEGIN -->
+                                              <tr>
+                                                <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a>  -&nbsp;Month XX</td>
+                                              </tr>
+                                              <!-- ITEM : END -->
+                                              <!-- ITEM : BEGIN -->
+                                              <tr>
+                                                <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                <td valign="top" align="left" style="padding-left: 6px;  padding-right: 6px; padding-bottom: 10px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a> -&nbsp;Month XX</td>
+                                              </tr>   
+                                              <!-- ITEM : END -->
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        
+                                      </table> 
+                                    </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        <!-- COLUMN : END -->
+                                        <!-- COLUMN : BEGIN -->
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 250px; vertical-align: top;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                            <tr>
+                                              <td align="center" valign="top" style="padding-top: 3px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 22px; text-align: left;" class="stack-column-center">
+                                               <table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px;">
+                                                 <!-- ITEM : BEGIN -->
+                                                 <tr>
+                                                  <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                  <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a> -&nbsp;Month XX</td>
+                                                </tr>
+                                                <!-- ITEM : END -->
+                                                <!-- ITEM : BEGIN -->
+                                                <tr>
+                                                  <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                  <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a>  -&nbsp;Month XX</td>
+                                                </tr>
+                                                <!-- ITEM : END -->
+                                                <!-- ITEM : BEGIN -->
+                                                <tr>
+                                                  <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                  <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a> -&nbsp;Month XX</td>
+                                                </tr>
+                                                <!-- ITEM : END -->
+                                                <!-- ITEM : BEGIN -->
+                                                <tr>
+                                                  <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                  <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a>  -&nbsp;Month XX</td>
+                                                </tr>
+                                                <!-- ITEM : END -->
+                                                <!-- ITEM : BEGIN -->
+                                                <tr>
+                                                  <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                  <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a> -&nbsp;Month XX</td>
+                                                </tr>
+                                                <!-- ITEM : END -->
+                                                <!-- ITEM : BEGIN -->
+                                                <tr>
+                                                  <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                  <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 12px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a>  -&nbsp;Month XX</td>
+                                                </tr>
+                                                <!-- ITEM : END -->
+                                                <!-- ITEM : BEGIN -->
+                                                <tr>
+                                                  <td width="15" valign="top" align="left" style="padding-left: 20px;">&bull;</td>
+                                                  <td valign="top" align="left" style="padding-left: 6px; padding-right: 6px; padding-bottom: 25px;"><a href="#" style="text-decoration: none; color: #C90000;">Lorem ipsum dolor sit amet consectetur</a> -&nbsp;Month XX</td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table> 
+                                      </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> 
+                                      <!-- COLUMN : END -->
+                                    </td> 
+                                  </tr> 
+                                  <!-- SHOW : END --> 
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>                          
+                  <!--SIGNATURE SERIES : END -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #05132A; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+        <tbody>
+          <tr>
+            <td bgcolor="#ffffff" class="outer-wrapper" style="padding: 20px 20px 20px 20px;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+              <tbody>
+                  <tr>
+                      <td> <img src="https://via.placeholder.com/475x275" alt=""width="475" class="fluid">
+                      </td>
+                  </tr>
+                    <tr>
+                                                <td align="center" valign="middle" style="padding: 15px 0px 10px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: center;">
+                                                  Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt.
+                                                </td>
+                                              </tr>
+                      <!-- TWO COLUMN CONTENT : BEGIN --> 
+
+                                                                      <tr> 
+                                                                         <td align="center" valign="middle" style="font-size: 0; padding-right: 10px; padding-left: 10px;"> 
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="400">
+                                        <tr>
+                                        <td valign="top" width="200">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 200px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: center;"> 
+                                            
+                                              <tr> 
+                                                  <td align="center" valign="middle" style="padding: 10px 0px 20px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: center; color: #C90000; font-weight: bold;"><a href="" target="_blank" style="color: #C90000; text-decoration: none;">Watch video&nbsp;></a></td> 
+                                              </tr> 
+                                            
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="200">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 200px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: center;"> 
+                                            
+                                              <tr> 
+                                                <td align="center" valign="middle" style="padding: 10px 0px 20px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: center; color: #C90000; font-weight: bold;" class="stack-column-center"> <a href="" target="_blank" style="color: #C90000; text-decoration: none;">Subscribe&nbsp;></a>
+                                                </td> 
+                                              </tr> 
+                                            
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> </td> 
+                                    </tr> 
+                                    <!-- TWO COLUMN CONTENT : END --> 
+                  
+                    </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-top: 10px solid #f3f3f3;">
+        <tbody>
+          <tr>
+          <td>
+                               <a href="#"><img src="http://via.placeholder.com/580x150" alt="" width="580" border="0" style="display: block;" class="fluid"></a>  
+            </td>
+          </tr>
+          </tbody>
+</table><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-top: 10px solid #f3f3f3;">
+  <tbody>
+    <tr>
+      <td bgcolor="#000000" class="outer-wrapper" style="padding: 20px 20px 35px 20px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+          <tbody>
+            <tr>
+              <td> <img src="https://via.placeholder.com/475x275" alt=""  width="475" class="fluid">
+              </td>
+            </tr>
+            <tr> 
+              <td align="center" valign="middle" style="padding: 15px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 27px; color: #ffffff;  text-align: left; font-weight: bold;" > Aliquam a varius quam elit eras dom et eras.
+              </td> 
+            </tr> 
+            <tr>
+              <td align="center" valign="middle" style="padding: 15px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: left;">
+                Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="padding: 15px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left;" >
+                <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Lorem ipsum&nbsp;></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-top: 10px solid #f3f3f3;">
+  <tbody>
+    <tr>
+      <td bgcolor="#8b8680" class="outer-wrapper" style="padding: 20px 20px 35px 20px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+          <tbody>
+            <tr>
+              <td> <img src="https://via.placeholder.com/475x275" alt=""  width="475" class="fluid">
+              </td>
+            </tr>
+            <tr> 
+              <td align="center" valign="middle" style="padding: 15px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 27px; color: #ffffff;  text-align: left; font-weight: bold;" > Aliquam a varius quam elit eras dom et eras.
+              </td> 
+            </tr> 
+            <tr>
+              <td align="center" valign="middle" style="padding: 15px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: left;">
+                Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="padding: 15px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left;" >
+                <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Lorem ipsum&nbsp;></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table> <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-top: 10px solid #f3f3f3;">
+  <tbody>
+    <tr>
+      <td bgcolor="#FCA419" class="outer-wrapper" style="padding: 20px 20px 35px 20px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+          <tbody>
+            <tr>
+              <td> <img src="https://via.placeholder.com/475x275" alt="" width="475" class="fluid">
+              </td>
+            </tr>
+            <tr> 
+              <td align="center" valign="middle" style="padding: 15px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 27px; color: #ffffff;  text-align: left; font-weight: bold;" > Aliquam a varius quam elit eras dom et eras.
+              </td> 
+            </tr> 
+            <tr>
+              <td align="center" valign="middle" style="padding: 15px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: left;">
+                Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="padding: 15px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left;" >
+                <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Lorem ipsum&nbsp;></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-top: 10px solid #f3f3f3;">
+        <tbody>
+          <tr>
+          <td>
+                               <a href="#"><img src="http://via.placeholder.com/580x150" alt="" width="580" border="0" style="display: block;" class="fluid"></a>  
+            </td>
+          </tr>
+          </tbody>
+</table> <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #05132A; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+   <tbody>
+     
+    <tr> 
+     <td align="center" valign="middle" style="background-color: #000000; font-size: 0; padding: 30px 15px 10px 15px;"> 
+       <!--COLUMN: BEGIN -->
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="510">
+                                        <tr>
+                                        <td valign="top" width="255">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 235px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;" > 
+                                            <tbody>
+                                              <tr> 
+                                                <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"> <img src="https://via.placeholder.com/235x300" width="235" height="300" alt="" style="display: block;">  </td> 
+                                              </tr> 
+                                               <!--HEADLINE: BEGIN -->
+                                              <tr> 
+                                                <td align="center" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 27px; color: #ffffff;  text-align: center; font-weight: bold;" class="stack-column-center"> Aliquam a varius quam elit eras dom et eras.
+                                                </td> 
+                                              </tr> 
+                                              <!--HEADLINE: END -->
+                                               <!--SECTION COPY: BEGIN -->
+                                              <tr>
+                                                <td align="center" valign="middle" style="padding-top: 15px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: center;" class="stack-column-center">
+                                                  Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+                                                </td>
+                                              </tr>
+                                               <!--SECTION COPY: END -->
+                                               <!--SECTION CTA: BEGIN -->
+                                              <tr>
+                                                <td align="center" valign="middle" style="padding-top: 15px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: center;" class="stack-column-center">
+                                                  <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Lorem ipsum&nbsp;></a>
+                                                </td>
+                                              </tr>
+                                               <!--SECTION CTA: END -->
+                                            </tbody>
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="20">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 10px; max-width: 10px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;" > 
+                                            <tbody>
+                                              <tr> 
+                                                <td align="center" valign="middle"> &nbsp;</td> 
+                                              </tr>
+                                              
+                                            </tbody>
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="255">
+                                        <![endif]--> 
+         <!--COLUMN: END -->
+        <!--COLUMN: BEGIN -->
+                                        <div style="display: inline-block; width: 100%; min-width: 235px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;" > 
+                                            <tbody>
+                                             <tr> 
+                                              <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"> <img src="https://via.placeholder.com/235x300" width="235" height="300" alt="" style="display: block;">  </td> 
+                                            </tr> 
+                                            <!--HEADLINE: BEGIN -->
+                                            <tr> 
+                                              <td align="center" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 27px; color: #ffffff;  text-align: center; font-weight: bold;" class="stack-column-center"> Aliquam a varius quam elit eras dom et eras.
+                                              </td> 
+                                            </tr> 
+                                              <!--HEADLINE: END -->
+                                               <!--SECTION COPY: BEGIN -->
+                                            <tr>
+                                              <td align="center" valign="middle" style="padding-top: 15px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: center;" class="stack-column-center">
+                                                Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+                                              </td>
+                                            </tr>
+                                                <!--SECTION COPY: END -->
+                                               <!--SECTION CTA: BEGIN -->
+                                            <tr>
+                                              <td align="center" valign="middle" style="padding-top: 15px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: center;" class="stack-column-center">
+                                                <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Lorem ipsum&nbsp;></a>
+                                              </td>
+                                            </tr>
+                                               <!--SECTION CTA: END -->
+                                          </tbody>
+                                        </table> 
+                                      </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> 
+        <!--COLUMN: END -->
+      </td> 
+                                    </tr> 
+                                  </tbody>
+                                </table> <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #05132A; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+   <tbody>
+     
+    <tr> 
+     <td align="center" valign="middle" style="background-color: #8b8680; font-size: 0; padding: 30px 15px 10px 15px;"> 
+       <!--COLUMN: BEGIN -->
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="510">
+                                        <tr>
+                                        <td valign="top" width="255">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 235px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;" > 
+                                            <tbody>
+                                              <tr> 
+                                                <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"> <img src="https://via.placeholder.com/235x300" width="235" height="300" alt="" style="display: block;">  </td> 
+                                              </tr> 
+                                               <!--HEADLINE: BEGIN -->
+                                              <tr> 
+                                                <td align="center" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 27px; color: #ffffff;  text-align: center; font-weight: bold;" class="stack-column-center"> Aliquam a varius quam elit eras dom et eras.
+                                                </td> 
+                                              </tr> 
+                                              <!--HEADLINE: END -->
+                                               <!--SECTION COPY: BEGIN -->
+                                              <tr>
+                                                <td align="center" valign="middle" style="padding-top: 15px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: center;" class="stack-column-center">
+                                                  Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+                                                </td>
+                                              </tr>
+                                               <!--SECTION COPY: END -->
+                                               <!--SECTION CTA: BEGIN -->
+                                              <tr>
+                                                <td align="center" valign="middle" style="padding-top: 15px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: center;" class="stack-column-center">
+                                                  <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Lorem ipsum&nbsp;></a>
+                                                </td>
+                                              </tr>
+                                               <!--SECTION CTA: END -->
+                                            </tbody>
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="20">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 10px; max-width: 10px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;" > 
+                                            <tbody>
+                                              <tr> 
+                                                <td align="center" valign="middle"> &nbsp;</td> 
+                                              </tr>
+                                              
+                                            </tbody>
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="255">
+                                        <![endif]--> 
+         <!--COLUMN: END -->
+        <!--COLUMN: BEGIN -->
+                                        <div style="display: inline-block; width: 100%; min-width: 235px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;" > 
+                                            <tbody>
+                                             <tr> 
+                                              <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"> <img src="https://via.placeholder.com/235x300" width="235" height="300" alt="" style="display: block;">  </td> 
+                                            </tr> 
+                                            <!--HEADLINE: BEGIN -->
+                                            <tr> 
+                                              <td align="center" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 27px; color: #ffffff;  text-align: center; font-weight: bold;" class="stack-column-center"> Aliquam a varius quam elit eras dom et eras.
+                                              </td> 
+                                            </tr> 
+                                              <!--HEADLINE: END -->
+                                               <!--SECTION COPY: BEGIN -->
+                                            <tr>
+                                              <td align="center" valign="middle" style="padding-top: 15px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: center;" class="stack-column-center">
+                                                Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+                                              </td>
+                                            </tr>
+                                                <!--SECTION COPY: END -->
+                                               <!--SECTION CTA: BEGIN -->
+                                            <tr>
+                                              <td align="center" valign="middle" style="padding-top: 15px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: center;" class="stack-column-center">
+                                                <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Lorem ipsum&nbsp;></a>
+                                              </td>
+                                            </tr>
+                                               <!--SECTION CTA: END -->
+                                          </tbody>
+                                        </table> 
+                                      </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> 
+        <!--COLUMN: END -->
+      </td> 
+                                    </tr> 
+                                  </tbody>
+                                </table> <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #05132A; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+   <tbody>
+     
+    <tr> 
+      <td align="center" valign="middle" style="background-color: #FCA419; font-size: 0; padding: 30px 15px 10px 15px;">  
+       <!--COLUMN: BEGIN -->
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="510">
+                                        <tr>
+                                        <td valign="top" width="255">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 235px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;" > 
+                                            <tbody>
+                                              <tr> 
+                                                <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"> <img src="https://via.placeholder.com/235x300" width="235" height="300" alt="" style="display: block;">  </td> 
+                                              </tr> 
+                                               <!--HEADLINE: BEGIN -->
+                                              <tr> 
+                                                <td align="center" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 27px; color: #ffffff;  text-align: center; font-weight: bold;" class="stack-column-center"> Aliquam a varius quam elit eras dom et eras.
+                                                </td> 
+                                              </tr> 
+                                              <!--HEADLINE: END -->
+                                               <!--SECTION COPY: BEGIN -->
+                                              <tr>
+                                                <td align="center" valign="middle" style="padding-top: 15px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: center;" class="stack-column-center">
+                                                  Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+                                                </td>
+                                              </tr>
+                                               <!--SECTION COPY: END -->
+                                               <!--SECTION CTA: BEGIN -->
+                                              <tr>
+                                                <td align="center" valign="middle" style="padding-top: 15px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: center;" class="stack-column-center">
+                                                  <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Lorem ipsum&nbsp;></a>
+                                                </td>
+                                              </tr>
+                                               <!--SECTION CTA: END -->
+                                            </tbody>
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="20">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 10px; max-width: 10px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;" > 
+                                            <tbody>
+                                              <tr> 
+                                                <td align="center" valign="middle"> &nbsp;</td> 
+                                              </tr>
+                                              
+                                            </tbody>
+                                          </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="255">
+                                        <![endif]--> 
+         <!--COLUMN: END -->
+        <!--COLUMN: BEGIN -->
+                                        <div style="display: inline-block; width: 100%; min-width: 235px; max-width: 255px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;" > 
+                                            <tbody>
+                                             <tr> 
+                                              <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"> <img src="https://via.placeholder.com/235x300" width="235" height="300" alt="" style="display: block;">  </td> 
+                                            </tr> 
+                                            <!--HEADLINE: BEGIN -->
+                                            <tr> 
+                                              <td align="center" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 27px; color: #ffffff;  text-align: center; font-weight: bold;" class="stack-column-center"> Aliquam a varius quam elit eras dom et eras.
+                                              </td> 
+                                            </tr> 
+                                              <!--HEADLINE: END -->
+                                               <!--SECTION COPY: BEGIN -->
+                                            <tr>
+                                              <td align="center" valign="middle" style="padding-top: 15px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; text-align: center;" class="stack-column-center">
+                                                Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+                                              </td>
+                                            </tr>
+                                                <!--SECTION COPY: END -->
+                                               <!--SECTION CTA: BEGIN -->
+                                            <tr>
+                                              <td align="center" valign="middle" style="padding-top: 15px; padding-bottom: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: center;" class="stack-column-center">
+                                                <a href="#" target="_blank" style="color: #C90000; text-decoration: none; font-weight: bold;"> Lorem ipsum&nbsp;></a>
+                                              </td>
+                                            </tr>
+                                               <!--SECTION CTA: END -->
+                                          </tbody>
+                                        </table> 
+                                      </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> 
+        <!--COLUMN: END -->
+      </td> 
+                                    </tr> 
+                                  </tbody>
+                                </table>
+         <!-- INTRO SECTION : END -->
+        <!-- EMAIL FOOTER : BEGIN -->
+<div bgcolor= "#E0E0E0">
+<table style="width: 100%; max-width: 580px; text-align: center;" cellspacing="0" cellpadding="0" border="0" bgcolor="#E0E0E0" align="center">
+<tbody>
+<tr>
+<td style="padding: 40px 20px 10px 20px;" align="center"><a href="https://www.facebook.com/CGCcomics" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/eff1e24d-db56-4c1a-9167-eb493e8180ab.png" alt="Facebook" width="30" height="30" border="0" /></a>&nbsp;<a href="https://twitter.com/cgccomics" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/5d7938ec-40b2-4c98-85cf-5443ec078394.png" alt="Twitter" width="30" height="30" border="0" /></a>&nbsp;<a href="https://www.instagram.com/cgccomics/" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/6741b75d-d33b-4375-b322-5cc213a7d8c6.png" alt="Instagram" width="30" height="30" border="0" /></a>&nbsp;<a href="https://www.youtube.com/channel/UCcHOwLnrniNMB2wU5ISNKFg/videos" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/f4f1a4f3-d979-46c3-8a81-3191cadbec3b.png" alt="YouTube" width="30" height="30" border="0" /></a></td>
+</tr>
+<tr>
+<td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 11px; line-height: 17px; color: #69738a; text-align: center; padding: 0 20px 35px 20px;" align="center">
+   CGC<br>
+P.O. Box 4701, Sarasota, FL 34230<br /> To update your email preferences or unsubscribe, <a href="%%=RedirectTo(CloudPagesURL(363))=%%" target="_blank" style="color: #69738a;"><span style="color: #69738a;">click here</span></a>. <div style="display:none"><a href="%%profile_center_url%%">.</a></div> </td>
+</tr>
+</tbody>
+</table>
+</div>
+    <!-- EMAIL FOOTER : END -->  
+        </td>
+  </tbody>
+</table>
+<!--[if mso]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+  <custom name="opencounter" type="tracking"/>
+  </div>
+</center>
+</div>
+</body>
+</html>
