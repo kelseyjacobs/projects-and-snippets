@@ -1,0 +1,567 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<style type="text/css">
+   <!--[if mso]>
+   <style>
+   * { font-family: Arial, Helvetica, sans-serif !important; }
+   a { text-decoration: none; }
+   
+   <![endif]--> 
+   <!--[if !mso]><!--> 
+   <!--[if (gte mso 9)|(IE)]>
+   <style type="text/css">
+   table {
+     border-collapse: collapse;
+     border-spacing: 0;
+     mso-table-lspace: 0pt !important;
+     mso-table-rspace: 0pt !important; }
+
+     <![endif]-->
+     <!--[if !mso]><!--> 
+     @font-face {font-family: "Proxima";
+     src: url("https://info.whoopunite.com/l/983851/2022-05-31/dw3p1w/983851/1654010301piE7q52s/Proxima_Nova_reg.eot"); /* IE9*/
+     src: url("https://info.whoopunite.com/l/983851/2022-05-31/dw3p1w/983851/1654010301piE7q52s/Proxima_Nova_reg.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+     url("https://info.whoopunite.com/l/983851/2022-05-31/dw3p19/983851/1654010300ly6mC3jZ/Proxima_Nova_reg.woff2") format("woff2"), /* chrome firefox */
+     url("https://info.whoopunite.com/l/983851/2022-05-31/dw3p1d/983851/1654010300w6ckKGZy/Proxima_Nova_reg.woff") format("woff"), /* chrome firefox */
+     url("https://info.whoopunite.com/l/983851/2022-05-31/dw3p26/983851/1654010301AIDLFz9K/Proxima_Nova_reg.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+     url("https://info.whoopunite.com/l/983851/2022-05-31/dw3p23/983851/1654010301F4SFe2TL/Proxima_Nova_reg.svg") format("svg"); /* iOS 4.1- */
+     <!--[endif]-->
+     
+     .ReadMsgBody {
+      width: 100%;
+    }
+    .ExternalClass {
+      width: 100%;
+    }
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+      line-height: 100%;
+    }
+    .ExternalClass * {
+      line-height: 100%;
+    }
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+    }
+    p {
+      margin: 1em 0;
+    }
+    table td {
+      border-collapse: collapse;
+    }
+    img {
+      border: 0 !important;
+      outline: none !important;
+      display: block !important;
+    }
+    a img {
+      border: none;
+    }
+    @-ms-viewport {
+      width: device-width;
+    }
+  </style> 
+<style type="text/css">
+    @media only screen and (max-width: 480px) {
+      /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      body {
+        padding: 0px !important;
+        font-size: 16px !important;
+        line-height: 150% !important;
+      }
+      h1 {
+        font-size: 22px !important;
+        line-height: normal !important;
+      }
+      h2 {
+        font-size: 20px !important;
+        line-height: normal !important;
+      }
+      h3 {
+        font-size: 18px !important;
+        line-height: normal !important;
+      }
+      .buttonstyles {
+        font-family: arial, helvetica, sans-serif !important;
+        font-size: 16px !important;
+        color: #FFFFFF !important;
+        padding: 10px !important;
+      }
+      /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      @media only screen and (max-width: 640px) {
+        .center {
+          text-align: center !important;
+        }
+        .left {
+          text-align: left !important;
+        }
+        .right {
+          text-align: right !important;
+        }
+        .noMo {
+          display: none !important;
+        }
+        .show {
+          width: 100%!important;
+          height: auto!important;
+          display: table!important;
+        }
+        .inline {
+          display: inline!important;
+        }
+        .block {
+          display: block!important;
+        }
+        .hide {
+          display: none!important;
+          width: 0px !important;
+        }
+        .noBorder {
+          border: none !important;
+        }
+        /* ------- WIDTHS ------- */
+        .container {
+          width: 100% !important;
+        }
+        .hund {
+          width: 100% !important;
+          height: auto !important;
+        }
+        img[class=hund] {
+          width: 100% !important;
+          height: auto !important;
+          max-width: 100% !important;
+        }
+        /* ------- END WIDTHS ------- */
+        /* ------- PADDING-------  */
+        .padNo {
+          padding: 0px !important;
+        }
+        /* ------- PADDING LEFT & RIGHT-------  */
+        .padLR30 {
+          padding-left: 30px !important;
+          padding-right: 30px !important;
+        }
+        /* ------- END PADDING ------- */
+      </style> 
+<!--[if mso]>
+  <style type="text/css">
+    /* Begin Outlook Font Fix */
+    body, table, td {
+      font-family: Arial, Helvetica, sans-serif ;
+      font-size:16px;
+      color:#808080;
+      line-height:1;
+    }
+    /* End Outlook Font Fix */
+  </style>
+<![endif]--> 
+</head> 
+<body bgcolor="#ffffff" text="#000000" style="background-color:#EBEBEB; color:#000000; padding:0px; -webkit-text-size-adjust:none; font-size: 16px; font-family:arial,helvetica,sans-serif;"> 
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" role="presentation"> 
+<tbody> 
+<tr> 
+<td align="center"> 
+<center> 
+<table border="0" cellpadding="0" cellspacing="0" class="hund" width="600"> 
+<tbody> 
+<tr> 
+<td align="center" bgcolor="#5700FF"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="padding: 40px 45px 0px 45px;"> <a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurdas5nNxcUDgCo5e82IOLX0ff5dMn2wp-PrC-MhyXrCbfw-Jz-BPi3rN3mM_8XF50do=" target="_blank"
+> <img alt="SmileDirectClub Partner Network" src="http://927-AHL-375.mktoweb.com/rs/927-AHL-375/images/sdc-partner-logo.png" style="display: block; max-width: 255" width="255"> </a> </td> 
+</tr> 
+<tr> 
+<td bgcolor="#5700FF" style="padding: 0px 0px 0px 0px;" align="center"> <a alias="hero_img" href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurcIX8U0yjbmWsRuJFwBpxTYfEfuTHAYOLsTPxm01zI3DRNf04k9dMoZ4WUgBNZgiktY=" target="_blank"
+> <img alt="Inspiration Newsletter" src="http://927-AHL-375.mktoweb.com/rs/927-AHL-375/images/header-img.png?=v2" width="600" style="display: block;"> </a> </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<tr> 
+<td align="center" bgcolor="#ffffff" class="padLR30" style="padding: 45px 45px 0 45px;"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="color:#000000;font-family: 'Proxima', Arial, Helvetica, sans-serif; font-size:30px; line-height:34px;"> <strong>Quid ex ea quid sit sentiri haec subtilius velint tradere.</strong> </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 20px;">Sed ut aut fugit, sed et molestiae non emolumento aliquo, sed animo etiam ac ratione intellegi posse et accurate disserendum et expedita distinctio nam libero tempore, cum teneam sententiam, quid aut voluptates repudiandae sint et fortibus viris commemorandis eorumque factis non existimant oportere exquisitis rationibus. </td> 
+</tr> 
+</tbody> 
+</table> 
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px;  color: #000000;" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="padding-top: 20px; padding-left: 15px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-top: 20px;padding-left: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 1 </td> 
+<td> </td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 2</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 3</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 4</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 5 </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<tr> 
+<td bgcolor="#ffffff" style="padding-top: 25px;"> 
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; color: #000000;" width="100%"> 
+<tbody>
+<tr> 
+<td bgcolor="#ffffff" style="padding: 10px 0px 7px 45px;"> <a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurdas5nNxcUDgCo5e82IOLX0ff5dMn2wp-PrC-MhyXrCbfw-Jz-BPi3rN3mM_8XF50do=" target="_blank"
+> <img alt="Brett Deaver headshot" class="" src="http://927-AHL-375.mktoweb.com/rs/927-AHL-375/images/brett-headshot.jpg" style="display: block;" width="100"> </a></td> 
+<td bgcolor="#ffffff" style="padding: 15px 0 0 10px;"><img alt="Brett Deaver signature" class="" src="http://927-AHL-375.mktoweb.com/rs/927-AHL-375/images/brett-signature.jpg" style="display: block;" width="200"> 
+<table style="font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px;"> 
+<tbody>
+<tr> 
+<td style="padding: 5px 0 0 0;"><strong>Brett Deaver</strong><br> <span style="color: #666666;">SVP, GM Global Partner Network at SmileDirectClub </span> </td> 
+</tr> 
+</tbody>
+</table> </td> 
+</tr> 
+</tbody>
+</table> </td> 
+</tr> 
+<!-- LINE : BEGIN --> 
+<tr> 
+<td bgcolor="#ffffff"> 
+<table align="center" role="presentation" width="85%"> 
+<tbody> 
+<tr> 
+<td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #A7A9AC; padding: 18px 0;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<!-- LINE : END --> 
+<tr> 
+<td> 
+<table border="0" cellpadding="0" cellspacing="0" class="hund" width="600"> 
+<tbody> 
+<tr> 
+<td align="center" bgcolor="#ffffff" class="padLR30" style="padding:35px 45px 0px 45px;"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="color:#000000;font-family: 'Proxima', Arial, Helvetica, sans-serif; font-size:30px; line-height:34px;"> <strong>Quid ex ea quid sit sentiri haec subtilius velint tradere.</strong> </td> 
+</tr> 
+<tr> 
+<td style="padding: 25px 0px 0px 0px;" align="center"> <a href="#" target="_blank"> <img alt="" src="https://via.placeholder.com/510x240" width="510" style="display: block;"> </a> </td> 
+</tr> 
+<tr> 
+<td style="padding: 10px 0px 0px 0px;" align="center"> <a href="#" target="_blank"> <img alt="" src="https://via.placeholder.com/510x240" width="510" style="display: block;"> </a> </td> 
+</tr> 
+<tr> 
+<td align="center" bgcolor="#ffffff"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 30px;"> <span style="font-size: 20px; line-height: 32px; font-weight: bold; color: #000000;">Lorem ipsum aut.</span> </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 4px;"> Sed ut aut fugit, sed et molestiae non emolumento aliquo, sed animo etiam ac ratione intellegi posse et accurate disserendum et expedita distinctio nam libero tempore, cum teneam sententiam, quid aut voluptates repudiandae sint et fortibus viris commemorandis eorumque factis non existimant oportere exquisitis rationibus. </td> 
+</tr> 
+</tbody> 
+</table> 
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px;  color: #000000;" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="padding-top: 20px; padding-left: 15px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-top: 20px;padding-left: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 1 </td> 
+<td> </td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 2</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 3</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 4</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 5 </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<tr> 
+<td align="left" style="padding: 22px 0 0px 0px; color:#5700FF;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 18px;"> <a href="#" style=" color:#5700FF; text-decoration: none; font-weight: bold;">CTA link&nbsp;&gt;</a></td> 
+</tr> 
+<!-- LINE : BEGIN --> 
+<tr> 
+<td bgcolor="#ffffff"> 
+<table align="center" role="presentation" width="100%"> 
+<tbody> 
+<tr> 
+<td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #A7A9AC; padding: 22px 0;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<!-- LINE : END --> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<tr> 
+<td> 
+<table border="0" cellpadding="0" cellspacing="0" class="hund" width="600"> 
+<tbody> 
+<tr> 
+<td align="center" bgcolor="#ffffff" class="padLR30" style="padding:35px 45px 0px 45px;;"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="color:#000000;font-family: 'Proxima', Arial, Helvetica, sans-serif; font-size:30px; line-height:34px;"> <strong>Lorem ipsum.</strong> </td> 
+</tr> 
+<tr> 
+<td style="padding: 25px 0px 0px 0px;" align="center"> <a href="#" target="_blank"> <img alt="" src="https://via.placeholder.com/510x240" width="510" style="display: block;"> </a> </td> 
+</tr> 
+<tr> 
+<td align="center" bgcolor="#ffffff"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 30px;"> <span style="font-size: 20px; line-height: 32px; font-weight: bold; color: #000000;">Lorem ipsum aut.</span> </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 4px;"> Sed ut aut fugit, sed et molestiae non emolumento aliquo, sed animo etiam ac ratione intellegi posse et accurate disserendum et expedita distinctio nam libero tempore, cum teneam sententiam, quid aut voluptates repudiandae sint et fortibus viris commemorandis eorumque factis non existimant oportere exquisitis rationibus. </td> 
+</tr> 
+</tbody> 
+</table> 
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px;  color: #000000;" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="padding-top: 20px; padding-left: 15px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-top: 20px;padding-left: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 1 </td> 
+<td> </td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 2</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 3</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 4</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 5 </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<tr> 
+<td align="left" style="padding: 22px 0 0px 0px; color:#5700FF;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 18px;"> <a href="#" style=" color:#5700FF; text-decoration: none; font-weight: bold;">CTA link&nbsp;&gt;</a></td> 
+</tr> 
+<!-- LINE : BEGIN --> 
+<tr> 
+<td bgcolor="#ffffff"> 
+<table align="center" role="presentation" width="100%"> 
+<tbody> 
+<tr> 
+<td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #A7A9AC; padding: 22px 0;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<!-- LINE : END --> 
+<tr> 
+<td style="padding-top: 30px;"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="font-family: 'Proxima', Arial, Helvetica, sans-serif; font-size:30px; line-height:36px; color: #5700FF; font-weight: bold;">“In quo quaerimus, non intellegamus, tu paulo ante cum soluta nobis est eligendi optio, cumque nihil impedit, quo enim inter rationis et dolore magnam.” </td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-top: 15px; color:#000000;font-family: Arial, Helvetica, sans-serif; font-size:17px; line-height:24px; text-transform: uppercase; font-weight: bold;">– Lorem ipsum aut </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 35px;">Sed ut aut fugit, sed et molestiae non emolumento aliquo, sed animo etiam ac ratione intellegi posse et accurate disserendum et expedita distinctio nam libero tempore, cum teneam sententiam. </td> 
+</tr> 
+</tbody> 
+</table> 
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px;  color: #000000;" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="padding-top: 20px; padding-left: 15px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-top: 20px;padding-left: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 1 </td> 
+<td> </td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 2</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 3</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 4</td> 
+</tr> 
+<tr> 
+<td align="left" style="padding-left: 15px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" width="5" class="">•</td> 
+<td align="left" style="padding-left: 10px; padding-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  color: #666666;" valign="top" class="">Bullet 5 </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<tr> 
+<td align="left" style="padding: 22px 0 0px 0px; color:#5700FF;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 18px;"> <a href="#" style=" color:#5700FF; text-decoration: none; font-weight: bold;">CTA link&nbsp;&gt;</a></td> 
+</tr> 
+<!-- LINE : BEGIN --> 
+<tr> 
+<td bgcolor="#ffffff"> 
+<table align="center" role="presentation" width="100%"> 
+<tbody> 
+<tr> 
+<td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #A7A9AC; padding: 22px 0;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<!-- LINE : END --> 
+<tr> 
+<td align="left" style="padding-top: 35px; color:#000000;font-family: 'Proxima', Arial, Helvetica, sans-serif; font-size:30px; line-height:34px;"> <strong>Lorem ipsum.</strong> </td> 
+</tr> 
+<tr> 
+<td align="center" bgcolor="#ffffff"> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+<tbody> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 30px;"> <span style="font-size: 20px; line-height: 32px; font-weight: bold; color: #000000;">Lorem ipsum aut.</span> <span style="color: #5700FF; font-size: 20px; line-height: 32px;">★★★★★</span> </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 4px;"> Sed ut aut fugit, sed et molestiae non emolumento aliquo, sed animo etiam ac ratione intellegi posse et accurate disserendum et expedita distinctio nam libero tempore, cum teneam sententiam. </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 25px;"> <span style="font-size: 20px; line-height: 32px; font-weight: bold; color: #000000;">Lorem ipsum aut.</span> <span style="color: #5700FF; font-size: 20px; line-height: 32px;">★★★★★</span> </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 4px;"> Sed ut aut fugit, sed et molestiae non emolumento aliquo, sed animo etiam ac ratione intellegi posse et accurate disserendum et expedita distinctio nam libero tempore, cum teneam sententiam. </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 25px;"> <span style="font-size: 20px; line-height: 32px; font-weight: bold; color: #000000;">Lorem ipsum aut.</span> <span style="color: #5700FF; font-size: 20px; line-height: 32px;">★★★★★</span> </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 4px;"> Sed ut aut fugit, sed et molestiae non emolumento aliquo, sed animo etiam ac ratione intellegi posse et accurate disserendum et expedita distinctio nam libero tempore, cum teneam sententiam. </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 25px;"> <span style="font-size: 20px; line-height: 32px; font-weight: bold; color: #000000;">Lorem ipsum aut.</span> <span style="color: #5700FF; font-size: 20px; line-height: 32px;">★★★★★</span> </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 4px;"> Sed ut aut fugit, sed et molestiae non emolumento aliquo, sed animo etiam ac ratione intellegi posse et accurate disserendum et expedita distinctio nam libero tempore, cum teneam sententiam. </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 25px;"> <span style="font-size: 20px; line-height: 32px; font-weight: bold; color: #000000;">Lorem ipsum aut.</span> <span style="color: #5700FF; font-size: 20px; line-height: 32px;">★★★★★</span> </td> 
+</tr> 
+<tr> 
+<td align="left" style="color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 4px;"> Sed ut aut fugit, sed et molestiae non emolumento aliquo, sed animo etiam ac ratione intellegi posse et accurate disserendum et expedita distinctio nam libero tempore, cum teneam sententiam. </td> 
+</tr> 
+<!-- LINE : BEGIN --> 
+<tr> 
+<td bgcolor="#ffffff"> 
+<table align="center" role="presentation" width="100%"> 
+<tbody> 
+<tr> 
+<td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #A7A9AC; padding: 22px 0;">&nbsp;</td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+<!-- LINE : END --> 
+<tr> 
+<td align="left" style="padding-top: 35px; color:#5700FF;font-family: 'Proxima', Arial, Helvetica, sans-serif; font-size:22px; line-height:26px;"> <strong>Lorem ipsum.</strong> </td> 
+</tr> 
+<tr> 
+<td align="left" style=" color:#666666;font-family:Arial, Helvetica, sans-serif; font-size: 16px; line-height:24px; padding-top: 10px;"> Tum dicere exorsus est laborum et aut perferendis doloribus asperiores repellat hanc ego assentior, cum teneam sententiam, quid et dolorem ipsum, quia dolor repellendus temporibus. </td> 
+</tr> 
+<tr> 
+<td align="left" style="padding: 22px 0 45px 0px; color:#5700FF;font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 18px;"> <a href="#" style=" color:#5700FF; text-decoration: none; font-weight: bold;">CTA link&nbsp;&gt;</a></td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table> </td> 
+</tr> 
+</tbody> 
+</table> 
+</center> </td> 
+</tr> 
+</tbody> 
+</table> 
+<center> 
+<table bgcolor="5700FF" border="0" cellpadding="0" cellspacing="0" class="hund" width="600"> 
+<tbody> 
+<tr bgcolor="5700FF"> 
+<td align="center" style="padding: 35px 35px 30px 35px;"> <a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurVs8lTGs7LEV3tr-PcVPFt9Ln_pT7G9Psj3uZHa9xBJKpXbh0RK1wjJrBO-3g5M8IjY="
+><img src="http://927-AHL-375.mktoweb.com/rs/927-AHL-375/images/twitter.png" width="30" alt="Twitter"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurRC7bQ4jFFuQeB2xr-NykPXstgQjc_bp1Zjhxnm70NTCpb6M9sUJafCplGjHi6nfqOA="
+><img src="http://927-AHL-375.mktoweb.com/rs/927-AHL-375/images/linkedin.png" width="25" alt="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurau0DqtrgJbzj7Ic8KDDvXNjcVi8RezEDFYY1-3VyOyhpO3WmIYwXhNOY1lyg7Ry2t4="
+><img src="http://927-AHL-375.mktoweb.com/rs/927-AHL-375/images/youtube.png" alt="YouTube" width="30"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurTcZhuFwMtDJzq_H7lANvBq5ykoNyQovsoSSd8SfO2GGKrxN52mh0QlRfNDiW9GKPYg="
+><img src="http://927-AHL-375.mktoweb.com/rs/927-AHL-375/images/facebook.png" alt="Facebook" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurdv_yRLNR1jC3NjcsCQItBUMlg266RoKNGLsLTCs7ae0eEXZiLIqxvN5Ey7gz2yIlMs="
+><img src="http://927-AHL-375.mktoweb.com/rs/927-AHL-375/images/instagram.png" width="25" alt="Instagram"></a></td> 
+</tr> 
+<tr> 
+<td bgcolor="" align="center" style="padding: 0px 35px 40px 35px; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size: 13px; line-height:15px;"> 414 Union St., Nashville, TN 37219, United States<br><br> <a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurfCLU-ZJVJjS8EHnhngvWV0T8Pbw6PLoQYXkkgNRYY-Da8ti-VNU3HicMk5u1sFAjD0=" style="color: #ffffff; font-weight: bold; text-decoration: none;"
+>privacy policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" style="color: #ffffff; font-weight: bold; text-decoration: none;">unsubscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurWWR0BeaptQ8aLR00Ae7w3AEVL3fqDGPYESiMvpjMH01rfZ727qjz7C_yh0MCamP8Mc=" style="color: #ffffff; font-weight: bold; text-decoration: none;"
+>contact us</a> </td> 
+</tr> 
+</tbody> 
+</table> 
+</center> 
+<!-- Moved to HTML -->  
+<a href=
+"http://mkto-abd0217.com/OTI3LUFITC0zNzUAAAGE3reurQLGMoi77j20RcBc67SRsZecv8pl3NHQtzbevVFmQe4B8I5kL2ocaE_i8mcPCZ5AMKo="
+></a>
+<img src="http://mkto-abd0217.com/trk?t=1&mid=OTI3LUFITC0zNzU6MDowOjA6MDoxMzA0OjI6MDowOmtqYWNvYnNAdGhlbXhncm91cC5jb20%3D" width="1" height="1" style="display:none !important;" alt="" />
+
+<!-- Moved to HTML -->
+</body>
+</html>
