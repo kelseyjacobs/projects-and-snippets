@@ -1,0 +1,323 @@
+%%[
+var @domainroot, @primaryBU
+set @primaryBU = AttributeValue("PrimaryBusinessUnit")
+set @domainroot = "ngccoin"
+if @primaryBU == "CSG" then
+ set @domainroot = "csgcards"
+endif
+if @primaryBU == "CGC" then
+ set @domainroot = "cgccomics"
+endif
+if @primaryBU == "PMG" then
+ set @domainroot = "pmgnotes"
+endif
+
+]%%
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width"> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ <meta name="x-apple-disable-message-reformatting"> 
+ <title></title> 
+<!--[if mso]>
+        <style type="text/css">
+                * { font-family: Arial, Helvetica, sans-serif !important; }
+                a { text-decoration: none; }
+        </style>
+       <![endif]--> 
+       <!--[if !mso]><!--> 
+       <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet" type="text/css">
+       <!--<![endif]--> 
+       <style type="text/css">
+        html,
+        body {
+         height: 100% !important;
+         margin: 0 auto !important;
+         padding: 0 !important;
+         width: 100% !important;
+        }
+        * {
+         -ms-text-size-adjust: 100%;
+         -webkit-text-size-adjust: 100%;
+        }
+        * img[tabindex="0"] + div {
+         display: none !important;
+        }
+        div[style*="margin: 16px 0"] {
+         margin: 0 !important;
+        }
+        .div-white {
+         background-color: #ffffff;
+        }
+        table,
+        td {
+         mso-table-lspace: 0pt !important;
+         mso-table-rspace: 0pt !important;
+        }
+        table {
+         border-collapse: collapse !important;
+         border-spacing: 0 !important;
+         margin: 0 auto !important;
+         table-layout: fixed !important;
+        }
+        table table table {
+         table-layout: auto;
+        }
+        img {
+         -ms-interpolation-mode: bicubic;
+        }
+        *[x-apple-data-detectors] {
+         color: inherit !important;
+         text-decoration: none !important;
+        }
+        .x-gmail-data-detectors,
+        .x-gmail-data-detectors *,
+        .aBn {
+         border-bottom: 0 !important;
+         cursor: default !important;
+        }
+        .text-link:hover {
+         text-decoration: underline !important;
+        }
+        .button-link {
+         text-decoration: none !important;
+        }
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+         .email-container {
+          min-width: 375px !important;
+         }
+        }
+        @media screen and (max-width: 600px) {
+         .resp-img,
+         .header-img-offer,
+         .header-img-promotion,
+         .header-ngc-pmg-promo
+         {
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+          max-width: 100% !important;
+          width: 100% !important;
+         }
+        }
+        @media screen and (max-width: 480px) {
+         u + .body .full-wrap {
+          width: 100% !important;
+          width: 100vw !important;
+         }
+         .logo {
+          height: auto !important;
+          width: 180px !important;
+         }
+         .headline {
+          font-size: 26px !important;
+          line-height: 32px !important;
+          margin-bottom: 20px !important;
+         }
+         .inner-padding {
+          padding: 20px 20px 0px 20px !important;
+         }
+        }
+       </style> 
+      </head> 
+      <body bgcolor="#E0E0E0" style="margin:0; mso-line-height-rule:exactly; width:100%; " class="body">
+       <table bgcolor="#E0E0E0" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; " class="full-wrap">
+        <tbody>
+         <tr style="">
+          <td style="">
+           <center style="width:100%; background:#E0E0E0; ">
+            <div style="max-width:580px; margin:auto; " class="email-container">
+<!--[if mso]>
+                                                <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 580px;">
+                                                <tr>
+                                                <td>
+                                                <![endif]--> 
+                                                <table bgcolor="#E0E0E0" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width:580px; ">
+                                                 <tbody>
+                                                  <tr style="">
+                                                   <td style="padding: 10px 10px 0 10px; text-align:center; ">
+                                                    <!-- EMAIL HEADER : BEGIN --> 
+                                                     <div>
+                                                     <table style="width: 100%; max-width: 580px;" cellspacing="0" cellpadding="0" border="0" bgcolor="#E0E0E0" align="center">
+                                                      <tbody>
+                                                       <tr>
+                                                        <td style="padding: 0px 10px 5px 10px; text-align: center;"><a href="%%=RedirectTo(concat('https://www.',@domainroot,'.com/dealers/benefits/'))=%%" target="_blank"> <img src="http://image.email.collectiblesgroup.com/lib/fe3611727364047d731773/m/1/a17bed0b-ce3b-466c-b603-7d425db3c445.png" alt="CCG Authorized Dealer" style="height: auto;" class="logo" width="175" border="0" /> </a></td>
+                                                       </tr>
+                                                       <tr> 
+                                                        <td align="center" valign="middle"> 
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="520">
+                                        <tr>
+                                        <td valign="top" width="260">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 260px; max-width: 260px; vertical-align: middle;" class="stack-column-center"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;"> 
+                                          <tbody>
+                                           <tr>
+                                            <td style="padding: 12px 0px 10px 0px; text-align: center; line-height: 1;"><a href=".com - https://www.ngccoin.com/dealers/benefits/" target="_blank"><img src="http://image.email.collectiblesgroup.com/lib/fe3611727364047d731773/m/1/3397f42c-6806-4993-8e61-ba7e7c4bd909.png" alt="NGC" width="117" height="32" border="0" /></a>&nbsp;&nbsp;&nbsp; <a href="https://www.pmgnotes.com/dealers/benefits/" target="_blank"><img src="http://image.email.collectiblesgroup.com/lib/fe3611727364047d731773/m/1/008a9c5a-0143-4b25-a713-1cb84f9c8c1e.png" alt="PMG" width="120" height="32" border="0" /></a> 
+                                            </td>
+                                           </tr>
+                                          </tbody>
+                                         </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="260">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 260px; max-width: 260px; vertical-align: middle;" class="stack-column-center"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;"> 
+                                          <tbody>
+                                           <tr>
+                                            <td style="padding: 12px 0px 10px 0px; text-align: center; line-height: 1;">&nbsp;
+                                             <a href="https://www.cgccomics.com/dealers/benefits/" target="_blank"><img src="http://image.email.collectiblesgroup.com/lib/fe3611727364047d731773/m/1/38049713-b13c-4c99-887f-42b5983b4c3b.png" alt="CGC" width="110" height="32" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.csgcards.com/dealers/benefits/" target="blank"><img src="http://image.email.collectiblesgroup.com/lib/fe3611727364047d731773/m/1/96aa5bd3-6a75-483e-bd24-f8f8cc35b525.png" alt="CSG" width="113"border="0" /> </a>
+                                            </td>
+                                           </tr>
+                                          </tbody>
+                                         </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                       <![endif]--> </td> 
+                                      </tr> 
+                                     </tbody>
+                                    </table>
+                                   </div>
+                                   <!-- EMAIL HEADER : END --> 
+                                   <!-- EMAIL CONTENT : BEGIN --> 
+                                   <div> 
+                                    <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; max-width: 580px;"> 
+                                     <!-- HERO IMAGE : BEGIN --> 
+                                     <tbody> 
+
+                                      <!-- HERO IMAGE : END --> 
+                                      <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; max-width: 580px;"> 
+                                       <tr>
+                                        <td bgcolor="#e0e0e0" style="padding-top: 15px; text-decoration: uppercase;">
+                                         <tr>
+                                          <td bgcolor="#AE8319"; style="padding: 10px; text-transform: uppercase; color: #ffffff; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; font-weight: bold;">Important Dealer Message
+                                          </td>
+                                         </tr>
+                                        </td>
+                                       </tr>
+                                      </table>
+                                      <table bgcolor="#E0E0E0" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width:580px; "> 
+                                       <!-- BODY CONTENT : BEGIN --> 
+                                       <tr> 
+                                        <td bgcolor="#ffffff" align="left" valign="top" style="padding: 30px 30px 0px 30px;" class="inner-padding"> 
+                                         <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;"> 
+                                          <!-- HEADLINE : BEGIN --> 
+                                          <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; color: #000000; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">
+                                           <tr><td style="font-family: Georgia, Arial, Helvetica, sans-serif; padding-bottom: 30px; text-align: center; color: #7B97AC; font-size: 35px; line-height: 42px; " class="headline">Authorized&nbsp;Dealer Membership&nbsp;Update
+                                           </td> 
+                                          </tr> 
+                                         </table>
+
+                                         <!-- HEADLINE : END --> 
+                                         <!-- BODY COPY : BEGIN --> 
+                                           <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">
+
+                                      <tr> 
+                                        <td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">To our valued Authorized Dealers:<br><br>
+
+Thank you for being an Authorized Dealer with CCG. We are proud to serve you with world-class authentication, grading, encapsulation and conservation services; industry-leading guarantees; and superior digital tools.<br><br>
+CCG is focused on continually expanding and enhancing its dealer services. Among the new dealer benefits, either recently released or coming soon, are optimized online submission forms, advanced submission tracking tools and a new dealer locator.<br><br>
+To support these and other efforts, we will be instituting a dealer membership fee of $199 per year starting February 18, 2022. This low annual membership fee gives you full access to all of CCG’s most valuable benefits. Your membership includes:<br> <br> 
+                                          <table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;"> 
+
+                                            <tr> 
+                                              <td width="15" valign="top" align="left" style="padding-left: 20px;">•</td> 
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-bottom: 8px;">15% discount on grading tiers </td> 
+                                            </tr> 
+                                            <tr> 
+                                              <td width="15" valign="top" align="left" style="padding-left: 20px;">•</td> 
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-bottom: 8px;">Full access to an array of digital tools designed to support you and your customers (such as population reports, price guides, dealer portals, etc.) </td> 
+                                            </tr> 
+                                            <tr> 
+                                              <td width="15" valign="top" align="left" style="padding-left: 20px;">•</td> 
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-bottom: 8px;">Authorized Dealer logos to display in your online and offline materials</td> 
+                                            </tr> 
+                                             <tr> 
+                                              <td width="15" valign="top" align="left" style="padding-left: 20px;">•</td> 
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-bottom: 8px;">Listing in the Dealer Locator with backlinks to your site</td> 
+                                            </tr> 
+                                             <tr> 
+                                              <td width="15" valign="top" align="left" style="padding-left: 20px;">•</td> 
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-bottom: 8px;">Access to APIs and data downloads to enhance your inventory systems and website</td> 
+                                            </tr> 
+                                             <tr> 
+                                              <td width="15" valign="top" align="left" style="padding-left: 20px;">•</td> 
+                                              <td valign="top" align="left" style="padding-left: 5px;">Exclusive Authorized Dealer news and events</td> 
+                                            </tr> 
+                                          </table> <br> Our industry is experiencing unprecedented growth, and we’re committed to providing best-in-class services to help you deliver the most value to your business. The advantages of being an Authorized Dealer will only get even better.<br><br>
+
+                                          Please note that all payments for this membership must be made via credit card at <a href="%%=RedirectTo(concat('https://www.',@domainroot,'.com/dealers/benefits/'))=%%" target="_blank" style="color: #0F76CE; text-decoration: none;" class="text-link"><span style="color: #0F76CE;">ngccoin.com/dealers/benefits/</span></a>. If you have any questions, please contact Customer Service at <a href="mailto:Service@collectiblesgroup.com" target="_blank" style="color: #0F76CE; text-decoration: none;" class="text-link"><span style="color: #0F76CE;">Service@collectiblesgroup.com</span></a> or 941-360-3994.  
+<br><br>
+Thank you again for your membership. <br><br>
+                                          Sincerely,<br> The Certified Collectibles Group
+
+                                        </td>
+                                      </tr>
+                                    </table>
+                                         <!-- BUTTON : BEGIN --> 
+                                         <table width="100%" cellspacing="0" cellpadding="0" border="0" align="left" style="width: 100%; color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">
+                                          <tr> 
+                                           <td style="padding-top: 35px; padding-bottom: 55px;"> 
+                                            <table cellspacing="0" cellpadding="0" border="0" align="center"> 
+                                             <tr> 
+                                              <td style="border-radius: 8px; background: #AE8319; text-align: center;"> 
+                                               <div> 
+                                                <a style="display: inline-block; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; color: #000000; font-size: 16px; line-height: 1; font-weight: bold; text-align: center; text-decoration: none; background-color: #AE8319; border-top: 15px solid #AE8319; border-bottom: 15px solid #AE8319; border-left: 30px solid #AE8319; border-right: 30px solid #AE8319; border-radius: 8px;" href="%%=RedirectTo(concat('https://www.',@domainroot,'.com/dealers/benefits/'))=%%" target="_blank" class="button-link"><span style="color: #ffffff;">Get your membership</span></a> 
+                                               </div> </td> 
+                                              </tr> 
+                                             </table> </td> 
+                                            </tr> 
+                                           </table> 
+                                           <!-- BUTTON : END -->
+                                          </table>
+                                         </td> 
+                                        </tr> 
+                                        <!-- BODY COPY : END --> 
+
+                                       </table>
+                                      </table>
+                                     </div>
+                                    </td> 
+                                   </tr> 
+                                   <!-- BODY CONTENT : END --> 
+                                  </tbody> 
+                                 </table> 
+
+                                </div>
+                                <!-- EMAIL CONTENT : END --> 
+                                <!-- EMAIL FOOTER : BEGIN --> 
+                         <div bgcolor= "#E0E0E0">
+<table style="width: 100%; max-width: 580px; text-align: center;" cellspacing="0" cellpadding="0" border="0" bgcolor="#E0E0E0" align="center">
+<tbody>
+<tr>
+<td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 11px; line-height: 17px; color: #69738a; text-align: center; padding: 30px 20px 35px 20px;" align="center">%%Member_Busname%%<br>
+%%Member_Addr%%, %%Member_City%%, %%Member_State%% %%Member_PostalCode%% <br /> To update your email preferences or unsubscribe, <a href="%%=RedirectTo(CloudPagesURL(363))=%%" target="_blank" style="color: #69738a;" class="mktNoTok mktNoTrack"><span style="color: #69738a;">click here</span></a>.<div style="display:none"><a href="%%profile_center_url%%">.</a></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+                                 <!-- EMAIL FOOTER : END -->
+                                </center>
+                               </td>
+                              </tr>
+
+
+<!--[if mso]>
+                                                </td>
+                                                </tr>
+                                                </table>
+                                               <![endif]-->
+                                               <!-- Unsubscribe is coded in the templates -->
+                                              </tbody>
+                                             </table>
+                                            </body>
+                                            </html><custom name="opencounter" type="tracking"/>
