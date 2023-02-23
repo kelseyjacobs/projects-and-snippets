@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" smlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <title>NGC Proof</title>
+  <style>
+    html,
+    body {
+      background: #f1f3f5;
+      height: 100% !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+      width: 100% !important;
+      -webkit-font-smoothing: antialiased;
+    }
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+    table,
+    td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+    table {
+      border-collapse: collapse !important;
+      border-spacing: 0 !important;
+      margin: 0 auto !important;
+      table-layout: fixed !important;
+    }
+    table table table {
+      table-layout: auto;
+    }
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+    *[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+    }
+    .x-gmail-data-detectors,
+    .x-gmail-data-detectors *,
+    .aBn {
+      border-bottom: 0 !important;
+      cursor: default !important;
+    }
+
+    .link-a:hover {
+      color: #BB1643 !important;
+    }
+    .button-link {
+      text-decoration: none !important;
+    }
+    .button-td:hover {
+      background: #BB1643 !important;
+    }
+    .button-a:hover {
+      background: #BB1643 !important;
+      border-top: 15px solid #BB1643 !important;
+      border-bottom: 13px solid #BB1643 !important;
+      border-left: 30px solid #BB1643 !important;
+      border-right: 30px solid #BB1643 !important;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+    }
+    .dark-mode-bg {
+      background-color: #FCA419 !important;
+    }
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+      .email-container {
+        min-width: 375px !important;
+      }
+    }
+    @media screen and (max-width: 580px) {
+      .fluid {
+        height: auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+      .bg-header {
+       padding: 30px;
+       font-size: 18px !important;
+       line-height: 22px !important;
+     }
+   }
+   @media screen and (max-width: 480px) {
+    .stack-column,
+    .stack-column-center {
+      direction: ltr !important;
+      display: block !important;
+      max-width: 100% !important;
+      width: 100% !important;
+    }
+    .stack-column-center {
+      text-align: center !important;
+    }
+    .center-on-narrow {
+      display: block !important;
+      float: none !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      text-align: center !important;
+    }
+    .making-grade-headline {
+     font-size: 18px;
+   }
+   table.center-on-narrow {
+    display: inline-block !important;
+  }
+  .button-a {
+    border-top: 12px solid #d9154b !important;
+    border-bottom: 10px solid #d9154b !important;
+    border-left: 20px solid #d9154b !important;
+    border-right: 20px solid #d9154b !important;
+    font-size: 16px !important;
+  }
+  .h2 {
+   font-size: 23px !important;
+   line-height: 24px !important;
+
+ }
+ .h3 {
+   font-size: 16px !important;
+   line-height: 20px !important;
+ }
+ .l-Pad20 {
+  padding-left: 20px !important;
+}
+}
+@media screen and (max-width:580px) {
+ .top { display: table-header-group !important; width: 100% !important; }
+ .bottom { display: table-footer-group !important; width: 100% !important; }
+}
+}
+</style>
+</head>
+<body bgcolor="#f1f3f5" style="margin: 0; mso-line-height-rule: exactly; width: 100%;">
+  <div class="mktEditable" id="Email_Content">
+    <center style="width: 100%; background: #f1f3f5;">
+      <div class="email-container" style="max-width: 580px; margin: auto;">
+    <!--[if mso]>
+     <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 580px;">
+      <tr>
+       <td>
+       <![endif]-->
+       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+        <tbody>
+          <tr>
+            <td align="center" valign="top">
+              <!-- HEADER : BEGIN -->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+                <tbody> 
+                  <tr> 
+                    <td style="width: 100%"> 
+                      <a href="https://www.ngccoin.com/"><img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/b3c96e5d-5fec-4b06-ad75-cd180ad360fe.jpg" style="display: block;" alt="NGC Proof Newsletter" width="580" class="fluid"> </a>
+                    </td> 
+                  </tr> 
+                </tbody> 
+              </table>
+              <!-- HEADER: END -->
+              <!-- MONTH YR: BEGIN -->
+              <table bgcolor="#003090" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+                <tbody>
+                  <tr>
+                   <td align="right" style="padding: 10px 30px 10px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 22px; color: #ffffff;">Month 2022</td>
+                 </tr>
+               </tbody>
+             </table>
+             <!-- MONTH YR: END -->
+             <!-- FEATURE SECTION: BEGIN -->
+             <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+  <tbody>
+   <tr>
+    <td style="padding-top: 0px; background-color: #ffffff">
+     <img src="https://via.placeholder.com/580x300" alt="" width="580" class="fluid" style="width:100%; display: block;">
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+  <tbody>
+   <!-- HEADLINE: BEGIN -->
+   <tr>
+    <td bgcolor="#ffffff" style="padding: 20px 30px; color: #003090; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: center">Lorem ipsum dolor sit amet, proin convallis egestas magna.
+    </td>
+   </tr>
+   <!-- HEADLINE: END -->
+   <!-- INTRO COPY: BEGIN -->
+   <tr>
+    <td bgcolor="#ffffff" style="padding: 0px 30px 25px 30px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px;  text-align: left">Nam imperdiet id nibh sit amet semper. Integer blandit eu velit a efficitur. Donec placerat dictum elit, et tristique est volutpat in. Suspendisse at metus dolor. Proin convallis egestas magna in condimentum. Nullam semper consequat tellus, nec vehicula elit gravida non. Phasellus rhoncus ligula lorem. <br><br>
+     Nam imperdiet id nibh sit amet semper. Integer blandit eu velit a efficitur. Donec placerat dictum elit, et tristique est volutpat in. Suspendisse at metus dolor. Proin convallis egestas magna in condimentum. Nullam semper consequat tellus, nec vehicula elit gravida non. Phasellus rhoncus ligula lorem. 
+    </td>
+   </tr>
+   <!-- INTRO COPY: END -->
+  </tbody>
+ </table>
+          <!-- FEATURE SECTION: END -->
+          <!-- ROLL CALL: BEGIN -->
+          <table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper">
+    <tr>
+     <td class="stylingblock-content-wrapper camarker-inner" style="border-top: 10px solid #f3f3f3;">
+      <table bgcolor="003090" cellspacing="0" cellpadding="0" border="0" align="center" style="text-align: left; width:100%;">
+       <tr>
+        <td>
+         <div>
+          <table bgcolor="003090" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px; text-align: left;">
+           <!-- HEADER -->
+           <tr>
+            <td>
+             <img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/2f6a46d5-8d10-404b-8a3e-afa85f2df2e0.jpg" width="580" alt="Roll Call" border="0" style="display: block;" class="fluid"></td>
+            </tr>
+            <tr>
+             <td bgcolor="#003090" style="padding: 0 20px 20px 20px; text-align: left;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #ffffff; text-align: left;"> 
+               <!-- ROW BEGIN -->
+               <tr>
+                                <td align="center" style="background-color: #F3F3F3; padding-top: 30px;" valign="top"><!--[if mso]>
+                                  <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                                  <tr>
+                                  <td valign="center" style="text-align: left;" width="180" width="180">
+                                  <![endif]-->
+                                  <div style="display: inline-block; margin: 0 -2px; width: 100%; min-width: 250px; max-width: 250px; vertical-align: middle;">
+                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tr>
+                                     <td align="center" style="line-height: 1; padding-bottom: 15px; " valign="top" class=""><a href="#"><img src="https://via.placeholder.com/190x220" alt="" style="display: block;" width="190"></a></td>
+                                    </tr>
+                                   </table>
+                                  </div>
+                                  <!--[if mso]>
+                                  </td>
+                                  <td valign="center" style="text-align: left;" width="390">
+                                  <![endif]-->
+                                  <div style="display: inline-block; width: 100%; min-width: 200px; max-width: 250px; vertical-align: top; text-align: left;">
+                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+                                    <tr>
+                                     <td align="center" style="padding: 0px 20px 0 20px;" valign="top">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+                                       <tr> 
+                                        <td valign="middle" style="padding: 0px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #064C2A;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Lorem ipsum dolor sit amet proin</a>
+                                        </td> 
+                                       </tr> 
+                                       <tr>
+                                        <td valign="middle" style="padding: 8px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left !important;">
+                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci.
+                                        </td>
+                                       </tr>
+                                       <tr>
+                                        <td valign="middle" style="padding: 8px 0px 20px 0px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left !important;">
+                                         <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+                                        </td>
+                                       </tr>
+                                      </table>
+                                     </td>
+                                    </tr>
+                                   </table>
+                                  </div>
+                              <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                          <![endif]-->
+                      </td>
+                  </tr>
+                  <!-- ROW END -->
+                  <!-- ROW BEGIN -->
+                  <tr>
+                          <td align="center" style="background-color: #F3F3F3; padding-top: 20px;" valign="top"><!--[if mso]>
+                              <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                              <tr>
+                                  <td valign="center" style="text-align: left;" width="180" width="180">
+                                  <![endif]-->
+                                  <div style="display: inline-block; margin: 0 -2px; width: 100%; min-width: 250px; max-width: 250px; vertical-align: middle;">
+                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tr>
+                                     <td align="center" style="line-height: 1; padding-bottom: 15px; " valign="top" class=""><a href="#"><img src="https://via.placeholder.com/190x220" style="display: block;" alt="" width="190"></a></td>
+                                    </tr>
+                                   </table>
+                                  </div>
+                              <!--[if mso]>
+                              </td>
+                              <td valign="center" style="text-align: left;" width="390">
+                              <![endif]-->
+                              <div style="display: inline-block; width: 100%; min-width: 200px; max-width: 250px; vertical-align: middle; text-align: left;">
+                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+                                <tr>
+                                 <td align="center" style="padding: 0px 20px 0 20px;" valign="top">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+                                   <tr> 
+                                    <td valign="middle" style="padding: 0px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #064C2A;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Lorem ipsum dolor sit amet proin</a>
+                                    </td> 
+                                   </tr> 
+                                   <tr>
+                                    <td valign="middle" style="padding: 10px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci.
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td valign="middle" style="padding: 8px 0px 20px 0px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left !important;">
+                                     <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                </tr>
+                               </table>
+                              </div>
+                              <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                          <![endif]-->
+                      </td>
+                  </tr>
+                  <!-- ROW END -->
+                  <!-- ROW BEGIN -->
+                  <tr>
+                            <td align="center" style="background-color: #F3F3F3; padding-top: 20px; padding-bottom: 20px;" valign="top"><!--[if mso]>
+                              <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                              <tr>
+                                  <td valign="center" style="text-align: left;" width="180" width="180">
+                                  <![endif]-->
+                                  <div style="display: inline-block; margin: 0 -2px; width: 100%; min-width: 250px; max-width: 250px; vertical-align: middle;">
+                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tr>
+                                     <td align="center" style="line-height: 1; padding-bottom: 15px; " valign="top" class=""><a href="#"><img src="https://via.placeholder.com/190x220" style="display: block;" alt="" width="190"></a></td>
+                                    </tr>
+                                   </table>
+                                  </div>
+                              <!--[if mso]>
+                              </td>
+                              <td valign="center" style="text-align: left;" width="390">
+                              <![endif]-->
+                              <div style="display: inline-block; width: 100%; min-width: 200px; max-width: 250px; vertical-align: middle; text-align: left;">
+                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+                                <tr>
+                                 <td align="center" style="padding: 0px 20px 0 20px;" valign="top">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px;line-height: 23px; text-align: left;" width="100%">
+                                   <tr> 
+                                    <td valign="middle" style="padding: 0px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #064C2A;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Lorem ipsum dolor sit amet proin</a>
+                                    </td> 
+                                   </tr> 
+                                   <tr>
+                                    <td valign="middle" style="padding: 8px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left !important;">
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci.
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td valign="middle" style="padding: 8px 0px 20px 0px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left !important;">
+                                     <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                </tr>
+                               </table>
+                              </div>
+                              <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                          <![endif]-->
+                      </td>
+                  </tr>
+                  <!-- ROW END -->
+              </table>
+          </td>
+      </tr>
+  </table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+  <!--ROLL CALL : END -->
+              <!--BANNER AD : BEGIN -->
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-top: 10px solid #f3f3f3;">
+  <tbody>
+    <tr>
+      <td>
+       <a href="#"><img src="http://via.placeholder.com/580x150" alt="" width="580" border="0" style="display: block;" class="fluid"></a>  
+     </td>
+   </tr>
+ </tbody>
+</table> 
+ <!--BANNER AD : END -->
+  <!-- VALUABLE VOICES: BEGIN -->
+               <table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper">
+ <tr>
+  <td class="stylingblock-content-wrapper camarker-inner" style="border-top: 10px solid #f3f3f3;">
+   <table cellspacing="0" cellpadding="0" border="0" align="center" style="text-align: left; width:100%; max-width:580px;">
+    <tr>
+     <td>
+      <div>
+       <table cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px; text-align: left;">
+        <tr>
+         <td>
+          <img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/cf3af033-9592-46c8-8549-241553ac1998.jpg" width="580" alt="Valuable Voices" border="0" style="display: block;" class="fluid"></td>
+         </tr>
+         <tr>
+          <td style="text-align: left;">
+           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #ffffff; text-align: left;"> 
+            <!-- HEADSHOT: BEGIN -->
+            <tr>
+             <td align="center" style="padding: 15px 0px 5px 0px; background-color: #ffffff;"><a href="#"> <img src="https://via.placeholder.com/240" alt=""width="240"></a>
+             </td>
+            </tr> 
+            <!-- HEADSHOT: END -->
+            <!-- COPY: BEGIN -->
+            <tr> 
+                <td align="left" valign="middle" style="padding: 5px 30px 3px 30px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #003090;  text-align: left; font-weight: bold;"><a href="#" style=" color: #003090; text-decoration: none; ">Pellentesque ex tortor, suscipit nec felis vel </a>
+             </td> 
+            </tr> 
+            <tr>
+             <td align="left" valign="middle" style="padding: 5px 30px 20px 30px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #000000;">
+              Praesent mauris est, volutpat quis ipsum ac, condimentum fringilla dui.  <a href="#" target="_blank" style="color: #0F76C3; text-decoration: none; font-weight: bold;"> Read more&nbsp;></a>
+             </td>
+            </tr>
+            <!-- COPY: END -->
+           </table>
+          </td>
+         </tr>
+        </table>
+       </div>
+      </td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+ </table>
+  <!--VALUABLE VOICES : END -->
+                <!-- VALUABLE VOICES: BEGIN -->
+            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper">
+ <tr>
+  <td class="stylingblock-content-wrapper camarker-inner" style="border-top: 10px solid #f3f3f3;">
+   <table cellspacing="0" cellpadding="0" border="0" align="center" style="text-align: left; width:100%; max-width:580px;">
+    <tr>
+     <td>
+      <div>
+       <table cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px; text-align: left;">
+        <tr>
+         <td>
+          <img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/cf3af033-9592-46c8-8549-241553ac1998.jpg" width="580" alt="Valuable Voices" border="0" style="display: block;" class="fluid"></td>
+         </tr>
+         <tr>
+          <td style="padding: 0 0px 0px 0px; text-align: left;">
+           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #ffffff; text-align: left;"> 
+            
+            <tr>
+                                <td align="center" style="background-color: #ffffff; padding-top: 30px;" valign="top"><!--[if mso]>
+                                  <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="550">
+                                  <tr>
+                                  <td valign="center" style="text-align: left;" width="275">
+                                  <![endif]-->
+                                  <!-- COLUNM 1: BEGIN -->
+                                  <div style="display: inline-block; margin: 0 -2px; width: 100%; min-width: 275px; max-width: 275px; vertical-align: middle;">
+                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <!-- COLUMN 1 IMAGE: BEGIN -->
+                                    <tr>
+                                     <td align="center" style="line-height: 1; padding-bottom: 15px; " valign="top" class=""><a href="#"><img src="https://via.placeholder.com/240x240" alt="" style="display: block;" width="240"></a></td>
+                                    </tr>
+                                    <!-- COLUMN 1 IMAGE: END -->
+                                    <!-- COLUMN 1 HEADLINE: BEGIN -->
+                                    <tr> 
+                                     <td valign="middle" style="padding: 5px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #064C2A;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Lorem ipsum dolor sit amet proin</a>
+                                     </td> 
+                                    </tr>
+                                    <!-- COLUMN 1 HEADLINE: END --> 
+                                    <!-- COLUMN 1 COPY: BEGIN -->
+                                    <tr>
+                                     <td valign="middle" style="padding: 8px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left !important;">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci.
+                                     </td>
+                                    </tr>
+                                    <tr>
+                                     <td valign="middle" style="padding: 8px 20px 35px 20px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left !important;">
+                                      <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+                                     </td>
+                                    </tr>
+                                    <!-- COLUMN 1 COPY: END -->
+                                   </table>
+                                  </div>
+                                  <!--[if mso]>
+                                  </td>
+                                  <td valign="center" style="text-align: left;" width="275">
+                                  <![endif]-->
+                                  <!-- COLUMN 1: END -->
+                                  <!-- COLUMN 2: BEGIN -->
+                                  <div style="display: inline-block; margin: 0 -2px; width: 100%; min-width: 275px; max-width: 275px; vertical-align: middle;">
+                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tr>
+                                     <td align="center" style="line-height: 1; padding-bottom: 15px; " valign="top" class=""><a href="#"><img src="https://via.placeholder.com/240x240" alt="" style="display: block;" width="240"></a></td>
+                                    </tr>
+                                    <tr> 
+                                     <td valign="middle" style="padding: 5px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #064C2A;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Lorem ipsum dolor sit amet proin</a>
+                                     </td> 
+                                    </tr> 
+                                    <tr>
+                                     <td valign="middle" style="padding: 8px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left !important;">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci.
+                                     </td>
+                                    </tr>
+                                    <tr>
+                                     <td valign="middle" style="padding: 8px 20px 35px 20px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left !important;">
+                                      <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read more&nbsp;&gt;</a>
+                                     </td>
+                                    </tr>
+                                   </table>
+                                  </div>
+                              <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                          <![endif]-->
+                          <!-- COLUMN 2: END -->
+                      </td>
+                  </tr>
+                  <!-- ROW END -->
+              </table>
+          </td>
+      </tr>
+  </table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+  <!--VALUABLE VOICES : END -->
+   <!-- ARTICLE MODULE: BEGIN -->
+              <!--NGC ANCIENTS : START -->
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #05132A; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+                      <tbody>
+                        <tr>
+                          <td bgcolor="#FFFFFF" class="outer-wrapper" style="padding: 35px 20px 20px 20px;">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+                              <tbody>
+                                   <tr>
+                                  <td style="padding: 0 20px 10px 20px"><a href="#"> <img src="https://via.placeholder.com/500x275" alt=""width="500" class="fluid"></a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#ffffff" style="padding: 10px 20px 0px 20px; color: #003090; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px; font-weight: bold; text-align: left"><a href="#" style="color: #003090; text-decoration: none;">Aliquam a varius quam</a>
+                                  </td>
+                                </tr>
+                                 <tr>
+                                  <td align="left" valign="middle" style="padding: 12px 20px 10px 20px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #000000;">
+                                    Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.  <a href="#" target="_blank" style="color: #0F76C3; text-decoration: none; font-weight: bold;"> Lorem&nbsp;ipsum&nbsp;></a>
+                                  </td>
+                                </tr>
+                               
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--NGC ANCIENTS: END -->
+   <!-- ARTICLE MODULE: END -->
+ <!--FEATURED SET : BEGIN -->
+<!--FEATURED SET : BEGIN -->
+ <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #012162; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+   <tbody>
+    <tr> 
+      <td align="center" valign="top" style="padding-top: 35px; font-size: 0;"> 
+              <!--[if mso]>
+               <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="550">
+                <tr>
+                 <td valign="top" width="300">
+                 <![endif]--> 
+                 <div style="display: inline-block; width: 100%; min-width: 300px; max-width: 300px; vertical-align: middle;" class="stack-column bottom"> 
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: left;"> 
+                    <tbody> 
+                      <tr> 
+                        <td valign="middle" style="padding: 0px 15px 0px 15px; line-height: 1"><img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/c3e55796-e64e-43ea-acdb-f15cbdc0147e.png" width="40" alt="" style="display: block;" class="center-on-narrow">
+                        </td> 
+                        <tr>
+                         <td align="center" valign="middle" style="padding: 10px 15px 5px 15px; text-align: left;  font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 27px; color: #ffffff; font-weight: bold;" class="center-on-narrow">
+                          NGC Registry Featured Set
+                        </td>
+                      </tr> 
+                      <!-- LINE: BEGIN -->
+                      <tr>
+                        <td class="bottom center-on-narrow"  style="padding: 0px 15px 10px 15px; ">
+                          <table role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #ffffff;" class="bottom">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- LINE: END -->
+                    </tbody> 
+                  </table> 
+                </div> 
+                 <!--[if mso]>
+                </td>
+                <td valign="top" width="250">
+                <![endif]--> 
+                <div style="display: inline-block; width: 100%; min-width: 250px; max-width: 250px; vertical-align: middle;" class="stack-column top"> 
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; text-align: left;"> 
+                    <tbody> 
+                        <!-- *************** THE NGC REGISTRY LOGO IS CONTAINED BELOW. PLEASE LINK THE LOGO TO THE ARICLE'S CTA EACH MONTH ***************** -->
+                      <tr> 
+                          <td align="center" valign="middle" style="padding: 0 30px 10px 30px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"><a href="#"><img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/2fe47f7d-fd4f-4559-afbf-2fc22775c747.png" width="200" alt="NGC Registry" style="display: block;" class="center-on-narrow"> </a></td> 
+                      </tr> 
+                    </tbody> 
+                  </table> 
+                </div> 
+                 <!--[if mso]>
+                 </td>
+                </tr>
+               </table>
+             <![endif]--> 
+           </td> 
+         </tr> 
+         <!-- HEADLINE: BEGIN -->
+         <tr>
+           <td align="center" valign="middle" style="padding: 0px 30px 8px 30px; text-align: left;" class="center-on-narrow">
+            <a href="#" style="color: #0F76CE; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; font-weight: bold;">Aliquam a varius quam</a>
+          </td>
+        </tr>
+       <!-- HEADLINE: END -->
+       <!-- COPY: BEGIN -->
+        <tr>
+          <td class="center-on-narrow" valign="middle" style="padding: 0px 30px 10px 30px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 26px; color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci. 
+          </td>
+        </tr> 
+       <!-- COPY: END -->
+       <!-- CTA: BEGIN -->
+        <tr>
+          <td class="center-on-narrow" valign="middle" style="padding: 0px 30px 25px 30px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #ffffff;"> <a href="#" target="_blank" style="color: #0F76C3; text-decoration: none; font-weight: bold;"> Read more&nbsp;></a>
+          </td>
+        </tr>
+       <!-- CTA: END -->
+       <!-- IMAGE: BEGIN -->
+        <tr>
+          <td style="padding: 0 30px 30px 30px;" align="center"> <a href="#"><img src="https://via.placeholder.com/500x275" alt=""width="500" class="fluid"></a>
+          </td>
+        </tr>
+        <!--IMAGE: END -->
+      </tbody>
+    </table>
+    <!--FEATURED SET : END -->
+    <!--FEATURED SET : END -->
+                    <!--NGC ANCIENTS : START -->
+                     <!--NGC ANCIENTS : START -->
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #05132A; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+                      <tbody>
+                        <tr>
+                          <td bgcolor="#FFFFFF" class="outer-wrapper" style="padding: 35px 20px 20px 20px;">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+                              <tbody>
+                                <tr>
+                                  <td align="left" valign="middle" style="padding: 0px 20px 10px 20px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"> <img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/5a3e50e8-9fd8-4cc4-a0d5-fe14e10092d0.png" width="40" alt="" style="display: block;">  </td> 
+                                </tr> 
+                                <tr> 
+                                  <td align="left" valign="middle" style="padding: 0px 20px 3px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 27px; color: #003090;  text-align: left; font-weight: bold;"> NGC Ancients
+                                  </td> 
+                                </tr> 
+                                <!-- LINE : BEGIN -->
+                                <tr>
+                                  <td>
+                                    <table align="center" role="presentation" width="93%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #003090; ">&nbsp;</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <!-- LINE : END -->
+                                <!-- HEADLINE : BEGIN -->
+                                <tr> 
+                                 <td align="left" valign="middle" style="padding: 10px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #064C2A;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Aliquam a varius quam</a>
+                                 </td> 
+                                </tr>
+                                <!-- HEADLINE : END -->
+                                <!-- COPY : BEGIN -->
+                                 <tr>
+                                  <td align="left" valign="middle" style="padding: 12px 20px 20px 20px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #000000;">
+                                    Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed. <a href="#" target="_blank" style="color: #0F76C3; text-decoration: none; font-weight: bold;"> Read&nbsp;more&nbsp;></a>
+                                  </td>
+                                </tr>
+                                <!-- COPY : END -->
+                                <!-- IMAGE : BEGIN -->
+                                <tr>
+                                  <td style="padding: 0 20px 0px 20px"><a href="#"> <img src="https://via.placeholder.com/500x275" alt="" width="500" class="fluid"></a>
+                                  </td>
+                                </tr>
+                                <!-- IMAGE : END -->
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--NGC ANCIENTS: END -->
+                    <!--NGC ANCIENTS: END -->
+                    <!--COUNTERFEIT DETECTION : START -->
+                   <!--COUNTERFEIT DETECTION : START -->
+ <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #05132A; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+  <tbody>
+   <tr>
+    <td bgcolor="#003090" style="padding: 35px 35px 30px 35px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: left">Counterfeit Detection
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#003090" class="outer-wrapper" style="padding: 0px 30px 30px 30px;">
+     <table bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+      <tbody>
+       <!-- IMAGE: BEGIN -->
+       <tr>
+        <td style="padding: 20px 20px 15px 20px;">
+         <a href="#"> <img src="https://via.placeholder.com/475x275" alt="" width="475" class="fluid"></a>
+        </td>
+       </tr>
+       <!-- IMAGE: END -->
+       <!-- HEADLINE: BEGIN -->
+       <tr> 
+        <td align="left" valign="middle" style="padding: 0px 25px 0 25px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #064C2A;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Donec ultrices augue a lobortis efficitur</a>
+        </td> 
+       </tr>
+       <!-- HEADLINE: END -->
+       <!-- COPY: BEGIN -->
+       <tr>
+        <td align="left" valign="middle" style="padding: 10px 25px 25px 25px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #000000;">
+         Praesent mauris est, volutpat quis ipsum ac, condimentum fringilla dui.  <a href="#" target="_blank" style="color: #0F76C3; text-decoration: none; font-weight: bold;">Read&nbsp;more&nbsp;></a>
+        </td>
+       </tr>
+       <!-- COPY: END -->
+      </tbody>
+     </table>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+<!--COUNTERFEIT DETECTION: END -->
+                <!--COUNTERFEIT DETECTION: END -->
+                <!--USA COIN ALBUM : START -->
+                <!--USA COIN ALBUM : START -->
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #05132A; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+                      <tbody>
+                        <tr>
+                          <td bgcolor="#FFFFFF" class="outer-wrapper" style="padding: 35px 20px 20px 20px;">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+                              <tbody>
+                                <tr>
+                                  <td align="left" valign="middle" style="padding: 0px 20px 10px 20px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"> <img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/5a3e50e8-9fd8-4cc4-a0d5-fe14e10092d0.png" width="40" alt="" style="display: block;">  </td> 
+                                </tr> 
+                                <tr> 
+                                  <td align="left" valign="middle" style="padding: 0px 20px 3px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 27px; color: #003090;  text-align: left; font-weight: bold;"> USA Coin Album
+                                  </td> 
+                                </tr> 
+                                <!-- LINE : BEGIN -->
+                                <tr>
+                                  <td>
+                                    <table align="center" role="presentation" width="93%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #003090; ">&nbsp;</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <!-- LINE : END -->
+                                <!-- HEADLINE : BEGIN -->
+                                <tr> 
+                                 <td align="left" valign="middle" style="padding: 10px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #064C2A;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Aliquam a varius quam</a>
+                                 </td> 
+                                </tr>
+                                <!-- HEADLINE : END -->
+                                <!-- COPY : BEGIN -->
+                                 <tr>
+                                  <td align="left" valign="middle" style="padding: 12px 20px 20px 20px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #000000;">
+                                    Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed. <a href="#" target="_blank" style="color: #0F76C3; text-decoration: none; font-weight: bold;">Read&nbsp;more&nbsp;></a>
+                                  </td>
+                                </tr>
+                                <!-- COPY : END -->
+                                <!-- IMAGE : BEGIN -->
+                                <tr>
+                                  <td style="padding: 0 20px 0px 20px"><a href="#"> <img src="https://via.placeholder.com/500x275" alt="" width="500" class="fluid"></a>
+                                  </td>
+                                </tr>
+                                <!-- IMAGE : END -->
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--USA COIN ALBUM: END -->
+  <!--USA COIN ALBUM: END -->
+               <!--BANNER AD : BEGIN -->
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-top: 10px solid #f3f3f3;">
+  <tbody>
+    <tr>
+      <td>
+       <a href="#"><img src="http://via.placeholder.com/580x150" alt="" width="580" border="0" style="display: block;" class="fluid"></a>  
+     </td>
+   </tr>
+ </tbody>
+</table> 
+ <!--BANNER AD : END -->
+ <!--FACE VALUE : START -->
+               <!--FACE VALUE : START -->
+ <table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper">
+  <tr>
+    <td class="stylingblock-content-wrapper camarker-inner" style="border-top: 10px solid #f3f3f3;">
+      <table bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" style="text-align: left; width:100%; max-width:580px; ">
+       <tr>
+         <td style="padding: 0 20px 20px 20px;">
+          <div>
+            <table cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px; text-align: left;">
+              <tr>
+                <td style="padding: 30px 20px 10px 20px;">
+                  <img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/5a3e50e8-9fd8-4cc4-a0d5-fe14e10092d0.png" width="40" alt="" border="0" style="display: block;"></td>
+                </tr>
+                <tr> 
+                  <td align="left" valign="middle" style="padding: 0px 20px 3px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 27px; color: #003090;  text-align: left; font-weight: bold;"> Face Value
+                  </td> 
+                </tr>
+                <!-- LINE : BEGIN -->
+                <tr>
+                  <td>
+                    <table align="center" role="presentation" width="93%">
+                      <tbody>
+                        <tr>
+                          <td style="height: 0px; line-height: 0px; font-size: 0; border-bottom: 1px solid #003090;">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <!-- LINE : END -->
+                <!-- HEADLINE : BEGIN -->
+                <tr> 
+                  <td align="left" valign="middle" style="padding: 10px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #003090;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Aliquam a varius quam</a>
+                  </td>  
+                </tr>
+                <!-- HEADLINE : END -->
+                <!-- COPY : BEGIN -->
+                <tr>
+                  <td align="left" valign="middle" style="padding: 12px 20px 0px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #000000;">
+                   Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed. <a href="#" target="_blank" style="color: #0F76C3; text-decoration: none; font-weight: bold;"> Read&nbsp;more&nbsp;></a>
+                 </td>
+               </tr>
+               <!-- COPY : END -->
+               <!-- IMAGE : BEGIN -->
+               <tr>
+                <td style="padding: 0 20px 0px 20px"><a href="#"> <img src="https://via.placeholder.com/500x275" alt="" width="500" class="fluid"></a>
+                </td>
+              </tr>
+              <!-- IMAGE : END -->
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+  <!--FACE VALUE: END -->
+  <!--FACE VALUE: END -->
+  <!--SOCIAL MEDIA: START -->
+  <!--SOCIAL MEDIA: START -->
+ 
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; max-width: 580px; border-top: 10px solid #f3f3f3;">
+  <tbody>
+   <tr>
+    <td bgcolor="#012162" class="outer-wrapper" style="padding: 20px 20px 35px 20px;">
+     <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+      <tbody>
+       <tr>
+        <td style="padding: 10px 25px 25px 25px; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: center">What’s Happening on NGC Social&nbsp;Media 
+        </td>
+       </tr>
+       <!-- IMAGE: BEGIN -->
+       <tr>
+        <td><a href="https://www.facebook.com/NGCcoin/"> <img src="https://via.placeholder.com/500x350" alt="" width="500" class="fluid"></a>
+        </td>
+       </tr>
+       <!-- IMAGE: END -->
+       <!-- COPY: BEGIN -->
+       <tr>
+        <td align="center" valign="middle" style="padding: 25px 25px 0 25px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; color: #ffffff; text-align: center;">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex. 
+        </td>
+       </tr>
+       <!-- COPY: END -->
+       <!-- CTA: BEGIN -->    
+       <tr>
+        <td style="padding: 20px 25px 20px 25px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; color: #ffffff; text-align: center; font-weight: bold;"><a href="https://www.facebook.com/NGCcoin/" style="color: #ffffff; text-decoration: none;">Follow NGC, and never miss Coin of the Day&nbsp;> </a>
+        </td>
+       </tr>
+       <!-- CTA: END -->
+       <tr>
+        <td align="center" valign="middle" style="padding: 0px 20px 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; text-align: center; line-height: 1" >
+         <a href="https://www.facebook.com/NGCcoin/" target="_blank" style="color: #565B68"><img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/45f8d620-1345-44fe-9975-3474cca9b33e.png" alt="Facebook" width="30" height="30" border="0" /></a>&nbsp;&nbsp;<a href="https://twitter.com/NGCcoin" target="_blank" style="color: #565B68"><img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/36527864-b6d1-438c-b3b0-b735d3d9513e.png" alt="Twitter" width="30" height="30" border="0" /></a>&nbsp;&nbsp;<a href="https://www.instagram.com/ngccoins/" target="_blank" style="color: #565B68"><img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/b831a1ff-6acf-4235-ba75-e4ee79705313.png" alt="Instagram" width="30" height="30" border="0" /></a>&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCqRyAYkQNVGHF5G4j9LCMVQ" target="_blank" style="color: #565B68"><img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/3833856e-46a2-4d61-a287-f6cb2d4e81b4.png" alt="YouTube" width="30" height="30" border="0" /></a>&nbsp;&nbsp;<a href="https://www.pinterest.com/ngccoin/" target="_blank" style="color: #565B68"><img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/2745fd56-37ac-49dd-a8de-243e45415ed0.png" alt="Pinterest" width="30" height="30" border="0" /></a>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+                        <!--SOCIAL MEDIA: END -->
+                        <!--SOCIAL MEDIA: END -->
+                        <!-- UPCOMING SHOWS : BEGIN -->
+                         <!-- UPCOMING SHOWS : BEGIN -->
+  <table bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; border-top: 10px solid #f1f3f5;">
+   <tr>
+    <td style="padding-bottom: 35px;">
+     <div>
+      <table bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px;">
+       <tr>
+        <td bgcolor="#ffffff" style="padding: 30px 35px 0px 35px; color: #003090; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: left">Upcoming Shows
+        </td>
+       </tr>
+       <!-- INLINE IMAGE SHOW: BEGIN -->
+       <tr> 
+        <td align="center" valign="middle" style="background-color: #ffffff; font-size: 0; padding-top: 30px; padding-right: 10px; padding-left: 10px; padding-bottom: 0px;"> 
+                                        <!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="510">
+                                        <tr>
+                                        <td valign="top" width="280">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 280px; vertical-align: middle;" class="stack-column-center"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;"> 
+                                          <tr> 
+                                           <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"><a href="#"> <img src="https://via.placeholder.com/240x160" width="240" alt="" style="display: block;">  </a></td> 
+                                          </tr> 
+                                         </table> 
+                                        </div> 
+                                        <!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="265">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 265px; vertical-align: top;"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                          <tr> 
+                                           <td align="left" valign="middle" style="padding: 0px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #003090;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;" class="stack-column-center">Aliquam a varius quam</a>
+                                           </td> 
+                                          </tr>
+                                          <tr>
+                                           <tr>
+                                            <td align="center" valign="top" style="padding-top: 8px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;" class="stack-column-center">
+                                             Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+                                            </td>
+                                           </tr>
+                                           <tr>
+                                            <td align="left" valign="middle" style="padding: 8px 0px 15px 0px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #064C2A;"  class="stack-column-center">
+                                             <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read&nbsp;more&nbsp;></a>
+                                            </td>
+                                           </tr>
+                                          </table> 
+                                         </div> 
+                                      <!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                    <![endif]--> </td> 
+                                </tr>
+                                <!-- INLINE IMAGE SHOW: END -->
+                                <!-- TWO COLUMN BULLET POINTS: START -->
+                                <tr>
+                                 <td style="padding: 30px 0px 0px 0px;" class="l-Pad20">
+                                  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif;">
+                                   <tr> 
+                                    <td align="center" valign="middle" style="font-size: 0;"> 
+                                     <!-- COLUMN : BEGIN -->
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                                        <tr>
+                                        <td valign="top" width="235">
+                                        <![endif]-->                           
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 250px; vertical-align: middle;" class="stack-column-center"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;">
+                                          <tr>
+                                           <td align="center" valign="top" style="padding-top: 3px;" class="stack-column-center">
+                                            <table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;">
+                                             <!-- SHOW : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Show name</a></td>
+                                             </tr>
+                                             <!-- SHOW : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Show name</a></td>
+                                             </tr>
+                                             <!-- SHOW : END -->
+                                             <!-- SHOW : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Show name</a></td>
+                                             </tr>
+                                             <!-- SHOW : END -->
+
+                                            </table>
+                                           </td>
+                                          </tr>
+
+                                         </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        <!-- COLUMN : END -->
+                                        <!-- COLUMN : BEGIN -->
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 250px; vertical-align: top;" class="stack-column-center"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                          <tr>
+                                           <td align="center" valign="top" style="padding-top: 3px;" class="stack-column-center">
+                                            <table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;">
+                                             <!-- SHOW : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Show name</a></td>
+                                             </tr>
+                                             <!-- SHOW : END -->
+                                             <!-- SHOW : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Show name</a></td>
+                                             </tr>
+                                             <!-- SHOW : END -->
+                                             <!-- SHOW : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Show name</a></td>
+                                             </tr>
+                                             <!-- SHOW : END -->
+                                            </table>
+                                           </td>
+                                          </tr>
+                                         </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                    <![endif]--> 
+                                    <!-- COLUMN : END -->
+                                </td> 
+                            </tr> 
+                        </table>
+                    </td>
+                </tr>
+                <!-- TWO COLUMN BULLET POINTS: END -->     
+                <!-- 1-COLUMN BULLET POINTS : START -->
+                <tr>
+                 <td style="padding-top: 30px; font-size: 20px; line-height: 28px;">
+                  <table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;">
+                   <!-- ITEM : BEGIN -->                                 
+                   <tr>
+                    <td width="15" valign="top" align="left" style="padding-left: 50px;">&bull;</td>
+                    <td valign="bottom" align="left" style="font-size: 20px; line-height: 28px;padding-left: 6px; padding-bottom: 8px; padding-right: 20px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;" >Show name</a>: Location, date</td>
+                   </tr>
+                   <!-- ITEM : END -->
+                   <!-- ITEM : BEGIN -->
+                   <tr>
+                    <td width="15" valign="top" align="left" style="padding-left: 50px; padding-top: 8px;">&bull;</td>
+                    <td valign="bottom" align="left" style="font-size: 20px; line-height: 28px; padding-top: 8px; padding-left: 6px; padding-bottom: 8px; padding-right: 20px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Show name</a>: Location, date</td>
+                   </tr>
+                   <!-- ITEM : END -->
+                   <!-- ITEM : BEGIN -->
+                   <tr>
+                    <td width="15" valign="top" align="left" style="padding-left: 50px; padding-top: 8px;">&bull;</td>
+                    <td valign="bottom" align="left" style="font-size: 20px; line-height: 28px;padding-top: 8px; padding-left: 6px; padding-bottom: 8px; padding-right: 20px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;" >Show name</a>: Location, date</td>
+                   </tr>
+                   <!-- ITEM : END -->
+
+                  </table>
+                 </td>
+                </tr>
+                <!-- 1-COLUMN BULLET POINTS : END -->
+                <!-- HEADLINE AND BLURB FORMAT: START -->
+                <!-- SHOW BLURB: START -->
+                <tr> 
+                 <td align="left" valign="middle" style="padding: 30px 35px 0 35px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #003090;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur adipiscing </a>
+                 </td> 
+                </tr>
+                <tr>
+                 <td align="center" valign="top" style="padding: 8px 35px 0 35px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; text-align: left;">
+                  Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci. Ut dapibus dui non neque interdum, at bibendum metus finibus.  <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read&nbsp;more&nbsp;></a>
+                 </td>
+                </tr>
+                <!-- SHOW BLURB: END -->
+                <!-- SHOW BLURB: START -->
+                <tr> 
+                 <td align="left" valign="middle" style="padding: 25px 35px 0 35px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #003090;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur adipiscing </a>
+                 </td> 
+                </tr>
+                <tr>
+                 <td align="center" valign="top" style="padding: 8px 35px 0 35px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; text-align: left;">
+                  Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci. Ut dapibus dui non neque interdum, at bibendum metus finibus.    <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read&nbsp;more&nbsp;></a>
+                 </td>
+                </tr>
+                <!-- SHOW BLURB: END -->
+                <!-- HEADLINE AND BLURB FORMAT: END -->
+            </table>
+        </div>
+    </td>
+</tr>
+</table>
+<!-- UPCOMING SHOWS: END -->
+                          <!-- UPCOMING SHOWS : END -->  
+
+                          <!--INSTANT REPLAY: START -->
+                         <!--INSTANT REPLAY: START -->
+                          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #FFFFFF; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+                            <tbody>
+                                <!-- VIDEO THUMBNAIL: BEGIN -->
+                              <tr>
+                                <td> 
+                                  <a href="#"> <img src="https://via.placeholder.com/580x350" alt=""width="580" class="fluid"></a>
+                                </td>
+                              </tr>
+                                <!-- VIDEO THUMBNAIL: END -->
+                                <!-- HEADLINE: BEGIN -->
+                              <tr>
+                                <td bgcolor="#ffffff" style="padding: 20px 35px 0px 35px; color: #003090; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: left">Instant Replay
+                                </td>
+                              </tr>
+                                  <!-- HEADLINE: END -->
+                                  <!-- COPY: BEGIN -->
+                              <tr>
+                                <td valign="middle" style="padding: 10px 35px 20px 35px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;">
+                                  Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt.
+                                </td>
+                              </tr>
+                                  <!-- COPY: END -->
+                              <!-- INLINE BUTTONS : BEGIN -->
+                              <tr> 
+                               <td align="left" valign="middle" style="font-size: 0; padding-right: 40px; padding-left: 40px; padding-bottom: 30px;"> 
+                                        <!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="340">
+                                        <tr>
+                                        <td valign="top" width="145">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 145px; max-width: 145px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: center;"> 
+                                            <!-- BUTTON: START -->
+                                            <tr>
+                                              <td style="padding: 5px 0;">
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td class="button-td dark-button-td" style="border: 1.1px solid #0F76CE; background: #0F76CE; text-align: center; border-radius: 15px solid #0F76CE;">
+                                                        <div><a href="#" style="background: #ffffff;  border-top: 14px solid #ffffff; border-bottom: 12px solid #ffffff; border-left: 20px solid #ffffff; border-right: 20px solid #ffffff; font-family: Arial, sans-serif; font-size: 16px; line-height: 16px; text-align: center; display: block; -webkit-font-smoothing: antialiased;text-decoration: none; color: #0F76CE; font-weight: bold;" target="_blank">Watch now</a></div>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <!-- BUTTON: END -->
+                                          </table> 
+                                        </div>  
+                                        <!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="145">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 145px; max-width: 145px; vertical-align: middle;" class="stack-column-center"> 
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: center;"> 
+                                            <!-- BUTTON: START -->
+                                            <tr>
+                                              <td style="padding: 5px 0;">
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td class="button-td dark-button-td" style="border: 1.1px solid #0F76CE; background: #0F76CE; text-align: center; border-radius: 15px solid #0F76CE;">
+                                                        <div><a href="https://www.youtube.com/channel/UC0F60LLZeNrnTi4a-FLqhyg" style="background: #ffffff;  border-top: 14px solid #ffffff; border-bottom: 12px solid #ffffff; border-left: 20px solid #ffffff; border-right: 20px solid #ffffff; font-family: Arial, sans-serif; font-size: 16px; line-height: 16px; text-align: center; display: block; -webkit-font-smoothing: antialiased;text-decoration: none; color: #0F76CE; font-weight: bold;" target="_blank">Subscribe</a></div>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <!-- BUTTON: END -->
+                                          </table> 
+                                        </div> 
+                                        <!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                      <![endif]--> </td> 
+                                    </tr> 
+                                    <!-- INLINE BUTTONS : END --> 
+                                  </tbody>
+                                </table>
+                                <!--INSTANT REPLAY: END -->
+                                <!--INSTANT REPLAY: END -->
+               <!--NCS CONSERVATION: START -->
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif; background-color: #05132A; border-top: 10px solid #f3f3f3;  max-width: 580px;"> 
+  <tbody>
+   <tr>
+    <td bgcolor="#552684" style="padding: 35px 35px 30px 35px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: left">NCS Conservation
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#552684" class="outer-wrapper" style="padding: 0px 30px 30px 30px;">
+     <table bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; text-align: center;">
+      <tbody>
+       <!-- IMAGE: BEGIN -->
+       <tr>
+        <td style="padding: 20px 20px 15px 20px;">
+         <a href="#"> <img src="https://via.placeholder.com/475x275" alt="" width="475" class="fluid"></a>
+        </td>
+       </tr>
+       <!-- IMAGE: END -->
+       <!-- HEADLINE: BEGIN -->
+       <tr> 
+        <td align="left" valign="middle" style="padding: 0px 25px 0 25px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #552684;  text-align: left !important;"><a href="#" style="color: #552684; text-decoration: none; font-weight: bold;">Donec ultrices augue a lobortis efficitur</a>
+        </td> 
+       </tr>
+       <!-- HEADLINE: END -->
+       <!-- COPY: BEGIN -->
+       <tr>
+        <td align="left" valign="middle" style="padding: 10px 25px 25px 25px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #000000;">
+         Praesent mauris est, volutpat quis ipsum ac, condimentum fringilla dui. <a href="#" target="_blank" style="color: #0F76C3; text-decoration: none; font-weight: bold;">Read&nbsp;more&nbsp;></a>
+        </td>
+       </tr>
+       <!-- COPY: END -->
+      </tbody>
+     </table>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+                                <!--NCS CONSERVATION: END -->
+                                <!-- AUCTIONS : BEGIN -->
+                                <!-- MORE AUCTIONS TO WATCH : BEGIN -->
+  <table bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; border-top: 10px solid #f1f3f5;">
+   <tr>
+    <td style="padding-bottom: 35px;">
+     <div>
+      <table bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width: 580px;">
+       <tr>
+        <td bgcolor="#ffffff" style="padding: 30px 35px 0px 35px; color: #003090; font-family: Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; font-weight: bold; text-align: left">More Auctions to Watch
+        </td>
+       </tr>
+       <!-- INLINE IMAGE AUCTION: BEGIN -->
+       <tr> 
+        <td align="center" valign="middle" style="background-color: #ffffff; font-size: 0; padding-top: 30px; padding-right: 10px; padding-left: 10px; padding-bottom: 0px;"> 
+                                        <!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="510">
+                                        <tr>
+                                        <td valign="top" width="280">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 280px; vertical-align: middle;" class="stack-column-center"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 22px; color: #333333; text-align: left;"> 
+                                          <tr> 
+                                           <td align="center" valign="middle" style="padding: 0px 0 20px 0px; line-height: 1; font-family: Arial, Helvetica, sans-serif;"><a href="#"> <img src="https://image.email.ngccoin.com/lib/fe2f11727364047f701c74/m/1/5f1149ea-ea9d-4ca4-ae92-9dbec3d1c11b.jpg" width="240" alt="" style="display: block;">  </a></td> 
+                                          </tr> 
+                                         </table> 
+                                        </div> 
+                                        <!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="265">
+                                        <![endif]--> 
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 265px; vertical-align: top;"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                          <tr> 
+                                           <td align="left" valign="middle" style="padding: 0px 0px 0 0px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #003090;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;" class="stack-column-center">Aliquam a varius quam</a>
+                                           </td> 
+                                          </tr>
+                                          <tr>
+                                           <tr>
+                                            <td align="center" valign="top" style="padding-top: 8px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; text-align: left;" class="stack-column-center">
+                                             Vivamus eget semper ante, in blandit libero. Aenean elit velit, tincidunt id risus sed.
+                                            </td>
+                                           </tr>
+                                           <tr>
+                                            <td align="left" valign="middle" style="padding: 8px 0px 15px 0px;  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #064C2A;"  class="stack-column-center">
+                                             <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read&nbsp;more&nbsp;></a>
+                                            </td>
+                                           </tr>
+                                          </table> 
+                                         </div> 
+                                      <!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                    <![endif]--> </td> 
+                                </tr>
+                                <!-- INLINE IMAGE AUCTION: END -->
+                                <!-- TWO COLUMN BULLET POINTS: START -->
+                                <tr>
+                                 <td style="padding: 30px 0px 0px 0px;" class="l-Pad20">
+                                  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, Helvetica, sans-serif;">
+                                   <tr> 
+                                    <td align="center" valign="middle" style="font-size: 0;"> 
+                                     <!-- COLUMN : BEGIN -->
+<!--[if mso]>
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="470">
+                                        <tr>
+                                        <td valign="top" width="235">
+                                        <![endif]-->                           
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 250px; vertical-align: middle;" class="stack-column-center"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;">
+                                          <tr>
+                                           <td align="center" valign="top" style="padding-top: 3px;" class="stack-column-center">
+                                            <table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;">
+                                             <!-- AUCTION : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Auction name</a></td>
+                                             </tr>
+                                             <!-- AUCTION : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Auction name</a></td>
+                                             </tr>
+                                             <!-- AUCTION : END -->
+                                             <!-- AUCTION : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Auction name</a></td>
+                                             </tr>
+                                             <!-- AUCTION : END -->
+
+                                            </table>
+                                           </td>
+                                          </tr>
+                                          
+                                         </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        <td valign="top" width="235">
+                                        <![endif]--> 
+                                        <!-- COLUMN : END -->
+                                        <!-- COLUMN : BEGIN -->
+                                        <div style="display: inline-block; width: 100%; min-width: 215px; max-width: 250px; vertical-align: top;" class="stack-column-center"> 
+                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; text-align: left;"> 
+                                          <tr>
+                                           <td align="center" valign="top" style="padding-top: 3px;" class="stack-column-center">
+                                            <table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;">
+                                             <!-- AUCTION : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Auction name</a></td>
+                                             </tr>
+                                             <!-- AUCTION : END -->
+                                             <!-- AUCTION : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Auction name</a></td>
+                                             </tr>
+                                             <!-- AUCTION : END -->
+                                             <!-- AUCTION : BEGIN -->
+                                             <tr>
+                                              <td width="15" valign="top" align="left" style="padding-left: 10px;">&bull;</td>
+                                              <td valign="top" align="left" style="padding-left: 5px; padding-right: 6px; padding-bottom: 12px; font-size: 20px; line-height: 28px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Auction name</a></td>
+                                             </tr>
+                                             <!-- AUCTION : END -->
+                                            </table>
+                                           </td>
+                                          </tr>
+                                         </table> 
+                                        </div> 
+<!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                    <![endif]--> 
+                                    <!-- COLUMN : END -->
+                                </td> 
+                            </tr> 
+                        </table>
+                    </td>
+                </tr>
+                <!-- TWO COLUMN BULLET POINTS: END -->     
+                
+                <!-- 1-COLUMN BULLET POINTS : START -->
+                <tr>
+                 <td style="padding-top: 30px; font-size: 20px; line-height: 28px;">
+                  <table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;">
+                   <!-- ITEM : BEGIN -->                                 
+                   <tr>
+                    <td width="15" valign="top" align="left" style="padding-left: 50px;">&bull;</td>
+                    <td valign="bottom" align="left" style="font-size: 20px; line-height: 28px;padding-left: 6px; padding-bottom: 8px; padding-right: 20px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;" >Auction name</a>: Location, date</td>
+                   </tr>
+                   <!-- ITEM : END -->
+                   <!-- ITEM : BEGIN -->
+                   <tr>
+                    <td width="15" valign="top" align="left" style="padding-left: 50px; padding-top: 8px;">&bull;</td>
+                    <td valign="bottom" align="left" style="font-size: 20px; line-height: 28px; padding-top: 8px; padding-left: 6px; padding-bottom: 8px; padding-right: 20px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Auction name</a>: Location, date</td>
+                   </tr>
+                   <!-- ITEM : END -->
+                   <!-- ITEM : BEGIN -->
+                   <tr>
+                    <td width="15" valign="top" align="left" style="padding-left: 50px; padding-top: 8px;">&bull;</td>
+                    <td valign="bottom" align="left" style="font-size: 20px; line-height: 28px;padding-top: 8px; padding-left: 6px; padding-bottom: 8px; padding-right: 20px;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;" >Auction name</a>: Location, date</td>
+                   </tr>
+                   <!-- ITEM : END -->
+                   
+                  </table>
+                 </td>
+                </tr>
+                <!-- 1-COLUMN BULLET POINTS : END -->
+                <!-- HEADLINE AND BLURB FORMAT: START -->
+                <!-- AUCTION BLURB: START -->
+                <tr> 
+                 <td align="left" valign="middle" style="padding: 30px 35px 0 35px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #003090;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur adipiscing </a>
+                 </td> 
+                </tr>
+                <tr>
+                 <td align="center" valign="top" style="padding: 8px 35px 0 35px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; text-align: left;">
+                  Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci. Ut dapibus dui non neque interdum, at bibendum metus finibus.    <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read&nbsp;more&nbsp;></a>
+                 </td>
+                </tr>
+                <!-- AUCTION BLURB: END -->
+                <!-- AUCTION BLURB: START -->
+                <tr> 
+                 <td align="left" valign="middle" style="padding: 25px 35px 0 35px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 27px; color: #003090;  text-align: left !important;"><a href="#" style="color: #003090; text-decoration: none; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur adipiscing </a>
+                 </td> 
+                </tr>
+                <tr>
+                 <td align="center" valign="top" style="padding: 8px 35px 0 35px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; text-align: left;">
+                  Pellentesque ex tortor, suscipit nec felis vel, pulvinar fringilla mi. Phasellus quis ex orci. Ut dapibus dui non neque interdum, at bibendum metus finibus.    <a href="#" target="_blank" style="color: #0F76CE; text-decoration: none; font-weight: bold;"> Read&nbsp;more&nbsp;></a>
+                 </td>
+                </tr>
+                <!-- AUCTION BLURB: END -->
+                <!-- HEADLINE AND BLURB FORMAT: END -->
+            </table>
+        </div>
+    </td>
+</tr>
+</table>
+<!-- MORE AUCTIONS TO WATCH: END -->
+                <!-- AUCTIONS : END -->
+             
+                <!-- EMAIL FOOTER : BEGIN -->
+                <div bgcolor= "#E0E0E0">
+                  <table style="width: 100%; max-width: 580px; text-align: center;" cellspacing="0" cellpadding="0" border="0" bgcolor="#E0E0E0" align="center">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 40px 20px 10px 20px;" align="center"><a href="https://www.facebook.com/NGCcoin/" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/eff1e24d-db56-4c1a-9167-eb493e8180ab.png" alt="Facebook" width="30" height="30" border="0" /></a>&nbsp;<a href="https://twitter.com/NGCcoin" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/5d7938ec-40b2-4c98-85cf-5443ec078394.png" alt="Twitter" width="30" height="30" border="0" /></a>&nbsp;<a href="https://www.instagram.com/ngccoins/" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/6741b75d-d33b-4375-b322-5cc213a7d8c6.png" alt="Instagram" width="30" height="30" border="0" /></a>&nbsp;<a href="https://www.youtube.com/channel/UCqRyAYkQNVGHF5G4j9LCMVQ" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/f4f1a4f3-d979-46c3-8a81-3191cadbec3b.png" alt="YouTube" width="30" height="30" border="0" /></a>&nbsp;<a href="https://www.pinterest.com/ngccoin/" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/40815c2f-5def-4c95-81ca-233692ce3e5a.png" alt="Pinterest" width="30" height="30" border="0" /></a></td>
+                      </tr>
+                      <tr>
+                        <td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 11px; line-height: 17px; color: #69738a; text-align: center; padding: 0 20px 35px 20px;" align="center">NGC<br /> P.O. Box 4776, Sarasota, FL 34230<br /> To update your email preferences or unsubscribe, <a href="%%=RedirectTo(CloudPagesURL(363))=%%" target="_blank" style="color: #69738a;" class="mktNoTok mktNoTrack"><span style="color: #69738a;">click here</span></a>.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- EMAIL FOOTER : END -->  
+              </td>
+            </tbody>
+          </table>
+                  <!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]-->
+              <custom name="opencounter" type="tracking"/>
+            </div>
+          </center>
+        </div>
+      </body>
+      </html>
