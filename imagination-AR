@@ -1,0 +1,292 @@
+<!--
+  templateType: "email"
+  isAvailableForNewContent: true
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html lang="en">
+<head>
+<title>Imagination</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+@media screen {
+	@font-face {
+	  font-family: 'HelveticaNeueLTStd-Blk';
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Blk.eot'); /* IE9 Compat Modes */
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Blk.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Blk.woff') format('woff'), /* Pretty Modern Browsers */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Blk.ttf')  format('truetype'), /* Safari, Android, iOS */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Blk.svg#HelveticaNeueLTStd-Blk') format('svg'); /* Legacy iOS */
+	}
+	@font-face {
+	  font-family: 'HelveticaNeueLTStd-Md';
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Md.eot'); /* IE9 Compat Modes */
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Md.woff') format('woff'), /* Pretty Modern Browsers */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Md.ttf')  format('truetype'), /* Safari, Android, iOS */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg'); /* Legacy iOS */
+	}
+	@font-face {
+	  font-family: 'HelveticaNeueLTStd-Roman';
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Roman.eot'); /* IE9 Compat Modes */
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Roman.woff') format('woff'), /* Pretty Modern Browsers */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Roman.svg#HelveticaNeueLTStd-Roman') format('svg'); /* Legacy iOS */
+	}
+	@font-face {
+	  font-family: 'HelveticaNeueLTStd-Bd';
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Bd.eot'); /* IE9 Compat Modes */
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Bd.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Bd.woff') format('woff'), /* Pretty Modern Browsers */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Bd.ttf')  format('truetype'), /* Safari, Android, iOS */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd') format('svg'); /* Legacy iOS */
+	}
+	@font-face {
+	  font-family: 'HelveticaNeueLTStd-Lt';
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Lt.eot'); /* IE9 Compat Modes */
+	  src: url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Lt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Lt.woff') format('woff'), /* Pretty Modern Browsers */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Lt.ttf')  format('truetype'), /* Safari, Android, iOS */
+	       url('https://ip-devs.s3.amazonaws.com/Imagination/website_2017/fonts/HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg'); /* Legacy iOS */
+	   }
+	}
+	.ExternalClass .not-for-outlook,
+	[owa] .not-for-outlook {
+	  		display: none!important;
+	  		mso-hide: all!important;
+	  		overflow: hidden!important;
+	  		height: 0px!important;
+	  		max-height: 0px!important;
+	} 
+
+	@media screen and (min-width: 599px) {
+		.desktop {
+	  		display: block!important;
+	  		mso-hide: none!important;
+	  		height: auto!important;
+	  		max-height: none!important;
+	  		
+	  	}
+	  	.mobile {
+	  		display: none!important;
+	  		mso-hide: all!important;
+	  		overflow: hidden!important;
+	  		height: 0px!important;
+	  		max-height: 0px!important;
+		}
+		a.display {
+			display: block!important;
+		}
+	 	.float {
+		float:left!important;
+		}
+		.underright {
+		padding:5px 0px 0px 35px!important; 
+		}
+		
+		.headersplit {
+		display: inline-block!important;
+		text-align: left!important;
+		}
+		
+	}
+
+
+	/* CLIENT-SPECIFIC STYLES */
+	#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+	.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+	.ExternalClass, .ExternalClass p, .ExternalClass a, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div,  {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+	body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+	table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+	img{-ms-interpolation-mode:bicubic;display:block;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+	/* RESET STYLES */
+	body{margin:0; padding:0;}
+	img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+	table{border-collapse:collapse!important;}
+	body{height:100%!important; margin:0; padding:0; width:100%!important;}
+
+	/* iOS BLUE LINKS */
+	.appleBody a {color:#68440a; text-decoration: none;}
+	.appleFooter a {color:#999999; text-decoration: none;}
+
+	
+
+</style>
+<!--[if gte mso 7]><xml>
+  <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml><![endif]-->
+</head>
+<body>
+	<center>
+	<!--[if (gte mso 9)|(IE)]>
+	<table width="600" align="center" cellpadding="0" cellspacing="0" border="0" style="width:600px;margin:0px auto;">
+    	<tr>
+         	<td>
+	<![endif]-->
+		<!--Preheader Text-->
+        <div style="display: none; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all;">Content for thought leaders.</div>
+
+<div style="display: none; max-height: 0; overflow: hidden;"><!--creates whitespace after end of preheader
+-->&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</div>
+        
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width:600px; margin: 0px auto; border-collapse:collapse; background-color: #fff;">
+			<tr>
+				<td>
+                </td>
+            </tr>
+			<tr>
+				<td class="desktop" style="padding:20px 20px 20px;display:none;mso-hide:all;overflow:hidden;max-height:0;">
+					<table class="desktop" border="0" cellspacing="0" cellpadding="0" style="width: 100%;display:none;mso-hide:all;overflow:hidden;max-height:0;">
+						<tr>	
+							<td width="220"><a class="display" href="https://www.imaginepub.com/" style="outline:none;border-style:none;width:220px;" tabindex="1"><!--[if !mso]><!-- --><img src="https://cdn2.hubspot.net/hubfs/304235/footer_imagination-1.png" style="mso-hide:all;width:220px;" alt="Imagination"><!--<![endif]--><!--[if mso]><img src="https://cdn2.hubspot.net/hubfs/304235/footer_imagination-1.png" alt="Imagination" width="220"><![endif]--></a>
+							</td>
+							<td style="width: 100%;font-size: 13px; line-height: 20px;font-family: Helvetica, Arial, sans-serif;white-space: nowrap;text-align: right;"><nobr><a href="https://www.imaginepub.com/our-work#financialservices" target="_blank" style="text-decoration: none;color:#333333;" tabindex="2" ><span style="font-family:'HelveticaNeueLTStd-Blk', Helvetica, Arial, sans-serif;font-weight: 900;">financial services</span></a> &#8226;
+								<a href="https://www.imaginepub.com/our-work#b2b" target="_blank" style="text-decoration: none;color:#333333;font-size: 13px; line-height: 20px;" tabindex="3"><span style="font-family:'HelveticaNeueLTStd-Blk', Helvetica, Arial, sans-serif;font-weight: 900;">b2b</span></a> &#8226;
+								<a href="https://www.imaginepub.com/our-work#retail" target="_blank" style="text-decoration: none;color:#333333;font-size: 13px; line-height: 20px;" tabindex="4"><span style="font-family:'HelveticaNeueLTStd-Blk', Helvetica, Arial, sans-serif;font-weight: 900;">retail</span></a> &#8226;
+								<a href="https://www.imaginepub.com/our-work#associations" target="_blank" style="text-decoration: none;color:#333333;font-size: 13px; line-height: 20px;" tabindex="5"><span style="font-family:'HelveticaNeueLTStd-Blk', Helvetica, Arial, sans-serif;font-weight: 900;">associations</span></a></nobr>		
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!--Mobile-->
+			<tr>
+				<td class="mobile" style="padding:20px 10px 15px;">
+					<table class="mobile" border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
+						<tr>	
+							<td align="center" width="220" style="width:100%;margin: 0px auto;padding-bottom: 7px;">
+								<a href="https://www.imaginepub.com/" style="outline:none;border-style:none;width:220px;display: block;" tabindex="1"><!--[if !mso]><!-- --><img src="https://cdn2.hubspot.net/hubfs/304235/footer_imagination-1.png" style="mso-hide:all;width:220px;" alt="Imagination"><!--<![endif]--><!--[if mso]><img src="https://cdn2.hubspot.net/hubfs/304235/footer_imagination-1.png" alt="Imagination" width="220"><![endif]--></a>
+							</td>
+						</tr>
+						<tr>	
+							<td align="center" width="100%" style="width: 100%;font-size: 13px; line-height: 20px;font-family: Helvetica, Arial, sans-serif;white-space: nowrap;margin: 0px auto;"><nobr><a href="https://www.imaginepub.com/our-work#financialservices" target="_blank" style="text-decoration: none;color:#333333;" tabindex="2"><span style="font-family:'HelveticaNeueLTStd-Blk', Helvetica, Arial, sans-serif;font-weight: 900;">financial services</span></a> &#8226;
+								<a href="https://www.imaginepub.com/our-work#b2b" target="_blank" style="text-decoration: none;color:#333333;font-size: 13px; line-height: 20px;" tabindex="3"><span style="font-family:'HelveticaNeueLTStd-Blk', Helvetica, Arial, sans-serif;font-weight: 900;">b2b</span></a> &#8226;
+								<a href="https://www.imaginepub.com/our-work#retail" target="_blank" style="text-decoration: none;color:#333333;font-size: 13px; line-height: 20px;" tabindex="4"><span style="font-family:'HelveticaNeueLTStd-Blk', Helvetica, Arial, sans-serif;font-weight: 900;">retail</span></a> &#8226;
+								<a href="https://www.imaginepub.com/our-work#associations" target="_blank" style="text-decoration: none;color:#333333;font-size: 13px; line-height: 20px;" tabindex="5"><span style="font-family:'HelveticaNeueLTStd-Blk', Helvetica, Arial, sans-serif;font-weight: 900;">associations</span></a></nobr>		
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<!--Begin Hero Desktop-->
+			<tr>
+				<td class="desktop" style="width:100%; text-align:center;display:none;mso-hide:all;overflow:hidden;max-height:0;"><img src="https://www.imaginepub.com/wp-content/uploads/2023/02/welcome_letter2.gif" alt="You’re all signed up." style="">
+				</td>
+			</tr>
+			<!--Begin Hero Mobile-->
+			<tr>
+				<td class="mobile" style="width:100%; text-align:center;"><img src="https://www.imaginepub.com/wp-content/uploads/2023/02/welcome_letter2.gif" style="width:100%;" alt="You’re all signed up.">
+				</td>
+			</tr>
+			<!--Body Copy-->
+			<tr>
+				<td style="width:100%; padding:25px 25px 35px; text-align: left; color:#666; font-size:13px; line-height: 20px; font-family: Helvetica, Arial, sans-serif;">
+					<table border="0" cellspacing="0" cellpadding="0" width="600" style="width:100%;">
+						<tr>
+							<td style="font-family:'HelveticaNeueLTStd-Lt', Helvetica, Arial, sans-serif;color:#666;font-size:13px;line-height: 20px;" tabindex="6">{{#if Recipient.FirstName}} Hi {{Recipient.FirstName}}, {{else}} Hello, {{/if}}
+							</td>
+						</tr>
+						<tr>
+							<td style="font-family:'HelveticaNeueLTStd-Lt', Helvetica, Arial, sans-serif;padding-top: 20px;color:#666;font-size:13px;line-height: 20px;" tabindex="7">Thanks for joining the imagineNation newsletter. We’re happy to have you!
+
+							</td>
+						</tr>
+						<tr>
+							<td style="font-family:'HelveticaNeueLTStd-Lt', Helvetica, Arial, sans-serif;padding-top: 20px;font-weight: bold;color:#666;font-size:13px;line-height: 20px;" tabindex="8">Here’s what we promise to deliver:
+							</td>
+						</tr>
+						<tr>
+							<td style="font-family:'HelveticaNeueLTStd-Lt', Helvetica, Arial, sans-serif;color:#666;font-size:13px;line-height: 20px; padding-top: 10px;"><span tabindex="9" style="color:#F79727;padding-right:3px;">&#9632;</span> Cutting-edge thought leadership you can use
+							</td>
+						</tr>
+						<tr>
+							<td style="font-family:'HelveticaNeueLTStd-Lt', Helvetica, Arial, sans-serif;color:#666;font-size:13px;line-height: 20px;padding-top: 10px;"><span tabindex="10" style="color:#F79727;padding-right:3px;">&#9632;</span> Content marketing insights from our Imagineer experts
+							</td>
+						</tr>
+						<tr>
+							<td style="font-family:'HelveticaNeueLTStd-Lt', Helvetica, Arial, sans-serif;color:#666;font-size:13px;line-height: 20px;padding-top: 10px;"><span tabindex="11" style="color:#F79727;padding-right:3px;">&#9632;</span> Creativity, passion and no-BS journalism
+							</td>
+						</tr>
+					
+						<tr>
+							<td style="font-family:'HelveticaNeueLTStd-Lt', Helvetica, Arial, sans-serif;padding-top: 20px;color:#666;font-size:13px;line-height: 20px;" tabindex="14">Thanks again for starting this journey with us!
+ 
+							</td>
+						</tr>
+						<tr>
+							<td width="55" style="width:55px; text-align:left;padding-top: 15px;"><img src="https://www.imaginepub.com/wp-content/uploads/2023/02/jim-headshot-signoff-dm.png?=v2" alt="Headshot of James Meyers"  style=""> 
+							</td>
+						</tr>
+						<tr>
+							<td style="font-family:'HelveticaNeueLTStd-Lt', Helvetica, Arial, sans-serif;padding-top: 6px;font-size: 13px;line-height: 17px;color:#666;">James Meyers<br>
+								Founder, President and CEO	
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+            <!--Footer-->
+        
+                  <tr>
+				<td align="center" style="padding: 30px 30px 0 30px;  background-color: #ededed;">
+					<table align="center" border="0" cellspacing="0" cellpadding="0" style="">
+						<tr>
+							<td style="padding:0px 5px;"><a target="_blank" href="https://twitter.com/ContentImagine" alt="Twitter"><img src="https://www.imaginepub.com/wp-content/uploads/2023/02/Twitter.jpg" alt="Twitter" width="25" style="display: inline;"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/Imaginationcontent/"><img src="https://www.imaginepub.com/wp-content/uploads/2023/02/Facebook.jpg"  alt="Facebook" width="25" style="display: inline;"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/company/imagination-publishing"><img src="https://www.imaginepub.com/wp-content/uploads/2023/02/LinkedIn.jpg" alt="Linkedin" width="25" style="display: inline;"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/imaginationcontent/"><img src="https://www.imaginepub.com/wp-content/uploads/2023/02/Instagram.jpg" 
+alt="Instagram" width="25" style="display: inline;"></a> 
+							</td>
+						</tr>
+					</table>		
+				</td>	
+			</tr>
+            	<tr>
+				<td height="30" width="220" align="center" style="padding:10px 25px 3px 25px; background-color:#ededed; width:220px;height:30px;"><a tabindex="19" href="https://www.imaginepub.com/" target="_blank" alt="Imagination"><img src="https://cdn2.hubspot.net/hubfs/304235/footer_imagination-1.png" style="border: none;outline: none; width: 185px;"></a>
+				</td>
+			</tr>
+            	<tr>
+				<td align="center" style="background-color:#ededed;font-size: 11px;color:#666666!important;line-height:130%; padding:0px 55px 15px;font-family:Helvetica, Arial, sans-serif;text-align: center;font-weight:bold;"><span style="font-family:'HelveticaNeueLTStd-Blk', Helvetica, Arial, sans-serif;color:#666666!important;font-weight:bold;">pioneering content marketing for nearly 25 years</span>
+				</td>
+			</tr>
+            <tr>
+				<td class="footpad" align="center" style="background-color:#ededed;font-size: 12px;color:#6f6f6f;line-height: 130%; padding: 0px 50px 10px;font-family:Helvetica, Arial, sans-serif;text-align: center;" tabindex="18"><span style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#666666!important;">Update your</span> <a href="https://engage.themxgroup.com/preference-center" target="_blank" style="text-decoration: none;font-family:Helvetica, Arial, sans-serif;"><span style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#f69627;text-decoration: none;">email preferences</span>	
+				</a><span style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#6f6f6f!important;"> to choose the types of emails you receive.</span>
+				</td>
+			</tr>
+            	<tr>
+				<td align="center" style="background-color:#ededed;font-size: 12px;color:#6f6f6f;line-height:130%; padding:0px 55px 10px;font-family:Helvetica, Arial, sans-serif;text-align: center;" tabindex="20"><span style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#6f6f6f!important;"> 1146 19th St. NW, Suite 850 Washington, DC 20036</span>
+				</td>
+			</tr>
+             	<tr>
+				<td align="center" style="background-color:#ededed;font-size: 12px;color:#6f6f6f;line-height:130%; padding:0px 55px 10px;font-family:Helvetica, Arial, sans-serif;text-align: center;"><span style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#6f6f6f!important;">&#169; Imagination. All rights reserved.</span>
+				</td>
+			</tr>
+			<tr>
+                <td align="center" style="background-color:#ededed;font-size: 12px;color:#666666!important;line-height:130%; padding:0px 55px 25px;font-family:Helvetica, Arial, sans-serif;text-align: center;"><a href="https://www.imaginepub.com/privacy-policy" style="text-decoration: none;font-family:Helvetica, Arial, sans-serif;" target="_blank" tabindex="22"><span style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#f69627;text-decoration: none;">Privacy Policy</span></a> | <a href="https://www.imaginepub.com/contact" style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#F69627!important;text-decoration: none;" target="_blank" tabindex="23"><span style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#f69627;text-decoration: none;">Contact</span></a> | <a href="https://www.imaginepub.com/about-us"
+style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#F69627!important;text-decoration: none;" target="_blank" tabindex="24"><span style="font-family:'HelveticaNeueLTStd-Md', Helvetica, Arial, sans-serif;color:#f69627;text-decoration: none;">About us</span></a>
+				</td>
+			</tr>
+           
+		</table>
+        
+		<!--[if mso]>
+		</td></tr></table>
+		</center>
+		<![endif]-->
+
+					<!--[if IE]>
+				</td>
+			</tr>		
+		</table>
+		<![endif]-->
+		<div style="display: none;">https://engage.themxgroup.com/unsubscribe/u/813373 </div>
+	</center>
+</body>
+</html>			
+
