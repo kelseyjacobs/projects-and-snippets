@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<title>Announcement Email Inline Image</title>
+<head>
+ <!--Help character display properly.-->
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <!--Set the initial scale of the email.-->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!--Force Outlook clients to render with a better MS engine.-->
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <!--Help prevent blue links and autolinking-->
+ <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+ <!--prevent Apple from reformatting and zooming messages.-->
+ <meta name="x-apple-disable-message-reformatting">
+
+ <!--target dark mode-->
+ <meta name="color-scheme" content="light dark">
+ <meta name="supported-color-schemes" content="light dark only">
+
+ <!-- Allow for better image rendering on Windows hi-DPI displays. -->
+          <!--[if mso]>
+          <noscript>
+          <xml>
+          <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+          </xml>
+          </noscript>
+         <![endif]-->
+
+         <!--to support dark mode meta tags-->
+         <style type="text/css">
+          :root {
+           color-scheme: light dark;
+           supported-color-schemes: light dark;
+          }
+         </style>
+
+         <!--webfont code goes here-->
+         <!--[if (gte mso 9)|(IE)]><!-->
+         <!--webfont <link /> goes here-->
+         <style>
+               /*Web font override goes here
+               h1, h2, h3, h4, h5, p, a, img, span, ul, ol, li { font-family: 'webfont name', Arial, Helvetica, sans-serif !important; } */
+              </style>
+              <!--<![endif]-->
+
+              <style type="text/css">
+               .body-fix {
+                height: 100% !important;
+                margin: 0 auto !important;
+                padding: 0 !important;
+                width: 100% !important;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+                -webkit-font-smoothing: antialiased;
+                word-spacing: normal;
+               }
+
+               div[style*="margin:16px 0"] {
+                margin: 0 !important;
+               }
+
+               table, td {
+                border-collapse: collapse !important;
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+               }
+
+               img {
+                border: 0;
+                line-height: 100%;
+                outline: none;
+                text-decoration: none;
+               }
+
+               p, h1, h2, h3 {
+                padding: 0;
+                margin: 0;
+               }
+
+               a[x-apple-data-detectors] {
+                color: inherit !important;
+                text-decoration: none !important;
+                font-size: inherit !important;
+                font-family: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+               }
+
+               u+#body a {
+                color: inherit;
+                text-decoration: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: inherit;
+                line-height: inherit;
+               }
+
+               #MessageViewBody a {
+                color: inherit;
+                text-decoration: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: inherit;
+                line-height: inherit;
+               }
+
+              </style>
+
+              <!--mobile styles-->
+              <style>
+               @media screen and (max-width:600px) {
+                .w90p { width: 90% !important; }
+                .w95p { width: 95% !important; }
+                .w100p { width: 100% !important; }
+
+                .imgFull { width: 100% !important; height: auto !important; }
+
+                .desktop { width: 0 !important; display: none !important; }
+                .mobile { display: block !important; }
+
+                h1 { font-size: 50px !important; line-height: 60px !important; }
+                .std { font-size: 18px !important; line-height: 28px !important; }
+
+                .cTxt { text-align: center !important; }
+
+                .tPad-0 { padding-top: 0 !important; }
+                .rPad-0 { padding-right: 0 !important; }
+                .lPad-0 { padding-left: 0 !important; }
+                .bPad-30 { padding-bottom: 30px !important; }
+                .bPad-20 { padding-bottom: 20px !important; }
+                   .bPad-30 { padding-bottom: 30px !important; }
+                .bPad-7 { padding-bottom: 7px !important; }
+                .tPad-15 { padding-top: 15px !important; }
+                .tPad-10 { padding-top: 10px !important; }
+                .tPad-5 { padding-top: 5px !important; }
+
+                .mobile-headline-size {
+                 font-size: 24px !important; 
+                 line-height: 30px !important;
+                   }
+                .mobile-subhead-size {
+                 font-size: 20px !important; 
+                 line-height: 26px !important;
+                   }   
+                   .mobile-width {
+                    width: 230px !important;
+                   }
+                   .stack-column,
+      .stack-column-center {
+        direction: ltr !important;
+        display: block !important;
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+      .stack-column-center {
+        text-align: center !important;
+      }
+      .center-on-narrow {
+        display: block !important;
+        float: none !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+      }
+               }
+              </style>
+
+              <!--dark mode styles-->
+              <style>
+               @media (prefers-color-scheme: dark) {
+
+                .dark-img {
+                 display: block !important;
+                 overflow: visible !important;
+                 visibility: visible !important;
+                }
+
+                .light-img { display: none; display: none !important; }
+
+                /* Custom Dark Mode Background Color */
+                .darkmode { background-color: #100E11 !important; }
+                .darkmode2 { background-color: #020203 !important; }
+                .darkmode3 { background-color: #222023 !important; }
+
+                /* Custom Dark Mode Font Colors */
+                h1, h3, p, span, a { color: #fdfdfd !important; }
+                h2, h2 a { color: #028383 !important; }
+                .white { color: #fdfdfd !important; }
+
+                .dark-btn {
+                 border: 1px solid #ffffff !important;
+                }
+                .dark-text {
+                 color: #ffffff !important;
+                }
+               }
+               /* Copy dark mode styles for android support */
+               /* Shows Dark Mode-Only Content, Like Images */
+               [data-ogsc] .dark-img {
+                display: block !important;
+                overflow: visible !important;
+                visibility: visible !important;
+               }
+
+               /* Hides Light Mode-Only Content, Like Images */
+               [data-ogsc] .light-img {
+                display: none;
+                display: none !important;
+               }
+
+               /* Custom Dark Mode Background Color */
+               [data-ogsc] .darkmode { background-color: #100E11 !important; }
+               [data-ogsc] .darkmode2 { background-color: #020203 !important; }
+               [data-ogsc] .darkmode3 { background-color: #222023 !important; }
+
+               /* Custom Dark Mode Font Colors */
+               [data-ogsc] h1, [data-ogsc] h3, [data-ogsc] p, [data-ogsc] span, [data-ogsc] a { color: #fdfdfd !important; }
+               [data-ogsc] h2, [data-ogsc] h2 a { color: #028383 !important; }
+               [data-ogsc] .white { color: #fdfdfd !important; }
+
+               [data-ogsc] .dark-btn { border: 1px solid #ffffff !important; }
+               [data-ogsc] .dark-textk {   color: #ffffff !important; }
+              </style>
+
+              <!--correct superscripts in Outlook-->
+          <!--[if (gte mso 9)|(IE)]>
+          <style>
+          sup{font-size:100% !important;}
+          </style>
+         <![endif]-->
+        </head>
+
+        <body id="body" class="darkmode body body-fix">
+<div aria-label="#" aria-roledescription="email" lang="en" role="article" xml:lang="en"><!--hidden preheader with preh-header spacer hack-->
+<div style="display: none; max-height: 0; overflow: hidden;">Join us for DEI activities and resources.</div>
+
+<div
+style="display:none;">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;
+‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</div>
+<!--start of email-->
+
+<table border="0" cellpadding="0" cellspacing="0" class="darkmode" role="presentation" style="width:100%; background: #007b83;"><!--main content area-->
+	<tbody>
+		<tr>
+			<td align="center" class="tPad-10" style="padding: 20px 10px 10px 10px;" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" class="w100p darkmode2" role="presentation" style="width:600px;background-color: #ffffff;"><!--Outlook dark mode--><!--[if mso]>
+                                          <tr>
+                                          <td align="center" style="padding: 40px 25px 3px 25px;">
+                                             <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto;">
+                                                <tbody>
+                                          <tr>
+                                             <td class="light-img mobile-width" align="center" style="padding: 0px; display: block; overflow: visible; width: 155px; max-height: 100px; max-width: 150px; line-height: 1; visibility: visible;">
+                                             <img src="https://engage.themxgroup.com/l/813373/2022-09-21/zlczy/813373/1663790347LsInFNlN/dei_council_logo.png" width="250" alt="Mx DEI Council">
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td class="dark-img mobile-width" align="center" style="padding: 0px; display: none; overflow: hidden; visibility: hidden;">
+                                             <img src="https://engage.themxgroup.com/l/813373/2022-09-21/zlczv/813373/1663790347rhNtZE75/dei_council_logo_dark.png" width="250" alt="Mx DEI Council">
+                                             </td>
+                                          </tr>
+                                         <![endif]--><!--[if !mso]><!-->
+				<tbody>
+					<tr>
+						<td align="center" style="padding: 40px 25px 3px 25px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto;">
+							<tbody>
+								<tr>
+									<td class=""><a href="#" target="_blank"><img alt="Mx DEI Council" border="0" class="light-img mobile-width" src="https://engage.themxgroup.com/l/813373/2022-09-21/zlczy/813373/1663790347LsInFNlN/dei_council_logo.png" width="250"> <img alt="Mx DEI Council" border="0" class="dark-img mobile-width" src="https://engage.themxgroup.com/l/813373/2022-09-21/zlczv/813373/1663790347rhNtZE75/dei_council_logo_dark.png" style="display: none;" width="250"></a></td>
+								</tr>
+								<!--<![endif]-->
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="padding: 7px 20px 7px 20px;" valign="top" class=""><img alt="Black History Month" src="https://engage.themxgroup.com/l/813373/2023-02-02/2ddt88/813373/1675353695EASRb1Fi/black_history_img.jpeg" style="width: 100%; max-width: 600px; height: auto;" width="560"></td>
+					</tr>
+					<tr style="">
+						<td class="dark-text" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; font-weight: 300; color: #00111D; padding: 0px 30px 0px;">Welcome to the Black History Month resource guide from the DEI Council! Today, we’re asking Mx’ers to read up on some resources and engage with the list of events and activities we have planned for you. These are all voluntary, but we encourage you to participate where you can.</td>
+					</tr>
+                    	<tr style="">
+                            <td class="dark-text" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; font-weight: 300; color: #00111D; padding: 20px 30px 10px;"><strong>Museums and Black History Hotspots:</strong></td>
+					</tr>
+					<tr style="">
+						<td style="padding: 0 30px; font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; font-weight: 300; color: #00111D;">
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.dusablemuseum.org/" style=" text-decoration: underline; color: #01939c;" target="_blank">DuSable Black History Museum and Education Center</a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.choosechicago.com/blog/neighborhoods-blog/take-a-walking-tour-of-chicagos-bronzeville-neighborhood/" style=" text-decoration: underline; color: #01939c;" target="_blank">Bronzeville Walk of Fame</a> (King Drive between 24th and 35th Streets) </td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://aacc.uic.edu/" style=" text-decoration: underline; color: #01939c;" target="_blank">African American Cultural Center</a> (at UIC)</td>
+								</tr>
+							</tbody>
+						</table>
+                            <table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.sscartcenter.org/" style=" text-decoration: underline; color: #01939c;" target="_blank">South Side Community Art Center</a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+                      	<tr style="">
+                            <td class="dark-text" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; font-weight: 300; color: #00111D; padding: 20px 30px 10px;"><strong>Online Resources:</strong></td>
+					</tr>
+					<tr style="">
+						<td style="padding: 0 30px; font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; font-weight: 300; color: #00111D;">
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://drive.google.com/drive/folders/1TrqfLp8DrCzCni58SB4-CEVSBlg0Kzq6" style=" text-decoration: underline; color: #01939c;" target="_blank">Revolutionary Texts for Black Liberation </a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.ted.com/playlists/230/10_great_talks_to_celebrate_bl" style=" text-decoration: underline; color: #01939c;" target="_blank">TED Talk Playlist: Talks to Celebrate Black History Month</a>
+                                    	<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-top: 10px; padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-top: 10px;padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.ted.com/talks/paul_rucker_the_symbols_of_systemic_racism_and_how_to_take_away_their_power?referrer=playlist-10_great_talks_to_celebrate_bl&autoplay=true" style=" text-decoration: underline; color: #01939c;" target="_blank">The symbols of systemic racism — and how to take away their power </a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.ted.com/talks/mellody_hobson_color_blind_or_color_brave?referrer=playlist-10_great_talks_to_celebrate_bl&autoplay=true" style=" text-decoration: underline; color: #01939c;" target="_blank">Color blind or color brave?</a> </td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px;  color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px;  color: #00111D;" valign="top"><a class="text-link" href="https://www.ted.com/talks/chimamanda_ngozi_adichie_the_danger_of_a_single_story?referrer=playlist-10_great_talks_to_celebrate_bl&autoplay=true" style=" text-decoration: underline; color: #01939c;" target="_blank">The danger of a single story</a></td>
+								</tr>
+							</tbody>
+						</table>
+                                    
+                                    </td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://open.spotify.com/genre/blackhistorymonth-page" style=" text-decoration: underline; color: #01939c;" target="_blank">Black History on Spotify</a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+                    <tr style="">
+                            <td class="dark-text" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; font-weight: 300; color: #00111D; padding: 22px 30px 10px;"><strong>Local Activities:</strong></td>
+					</tr>
+					<tr style="">
+						<td style="padding: 0 30px; font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; font-weight: 300; color: #00111D;">
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://blackensembletheater.org/" style=" text-decoration: underline; color: #01939c;" target="_blank">Black Ensemble Theater and Cultural Center</a>: Founded by “Cooley High” drama star Jackie Taylor, this theater is nestled in the Uptown neighborhood of Chicago. At the end of this month, they’re featuring previews of a production entitled “Reasons: A Tribute to Earth, Wind &amp; Fire,” the musical revolutionaries that changed the course of music. Preview tickets are $55.</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://buddyguy.com/" style=" text-decoration: underline; color: #01939c;" target="_blank">Buddy Guy’s Legends</a>: Buddy Guy’s Legends is the premier blues club located in Chicago. Owned and operated by the Grammy-winning legend himself, this classic blues club features both famous and up‑and‑coming acts seven nights a week&nbsp;— plus New Orleans-inspired grub! Take a look at their schedule and see what piques your interest! </td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px;  color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://greenmilljazz.com/" style=" text-decoration: underline; color: #01939c;" target="_blank">The Green Mill</a>: Another Uptown favorite is the Green Mill Cocktail Lounge, known for its jazz and poetry performances, and was one of the first places in the Northern part of the city that would book Black jazz bands. The development of jazz in Chicago is associated with the Great Migration, the movement of African Americans from the Southern part of the US toward Northern cities, which brought large numbers of African Americans into Chicago.</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+                    <tr style="">
+                            <td class="dark-text" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; font-weight: 300; color: #00111D; padding: 22px 30px 10px;"><strong>Black History Month Must-watches:</strong></td>
+					</tr>
+					<tr style="">
+						<td style="padding: 0 30px; font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; font-weight: 300; color: #00111D;">
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.imdb.com/title/tt5804038/" style=" text-decoration: underline; color: #01939c;" target="_blank">I Am Not Your Negro</a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.imdb.com/title/tt8093700/?ref_=nv_sr_srsg_2" style=" text-decoration: underline; color: #01939c;" target="_blank">The Woman King</a> </td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.imdb.com/title/tt7137906/?ref_=nv_sr_srsg_0" style=" text-decoration: underline; color: #01939c;" target="_blank">When They See Us</a></td>
+								</tr>
+							</tbody>
+						</table>
+                            <table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 10px;color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px;padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.imdb.com/title/tt1020072/?ref_=nv_sr_srsg_5" style=" text-decoration: underline; color: #01939c;" target="_blank">Selma</a></td>
+								</tr>
+							</tbody>
+						</table>
+                              <table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px;padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px;padding-bottom: 10px; color: #00111D;" valign="top"><a class="text-link" href="https://www.imdb.com/title/tt4846340/?ref_=nv_sr_srsg_1" style=" text-decoration: underline; color: #01939c;" target="_blank">Hidden Figures</a></td>
+								</tr>
+							</tbody>
+						</table>
+                              <table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px;padding-bottom: 10px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 10px;color: #00111D;" valign="top"><a class="text-link" href="https://www.imdb.com/title/tt9784798/?ref_=nv_sr_srsg_0" style=" text-decoration: underline; color: #01939c;" target="_blank">Judas and the Black Messiah</a></td>
+								</tr>
+							</tbody>
+						</table>
+                              <table cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #00111D;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="dark-text" style="padding-left: 20px; padding-bottom: 30px; color: #00111D;" valign="top" width="5">•</td>
+                                    <td align="left" class="dark-text" style="padding-left: 10px; padding-bottom: 30px; color: #00111D;" valign="top"><a class="text-link" href="https://www.imdb.com/title/tt5895028/?ref_=nv_sr_srsg_6" style=" text-decoration: underline; color: #01939c;" target="_blank">13th</a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				<!-- DIVIDER : START -->
+					<tr>
+						<td style="padding: 0px 20px;">
+						<table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<td style="border-top: 1px solid #D0DFE9;" class="">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!-- DIVIDER : END -->
+				<!-- ROW : START -->
+					<tr>
+						<td align="center" style="padding:20px 30px 10px;" valign="top" class="bPad-30 tPad-10"><!--2 column - image left (normal stack)-->
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+							<tbody>
+								<tr>
+									<td align="center" style="font-size:0;" valign="top" class=""><!--[if (gte mso 9)|(IE)]>
+                                                       <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="width: 100%;">
+                                                       <tr>
+                                                       <td valign="top" style="width: 255px;">
+                                                       <![endif]-->
+									<div class="rPad-0" style="display:inline-block;vertical-align:top; padding-right: 20px;">
+									<table border="0" cellpadding="0" cellspacing="0" class="w100p" dir="ltr" role="presentation" style="width: 255px;">
+										<tbody>
+											<tr>
+												<td align="left" class="tPad-15 bPad-20" style="padding-bottom: 30px;" valign="top"><img alt="Happy hour" src="https://engage.themxgroup.com/l/813373/2023-02-02/2ddt8c/813373/1675354116zb4Ak4vH/happy_hour.jpg" width="255"></td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if (gte mso 9)|(IE)]>
+                                                       </td><td valign="top" style="width:20px;">
+                                                       </td><td valign="top" style="width:265px;">
+                                                       <![endif]-->
+
+									<div style="display:inline-block;vertical-align:top;">
+									<table border="0" cellpadding="0" cellspacing="0" class="w100p" dir="ltr" role="presentation" style="width:265px;">
+										<tbody>
+											<tr>
+                                                <td align="left" class="bPad-7 dark-text tPad-0 stack-column-center" style="color: #00111D; font-family: 'Museo Sans', Arial, Helvetica, sans-serif; font-size: 22px; line-height: 30px; margin:0; padding-top: 15px; padding-bottom: 5px; padding-left: 5px;" valign="top">The Mx Group DEI&nbsp;Happy&nbsp;Hour</td>
+											</tr>
+											<tr style="">
+												<td class="dark-text stack-column-center" style="font-family: 'Museo Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px; line-height: 26px; font-weight: 300; color: #00111D; padding-left: 5px;">Join us on Tuesday, February 21, at The Mx Office cafeteria from 3 to 4 p.m. for light snacks and beverages.</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if (gte mso 9)|(IE)]>
+                                                       </td>
+                                                       </tr>
+                                                       </table>
+                                                      <![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!-- ROW : START -->
+		
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 40px 25px 0 25px; text-align: center;" class=""><a href="https://twitter.com/mxgroup" target="_blank"><img alt="Twitter logo" border="0" src="https://engage.themxgroup.com/l/813373/2022-09-21/zld18/813373/1663790347Z08UZDz1/twitter_icon_white.png" width="20"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/user/mxgroupb2b" target="_blank"><img alt="YouTube logo" border="0" src="https://engage.themxgroup.com/l/813373/2022-09-21/zld1g/813373/16637903488aCiQOzR/youtube_icon_white.png" width="20"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/themxgroup" target="_blank"><img alt="LinkedIn logo" border="0" src="https://engage.themxgroup.com/l/813373/2022-09-21/zld1c/813373/1663790347C5UyjzfU/li_icon_white.png" width="20"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/TheMxGroup/" target="_blank"><img
+alt="Facebook logo" border="0" height="20" src="https://engage.themxgroup.com/l/813373/2022-09-21/zld12/813373/16637903477y0A4uO7/fb_icon_white.png" width="11"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/themxgroup/" target="_blank"><img alt="Instagram logo" border="0" src="https://engage.themxgroup.com/l/813373/2022-09-21/zld15/813373/1663790347zLEsqJHT/insta_icon_white.png" width="18"></a></td>
+		</tr>
+		<tr>
+			<td class="x-gmail-data-detectors" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; color: #eeeeee; text-align: center; padding: 20px 25px 50px 25px;">7020 High Grove Blvd., Burr Ridge, IL 60527 | <a class="mktNoTok mktNoTrack" href="https://engage.themxgroup.com/email-preference-center" style="color: #eeeeee;"><span style="color: #eeeeee;">Manage your email preferences</span></a>.</td>
+		</tr>
+		<tr>
+			<td style="display: none;" class=""><a href="https://engage.themxgroup.com/unsubscribe/u/813373" rel="nofollow,noreferrer" style="color: #00111D;">Unsubscribe</a>.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!--analytics go below here-->
+</body>
+
+                                           </html>
