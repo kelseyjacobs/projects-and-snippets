@@ -1,0 +1,297 @@
+%%[
+var @linkdestination, @membershipstatus
+set @membershipstatus = AttributeValue("MembershipLevel")
+set @linkdestination = "orderform/"
+if @membershipstatus == "Free" then
+ set @linkdestination = "account/membership/"
+endif
+if empty(@membershipstatus) then
+ set @linkdestination = "join/"
+endif
+
+]%%
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width"> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ <meta name="x-apple-disable-message-reformatting"> 
+ <title></title> 
+<!--[if mso]>
+        <style type="text/css">
+                * { font-family: Arial, Helvetica, sans-serif !important; }
+                a { text-decoration: none; }
+        </style>
+       <![endif]--> 
+       <!--[if !mso]><!--> 
+       <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet" type="text/css">
+       <!--<![endif]--> 
+       <style type="text/css">
+        html,
+        body {
+         height: 100% !important;
+         margin: 0 auto !important;
+         padding: 0 !important;
+         width: 100% !important;
+        }
+        * {
+         -ms-text-size-adjust: 100%;
+         -webkit-text-size-adjust: 100%;
+        }
+        * img[tabindex="0"] + div {
+         display: none !important;
+        }
+        div[style*="margin: 16px 0"] {
+         margin: 0 !important;
+        }
+        .div-white {
+         background-color: #ffffff;
+        }
+        table,
+        td {
+         mso-table-lspace: 0pt !important;
+         mso-table-rspace: 0pt !important;
+        }
+        table {
+         border-collapse: collapse !important;
+         border-spacing: 0 !important;
+         margin: 0 auto !important;
+         table-layout: fixed !important;
+        }
+        table table table {
+         table-layout: auto;
+        }
+        img {
+         -ms-interpolation-mode: bicubic;
+        }
+        *[x-apple-data-detectors] {
+         color: inherit !important;
+         text-decoration: none !important;
+        }
+        .x-gmail-data-detectors,
+        .x-gmail-data-detectors *,
+        .aBn {
+         border-bottom: 0 !important;
+         cursor: default !important;
+        }
+        .text-link:hover {
+         text-decoration: underline !important;
+        }
+        .button-link {
+         text-decoration: none !important;
+        }
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+         .email-container {
+          min-width: 375px !important;
+         }
+        }
+        @media screen and (max-width: 600px) {
+         .resp-img,
+         .header-img-offer,
+         .header-img-promotion,
+         .header-ngc-pmg-promo
+         {
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+          max-width: 100% !important;
+          width: 100% !important;
+         }
+        }
+        @media screen and (max-width: 480px) {
+         u + .body .full-wrap {
+          width: 100% !important;
+          width: 100vw !important;
+         }
+         .logo {
+          height: auto !important;
+          width: 175px !important;
+         }
+         .headline {
+          font-size: 26px !important;
+          line-height: 32px !important;
+          margin-bottom: 20px !important;
+         }
+         .inner-padding {
+          padding: 20px 20px 0px 20px !important;
+         }
+            .tagline-mobile-font-size {
+            font-size: 12.5px !important;
+        }
+       </style> 
+      </head> 
+      <body bgcolor="#E0E0E0" style="margin:0; mso-line-height-rule:exactly; width:100%; " class="body">
+       <table bgcolor="#E0E0E0" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; " class="full-wrap">
+        <tbody>
+         <tr style="">
+          <td style="">
+           <center style="width:100%; background:#E0E0E0; ">
+            <div style="max-width:580px; margin:auto; " class="email-container">
+<!--[if mso]>
+                                                <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 580px;">
+                                                <tr>
+                                                <td>
+                                                <![endif]--> 
+                                                <table bgcolor="#E0E0E0" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width:580px; ">
+                                                 <tbody>
+                                                  <tr style="">
+                                                   <td style="padding:10px; text-align:center; ">
+                                                    <!-- EMAIL HEADER : BEGIN --> 
+                                                     <div>
+<table style="width: 100%; max-width: 580px;" cellspacing="0" cellpadding="0" border="0" bgcolor="#E0E0E0" align="center">
+<tbody>
+<tr>
+<td style="padding: 30px 10px 13px 10px; text-align: center; line-height: 1;"><a href="https://www.csgcards.com/" target="_blank"> <img src="https://image.email.csgcards.com/lib/fe2e11727364047f701c75/m/1/19713e11-e76c-48cb-b529-9220d3b47192.png?=v6" alt="CSG" style="height: auto;" class="logo" width="215" height="68" border="0" /></a></td>
+</tr>
+    <tr>
+        <td style="padding-bottom: 25px; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 16px;" align="center" class="tagline-mobile-font-size"><a href="%%=RedirectTo(concat('https://www.csgcards.com/',@linkdestination))=%%" style="text-decoration: none; text-transform: uppercase;  color: #000000;">Submit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.csgcards.com/registry/" style="text-decoration: none; text-transform: uppercase;  color: #000000;">Registry</a>
+        </td>
+    </tr>
+</tbody>
+</table>
+</div>
+                                                    <!-- EMAIL HEADER : END --> 
+                                                    <!-- EMAIL CONTENT : BEGIN --> 
+                                                    <div class="mktEditable" id="Email_Content" style="">
+                                                     <div> 
+                                                      <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; max-width: 580px;"> 
+                                                       <!-- HERO IMAGE : BEGIN --> 
+                                                       <tbody> 
+                                                        
+                                                        <a href="https://www.csgcards.com/news/article/11138/" target="_blank"><img src="https://image.email.csgcards.com/lib/fe2e11727364047f701c75/m/1/764c697c-2730-48bf-93d3-8463b6a7f556.jpg" width="560" height="466" alt="" border="0" style="display: block;" class="resp-img"></a> 
+                                                        
+                                                        <!-- HERO IMAGE : END --> 
+                                                        <table bgcolor="#E0E0E0" cellspacing="0" cellpadding="0" border="0" align="center" style="width:100%; max-width:580px; ">
+                                                         <!-- BODY CONTENT : BEGIN --> 
+                                                         <tr> 
+                                                          <td bgcolor="#ffffff" align="left" valign="top" style="padding: 30px 30px 0px 30px;" class="inner-padding"> 
+                                                           <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;"> 
+                                                            <!-- HEADLINE : BEGIN --> 
+                                                             <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">
+<tr><td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; padding-bottom: 5px; text-align: center; color: #000000; font-size: 32px; line-height: 42px; font-style: italic; font-weight: bold;" class="headline">Fanatics Collectibles’ President of Trading Cards breaks down the past, present and future of the industry giant.
+  </td> 
+</tr> 
+</table>
+ <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">
+<tr><td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; padding-bottom: 20px; text-align: center; color: #000000; font-size: 26px; line-height: 32px; font-style: italic; font-weight: bold;" class="headline">
+  </td> 
+</tr> 
+</table>
+
+
+                                                            <!-- HEADLINE : END --> 
+                                                            <!-- BODY COPY : BEGIN --> 
+                                                            <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">
+
+<tr> 
+<td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;"> 
+David Leiner, Fanatics Collectibles’ President of Trading Cards, visited CSG’s flagship podcast Collect This!, where he discussed the direction of the company’s card and memorabilia division.<br><br>“Dave is a lifelong collector and a veteran presence at Topps,” said Collect This! host Alan Goldsher, “and the fact that Fanatics not only kept him on board after acquiring Topps, but also hired like-minded collectors, is a sign that the hobby’s largest entity gets it.”<br><br>
+ 
+
+
+  </td>
+  </tr>
+  
+</table>
+<table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">
+
+<tr> 
+<td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;"> 
+
+
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center" style="padding-bottom: 35px; padding-top: 15px;"><table border="0" cellspacing="0" cellpadding="0" role="presentation">
+          <tr>
+           <td class="innertd buttonblock" bgcolor="#F2A900" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #d9aa3e;">
+            <a target="_blank" class="buttonstyles" style=" font-size: 16px; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; color: #000000; font-weight: bold; text-align: center; text-decoration: none; display: block; background-color: #d9aa3e; border: 1px solid #d9aa3e; padding-top: 10px; padding-bottom: 10px; padding-left: 35px; padding-right: 35px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-bottom: 2px solid #8e7706;" href="https://www.csgcards.com/news/article/11138/" title="" alias="" conversion="false" data-linkto="https://www.csgcards.com/news/article/11138/
+">Listen now!</a></td></tr></table></td></tr></table>  
+
+
+  New episodes of <a href="https://open.spotify.com/show/0Oi5hXhppwu2vwXIe1FIye?si=60974a88a49a4e24" target="_blank" style="color: #0F76CE; text-decoration: none;" class="text-link"><span style="color: #0F76CE;">CSG</span></a>'s sports card and collectibles podcast Collect This! — which sits in the top 25% of all podcasts — premiere every Thursday, and can be heard on Apple, Spotify and all major podcast platforms. For more information, write <a href="mailto:CollectThis@csgcards.com" target="_blank" style="color: #0F76CE; text-decoration: none;" class="text-link"><span style="color: #0F76CE;">CollectThis@csgcards.com</span></a>. <br> <br> 
+<table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;"> 
+ 
+ 
+</table>
+  </td>
+  </tr>
+  
+</table>
+                                                            <!-- BUTTON : BEGIN --> 
+                                                            <table cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; text-align: center;">
+
+<tr> 
+<td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 25px; line-height: 24px; padding-top: 5px;"><i><strong>Upcoming Guests</strong></i><br> <br> 
+<table width="100%" cellspacing="0" cellpadding="0" style="color: #000000; font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;"> 
+
+   <tr> 
+<td width="15" valign="top" align="left" style="padding-left: 20px;"></td> 
+ 
+</tr>
+ <tr> 
+<td width="15" valign="top" align="left" style="padding-left: 20px;"></td> 
+<td valign="top" align="left" style="padding-left: 5px; padding-bottom: 20px;">1/17 - A Salute to Jackie Robinson</td> 
+</tr>
+<tr> 
+<td width="15" valign="top" align="left" style="padding-left: 20px;"></td> 
+<td valign="top" align="left" style="padding-left: 5px; padding-bottom: 8px;">1/20 - A Trip to Fantasyland with The Athletic's Nando DiFino</td> 
+</tr> 
+
+  
+</table>
+  <br>
+                                                       
+                                                            <!-- BUTTON : END -->
+                                       
+                                                           </table>
+                                                          </td> 
+                                                         </tr> 
+                                                         <!-- BODY COPY : END --> 
+                                                        </table>
+                                                       </table>
+                                                      </div>
+                                                     </div>
+                                                    </td> 
+                                                   </tr> 
+                                                   <!-- BODY CONTENT : END --> 
+                                                  </tbody> 
+                                                 </table> 
+
+                                                </div>
+                                                <!-- EMAIL CONTENT : END --> 
+                                                <!-- EMAIL FOOTER : BEGIN --> 
+                                                <div bgcolor= "#E0E0E0">
+<table style="width: 100%; max-width: 580px; text-align: center;" cellspacing="0" cellpadding="0" border="0" bgcolor="#E0E0E0" align="center">
+<tbody>
+<tr>
+<td style="padding: 40px 20px 10px 20px;" align="center"><a href="https://www.facebook.com/CSGcards" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/eff1e24d-db56-4c1a-9167-eb493e8180ab.png" alt="Facebook" width="30" height="30" border="0" /></a>&nbsp;<a href="https://twitter.com/CSGcards" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/5d7938ec-40b2-4c98-85cf-5443ec078394.png" alt="Twitter" width="30" height="30" border="0" /></a>&nbsp;<a href="https://www.instagram.com/CSGcards/" target="_blank" style="color: #E0E0E0;"><img src="https://image.s12.sfmc-content.com/lib/fe3611727364047d731773/m/1/6741b75d-d33b-4375-b322-5cc213a7d8c6.png" alt="Instagram" width="30" height="30" border="0" /></a>&nbsp;<a href="https://www.youtube.com/@CSGCards" target="_blank" style="color: #E0E0E0;"><img src="http://image.email.csgcards.com/lib/fe2e11727364047f701c75/m/1/68e5f18a-b2e4-41f5-a7c8-8959fa935208.png" alt="YouTube" width="30" height="30" border="0" /></a></td>
+</tr>
+<tr>
+<td style="font-family: 'Noto Sans', Arial, Helvetica, sans-serif; font-size: 11px; line-height: 17px; color: #69738a; text-align: center; padding: 0 20px 35px 20px;" align="center">CSG<br />P.O. Box 4800, Sarasota, FL 34230<br /> To update your email preferences or unsubscribe, <a href="%%=RedirectTo(CloudPagesURL(363))=%%" target="_blank" style="color: #69738a;" class="mktNoTok mktNoTrack"><span style="color: #69738a;">click here</span></a>. </td>
+</tr>
+</tbody>
+</table>
+</div>
+                                                <!-- EMAIL FOOTER : END -->
+                                               </center>
+                                              </td>
+                                             </tr>
+                                             
+
+<!--[if mso]>
+                                                </td>
+                                                </tr>
+                                                </table>
+                                               <![endif]-->
+
+                                               
+                                               <!-- Unsubscribe is coded in the templates -->
+                                              </tbody>
+                                             </table>
+                                            </body>
+                                            </html><custom name="opencounter" type="tracking"/>
