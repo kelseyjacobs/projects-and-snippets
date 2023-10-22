@@ -1,0 +1,10 @@
+SELECT a.EMAIL, a.FIRSTNAME, a.GENDER, a.First_PURCH_DATE, a.Last_PURCH_DATE, a.ACTIVITIES, a.BRAND_WESTERN, a.BRAND_FIVESTAR, a.BRAND_WORKWEAR, a.BRAND_OUTDOOR, a.EVENTS, a.BRAND_LIMITEDRELEASE
+FROM Mailable_Subscribers a
+LEFT JOIN Wrangler_ProductPurchase_Staging b
+ON a.EMAIL = b.ORDER_EMAIL_ADDRESS
+WHERE (a.GENDER = 'M'
+OR a.GENDER = 'B'
+OR b.Product_Department = 'Men')
+OR (a.GENDER IS NULL AND b.Product_Department IS NULL and LastClick_Gender = 'Men')
+
+wrangler-men-master
