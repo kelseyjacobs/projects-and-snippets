@@ -1,0 +1,9 @@
+SELECT *
+FROM Engaged_List
+WHERE Weather = 'Rain'
+
+
+SELECT *
+FROM Engaged_List
+WHERE Weather = 'Warm'
+
