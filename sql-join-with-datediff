@@ -1,0 +1,6 @@
+SELECT s.SubscriberKey as EmailAddress, s.EventDate, j.EmailName 
+  FROM _Sent s 
+  JOIN _Job j 
+  ON s.[JobID] = j.[JobID] 
+  WHERE j.EmailName LIKE 'Winover%' 
+  AND Datediff(Day, s.[EventDate], Getdate()) <= 180
