@@ -1,0 +1,12 @@
+%%[var @rsCouponRow var @CouponCode SET @rsCouponRow = ClaimRow("Winover_CouponCodes_CC", "IsClaimed", "EmailAddress", emailaddr_) IF NOT EMPTY(@rsCouponRow) THEN SET @CouponCode = Trim(Field(@rsCouponRow, "CouponCode")) ELSE SET @CouponCode = "WRGWINOVERB" ENDIF]%%
+
+
+USE CODE: %%=V(@CouponCode)=%%
+
+
+
+Fields in DE:
+CouponCode as Primary Key
+IsClaimed w/ default value of False
+EmailAddress
+ClaimedDate w/Date data type
