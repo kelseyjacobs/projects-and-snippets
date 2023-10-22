@@ -1,0 +1,14 @@
+STEP 1
+SELECT a.SubscriberKey, s.EmailAddress, a.EventDate, b.EmailName
+FROM _Sent a
+INNER JOIN _Job b ON a.JobID = b.JobID
+INNER JOIN ent._Subscribers s ON a.SubscriberID = s.SubscriberID
+WHERE b.EmailName = 'PROD_TBL_1.5_Welcome_US-en'
+AND (datediff(d,a.EventDate,getdate()) <= 30)
+
+STEP 2
+SELECT a.EmailAddress
+FROM WelcomeCode_HasReceived_Past30Days a
+INNER JOIN Engaged_List b
+ON a.EmailAddress = b.[Email Address]
+WHERE b.[Community Signup Promo code] IS NULL
