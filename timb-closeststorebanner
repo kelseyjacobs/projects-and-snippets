@@ -1,0 +1,53 @@
+%%[ 
+SET @ClosestFullPriceStoreNumber = Lookup("Engaged_List", "Closest Full Price Store", "Email Address", emailaddr)
+
+SET @ClosestFullPriceStoreName = Lookup("Engaged_List", "Closest Full Price Store Name", "Email Address", emailaddr) 
+
+SET @ClosestFullPriceStoreAddress = Lookup("Engaged_List", "Closest Full Price Store Address", "Email Address", emailaddr) 
+
+SET @ClosestFullPriceStoreCity = Lookup("Engaged_List", "Closest Full Price Store City", "Email Address", emailaddr) 
+
+SET @ClosestFullPriceStoreState = Lookup("Engaged_List", "Closest Full Price Store State", "Email Address", emailaddr) 
+
+SET @ClosestFullPriceStoreZip = Lookup("Engaged_List", "Closest Full Price Store Zip", "Email Address", emailaddr) 
+
+SET @StoreURL = Lookup("ClosestStoreLink", "Link", "StoreNumber", @ClosestFullPriceStoreNumber)
+]%% 
+
+
+%%[ IF NOT EMPTY (@ClosestFullPriceStoreName) THEN]%%      
+<a href="%%=RedirectTo(@StoreURL)=%%" style="color: #cf780f; text-transform: uppercase; font-weight: bold; text-decoration: none;">
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="640">
+ 
+  <tr>
+   <td align="center" background="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/closest-store-bg.jpg?=v2" style="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/closest-store-bg.jpg?=v2');width:600px;background-repeat: no-repeat;background-position:top;  background-size: 640px;" width="640" height="332">
+    <!--[if gte mso 9]>
+                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px; background-repeat: no-repeat !important;background-position:top;">
+                                    <v:fill type="frame" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/closest-store-bg.jpg?=v2" color="#e9e9e9" height="332" ></v:fill>
+                                    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                                    <![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="100%">
+     
+     
+ <tr>
+ <td align="center" style="padding-top: 200px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #cf780f; text-transform: uppercase; font-weight: bold;">
+  <a href="%%=RedirectTo(@StoreURL)=%%" style="color: #cf780f; text-transform: uppercase; font-weight: bold; text-decoration: none;">%%=v(@ClosestFullPriceStoreName)=%%</a>
+  </td></tr>
+ <tr>
+ <td align="center" style="padding-top: 10px; padding-bottom: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #cf780f; text-transform: uppercase; font-weight: bold;">
+   <a href="%%=RedirectTo(@StoreURL)=%%" style="color: #cf780f; text-transform: uppercase; font-weight: bold; text-decoration: none;">%%=v(@ClosestFullPriceStoreAddress)=%%, %%=v(@ClosestFullPriceStoreCity)=%%, %%=v(@ClosestFullPriceStoreState)=%%<br>
+    %%=v(@ClosestFullPriceStoreZip)=%%</a>
+  </td></tr></table>
+   </td></tr></table></a><!--[if gte mso 9]>                      
+                     </v:textbox>
+                  </v:rect>
+                  <![endif]-->
+
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation">
+ <tr>
+  <td align="center"><img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/has-data-dm-space.jpg?=v3" alt="" width="640" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px none transparent;"></td></tr></table></td></tr></table>
+%%[ENDIF]%%
+%%[ELSE]%%
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation">
+ <tr>
+  <td align="center"><img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/no-data-dm-spacer_07.jpg?=v3" alt="" width="640" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px none transparent;"></td></tr></table></td></tr></table>
+%%[ENDIF]%%
