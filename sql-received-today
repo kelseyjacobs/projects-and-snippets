@@ -1,0 +1,5 @@
+SELECT s.SubscriberKey as EmailAddress, s.EventDate, j.EmailName 
+  FROM _Sent s INNER JOIN _Job j 
+  ON s.JobID = j.JobID 
+  WHERE j.EmailName LIKE 'Replenishment%' 
+  AND Datediff(Day, s.[EventDate], Getdate()) <= 0
