@@ -1,0 +1,11 @@
+SELECT m.EMAIL as EmailAddress, m.Last_PURCH_DATE as Last_Purchase_Date, h.MAX_CLICKDATE as Last_Click_Date, 
+h.MAX_OPENDATE as Last_Open_Date
+FROM mailable_subscribers m
+LEFT JOIN Historical_MAX_EventDate h ON m.EMAIL = h.EMAIL
+WHERE (datediff(d,m.Last_PURCH_DATE,getdate()) > 240)
+AND (datediff(d,h.MAX_CLICKDATE,getdate()) <= 180)
+AND m.EMAIL NOT IN 
+(SELECT EMAIL FROM Reactivation_Suppression_SentLast90Days)
+
+
+Reactivation. People who have not purchased in last 8+ months but have engaged with email in the last 6 months. 
