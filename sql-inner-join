@@ -1,0 +1,4 @@
+SELECT a.*
+FROM Account_Master_Mailable_abcartbanner a
+INNER JOIN [BC_-_Lee_-_Extreme_Comfort_past_purchasers_1013_2023-10-13T0609] b
+ON a.EMAIL = b.EMAIL
