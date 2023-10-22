@@ -1,0 +1,8 @@
+SELECT EMAIL
+FROM [mailable_subscribers]
+WHERE EMAIL IN (
+SELECT DISTINCT SubscriberKey AS EMAIL
+FROM _Click c
+INNER JOIN _Job j
+ON c.JobID = j.JobID
+WHERE j.EmailName = '20231019_offer')
