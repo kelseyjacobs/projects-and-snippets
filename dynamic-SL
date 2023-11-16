@@ -1,0 +1,9 @@
+%%[
+SET @Email = emailaddr
+SET @CanadianSubscriber = Lookup("Canada_AccountMaster", "EmailAddress", "EmailAddress", emailaddr)
+IF @Email == @CanadianSubscriber THEN
+	SET @SubjectLine = "Canada SL Here"
+	ELSE SET @SubjectLine = "US SL Here"
+ENDIF
+]%%
+Then for the actual SL, use: %%=v(@SubjectLine)=%%
