@@ -12,3 +12,7 @@ set @lastDayOfThisMonth = dateadd(@firstDayOfNextMonth,-1,"D")
 
 SET @BirthdayExpirationDate = FormatDate(@lastDayOfThisMonth, "MM/dd/yyyy")
 ]%%
+
+
+
+Valid through %%=v(@BirthdayExpirationDate)=%%
