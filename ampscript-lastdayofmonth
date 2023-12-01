@@ -1,0 +1,14 @@
+%%[
+
+set @today = now()
+set @monthOfThisMonth = DatePart(@today, "M")
+set @yearOfThisMonth = DatePart(@today, "Y")
+set @firstDayOfThisMonth = dateparse(concat(@monthOfThisMonth,"/01/",@yearOfThisMonth))
+set @nextMonth = dateadd(@today, 1, "M")
+set @monthOfNextMonth = DatePart(@nextMonth, "M")
+set @yearOfNextMonth = DatePart(@nextMonth, "Y")
+set @firstDayOfNextMonth = dateparse(concat(@monthOfNextMonth,"/01/",@yearOfNextMonth))
+set @lastDayOfThisMonth = dateadd(@firstDayOfNextMonth,-1,"D")
+
+SET @BirthdayExpirationDate = FormatDate(@lastDayOfThisMonth, "MM/dd/yyyy")
+]%%
