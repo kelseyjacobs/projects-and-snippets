@@ -1,0 +1,211 @@
+%%[
+var @Email
+SET @Email = emailaddr
+SET @Loyalty = LOOKUP("Reward_Member_Master","EmailAddress","EmailAddress",emailaddr,)
+SET @BirthdayBanner = LOOKUP("BirthdayBanner_BirthdayThisMonth_NonPurchasers","EMAIL","EMAIL",emailaddr,)
+SET @CanadianSubscriber = Lookup("Canada_AccountMaster", "EmailAddress", "EmailAddress", emailaddr) 
+
+IF (@Email==@BirthdayBanner and @Email != @Loyalty) THEN SET 
+@ShowBirthdayBanner = True
+ENDIF
+              
+IF (@ShowBirthdayBanner != True AND @Email == @Loyalty) THEN SET @ShowLoyaltyBanner = True
+ENDIF         
+
+]%%
+
+<!-- Begin Birthday Banner --> 
+
+%%[IF @ShowBirthdayBanner == "True" THEN ]%%
+
+
+%%[var @rsCouponRow var @CouponCode SET @rsCouponRow = ClaimRow("Birthday_CouponCodes_CC", "IsClaimed", "EmailAddress", emailaddr_) IF NOT EMPTY(@rsCouponRow) THEN SET @CouponCode = Trim(Field(@rsCouponRow, "CouponCode")) ELSE SET @CouponCode = "WRGBDAYB" ENDIF]%%
+
+
+%%[IF @Email==@CanadianSubscriber THEN]%%
+<!-- Canada Content -->
+<table align="center" width="600" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="https://www.wrangler.com/shop/new" title="20% Off Your Next Purchase" alias="hero-promobirthday" conversion="false" data-linkto="https://"><img data-assetid="560721" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/0176a322-128a-4d8a-b8d4-98cd8c8bd69e.jpg" alt="It's your birthday. Enjoy 20% off your next order $125+ USD" width="600" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px;"></a></td></tr></table>
+<table style="max-width: 600px; min-width: 600px;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+        <tr>
+  <td style="max-width: 145px; max-width: 145px;" align="center"><a href="https://www.wrangler.com/shop/new" title="Coupon Code" alias="img-couponcodepromo"> <img src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/960415fb-57fe-4c23-bcc5-6ae7addb132d.jpg" alt="Coupon Code" style="display: block; border-spacing: 0px;" border="0" height="29" width="145"></a></td>
+   
+   <td style="max-width: 342px; max-width: 342px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px; color: #FFFFFF; text-align:center; text-align: center; vertical-align: middle; font-weight: bold;" width="342" height="29" bgcolor="#bde2de" align="center"><a alias="text-birthdaycode" href="https://www.wrangler.com/shop/new" style="text-decoration: none; color: #3d5b4d; letter-spacing: 1.5px;" target="_blank">USE CODE: %%=V(@CouponCode)=%%</a></td>
+   
+  <td style="max-width: 150px; max-width: 150px;"><a href="https://www.wrangler.com/shop/new" title="Coupon Code" alias="img-couponcodepromo"> <img src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/7e92e37f-7ebd-4e5d-82ef-3caf3bf93d91.jpg" alt="Coupon Code" style="display: block; border-spacing: 0px;" border="0" height="29" width="150"></a></td>
+         </tr>
+   </table>
+
+<table align="center" width="600" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="https://www.wrangler.com/shop/new" title="20% Off Your Next Purchase" alias="hero-promobirthday" conversion="false" data-linkto="https://"><img data-assetid="560721" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/5a9cc011-f85d-47b9-8539-ac7a706f6ad4.jpg" alt="It's your birthday. Enjoy 20% off your next order $125+" width="600" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px;"></a></td></tr></table>
+<table>
+<tr>
+ <td style="line-height: 0px; padding-top: 10px;">
+ &nbsp;
+ </td></tr></table>
+<!-- End Canada Content --> 
+%%[ELSEIF @Email != @CanadianSubscriber THEN]%%
+<!-- US Content -->
+<table align="center" width="600" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="https://www.wrangler.com/shop/new" title="20% Off Your Next Purchase" alias="hero-promobirthday" conversion="false" data-linkto="https://"><img data-assetid="560721" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/a3d384b0-bf58-4e68-a75a-4471edf3e080.jpg" alt="It's your birthday. Enjoy 20% off your next order $125+" width="600" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px;"></a></td></tr></table>
+<table style="max-width: 600px; min-width: 600px;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+        <tr>
+  <td style="max-width: 145px; max-width: 145px;" align="center"><a href="https://www.wrangler.com/shop/new" title="Coupon Code" alias="img-couponcodepromo"> <img src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/960415fb-57fe-4c23-bcc5-6ae7addb132d.jpg" alt="Coupon Code" style="display: block; border-spacing: 0px;" border="0" height="29" width="145"></a></td>
+   
+   <td style="max-width: 342px; max-width: 342px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px; color: #FFFFFF; text-align:center; text-align: center; vertical-align: middle; font-weight: bold;" width="342" height="29" bgcolor="#bde2de" align="center"><a alias="text-birthdaycode" href="https://www.wrangler.com/shop/new" style="text-decoration: none; color: #3d5b4d; letter-spacing: 1.5px;" target="_blank">USE CODE: %%=V(@CouponCode)=%%</a></td>
+   
+  <td style="max-width: 150px; max-width: 150px;"><a href="https://www.wrangler.com/shop/new" title="Coupon Code" alias="img-couponcodepromo"> <img src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/7e92e37f-7ebd-4e5d-82ef-3caf3bf93d91.jpg" alt="Coupon Code" style="display: block; border-spacing: 0px;" border="0" height="29" width="150"></a></td>
+         </tr>
+   </table>
+
+<table align="center" width="600" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="https://www.wrangler.com/shop/new" title="20% Off Your Next Purchase" alias="hero-promobirthday" conversion="false" data-linkto="https://"><img data-assetid="560721" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/5a9cc011-f85d-47b9-8539-ac7a706f6ad4.jpg" alt="It's your birthday. Enjoy 20% off your next order $125+" width="600" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px;"></a></td></tr></table>
+<table>
+<tr>
+ <td style="line-height: 0px; padding-top: 10px;">
+ &nbsp;
+ </td></tr></table>
+%%[ENDIF]%%
+%%[ENDIF]%%
+
+<!-- End Birthday Banner --> 
+
+<!-- Begin Loyalty Banner --> 
+
+%%[IF @ShowLoyaltyBanner == "True" THEN ]%%
+
+  <!--Desktop Loyalty Begin-->  
+        
+     %%[ 
+SET @Email = emailaddr
+SET @CanadianSubscriber = Lookup("Canada_AccountMaster", "EmailAddress", "EmailAddress", emailaddr) 
+SET @FirstName = Lookup("Reward_Member_Master", "FirstName", "EmailAddress", emailaddr) 
+SET @TotalRewards = Lookup("Reward_Member_Master", "Kontoor_Active_Rewards", "EmailAddress", emailaddr) 
+SET @TotalPoints = Lookup("Reward_Member_Master", "Active_Points", "EmailAddress", emailaddr) 
+SET @LoyaltyMember = Lookup("Reward_Member_Master", "EmailAddress", "EmailAddress", emailaddr) 
+
+IF EMPTY(@TotalRewards) THEN SET @TotalRewards= "0"
+ENDIF
+]%%
+
+ 
+%%[IF @Email != @CanadianSubscriber AND @Email==@LoyaltyMember AND @TotalRewards == "1" AND @TotalPoints != "1" THEN]%%
+     <table class="desktop" align="center" width="100%" role="presentation" cellpadding="0" style="max-width: 600px; border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+        <tr>
+          <td align="center" style="line-height: 7px; mso-line-height-rule: 7px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+      </table>  
+<table class="desktop" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" width="150" style="max-width: 150px;"><a href="https://www.wrangler.com/account/login?rurl=1" target="_blank"><img alias="img-rewards" alt="Wrangler Rewards" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/19/beafbd59-fc16-48f4-9c83-48b904adecdc.png" style="display: block; max-width: 150px;" title="Wrangler Rewards" width="150"></a></td>
+   
+    <td align="center" width="450" height="" style="font-family:FuturaPT, Trebuchet MS, sans-serif!important; font-size: 14px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 24px;;letter-spacing: normal;text-align: center;color: #282828; max-width: 450px; text-transform: uppercase; vertical-align: middle; border-right:1px; border-right-color: #282828; border-right-style: solid;"><a href="https://www.wrangler.com/account/login?rurl=1" style="text-decoration:none; color:#282828;">%%=v(@FirstName)=%%,<br> you have <span style="color:#aa8f50; font-weight: 600">%%=v(@TotalPoints)=%%</span> Points</a></td>
+   
+ <td align="center" width="450" height="" style="font-family:FuturaPT, Trebuchet MS, sans-serif!important; font-size: 14px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 24px;;letter-spacing: normal;text-align: center;color: #282828; max-width: 450px; text-transform: uppercase; vertical-align: middle;"><a href="https://www.wrangler.com/account/login?rurl=1" style="text-decoration:none; color:#282828;">You have <span style="color:#aa8f50; font-weight: 600">%%=v(@TotalRewards)=%%</span> Reward<br> in Your Account</a></td>
+  </tr>
+    <tr>
+          <td align="center" style="line-height: 9px; mso-line-height-rule: 9px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+</table>
+            <table class="desktop" align="center" width="100%" style="border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+        <tr>
+          <td align="center" height="10" style="line-height: 0px; mso-line-height-rule: 0px;">&nbsp;</td>
+        </tr>
+      </table>
+%%[ELSEIF @Email != @CanadianSubscriber AND @Email==@LoyaltyMember AND @TotalRewards != "1" AND @TotalPoints == "1" THEN]%%
+ <table class="desktop" align="center" width="100%" role="presentation" cellpadding="0" style="max-width: 600px; border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+        <tr>
+          <td align="center" style="line-height: 7px; mso-line-height-rule: 7px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+      </table>  
+<table class="desktop" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="100%">
+  <tr>
+    <td align="center" width="150" style="max-width: 150px;"><a href="https://www.wrangler.com/account/login?rurl=1" target="_blank"><img alias="img-rewards" alt="Wrangler Rewards" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/19/beafbd59-fc16-48f4-9c83-48b904adecdc.png" style="display: block; max-width: 150px;" title="Wrangler Rewards" width="150"></a></td>
+   
+    <td align="center" width="450" height="" style="font-family:FuturaPT, Trebuchet MS, sans-serif!important; font-size: 14px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 24px;;letter-spacing: normal;text-align: center;color: #282828; max-width: 450px; text-transform: uppercase; vertical-align: middle; border-right:1px; border-right-color: #282828; border-right-style: solid;"><a href="https://www.wrangler.com/account/login?rurl=1" style="text-decoration:none; color:#282828;">%%=v(@FirstName)=%%,<br> you have <span style="color:#aa8f50; font-weight: 600">%%=v(@TotalPoints)=%%</span> Point</a></td>
+   
+ <td align="center" width="450" height="" style="font-family:FuturaPT, Trebuchet MS, sans-serif!important; font-size: 14px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 24px;;letter-spacing: normal;text-align: center;color: #282828; max-width: 450px; text-transform: uppercase; vertical-align: middle;"><a href="https://www.wrangler.com/account/login?rurl=1" style="text-decoration:none; color:#282828;">You have <span style="color:#aa8f50; font-weight: 600">%%=v(@TotalRewards)=%%</span> Rewards<br> in Your Account</a></td>
+  </tr>
+ <tr>
+          <td align="center" style="line-height: 9px; mso-line-height-rule: 9px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+</table>
+            <table class="desktop" align="center" width="100%" style="border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+        <tr>
+           <td align="center" height="10" style="line-height: 0px; mso-line-height-rule: 0px;">&nbsp;</td>
+        </tr>
+      </table>
+%%[ELSEIF @Email != @CanadianSubscriber AND @Email==@LoyaltyMember AND @TotalRewards == "1" AND @TotalPoints == "1" THEN]%%
+ <table class="desktop" align="center" width="100%" role="presentation" cellpadding="0" style="max-width: 600px; border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+        <tr>
+          <td align="center" style="line-height: 7px; mso-line-height-rule: 7px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+      </table>  
+<table class="desktop" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="100%">
+  <tr>
+    <td align="center" width="150" style="max-width: 150px;"><a href="https://www.wrangler.com/account/login?rurl=1" target="_blank"><img alias="img-rewards" alt="Wrangler Rewards" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/19/beafbd59-fc16-48f4-9c83-48b904adecdc.png" style="display: block; max-width: 150px;" title="Wrangler Rewards" width="150"></a></td>
+   
+    <td align="center" width="450" height="" style="font-family:FuturaPT, Trebuchet MS, sans-serif!important; font-size: 14px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 24px;;letter-spacing: normal;text-align: center;color: #282828; max-width: 450px; text-transform: uppercase; vertical-align: middle; border-right:1px; border-right-color: #282828; border-right-style: solid;"><a href="https://www.wrangler.com/account/login?rurl=1" style="text-decoration:none; color:#282828;">%%=v(@FirstName)=%%,<br> you have <span style="color:#aa8f50; font-weight: 600">%%=v(@TotalPoints)=%%</span> Point</a></td>
+   
+ <td align="center" width="450" height="" style="font-family:FuturaPT, Trebuchet MS, sans-serif!important; font-size: 14px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 24px;;letter-spacing: normal;text-align: center;color: #282828; max-width: 450px; text-transform: uppercase; vertical-align: middle;"><a href="https://www.wrangler.com/account/login?rurl=1" style="text-decoration:none; color:#282828;">You have <span style="color:#aa8f50; font-weight: 600">%%=v(@TotalRewards)=%%</span> Reward<br> in Your Account</a></td>
+  </tr>
+   <tr>
+    <td align="center" height="20" style="max-width: 150px;"></td>
+  </tr>
+</table>
+            <table class="desktop" align="center" width="100%" style="border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+      <tr>
+          <td align="center" style="line-height: 9px; mso-line-height-rule: 9px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+      </table>
+%%[ELSEIF @Email != @CanadianSubscriber AND @Email==@LoyaltyMember THEN]%%
+ <table class="desktop" align="center" width="100%" role="presentation" cellpadding="0" style="max-width: 600px; border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+        <tr>
+          <td align="center" style="line-height: 7px; mso-line-height-rule: 7px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+      </table>  
+<table class="desktop" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="100%">
+  <tr>
+    <td align="center" width="150" style="max-width: 150px;"><a href="https://www.wrangler.com/account/login?rurl=1" target="_blank"><img alias="img-rewards" alt="Wrangler Rewards" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/19/beafbd59-fc16-48f4-9c83-48b904adecdc.png" style="display: block; max-width: 150px;" title="Wrangler Rewards" width="150"></a></td>
+   
+    <td align="center" width="450" height="" style="font-family:FuturaPT, Trebuchet MS, sans-serif!important; font-size: 14px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 24px;;letter-spacing: normal;text-align: center;color: #282828; max-width: 450px; text-transform: uppercase; vertical-align: middle; border-right:1px; border-right-color: #282828; border-right-style: solid;"><a href="https://www.wrangler.com/account/login?rurl=1" style="text-decoration:none; color:#282828;">%%=v(@FirstName)=%%,<br> you have <span style="color:#aa8f50; font-weight: 600">%%=v(@TotalPoints)=%%</span> Points</a></td>
+   
+ <td align="center" width="450" height="" style="font-family:FuturaPT, Trebuchet MS, sans-serif!important; font-size: 14px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 24px;;letter-spacing: normal;text-align: center;color: #282828; max-width: 450px; text-transform: uppercase; vertical-align: middle;"><a href="https://www.wrangler.com/account/login?rurl=1" style="text-decoration:none; color:#282828;">You have <span style="color:#aa8f50; font-weight: 600">%%=v(@TotalRewards)=%%</span> Rewards<br> in Your Account</a></td>
+  </tr>
+   <tr>
+    <td align="center" height="20" style="max-width: 150px;"></td>
+  </tr>
+</table>
+            <table class="desktop" align="center" width="100%" style="border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+   <tr>
+          <td align="center" style="line-height: 9px; mso-line-height-rule: 9px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+      </table>
+%%[ELSEIF @Email != @CanadianSubscriber AND @Email!=@LoyaltyMember THEN]%%
+ <table class="desktop" align="center" width="100%" role="presentation" cellpadding="0" style="max-width: 600px; border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+        <tr>
+          <td align="center" style="line-height: 7px; mso-line-height-rule: 7px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+      </table>  
+<table class="desktop" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="600">
+  <tr>
+    <td align="center" width="150" style="max-width: 150px;"><a href="https://www.wrangler.com/rewards.html" target="_blank"><img alias="img-rewards" alt="Wrangler Rewards" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/19/beafbd59-fc16-48f4-9c83-48b904adecdc.png" style="display: block; max-width: 150px;" title="Wrangler Rewards" width="150"></a></td>
+   
+    <td align="center" width="450" height="" style="font-family:FuturaPT, Trebuchet MS, sans-serif!important; font-size: 14px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 24px;;letter-spacing: normal;text-align: center;color: #282828; max-width: 450px; text-transform: uppercase; vertical-align: middle;">It Pays to Shop. Earn 1 Point for Every $1 Spent!<br><span style="color:#aa8f50; text-decoration: underline;"><a href="https://www.wrangler.com/rewards.html" style="text-decoration:underline; color:#aa8f50; font-weight: bold;">Sign Up</a></span></td>
+  </tr>
+  <tr>
+    <td align="center" height="20" style="max-width: 150px;"></td>
+  </tr>
+</table>
+  <table class="desktop" align="center" width="100%" style="border-top:2px; border-top-color: #dedddb; border-top-style: solid;">
+      <tr>
+          <td align="center" style="line-height: 9px; mso-line-height-rule: 9px; mso-line-height-rule:exactly;">&nbsp;</td>
+        </tr>
+      </table>  
+%%[ENDIF]%%
+<!--Desktop Loyalty End--> 
+<!--Begin Mobile-->
+<table class="mobile" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center" style=" display: none; max-height: 0px; overflow: hidden; mso-hide: all;">
+  <tr>
+    <td class="mobile" align="center"><div class="mobile" style="display:none; line-height: 0px; padding-top: 5px !important; width:0px; max-height:0px; overflow:hidden;">&nbsp;</div></td>
+  </tr>
+</table>
+%%[ENDIF]%%
+
+<!-- End Loyalty Banner --> 
