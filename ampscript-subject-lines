@@ -1,0 +1,13 @@
+%%[
+SET @Email = emailaddr
+SET @CanadianSubscriber = Lookup("Canada_AccountMaster", "EmailAddress", "EmailAddress", emailaddr)
+IF @Email == @CanadianSubscriber THEN
+ SET @SubjectLine = "Last-minute gifts? Save with 25% off"
+ ELSE
+ SET @SubjectLine = "Last-minute gifts? Save with 25% off and free shipping"
+ENDIF
+]%%
+
+
+
+%%=v(@SubjectLine)=%%
