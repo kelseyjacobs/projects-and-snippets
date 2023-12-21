@@ -1,0 +1,13 @@
+SELECT a.SubscriberKey, s.EmailAddress AS [Email Address], a.EventDate, b.EmailName
+FROM _Sent a
+INNER JOIN _Job b ON a.JobID = b.JobID
+INNER JOIN ent._Subscribers s ON a.SubscriberID = s.SubscriberID
+WHERE ( b.EmailName LIKE 'PROD_TBL1.5_OrderConfirmation%'
+OR b.EmailName = 'PROD_TBL1.5_MixedOrderConfirmation')
+AND ((datediff(d,EventDate,getdate()) <= 6)
+AND (datediff(d,EventDate,getdate()) >= 2))
+
+
+
+The datediff function does this: DATEDIFF(interval, date1, date2), looking at the difference of an interval between two dates.
+In our datediff we have set days (d) as our interval, the Sent EventDate as our date1 and todays date (getdate()) as our date2. So then we are saying, WHERE the difference in days between the sent date and today is greater than or equal to 6 days ago and less than or equal to 2 days ago
