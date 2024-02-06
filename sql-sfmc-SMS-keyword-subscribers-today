@@ -1,0 +1,5 @@
+SELECT MobileNumber as Phone, SubscriberKey, OptInDate, OptInStatusID, SubscriptionDefinitionID
+FROM _SMSSubscriptionLog 
+WHERE (datediff(d,OptInDate,getdate()) = 0)
+AND OptInStatusID = '2'
+AND SubscriptionDefinitionID = '93634152-FD24-48A8-A21E-9FEC8539047C'
