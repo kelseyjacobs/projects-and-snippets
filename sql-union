@@ -1,0 +1,31 @@
+SELECT a.Email
+FROM Account_Master_Mailable_abcartbanner a
+INNER JOIN [BC_-_Lee_-_Basquiat_-_Assumed_Young_Audience] b ON a.EMAIL = b.EMAIL
+UNION
+SELECT a.Email
+FROM Account_Master_Mailable_abcartbanner a
+INNER JOIN [BC_-_Lee_-_Basquiat_-_Lee_101_past_purchasers] c ON a.EMAIL = c.EMAIL
+UNION
+SELECT a.Email
+FROM Account_Master_Mailable_abcartbanner a
+INNER JOIN [BC_-_Lee_-_Basquiat_-_Millenial_past_purchasers] d ON a.EMAIL = d.EMAIL
+UNION
+SELECT a.Email
+FROM Account_Master_Mailable_abcartbanner a
+INNER JOIN [BC_-_Lee_-_Basquiat_-_Past_Collab_Purchasers] e ON a.EMAIL = e.EMAIL
+UNION
+SELECT a.Email
+FROM Account_Master_Mailable_abcartbanner a
+INNER JOIN [BC_-_Lee_-_Basquiat_-_Site_visitors_from_campaign] f ON a.EMAIL = f.EMAIL
+UNION
+SELECT a.Email
+FROM Account_Master_Mailable_abcartbanner a
+INNER JOIN [BC_-_Lee_-_Basquiat_-_Site_visitors_landing_on_campaign_pages] g ON a.EMAIL = g.EMAIL
+UNION
+SELECT a.Email
+FROM Account_Master_Mailable_abcartbanner a
+INNER JOIN [BC_-_Lee_-_Basquiat_-_Tier_2_productTier_2_Shoppers] h ON a.EMAIL = h.EMAIL
+UNION
+SELECT a.Email
+FROM Account_Master_Mailable_abcartbanner a
+INNER JOIN [Promo_Clicks] i ON a.EMAIL = i.EMAIL
