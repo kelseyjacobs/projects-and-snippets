@@ -1,0 +1,7 @@
+%%[ SET @FirstName = Lookup("Account_Master", "FIRSTNAME", "EMAIL", emailaddr) ]%%
+
+
+
+
+
+  Dear %%[ if not empty([FirstName]) then FirstName]%%%%=ProperCase([FirstName])=%%%%[ else ]%%Valued Customer%%[ endif ]%%,
