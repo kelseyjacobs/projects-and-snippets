@@ -1,0 +1,11 @@
+%%[
+SET @Email = emailaddr
+SET @SMSSignUpError = Lookup("AttentiveErrorWeek_20240224-20240303_MobileEmailSignUps", "EmailAddress", "EmailAddress", emailaddr) 
+]%%
+%%[ IF @Email == @SMSSignUpError THEN ]%%
+<table align="center" bgcolor="#ffffff" style="max-wdith:600px;" width="100%">
+  <tr>
+    <td align="center" style="max-width: 600px;" width="100%"><a alias="cta-smssignup" href="https://wrangler.attn.tv/p/RiU/landing-page" target="_blank"><img alt="Sign Up for Texts" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/f9cde7b9-67f3-483c-a7e7-bca018209414.jpg" style="display: block; max-width: 600px; width: 100%;" title="Sign Up for Texts" width="600"></a></td>
+  </tr>
+</table>
+%%[ ENDIF ]%%
