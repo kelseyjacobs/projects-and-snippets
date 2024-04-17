@@ -1,0 +1,7 @@
+Step 1: Do a file import from the FTP 
+
+Step 2: Add missing data field, Locale with a left join
+SELECT a.EmailAddress, a.Current_Active_Points, a.Points_Next_Reward, a.Reward_Count_Earned, a.Reward_Cash_Amount, a.FirstName, b.LocaleID
+FROM Loyalty_Reward_Issuance a
+LEFT JOIN [All_Loyalty_Members] b
+ON a.EmailAddress = b.EmailAddress
