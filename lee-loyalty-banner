@@ -1,0 +1,86 @@
+<!-- Loyalty Banner Begin -->
+
+
+%%[ 
+            SET @Email = emailaddr
+            SET @CanadianSubscriber = Lookup("Canada_AccountMaster", "EmailAddress", "EmailAddress", emailaddr) 
+            SET @FirstName = Lookup("Reward_Member_Master", "FirstName", "EmailAddress", emailaddr)  
+            SET @LoyaltyMember = Lookup("Reward_Member_Master", "EmailAddress", "EmailAddress", emailaddr) 
+            SET @Points_Next_Reward = Lookup("Reward_Member_Master", "Points_Next_Reward", "EmailAddress", emailaddr)
+            SET @ActivePoints = Lookup("Reward_Member_Master", "Active_Points", "EmailAddress", emailaddr)
+            
+            
+            IF EMPTY(@Points_Next_Reward) THEN SET @Points_Next_Reward= "0"
+            ENDIF
+            
+            Set @Negative = "-" 
+            if IndexOf(@ActivePoints,@Negative) > 0 then 
+            Set @ShowBanner = "False" 
+            else 
+            Set @ShowBanner = "True" 
+            endif 
+       
+]%%
+
+%%[ SET @KontoorRewards = Lookup("Reward_Member_Master", "kontoor_active_rewards", "EmailAddress", emailaddr) ]%% 
+%%[ IF EMPTY(@KontoorRewards) OR @KontoorRewards == "0" THEN ]%%
+%%[ENDIF]%%
+
+
+%%[IF @ShowBanner == "True" AND @Email != @CanadianSubscriber AND @Email==@LoyaltyMember AND @Points_Next_Reward == "1" AND @KontoorRewards != "0" AND NOT EMPTY(@KontoorRewards) THEN ]%%
+%%[ SET @KontoorRewards = Lookup("Reward_Member_Master", "kontoor_active_rewards", "EmailAddress", emailaddr) ]%% 
+
+
+%%[ 
+var @Reward_Cash_Amount, @num1, @num2 
+set @num1 = @KontoorRewards set @num2 = 5 
+set @Reward_Cash_Amount = multiply(@KontoorRewards, @num2) ]%%
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px; padding-top: 5px;" width="100%">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="100%">
+  <tr>
+    <td align="center" width="165" style="padding: 7px 0px 7px 25px; max-width: 150px;"><a href="https://www.lee.com/account/login?rurl=1" target="_blank"><img alias="img-rewards" alt="Lee Rewards" height="" src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/15491e89-a114-43c5-a4a6-730696d622f6.png" style="display: block; max-width: 140px;" title="Lee Rewards" width="140"></a></td>
+    <td class="l-pad-0" align="center" width="235" height="" style="padding: 5px 0 7px 15px;  font-family:'Roboto', Trebuchet MS, sans-serif!important; font-size: 15px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 21px;;letter-spacing: normal;text-align: center;color: #ffffff; vertical-align: middle;"><a href="https://www.lee.com/account/login?rurl=1" style="text-decoration:none; color:#ffffff;">%%=v(@FirstName)=%%,<br>
+      you have <span style="color:#c69214; font-weight: 600">$%%=v(@Reward_Cash_Amount)=%%</span> in rewards.</a></td>
+    <td class="r-pad-25" align="center" width="200" height="" style="padding: 5px 10px 7px 0; font-family:'Roboto', Trebuchet MS, sans-serif!important; font-size: 15px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 21px;;letter-spacing: normal;text-align: center;color: #ffffff; max-width: 450px; vertical-align: middle;"><a href="https://www.lee.com/account/login?rurl=1" style="text-decoration:none; color:#ffffff;">You're <span style="color:#c69214; font-weight: 600">%%=v(@Points_Next_Reward)=%%</span> point away<br>
+      from your next reward.</a></td>
+  </tr>
+</table>
+%%[ELSEIF @ShowBanner == "True" AND @Email != @CanadianSubscriber AND @Email==@LoyaltyMember AND @Points_Next_Reward != "1" AND @KontoorRewards != "0" AND NOT EMPTY(@KontoorRewards) THEN ]%%
+%%[ SET @KontoorRewards = Lookup("Reward_Member_Master", "kontoor_active_rewards", "EmailAddress", emailaddr) ]%% 
+
+
+%%[ 
+var @Reward_Cash_Amount, @num1, @num2 
+set @num1 = @KontoorRewards set @num2 = 5 
+set @Reward_Cash_Amount = multiply(@KontoorRewards, @num2) ]%%
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px; padding-top: 5px;" width="100%">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="100%">
+  <tr>
+    <td align="center" width="165" style="padding: 7px 0px 7px 25px; max-width: 150px;"><a href="https://www.lee.com/account/login?rurl=1" target="_blank"><img alias="img-rewards" alt="Lee Rewards" height="" src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/15491e89-a114-43c5-a4a6-730696d622f6.png" style="display: block; max-width: 140px;" title="Lee Rewards" width="140"></a></td>
+    <td class="l-pad-0" align="center" width="235" height="" style="padding: 5px 0 7px 15;  font-family:'Roboto', Trebuchet MS, sans-serif!important; font-size: 15px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 21px;;letter-spacing: normal;text-align: center;color: #ffffff;  vertical-align: middle;"><a href="https://www.lee.com/account/login?rurl=1" style="text-decoration:none; color:#ffffff;">%%=v(@FirstName)=%%,<br>
+      you have <span style="color:#c69214; font-weight: 600">$%%=v(@Reward_Cash_Amount)=%%</span> in rewards.</a></td>
+    <td class="r-pad-25" align="center" width="200" height="" style="padding: 5px 10px 7px 0; font-family:'Roboto', Trebuchet MS, sans-serif!important; font-size: 15px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 21px;;letter-spacing: normal;text-align: center;color: #ffffff; max-width: 450px; vertical-align: middle;"><a href="https://www.lee.com/account/login?rurl=1" style="text-decoration:none; color:#ffffff;">You're <span style="color:#c69214; font-weight: 600">%%=v(@Points_Next_Reward)=%%</span> points away<br>
+      from your next reward.</a></td>
+  </tr>
+</table>
+            
+
+
+%%[ELSEIF @ShowBanner == "True" AND @Email != @CanadianSubscriber AND @Email!=@LoyaltyMember AND NOT EMPTY(@KontoorRewards) THEN ]%%
+<table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="100%">
+  <tr>
+    <td align="center" width="200" style="padding: 10px 0px 10px 25px; max-width: 150px;"><a href="https://www.lee.com/account/login?rurl=1" target="_blank"><img alias="img-rewards" alt="Lee Rewards" height="" src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/15491e89-a114-43c5-a4a6-730696d622f6.png" style="display: block; max-width: 140px;" title="Lee Rewards" width="140"></a></td>
+    <td align="center" width="400" height="" style="padding: 10px 25px 10px 0px; font-family:'Roboto', Trebuchet MS, sans-serif!important; font-size: 15px; font-weight: medium;font-stretch: normal;font-style: normal;line-height: 21px;;letter-spacing: normal;text-align: center;color: #ffffff; max-width: 450px;  vertical-align: middle;">It Pays to Shop. Earn 1 Point for Every $1 Spent!<br>
+      <span style="color:#c69214; text-decoration: underline;"><a href="https://www.lee.com/rewards.html" style="text-decoration:underline; color:#c69214;">Join now</a></span></td>
+  </tr>
+</table>
+%%[ENDIF]%% 
+<!-- Loyalty Banner END --> 
