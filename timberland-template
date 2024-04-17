@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>   
+    <style type="text/css" media="screen">
+  
+      body {
+   margin:0; 
+   padding:0; 
+   -webkit-text-size-adjust:none; 
+   -ms-text-size-adjust:none;
+   width:100%;
+   align-content:center;
+   background-color:#FFFFFF;
+   }
+      
+      img { border: 0; height: auto; line-height: 100%; }
+      
+      table, td { font-family:Source Code Pro, Helvetica, sans-serif; }
+      
+      #backgroundWrapper, .emailBody { background-color: #FFFFFF; }
+      
+      .header p { margin: 0px 0px 0px 0px !important; }
+      .header .logo { padding: 0px 0px 0px 0px !important; }
+      
+     
+      @media only screen and (max-width: 639px) { u ~ .emailBody #backgroundWrapper { width: 100vw !important; }
+        .logo { padding: 0px 0px 0px 0px !important; }
+    .header { padding: 0px 0px 0px 0px !important; }
+  
+  
+   @media only screen and (max-device-width: 480px), screen and (max-width: 480px) {   
+   .block--hide {display: none !important;}
+    
+    
+ @media only screen and (max-width: 480px) {
+ 
+.showMobile {
+    display: block;
+ width: 100% !important;
+ align-content: center;
+}
+
+td {
+    max-width: 640px;
+}
+
+/* generals */
+*[class].hide {
+    display: none !important;
+    height: 0px !important;
+}
+
+ 
+
+*[class*="show"], *[class*="show"] img {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    max-height: inherit !important;
+    height: auto !important;
+ align-content: center;
+}
+ 
+  
+    </style>
+<head>
+<title>Timberland</title>
+  <!--[if gte mso 9]><xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml><![endif]-->
+</head>
+
+<body class="emailBody" style="margin: 0; padding: 0;">
+    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" id="backgroundWrapper">
+      <tr>
+        <td align="center" style="padding: 0 0px;">         
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="center">
+      
+            <tr>
+              <td align="center" style="width: 640px; background-color:#ffffff">
+     <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="center">
+     
+      <tr>
+       <td  align="right">
+                            <a href="%%view_email_url%%" alias="topnav-viewonline" title="View Online" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2024_Tree_Email_Wireframe_D_01.jpg" alt="View Online" style="display:block; max-width:640px !important;" border="0" width="320" /></a>
+                          </td>
+    
+  
+    
+ <td  align="left">
+                            <a href="https://www.timberland.com/en-us/timberland-community" alias="topnav-membersfreeship75" title="Members: Free Shipping Over $75*" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2024_Tree_Email_Wireframe_D_02.jpg" alt="Members: Free Shipping Over $75*" style="display:block; max-width:640px !important;" border="0" width="320" /></a>
+                          </td>
+    
+    </tr>
+  </table> 
+                <table class="header" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  
+                 <tr>
+                         
+                          <td align="center">
+                            <a target="_blank" href="https://www.timberland.com" alias="topnav_logo" title="Timberland.com">
+                              <img class="wrapto100pc" alt="Timberland.com" style="display:block; max-width:640px !important;" border="0" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2023_Community_Tree_Email_Wireframe_D_02.jpg" width="640" /></a>
+                          </td>
+                         
+                        </tr>
+                </table>
+      
+<!-- Top Nav -->
+      
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family:Source Code Pro, Helvetica, sans-serif;" width="100%" >
+
+ <tr>
+   <td align="center" class="hide">
+    <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+     
+     
+      <tr>
+     <td class="wrapto50pc" align="center">
+                            <a href="https://www.timberland.com/en-us/c/sale-10184" alias="topnav-sale" title="SALE" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2024_Tree_Email_Wireframe_D_R6_02.jpg" alt="SALE" style="display:block; width: 116px !important; height: 45px !important; max-width:116px !important; min-width: 116px !important;" border="0" width="116" /></a>
+                          </td>
+      <td class="wrapto50pc" align="center">
+                            <a href="https://www.timberland.com/shop/mens-best-sellers" alias="topnav-men" title="MEN" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2024_Tree_Email_Wireframe_D_R6_03.jpg" alt="MEN" style="display:block; width: 102px !important; height: 45px !important; max-width:102px !important; min-width: 102px !important;" border="0" width="102" /></a>
+                          </td>
+    
+  <td class="wrapto50pc" align="center">
+                            <a href="https://www.timberland.com/shop/womens-best-sellers" alias="topnav-women" title="WOMEN" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2024_Tree_Email_Wireframe_D_R6_04.jpg" alt="WOMEN" style="display:block; width: 116px !important; height: 45px !important; max-width:116px !important; min-width: 116px !important;" border="0" width="116" /></a>
+                          </td> 
+    
+  
+    
+  <td class="wrapto50pc" align="center">
+                            <a href="https://www.timberland.com/shop/mens-pro-best-sellers" alias="topnav-workwear" title="PRO Work" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/pro_w_tm_06.jpg" alt="PRO Work" style="display:block; width: 145px !important; height: 45px !important; max-width:145px !important; min-width: 145px !important;" border="0" width="145" /></a>
+                          </td>  
+    <td class="wrapto50pc" align="center">
+                            <a href="https://www.timberland.com/en-us/timberland-community" alias="topnav-community" title="COMMUNITY" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2024_Tree_Email_Wireframe_D_R6_06.jpg" alt="COMMUNITY" style="display:block; width: 161px !important; height: 45px !important; max-width:161px !important; min-width: 161px !important;" border="0" width="161" height="40" /></a>
+                          </td> 
+ </tr>
+  
+    </table></td></tr>
+</table>
+      
+      
+<!-- End Top Nav -->     
+      
+
+<!-- Begin Main Content -->
+  <div data-type="slot" data-key="contentarea" data-label="Content Area"></div>
+<!-- End Main Content -->    
+<!-- Begin Footer Nav -->
+<table class="showMobile" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" >
+ <tr>
+     <td  class="showMobile" align="center" width="100%" style="max-width: 640px;"><div class="show" style="display:none; width:0px; max-height:0px; overflow:hidden;" align="center">
+                            <a href="https://www.timberland.com/en-us/c/sale-10184" alias="footer_sale" title="SALE" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2023_Tree_Email_Wireframe_M_Sale_02.jpg" alt="SALE" style="display:block; max-width:640px !important;" border="0" width="640" /></a></div>
+                          </td>
+ </tr>
+<tr>
+ <td class="showMobile" align="center" width="100%" style="max-width: 640px;"><div class="show" style="display:none; width:0px; max-height:0px; overflow:hidden;" align="center">
+                            <a href="https://www.timberland.com/shop/mens-best-sellers" alias="footer_mensbestsellers" title="MEN'S BEST SELLERS" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2023_Tree_Email_Wireframe_M_04_mens.jpg" alt="MEN'S BEST SELLERS" style="display:block; max-width:640px !important;" border="0" width="640" /></a></div>
+                          </td>
+ </tr>
+  <tr>
+   <td class="showMobile" align="center" width="100%" style="max-width: 640px;"><div class="show" style="display:none; width:0px; max-height:0px; overflow:hidden;" align="center">
+                            <a href="https://www.timberland.com/shop/womens-best-sellers" alias="footer_womensbestsellers" title="WOMEN'S BEST SELLERS" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/5/2023_Tree_Email_Wireframe_M_05.jpg" alt="WOMEN'S BEST SELLERS" style="display:block; max-width:640px !important;" border="0" width="640" /></a></div>
+                          </td>
+ </tr>
+ 
+ <tr>
+    <td  class="showMobile" align="center" width="100%" style="max-width: 640px;"><div class="show" style="display:none; width:0px; max-height:0px; overflow:hidden;" align="center">
+                            <a href="https://www.timberland.com/timberlandpro.html" alias="footer_timberlandproworkwear" title="TIMBERLAND PRO WORKWEAR" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2024_Tree_Email_Wireframe_M_02.jpg?" alt="TIMBERLAND PRO WORKWEAR" style="display:block; max-width:640px !important;" border="0" width="640" /></a></div>
+                          </td>
+ </tr>
+ <tr>
+     <td  class="showMobile" align="center" width="100%" style="max-width: 640px;"><div class="show" style="display:none; width:0px; max-height:0px; overflow:hidden;" align="center">
+                            <a href="https://www.timberland.com/en-us/timberland-community" alias="footer_community" title="COMMUNITY" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/2023_Community_Tree_Email_Wireframe_M_02.jpg" alt="COMMUNITY" style="display:block; max-width:640px !important;" border="0" width="640" /></a></div>
+                          </td>
+ 
+ </tr>
+      </table>
+<!-- End Footer Nav-->
+      
+<!-- Begin Social Icons / Store Locator Row -->
+      
+<table border="0" cellpadding="0" cellspacing="0"  role="presentation" style="font-family:Source Code Pro, Helvetica, sans-serif;" width="640">
+
+
+<tr>
+                          <td align="center">
+                            <a href="https://www.tiktok.com/@timberland" alias="tiktok_social" title="TikTok" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/092023_SMS_PRO_Email_Wireframe_M_02.jpg" alt="TikTok" style="display:block; max-width:119px !important;" border="0" width="119" /></a>
+                          </td>
+        
+        <td align="center">
+                            <a href="https://www.facebook.com/timberland" alias="facebook_social" title="Facebook" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/092023_SMS_PRO_Email_Wireframe_M_03.jpg" alt="Facebook" style="display:block; max-width:95px !important;" border="0" width="95" /></a>
+                          </td>
+        
+       <td align="center">
+                            <a href="http://www.instagram.com/timberland" alias="instgram_social" title="Instagram" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/092023_SMS_PRO_Email_Wireframe_M_04.jpg" alt="Instagram" style="display:block; max-width:106px !important;" border="0" width="106" /></a>
+                          </td>
+                           <td align="center">
+                            <a href="https://www.timberland.com/en-us/store-locator" alias="footer_storelocator" title="Find A Store" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/092023_SMS_PRO_Email_Wireframe_M_05.jpg" alt="Find A Store" style="display:block; max-width:320px !important;" border="0" width="320" /></a>
+                          </td>
+                         
+                          
+                         
+                        
+                         
+                         
+                        </tr>
+    </table>
+              </td>
+            </tr>
+<!-- End Social Icons -->   
+<tr>
+<td align="center" style="width: 640px;">
+ 
+    <!-- Desktop Image (mobile has href) and Desktop has bg image to avoid Gmail download button -->
+<table class="hide" role="presentation" width="640" style="width:640px;" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr>
+<td align="center" bgcolor="#000000" background="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/092023_SMS_PRO_Email_Wireframe_M_06.jpg" width="640" height="218" valign="top" style="background: url('https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/092023_SMS_PRO_Email_Wireframe_M_06.jpg') center / cover no-repeat #000000;">
+<!--[if gte mso 9]>
+<v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 480pt; height: 163pt;" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/092023_SMS_PRO_Email_Wireframe_M_06.jpg" />                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 480pt; height:163pt;">
+<v:fill  opacity="0%" color="#000000”  />
+<v:textbox inset="0,0,0,0">
+<![endif]-->
+
+<!--[if gte mso 9]>
+</v:textbox>
+</v:fill>
+</v:rect>
+</v:image>
+<![endif]-->
+</td>
+</tr>
+</table>
+    <!-- End Desktop Image --> 
+  <!-- Mobile Image (mobile has href) -->
+<table class="showMobile" style="display:block;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td class="showMobile" width="100%" align="center"><div class="show" style="display:none; width:0px; max-height:0px; overflow:hidden;" align="center"> <a href="sms:+67968?&body=TIMBS" alias="img-smsoptinmobile" title="Text TIMBS to 67968" target="_blank"> <img class="wrapto100pc" alt="Text TIMBS to 67968" style="display:block; max-width:640px !important;" border="0" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/092023_SMS_PRO_Email_Wireframe_M_06.jpg" width="640" /></a> </div></td>
+  </tr>
+</table>
+   <!-- End Mobile --> 
+ </td>
+     </tr>
+ 
+                         <tr>
+                    <td align="center">
+                      <div data-type="slot" data-key="disclaimer" data-label="Disclaimer"></div>
+     </td> 
+                        </tr>
+ 
+                      </table>
+     
+     <div style="display: none; max-height: 0px; overflow: hidden;">
+            <custom name="opencounter" type="tracking" />
+          </div>
+              </td>
+  </tr>
+ </table>
+  </body>
+</html>
