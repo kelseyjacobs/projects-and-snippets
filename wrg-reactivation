@@ -1,0 +1,410 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wrangler</title>
+<style type="text/css" media="screen">
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    width: 100%;
+    align-content: center;
+    background-color: #FFFFFF;
+}
+img {
+    border: 0;
+    height: auto;
+    line-height: 100%;
+}
+table, td {
+    font-family: Futura, Trebuchet MS, sans-serif;
+}
+#backgroundWrapper, .emailBody {
+    background-color: #ffffff;
+}
+.header p {
+    margin: 15px 10px 5px 10px !important;
+}
+.header .logo {
+    padding: 10px 0px 5px 0px !important;
+}
+
+/* mobile swap supported on Gmail, Outlook and Webkit. This is the mechanic that hides the nav on mobile */
+@media only screen and (max-width: 600px) {
+.desktop {
+    text-indent: -99999em !important;
+    display: none !important;
+    mso-hide: all !important;
+    overflow: hidden !important;
+    font-size: 0px !important;
+}
+.mobile {
+    text-indent: 0 !important;
+    display: block !important;
+    height: auto !important;
+    visibility: visible !important;
+    overflow: visible !important;
+    max-height: none !important;
+}
+.l-pad-15 {
+    padding-left: 15px !important;
+}
+.r-pad-15 {
+    padding-right: 15px !important;
+}
+.mobile-font-styles {
+    letter-spacing: 1px !important;
+}
+  .mobile-font-increase {
+    font-size: 16px !important;
+}
+}
+
+/* the mobile swap below has no effect Gmail, used intentionally here so Gmail gets served the hidemobile version via it not having display:none in the body. This method is used here to serve Gmail the site SMS signup link instead of SMS deep linking (not supported on Gmail) */
+@media only screen and (max-width: 480px) {
+.showMobile {
+    display: block;
+    width: 100% !important;
+    align-content: center;
+}
+td {
+    max-width: 600px;
+}
+.mobile-font-styles {
+    letter-spacing: 1px !important;
+}
+/* generals */
+*[class].hideMobile {
+    display: none !important;
+    height: 0px !important;
+}
+*[class*="showMobile"], *[class*="showMobile"] img {
+    display: inline !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    max-height: inherit !important;
+    height: auto !important;
+    align-content: center;
+}
+}
+</style>
+<!--[if gte mso 9]><xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+</head>
+<body class="emailBody" style="font-family: sans-serif; margin: 0; padding: 0;">
+<div style="display:none;"> 
+%%[
+SET @Email = emailaddr
+SET @CanadianSubscriber = Lookup("Marketing_Customer_View_Canada", "EmailAddress", "EmailAddress", emailaddr) 
+
+IF @Email == @CanadianSubscriber THEN
+ SET @TemplateLogoURL = "https://www.wrangler.com/en-ca/home"
+ SET @TemplateNewArrivalsURL = "https://www.wrangler.com/en-ca/shop/new"
+ SET @TemplateDenimURL = "https://www.wrangler.com/en-ca/denim.html"
+ SET @TemplateMenURL = "https://www.wrangler.com/en-ca/men.html"
+ SET @TemplateWomenURL = "https://www.wrangler.com/en-ca/women.html"
+ SET @TemplateSaleURL = "https://www.wrangler.com/en-ca/shop/sale"
+ SET @TemplateMensJeansURL = "https://www.wrangler.com/en-ca/shop/men-jeans"
+ SET @TemplateWomensJeansURL = "https://www.wrangler.com/en-ca/shop/women-jeans"
+ SET @TemplatePrivacyURL = "https://www.wrangler.com/en-ca/privacy.html"
+ELSE 
+ SET @TemplateLogoURL = "https://www.wrangler.com"
+ SET @TemplateNewArrivalsURL = "https://www.wrangler.com/shop/new"
+ SET @TemplateDenimURL = "https://www.wrangler.com/denim.html"
+ SET @TemplateMenURL = "https://www.wrangler.com/men.html"
+ SET @TemplateWomenURL = "https://www.wrangler.com/women.html"
+ SET @TemplateSaleURL = "https://www.wrangler.com/shop/sale"
+ SET @TemplateMensJeansURL = "https://www.wrangler.com/shop/men-jeans"
+ SET @TemplateWomensJeansURL = "https://www.wrangler.com/shop/women-jeans"
+ SET @TemplatePrivacyURL = "https://www.wrangler.com/help/privacy.html"
+ENDIF
+]%%
+</div>
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" id="backgroundWrapper">
+  <tr>
+    <td align="center" style="padding: 0 10px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" align="center">
+        <tr>
+          <td width="600" align="center"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper">
+              <tr>
+                <td class="stylingblock-content-wrapper camarker-inner"><table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td width="600" align="center"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+ <tr>
+    <td class="preheader" height="15" align="center">&nbsp;</td>
+ </tr>
+  <tr>
+   <td class="preheader" style="color: #040404; font-size: 14px; line-height: 1.2;" align="center"><a href="https://www.wrangler.com/shop/featured-spring-styles" target="_blank" style="text-decoration:none; color: #040404;">Open for 20% off + free shipping ✉️<br>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<br>
+ </a><a href="%%view_email_url%%" alias="View in browser" target="_blank" style="color:#00529f; text-decoration: underline; padding: 15px 0;">View Online</a>
+</td></tr>
+<tr>
+    <td class="preheader" height="15" align="center">&nbsp;</td>
+ </tr>
+</table></td></tr></table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td align="center" style="width: 600px;"><table class="header" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+              <tr>
+                <td class="logo" align="center"><a href="%%=RedirectTo(@TemplateLogoURL)=%%" alias="header-logo" target="_blank"> <img src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/15/29269f8f-c33f-40e5-b8dd-31156db5be76.png" alt="Wrangler" width="200" style="padding-bottom:7px; border: 0; display: block; margin: 0; max-width: 200px; width: 100%;" /> </a></td>
+              </tr>
+            </table>
+            
+            <!-- Top Nav --> 
+            <!--Begin Desktop Image - no nav on mobile-->
+            
+            <div class="desktop">
+              <table class="desktop" role="presentation" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tr>
+                  <td align="center" class="desktop"><table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td align="center" style="font-family:Futura, Trebuchet MS, sans-serif;font-size:18px;font-weight:300;color:#2b2b2b; mso-padding-alt: 0px 0; text-transform:uppercase;"><a alias="header-new" href="%%=RedirectTo(@TemplateNewArrivalsURL)=%%" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-alt: 0; width: 100%; text-decoration: none;" target="_blank">New</a></td>
+                        <td width="50" align="center" valign="middle">&nbsp;</td>
+                        <td align="center"  style="font-family:Futura, Trebuchet MS, sans-serif;font-size:18px;font-weight:300;color:#2b2b2b; mso-padding-alt: 0px 0; text-transform:uppercase;"><a alias="header-denim" href="%%=RedirectTo(@TemplateDenimURL)=%%" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-alt: 0; width: 100%; text-decoration: none;" target="_blank">Denim</a></td>
+                        <td width="50" align="center" valign="middle">&nbsp;</td>
+                        <td align="center" style="font-family:Futura, Trebuchet MS, sans-serif;font-size:18px;font-weight:300;color:#2b2b2b; mso-padding-alt: 0px 0; text-transform:uppercase;"><a alias="header-men" href="%%=RedirectTo(@TemplateMenURL)=%%" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-alt: 0; width: 100%; text-decoration: none;" target="_blank">Men</a></td>
+                        <td width="50" align="center" valign="middle">&nbsp;</td>
+                        <td align="center"  style="font-family:Futura, Trebuchet MS, sans-serif;font-size:18px;font-weight:300;color:#2b2b2b; mso-padding-alt: 0px 0; text-transform:uppercase;"><a alias="header-women" href="%%=RedirectTo(@TemplateWomenURL)=%%" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-alt: 0; width: 100%; text-decoration: none;" target="_blank">Women</a></td>
+                        <td width="50" align="center" valign="middle">&nbsp;</td>
+                        <td align="center"  style="font-family:Futura, Trebuchet MS, sans-serif;font-size:18px;font-weight:300;color:#2b2b2b; mso-padding-alt: 0px 0; text-transform:uppercase;"><a alias="header-sale" href="%%=RedirectTo(@TemplateSaleURL)=%%" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-alt: 0; width: 100%; text-decoration: none;" target="_blank">Sale</a></td>
+                      </tr>
+                      <tr>
+                        <td align="center" height="10"></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+            </div>
+            
+            <!-- End Top Nav --> 
+            <!-- Loyalty Banner Begin --> 
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                    <tr>
+                    <td align="center">
+                      %%=ContentBlockbyKey("Loyalty_Banner")=%%
+                      </td>
+                    </tr>
+                    </table>
+            <!-- Loyalty Banner End --> 
+            <!-- Begin Main Content -->
+            
+            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[
+
+SET @FirstName = Lookup("Marketing_Customer_View", "FirstName", "EmailAddress", emailaddr) 
+
+]%%
+
+
+%%[var @rsCouponRow var @CouponCode SET @rsCouponRow = ClaimRow("Reactivation_CouponCodes_USCanada_CC", "IsClaimed", "EmailAddress", emailaddr_) IF NOT EMPTY(@rsCouponRow) THEN SET @CouponCode = Trim(Field(@rsCouponRow, "CouponCode")) ELSE SET @CouponCode = "WRGREV2FB25" ENDIF]%%</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[
+
+SET @FirstName = Lookup("Marketing_Customer_View", "FirstName", "EmailAddress", emailaddr) 
+IF NOT EMPTY(@FirstName) THEN 
+]%%
+
+<a href="https://www.wrangler.com/shop/featured-spring-styles" style="text-decoration: none;">
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="600">
+  <tr>
+    <td align="center" background="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/ea4121cd-ca86-4e1a-b899-f741288ad1b1.gif" style="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/ea4121cd-ca86-4e1a-b899-f741288ad1b1.gif');width:600px;background-repeat: no-repeat;background-position:top;  background-size: 600px;" width="600">
+         <!--[if gte mso 9]>
+<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height:83px !important; background-repeat: no-repeat !important;background-position:top;">
+<v:fill type="frame" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/ea4121cd-ca86-4e1a-b899-f741288ad1b1.gif" color="#e9e9e9" height="69" ></v:fill>
+<v:textbox style="mso-fit-shape-to-text:false" inset="0,0,0,0">
+<![endif]-->
+     
+    <table style="max-width: 600px; min-width: 600px;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+        <tr>
+  <td style="font-family:Arial, Helvetica, sans-serif; font-size:30px; font-weight: bold; text-transform: uppercase;text-align: center; vertical-align: bottom; color: #000000;" height="69" align="center">%%=v(@FirstName)=%%,</td>
+         </tr>
+   </table>
+    </td>
+  </tr>
+</table>
+<!--[if gte mso 9]>                      
+</v:textbox>
+</v:rect>
+<![endif]-->
+  </a>
+
+%%[ENDIF]%%</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="https://www.wrangler.com/shop/featured-spring-styles" title="It's been too long! Enjoy 20% off + free shipping" alias="img-offer" conversion="false" data-linkto="https://"><img data-assetid="712143" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/bcd7a652-deb9-4b96-b421-326b15b23dcb.gif" alt="It's been too long! Enjoy 20% off + free shipping" width="600" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px;"></a></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="600">
+  <tr>
+    <td align="center" background="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/8245d3ce-081c-43df-8528-e1c1bd5ba8b6.gif" style="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/8245d3ce-081c-43df-8528-e1c1bd5ba8b6.gif');width:600px;background-repeat: no-repeat;background-position:top;  background-size: 600px;" width="600">
+         <!--[if gte mso 9]>
+<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height:83px !important; background-repeat: no-repeat !important;background-position:top;">
+<v:fill type="frame" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/8245d3ce-081c-43df-8528-e1c1bd5ba8b6.gif" color="#e9e9e9" height="72" ></v:fill>
+<v:textbox style="mso-fit-shape-to-text:false" inset="0,0,0,0">
+<![endif]-->
+     
+    <table style="max-width: 600px; min-width: 600px;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+        <tr>
+  <td style="font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight: bold; text-transform: uppercase;text-align: center; vertical-align: middle; color: #000000;" height="72" align="center">Use code: %%=V(@CouponCode)=%%</td>
+         </tr>
+   </table>
+    </td>
+  </tr>
+</table>
+<!--[if gte mso 9]>                      
+</v:textbox>
+</v:rect>
+<![endif]-->
+</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" bgcolor="#ffffff" style="max-wdith:600px;" width="600" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="right" height="911" style="max-width: 283px; min-width: 283px;" width="283"><a href="https://www.wrangler.com/shop/men-featured-spring-staples" target="_blank"><img alias="cta-shopmen" alt="Shop Men" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/c59dfbf4-fd1d-4108-8430-b158c600548d.gif" style="display: block; max-width: 283px; min-width: 283px; width: 283px;" title="Shop Men" width="283"></a></td>
+      <td align="left" height="911" style="max-width: 317px; min-width: 317px;" width="317"><a href="https://www.wrangler.com/shop/women-featured-spring-staples" target="_blank"><img alias="cta-shopwomens" alt="Shop Women's" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/b4f08ecc-82ed-4347-9c65-d6582c1ae631.gif" style="display: block; max-width: 317px; min-width: 317px; width: 317px;" title="Shop Women's" width="317"></a></td>
+       
+  </tr>
+</table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center" style="display: block;"><a href="https://www.wrangler.com/shop/featured-best-of-wrangler" title="Styles this legendary never lose appeal" alias="img-legendary" conversion="false" data-linkto="https://"><img data-assetid="712025" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/6d2acc44-1453-46dd-a4a4-99f0ef91af88.gif" alt="Styles this legendary never lose appeal" width="600" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px;"></a></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" bgcolor="#ffffff" style="max-wdith:600px;" width="600" cellpadding="0" cellspacing="0">
+  <tr>
+   
+    <td align="left" height="" style="max-width: 300px; min-width: 300px;" width="300"><a href="https://www.wrangler.com/shop/men-jeans" target="_blank"><img alias="cta-mensjeans" alt="Men's Jeans" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/9cf93868-999f-4c78-b07a-e68d829883c0.gif" style="display: block; max-width: 300px; min-width: 300px; width: 300px;" title="Men's Jeans" width="300"></a></td>
+      <td align="left" height="" style="max-width: 300px; min-width: 300px;" width="300"><a href="https://www.wrangler.com/shop/women-jeans" target="_blank"><img alias="cta-womensjeans" alt="Women's Jeans" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/4e5b2ab8-13d1-4d9e-9494-6f4a88c4d7b7.gif" style="display: block; max-width: 300px; min-width: 300px; width: 300px;" title="Women's Jeans" width="300"></a></td>
+       
+  </tr>
+</table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" bgcolor="#ffffff" style="max-wdith:600px;" width="600" cellpadding="0" cellspacing="0">
+  <tr>
+   
+    <td align="left" height="" style="max-width: 300px; min-width: 300px;" width="300"><a href="https://www.wrangler.com/shop/men-shirts" target="_blank"><img alias="cta-mensshirts" alt="Men's Shirts" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/b07e2d50-71e6-462f-be78-ce2534894410.gif" style="display: block; max-width: 300px; min-width: 300px; width: 300px;" title="Men's Shirts" width="300"></a></td>
+      <td align="left" height="" style="max-width: 300px; min-width: 300px;" width="300"><a href="https://www.wrangler.com/shop/women-tops" target="_blank"><img alias="cta-womenstops" alt="Women's Tops" height="" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/bed2a4e8-4807-4f1d-ac90-ee3af2082b53.gif" style="display: block; max-width: 300px; min-width: 300px; width: 300px;" title="Women's Tops" width="300"></a></td>
+       
+  </tr>
+</table></td></tr></table>
+            
+            <!-- End Main Content --> 
+            
+            <!-- Begin Footer Icons--> 
+            %%[IF @Email != @CanadianSubscriber THEN ]%%
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-top:2px; border-top-color: #2b2b2b; border-top-style: solid;">
+              <tr>
+                <td style="line-height: 0px;" align="center" height="0">&nbsp;</td>
+              </tr>
+            </table>
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+              <tr>
+                <td align="center"><a href="https://www.wrangler.com/rewards.html" alias="cta-wranglerrewards" title="Wrangler Rewards" target="_blank"><img src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/20/ac2d1358-436d-4492-9bad-bc2ae0fd291b.jpg" alt="Wrangler Rewards" style="border: 0; display: block; margin: 0; max-width: 213px; width: 100%; height: auto;" width="213" border="0"></a></td>
+                <td align="center"><a href="https://wrangler.attn.tv/p/RiU/landing-page" alias="cta-textojoin" title="Text to Join" target="_blank"><img src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/a7b2fc79-9604-409f-b604-490cf20ffb93.jpg" alt="Text to Join" style="border: 0; display: block; margin: 0; max-width: 135px; width: 100%; height: auto;" width="135" border="0"></a></td>
+                <td align="center"><a href="https://www.wrangler.com/shipping.html" alias="cta-freeshipping" title="Free shipping on orders $100+" target="_blank"><img src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/20/4c5897a1-816d-4f0c-b106-5aeb59e53932.jpg" alt="Free shipping on orders $100+" style="border: 0; display: block; margin: 0; max-width: 252px; width: 100%; height: auto;" width="252" border="0"></a></td>
+              </tr>
+            </table>
+            %%[ENDIF]%% 
+            <!-- End Footer Icons--> 
+            
+            <!-- Begin Footer Nav -->
+            
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-top:2px; border-top-color: #2b2b2b; border-top-style: solid;">
+              <tr>
+                <td style="line-height: 0px;" align="center" height="0">&nbsp;</td>
+              </tr>
+            </table>
+            <table role="presentation" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; max-width: 600px; min-width: 600px;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+              <tr>
+                <td align="center" height="25"></td>
+              </tr>
+              <tr>
+                <td align="center"  style="font-family:Futura, Trebuchet MS, sans-serif;font-size:15px;font-weight:600;color:#2b2b2b; mso-padding-alt: 11px 0; text-transform:uppercase;"><a alias="footer-newarrivals" href="%%=RedirectTo(@TemplateNewArrivalsURL)=%%" style="display: block; color: #2b2b2b; padding: 11px 0;  mso-padding-alt: 0; width: 100%; text-decoration: none;" target="_blank">New Arrivals</a></td>
+              </tr>
+              <tr>
+                <td align="center"  style="font-family:Futura, Trebuchet MS, sans-serif;font-size:15px;font-weight:900;color:#2b2b2b; mso-padding-alt: 11px 0; text-transform:uppercase;"><a alias="footer-mensjeans" href="%%=RedirectTo(@TemplateMensJeansURL)=%%" style="display: block; color: #2b2b2b; padding: 11px 0; mso-padding-alt: 0; width: 100%; text-decoration: none;" target="_blank">Men's Jeans</a></td>
+              </tr>
+              <tr>
+                <td align="center"  style="font-family:Futura, Trebuchet MS, sans-serif;font-size:15px;font-weight:900;color:#2b2b2b; mso-padding-alt: 11px 0; text-transform:uppercase;"><a alias="footer-womensjeans" href="%%=RedirectTo(@TemplateWomensJeansURL)=%%" style="display: block; color: #2b2b2b; padding: 11px 0; mso-padding-alt: 0; width: 100%; text-decoration: none;" target="_blank">Women's Jeans</a></td>
+              </tr>
+              <tr>
+                <td align="center"  style="font-family:Futura, Trebuchet MS, sans-serif;font-size:15px;font-weight:900;color:#2b2b2b; mso-padding-alt: 11px 0; text-transform:uppercase;"><a alias="footer-sale" href="%%=RedirectTo(@TemplateSaleURL)=%%" style="display: block; color: #2b2b2b; padding: 11px 0; mso-padding-alt: 0; width: 100%; text-decoration: none;" target="_blank">Sale</a></td>
+              </tr>
+              <tr>
+                <td align="center" height="25"></td>
+              </tr>
+            </table>
+            
+            <!-- End Footer Nav--> 
+            
+            <!-- Begin Social Icons -->
+            
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-top:2px; border-top-color: #2b2b2b; border-top-style: solid;">
+              <tr>
+                <td align="center"><table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                      <td align="center" height="25"></td>
+                    </tr>
+                    <tr>
+                      <td align="center" width="65"><a alias="footer-Instagram" href="https://instagram.com/wrangler/" target="_blank"><img alt="Instagram" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/15/fee220ab-f940-4b66-afc7-f802831b4204.png" style="border: 0; display: block; max-width: 48px; width: 100%;" width="48"> </a></td>
+                      <td align="center" width="65"><a alias="footer-tiktok" href="https://www.tiktok.com/@wrangler" target="_blank"><img alt="TikTok" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/18/0d9ca8a9-f979-4d50-9f09-5e95470a27be.png" style="border: 0; display: block; max-width: 48px; width: 100%;" width="48"> </a></td>
+                      <td align="center" width="65"><a alias="footer-facebook" href="http://www.facebook.com/wranglerjeans/" target="_blank"><img alt="Facebook" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/15/2977bb33-a7c2-45cf-925c-5d38b003d0ca.png" style="border: 0; display: block; max-width: 48px; width: 100%;" width="48"> </a></td>
+                      <td align="center" width="65"><a alias="footer-pinterest" href="https://www.pinterest.com/wrangler/" target="_blank"><img alt="Pinterest" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/15/ed9bb83f-741f-4f08-a8e1-13fa82413656.png" style="border: 0; display: block; max-width: 48px; width: 100%;" width="48"> </a></td>
+                      <td align="center" width="65"><a alias="footer-youtube" href="https://www.youtube.com/user/wranglerjeans" target="_blank"><img alt="YouTube" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/15/0f5006b3-e584-427b-8a3c-a4902c84ef0b.png" style="border: 0; display: block; max-width: 48px; width: 100%;" width="48"> </a></td>
+                    </tr>
+                    <tr>
+                      <td align="center" height="40"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            
+            <!-- End Social Icons -->
+            
+            <table  border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+              <tr>
+                <td align="center" style="padding: 15px 0 0;"><table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+         <td style="font-family:Futura, Trebuchet MS, sans-serif;font-size: 12px;color:#838383; line-height: 1.2; padding: 0 10px;" align="center">
+         <p class="samsungfix" style="margin: 0 0 15px;"><strong>20% Off Your Next Order:&nbsp;</strong>Offer good only on orders placed on <a href="https://www.wrangler.com/home" alias="footer-homepage" target="_blank" style="text-decoration:none; color:#838383;">wrangler.com</a> through %%=Format(DateAdd(Now(), 14,"D"),'MM/dd/yyyy')=%%. Discount applied at checkout with unique coupon code found in email. Not valid in stores. Only valid on in-stock merchandise. Excludes special collaborations onsite that contain messaging, "Discounts do not apply". Not valid on prior purchases. This discount cannot be combined with other offers. We reserve the right to limit quantities or cancel orders arising from pricing, promotions, or other errors. We reserve the right to end or extend this promotion at any time without notice. The customer is responsible for any and all applicable taxes and charges associated with returning merchandise. 
+           </p>
+         </td>
+      </tr></table>
+
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+         <td style="font-family:Futura, Trebuchet MS, sans-serif;font-size: 12px;color:#838383; line-height: 1.2; padding: 0 10px;" align="center">
+         <p class="samsungfix" style="margin: 0 0 15px;"><strong>Free Standard Shipping: </strong>Offer good only on orders placed on <a href="https://www.wrangler.com/home" alias="footer-homepage" target="_blank" style="text-decoration:none; color:#838383;">wrangler.com</a> through %%=Format(DateAdd(Now(), 14,"D"),'MM/dd/yyyy')=%%. Discount applied at checkout with unique coupon code found in email. Free shipping only applies to standard US ground shipments to the lower 48 states on orders made on <a href="https://www.wrangler.com/home" alias="footer-homepage" target="_blank" style="text-decoration:none; color:#838383;">wrangler.com</a>. Not valid on orders shipping to Alaska or Hawaii. Not applicable to express orders. Not valid in stores. Only valid on in-stock merchandise. Not valid on prior purchases. We reserve the right to limit quantities or cancel orders arising from pricing, promotions, or other errors. We reserve the right to end or extend this promotion at any time without notice. The customer is responsible for any and all applicable taxes and charges associated with returning merchandise.    
+           </p>
+         </td>
+      </tr></table>
+
+
+</td></tr></table></td>
+                    </tr>
+                  </table>
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                    <tr>
+                      <td align="center"  style="font-family:Futura, Trebuchet MS, sans-serif;font-size: 12px;color:#9e9e9e; line-height: 1.2; padding: 0 10px;">
+                        %%[IF @Email != @CanadianSubscriber THEN ]%%
+                        <p style="margin: 0 0 15px;"> *CA resident loans made or arranged pursuant to a California Financing Law license. </p>
+                        %%[ENDIF]%%
+                        <p style="margin: 0 0 15px;"> You are receiving this message because you expressed<br>
+                          interest in news and offers from Wrangler.com. Wrangler<br>
+                          respects your privacy. Information regarding your personal<br>
+                          information can be viewed <a href="%%=RedirectTo(@TemplatePrivacyURL)=%%" alias="footer-privacy" target="_blank" style="text-decoration:underline; color:#9e9e9e;">here</a>. </p>
+                        <p style="margin: 0 0 15px;"> %%member_addr%% <br>
+                          %%member_city%%, %%member_state%% %%member_postalcode%% <br>
+                          <a href="tel:1-888-784-8571" style="text-decoration:none;color:#9e9e9e;">1-888-784-8571</a> </p>
+                        <p style="margin: 0 0 15px;">%%xtyear%% Kontoor Brands, All rights reserved.<br>
+                          Don't want to hear from us?<br>
+                          <a href="%%unsub_center_url%%" alias="footer-unsubscribe" target="_blank" style="text-decoration:underline; color:#9e9e9e;">Unsubscribe</a> or <a href="%%=RedirectTo(CloudPagesURL(3480))=%%" alias="footer-updatepreferences" target="_blank" style="text-decoration:underline; color:#9e9e9e;">Manage Preferences</a> </p></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            <div style="display: none; max-height: 0px; overflow: hidden;">
+              <custom name="opencounter" type="tracking" />
+            </div></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>
