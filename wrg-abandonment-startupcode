@@ -1,0 +1,110 @@
+<!--- Necessary Set Up Code Start --->
+%%[ 
+Set @datalookup = Lookup("MCV_abandoned_cart_Last5Days", "data", "subscriber_key", _subscriberkey) 
+Set @data = Concat('{"trigger_payload":"', @datalookup, '"}') 
+Set @mid = memberid 
+Set @messagecontext = _messagecontext 
+]%% <script runat="server">
+  Platform.Load("Core", "1");
+  try {
+    var defaults = {
+      "link" : "Link",
+      "image_link" : "ImageLink",
+      "product_code" : "ProductCode",
+      "name" : "Name", 
+      "regular_price" : "RegularPrice", 
+      "sale_price" : "SalePrice", 
+      "sku_id" : "SkuID"
+    };
+    
+    // Data from block settings
+    var settings = {"fields":{"image_link":"ImageLink","name":"ProductName"},"maxItems":1,"sortBy":"item_order","sortDirection":"desc","desktopCols":1,"mobileCols":0,"useSalePricing":false};
+    
+    // Read data from MC
+    var data = Platform.Variable.GetValue("@data");
+    var mid = Platform.Variable.GetValue("@mid");
+    var event_locale = Platform.Variable.GetValue("@event_locale");
+    var messagecontext = Platform.Variable.GetValue("@messagecontext");
+    
+    // Build the url
+    var protocol = "https";
+    var hostname = mid + ".recs.igodigital.com";
+    var qs = "?item_count=" + settings["maxItems"] + "&sort_by=" + settings["sortBy"] + "&sort_direction=" + settings["sortDirection"];
+    var includes = [];
+    for (var key in settings["fields"]) {
+      if(defaults[key] == null) {
+        includes = includes.concat(settings["fields"][key]);
+      }
+    }
+    if(includes.length > 0) {
+      qs += "&include=" + includes.join("|")
+    }
+    if(event_locale){
+      qs += "&locale=" + event_locale
+    }
+    var url = protocol + "://" + hostname + "/" + mid + "/trigger" + qs;
+        
+    var result = HTTP.Post(url, "application/json", data, []);
+    if (result.StatusCode == 200) {
+      var response = Platform.Function.ParseJSON(result.Response[0]);
+
+      // Expose fields in response as Ampscript variables
+      for(var responseField in response) {
+        var value = response[responseField];
+        
+        if(responseField === "products" || responseField === "current_cart") {
+          var prefix = (responseField === "products") ? "@item_" : "@cart_";
+          for(var i=0; i<value.length; i++) {
+            for(var itemField in value[i]) {
+              var name = prefix + itemField + "_" + (i+1);
+              var val = value[i][itemField];
+              Platform.Variable.SetValue(name, val);
+            }
+          }
+        }
+        else if(responseField === "user") {
+          var prefix = "@user_";
+          for(var userField in value) {
+            var name = prefix + userField;
+            var val = value[userField];
+            Platform.Variable.SetValue(name, val);
+          }
+        }
+        else {
+          Platform.Variable.SetValue("@"+responseField, value);
+        }
+      }
+      
+      
+    }
+    else {
+      Write("Unable to retrieve product information: statusCode=" + result.StatusCode);
+      Platform.Function.RaiseError("Quit send.", true, "statusCode","3");
+    }
+  } catch(e) {
+    Write(e);
+    Platform.Function.RaiseError("Quit send.", true, "statusCode","3");
+  } 
+</script> <!--- Necessary Set Up Code END ---> <!--- Block one Copy Start ---> <!--- Block one Copy END ---> <!--- Block two Product Start ---> <!--
+%%[
+IF NOT Empty(@cart_product_code_1) THEN
+ SET @productCatalogRow = LookupRows("Einstein_Product_Catalog", "ProductCode", @cart_product_code_1) 
+ELSE
+ SET @productCatalogRow = LookupRows("Einstein_Product_Catalog", "ProductCode", @item_product_code_1) 
+ENDIF
+IF RowCount(@productCatalogRow) > 0 THEN
+  SET @productName = Trim(Field(Row(@productCatalogRow, 1), 'ProductName',0))
+  SET @productURL = Trim(Field(Row(@productCatalogRow, 1), 'ProductLink',0))
+  SET @productImageURL = Trim(Field(Row(@productCatalogRow, 1), 'ImageLink',0))
+ENDIF
+]%%
+-->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+           <td align="center">
+            <a alias="Still deciding? Make it yours and save big. Shop Now." href="%%=RedirectTo(@productURL)=%%" title="%%=v(@productName)=%%"><img alt="Still deciding? Make it yours and save big. Shop Now." border="0" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/04b60236-4e8c-417f-b2cc-18a654a9c677.jpg" style="display:block; border-spacing:0;"></a></td></tr></table>
+ <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 400px;">
+          <tr>
+           <td align="center" style="padding: 0px 0 45px 0;">
+            <a alias="Product Tile" href="%%=RedirectTo(@productURL)=%%" title="%%=v(@productName)=%%"><img alt="%%=v(@productName)=%%" border="0" src="%%=v(@productImageURL)=%%" style="display:block; border-spacing:0;" width="300"></a></td></tr></table>
