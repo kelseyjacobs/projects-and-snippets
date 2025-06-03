@@ -1,0 +1,263 @@
+<table>
+  <tr>
+  <td>
+    &nbsp;
+    </td>
+  </tr>
+</table>
+%%[ 
+SET @kontoor_active_rewards = [kontoor_active_rewards]
+SET @ActivePoints = [Active_Points]
+]%%
+
+
+%%[IF EMPTY(@kontoor_active_rewards) OR @kontoor_active_rewards == "0" THEN 
+SET @HasRewards = "False"
+ELSE
+SET @HasRewards = "True"
+ENDIF ]%%
+
+
+<!-- Has Reward 25% progress -->
+%%[IF @HasRewards == "True" AND (([Active_Points] >= "50") AND ([Active_Points] <= "99")) THEN]%%
+
+%%[var @totalrewardcash, @num1, @num2 
+set @num1 = @kontoor_active_rewards
+set @num2 = 5 
+set @totalrewardcash = multiply(@kontoor_active_rewards, @num2) ]%%
+
+<a href="https://www.wrangler.com/account/login" title="Your rewards summary" style="text-decoration: none;" alias="hero-hasreward25pc">
+<table align="center" cellpadding="0" cellspacing="0" style="border:5px solid #b39d68; max-width: 550px; min-width:550px;" width="550">
+        <tr>
+          <td align="center" style="padding: 40px 30px 40px 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000;">
+  %%[ if not empty(FirstName) then ]%% %%=ProperCase(FirstName)=%%, here's your<br> latest reward summary%%[ else ]%%Here's your latest reward summary%%[ endif ]%%
+        </td>
+        </tr>
+   <tr>
+          <td align="center" style="padding: 0px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+   In your account you have
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 36px; line-height: 30px; font-weight: bold; color: #b39d68; text-align: center; text-transform: uppercase; letter-spacing: 2px;">
+     $%%=v(@totalrewardcash)=%% in rewards
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+    Spend $%%Points_Next_Reward%% to earn your next reward
+    </td>
+  </tr>
+
+  <tr>
+   <td align="center" style="padding: 30px 0 50px 0px"><a href="https://www.wrangler.com/account/login" title="Spend to earn your next reward" alias="hero" conversion="false" data-linkto="https://"><img data-assetid="671113" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/600d8922-f1fa-482e-95ab-91629dad2e2f.png" width="500" alt="25 percent progress bar" style="display: block; padding: 0px; text-align: center; border: 0px none transparent;"></a></td></tr>
+      </table>
+</a>
+<table>
+<tr>
+ <td>&nbsp;
+ <br>
+  &nbsp;
+ </td></tr></table>
+%%[ENDIF]%%
+
+
+<!-- Has Reward 50% progress -->
+%%[IF @HasRewards == "True" AND (([Active_Points] >= "100") AND ([Active_Points] <= "149")) THEN]%%
+
+%%[var @totalrewardcash, @num1, @num2 
+set @num1 = @kontoor_active_rewards
+set @num2 = 5 
+set @totalrewardcash = multiply(@kontoor_active_rewards, @num2) ]%%
+
+<a href="https://www.wrangler.com/account/login" title="Your rewards summary" style="text-decoration: none;" alias="hero-hasreward50pc">
+<table align="center" cellpadding="0" cellspacing="0" style="border:5px solid #b39d68; max-width: 550px; min-width:550px;" width="550">
+        <tr>
+          <td align="center" style="padding: 40px 30px 40px 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000;">
+  %%[ if not empty(FirstName) then ]%% %%=ProperCase(FirstName)=%%, here's your<br> latest reward summary%%[ else ]%%Here's your latest reward summary%%[ endif ]%%
+        </td>
+        </tr>
+   <tr>
+          <td align="center" style="padding: 0px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+   In your account you have
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 36px; line-height: 30px; font-weight: bold; color: #b39d68; text-align: center; text-transform: uppercase; letter-spacing: 2px;">
+     $%%=v(@totalrewardcash)=%% in rewards
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+    Spend $%%Points_Next_Reward%% to earn your next reward
+    </td>
+  </tr>
+
+  <tr>
+   <td align="center" style="padding: 30px 0 50px 0px"><a href="https://www.wrangler.com/account/login" title="Spend to earn your next reward" alias="hero" conversion="false" data-linkto="https://"><img data-assetid="671113" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/fa9dee75-3f3e-49b8-b27e-4ef3b3b85877.png" width="500" alt="50 percent progress bar" style="display: block; padding: 0px; text-align: center; border: 0px none transparent;"></a></td></tr>
+      </table>
+</a>
+<table>
+<tr>
+ <td>&nbsp;
+ <br>
+  &nbsp;
+ </td></tr></table>
+%%[ENDIF]%%                     
+
+
+<!-- Has Reward 75% progress -->
+%%[IF @HasRewards == "True" AND (([Active_Points] >= "150") AND ([Active_Points] <= "199")) THEN]%%
+
+%%[var @totalrewardcash, @num1, @num2 
+set @num1 = @kontoor_active_rewards
+set @num2 = 5 
+set @totalrewardcash = multiply(@kontoor_active_rewards, @num2) ]%%
+
+<a href="https://www.wrangler.com/account/login" title="Your rewards summary" style="text-decoration: none;" alias="hero-hasreward75pc">
+<table align="center" cellpadding="0" cellspacing="0" style="border:5px solid #b39d68; max-width: 550px; min-width:550px;" width="550">
+        <tr>
+          <td align="center" style="padding: 40px 30px 40px 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000;">
+  %%[ if not empty(FirstName) then ]%% %%=ProperCase(FirstName)=%%, here's your<br> latest reward summary%%[ else ]%%Here's your latest reward summary%%[ endif ]%%
+        </td>
+        </tr>
+   <tr>
+          <td align="center" style="padding: 0px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+   In your account you have
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 36px; line-height: 30px; font-weight: bold; color: #b39d68; text-align: center; text-transform: uppercase; letter-spacing: 2px;">
+     $%%=v(@totalrewardcash)=%% in rewards
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+    Spend $%%Points_Next_Reward%% to earn your next reward
+    </td>
+  </tr>
+
+  <tr>
+   <td align="center" style="padding: 30px 0 50px 0px"><a href="https://www.wrangler.com/account/login" title="Spend to earn your next reward" alias="hero" conversion="false" data-linkto="https://"><img data-assetid="671113" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/16278e73-6204-46b9-bc9c-1dc804791c90.png" width="500" alt="75 percent progress bar" style="display: block; padding: 0px; text-align: center; border: 0px none transparent;"></a></td></tr>
+      </table>
+</a>
+<table>
+<tr>
+ <td>&nbsp;
+ <br>
+  &nbsp;
+ </td></tr></table>
+%%[ENDIF]%%      
+
+
+
+<!-- Points Only 25% progress -->
+%%[IF @HasRewards == "False" AND (([Active_Points] >= "50") AND ([Active_Points] <= "99")) THEN]%%
+<a href="https://www.wrangler.com/account/login" title="Your rewards summary" style="text-decoration: none;" alias="hero-pointsonly25pc">
+<table align="center" cellpadding="0" cellspacing="0" style="border:5px solid #b39d68; max-width: 550px; min-width:550px;" width="550">
+        <tr>
+          <td align="center" style="padding: 40px 30px 40px 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000;">
+  %%[ if not empty(FirstName) then ]%% %%=ProperCase(FirstName)=%%, here's your<br> latest reward summary%%[ else ]%%Here's your latest reward summary%%[ endif ]%%
+        </td>
+        </tr>
+   <tr>
+          <td align="center" style="padding: 0px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+   In your account you have
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 36px; line-height: 30px; font-weight: bold; color: #b39d68; text-align: center; text-transform: uppercase; letter-spacing: 2px;">
+     %%Active_Points%% Points
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+    Spend $%%Points_Next_Reward%% to earn your next reward
+    </td>
+  </tr>
+
+  <tr>
+   <td align="center" style="padding: 30px 0 50px 0px"><a href="https://www.wrangler.com/account/login" title="Spend to earn your next reward" alias="hero" conversion="false" data-linkto="https://"><img data-assetid="671113" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/600d8922-f1fa-482e-95ab-91629dad2e2f.png" width="500" alt="25 percent progress bar" style="display: block; padding: 0px; text-align: center; border: 0px none transparent;"></a></td></tr>
+      </table>
+</a>
+<table>
+<tr>
+ <td>&nbsp;
+ <br>
+  &nbsp;
+ </td></tr></table>
+%%[ENDIF]%%
+
+<!-- Points Only 50% progress -->
+%%[IF @HasRewards == "False" AND (([Active_Points] >= "100") AND ([Active_Points] <= "149")) THEN]%%
+<a href="https://www.wrangler.com/account/login" title="Your rewards summary" style="text-decoration: none;" alias="hero-pointsonly50pc">
+<table align="center" cellpadding="0" cellspacing="0" style="border:5px solid #b39d68; max-width: 550px; min-width:550px;" width="550">
+        <tr>
+          <td align="center" style="padding: 40px 30px 40px 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000;">
+  %%[ if not empty(FirstName) then ]%% %%=ProperCase(FirstName)=%%, here's your<br> latest reward summary%%[ else ]%%Here's your latest reward summary%%[ endif ]%%
+        </td>
+        </tr>
+   <tr>
+          <td align="center" style="padding: 0px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+   In your account you have
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 36px; line-height: 30px; font-weight: bold; color: #b39d68; text-align: center; text-transform: uppercase; letter-spacing: 2px;">
+     %%Active_Points%% Points
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+    Spend $%%Points_Next_Reward%% to earn your next reward
+    </td>
+  </tr>
+
+  <tr>
+   <td align="center" style="padding: 30px 0 50px 0px"><a href="https://www.wrangler.com/account/login" title="Spend to earn your next reward" alias="hero" conversion="false" data-linkto="https://"><img data-assetid="671113" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/fa9dee75-3f3e-49b8-b27e-4ef3b3b85877.png" width="500" alt="50 percent progress bar" style="display: block; padding: 0px; text-align: center; border: 0px none transparent;"></a></td></tr>
+      </table>
+</a>
+<table>
+<tr>
+ <td>&nbsp;
+ <br>
+  &nbsp;
+ </td></tr></table>
+%%[ENDIF]%%
+
+<!-- Points Only 75% progress -->
+%%[IF @HasRewards == "False" AND (([Active_Points] >= "150") AND ([Active_Points] <= "199")) THEN]%%
+<a href="https://www.wrangler.com/account/login" title="Your rewards summary" style="text-decoration: none;" alias="hero-pointsonly75pc">
+<table align="center" cellpadding="0" cellspacing="0" style="border:5px solid #b39d68; max-width: 550px; min-width:550px;" width="550">
+        <tr>
+          <td align="center" style="padding: 40px 30px 40px 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000;">
+  %%[ if not empty(FirstName) then ]%% %%=ProperCase(FirstName)=%%, here's your<br> latest reward summary%%[ else ]%%Here's your latest reward summary%%[ endif ]%%
+        </td>
+        </tr>
+   <tr>
+          <td align="center" style="padding: 0px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+   In your account you have
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 36px; line-height: 30px; font-weight: bold; color: #b39d68; text-align: center; text-transform: uppercase; letter-spacing: 2px;">
+     %%Active_Points%% Points
+    </td>
+  </tr>
+  <tr>
+          <td align="center" style="padding: 10px 30px 0 30px; vertical-align: top; font-family: Futura PT, Trebuchet MS, sans-serif; font-size: 22px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000; font-weight: bold;">
+    Spend $%%Points_Next_Reward%% to earn your next reward
+    </td>
+  </tr>
+
+  <tr>
+   <td align="center" style="padding: 30px 0 50px 0px"><a href="https://www.wrangler.com/account/login" title="Spend to earn your next reward" alias="hero" conversion="false" data-linkto="https://"><img data-assetid="671113" src="https://image.e.wrangler.com/lib/fe9c13727565057575/m/1/16278e73-6204-46b9-bc9c-1dc804791c90.png" width="500" alt="75 percent progress bar" style="display: block; padding: 0px; text-align: center; border: 0px none transparent;"></a></td></tr>
+      </table>
+</a>
+<table>
+<tr>
+ <td>&nbsp;
+ <br>
+  &nbsp;
+ </td></tr></table>
+%%[ENDIF]%%
