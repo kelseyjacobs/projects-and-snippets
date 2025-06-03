@@ -1,0 +1,17 @@
+   
+ <!--Begin Desktop Image-->
+<table class="hide" role="presentation" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td class="hide" align="center"><a href="https://www.wrangler.com/sms-sign-up.html" alias="cta-sms" title="Sign Up For Texts" target="_blank"><img src="" alt="Sign Up For Texts" style="border: 0; display: block; margin: 0; max-width: 600px; min-width:600px; height: auto;" width="600" border="0"></a></td>
+  </tr>
+</table>
+
+<!--End Desktop Image--> 
+<!--Begin Mobile Image-->
+
+<table class="showMobile" role="presentation" style="display: none; max-height: 0px; overflow: hidden; mso-hide: all; /* hide elements in Outlook 2007-2013 */" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td class="showMobile" align="center"><div class="show" style="display:none; width:0px; max-height:0px; overflow:hidden;"><a href="sms:471947?&body=JOIN" alias="cta-sms" title="Sign Up For Texts" target="_blank"><img src="https://image.mail.casper.com/lib/fe951372746d067d70/m/16/e1645ac1-550b-4841-b933-1430eb39db28.png" alt="Sign Up For Texts" style="border: 0; display: block; margin: 0; max-width: 600px; min-width:600px; height: auto;" border="0"></a></div></td>
+  </tr>
+</table>
+<!--End Mobile Image--> 
