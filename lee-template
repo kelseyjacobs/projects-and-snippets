@@ -68,24 +68,21 @@ table, td {
 .l-pad-10 {
     padding-left: 10px !important;
 }
- 
 .l-pad-10 {
     padding-left: 10px !important;
 }
 .l-pad-0 {
     padding-left: 0px !important;
-}  
+}
 .t-pad-5 {
     padding-top: 5px !important;
 }
-  
 .t-pad-30 {
     padding-top: 30px !important;
 }
 .t-pad-8 {
     padding-top: 8px !important;
 }
-
 .mobile-font-increase {
     font-size: 20px !important;
 }
@@ -108,6 +105,45 @@ table, td {
 </head>
 
 <body class="emailBody" style="font-family: 'Roboto Condensed', sans-serif; margin: 0; padding: 0;">
+<div style="display:none;"> 
+  %%[
+  SET @Email = emailaddr
+  SET @CanadianSubscriber = Lookup("Marketing_Customer_View_Canada", "EmailAddress", "EmailAddress", emailaddr) 
+  
+  IF @Email == @CanadianSubscriber THEN
+   SET @TemplateLogoURL = "http://www.lee.com/en-ca/home"
+   SET @TemplateMenURL = "http://www.lee.com/en-ca/shop/men"
+   SET @TemplateWomenURL = "http://www.lee.com/en-ca/shop/women"
+   SET @TemplateJeansURL = "https://www.lee.com/en-ca/shop/featured-jeans"
+   SET @TemplateSaleURL = "http://www.lee.com/en-ca/shop/sale"
+   SET @TemplateMensJeansURL = "https://www.lee.com/en-ca/shop/men-clothing-jeans"
+   SET @TemplateWomensJeansURL = "https://www.lee.com/en-ca/shop/women-clothing-jeans"
+   SET @TemplateMensShortsURL = "https://www.lee.com/en-ca/shop/men-clothing-shorts"
+   SET @TemplateWomensShortsURL = "https://www.lee.com/en-ca/shop/women-clothing-shorts"
+   SET @TemplateNewArrivalsURL = "https://www.lee.com/en-ca/shop/new-arrivals"
+   SET @TemplateBestSellersURL = "https://www.lee.com/en-ca/shop/featured-best-sellers"
+   SET @TemplatePrivacyURL = "https://www.lee.com/en-ca/help/privacy.html"
+   SET @TemplateShippingURL = "https://www.lee.com/en-ca/help/shipping.html"
+   SET @TemplateReturnsURL = "https://www.lee.com/en-ca/help/return-policy.html"
+   SET @TemplateContactURL = "https://www.lee.com/en-ca/help/contact-us.html"
+  ELSE 
+   SET @TemplateLogoURL = "http://www.lee.com"
+   SET @TemplateMenURL = "http://www.lee.com/shop/men"
+   SET @TemplateWomenURL = "http://www.lee.com/shop/women"
+   SET @TemplateJeansURL = "https://www.lee.com/shop/featured-jeans"
+   SET @TemplateSaleURL = "http://www.lee.com/shop/sale"
+   SET @TemplateMensJeansURL = "https://www.lee.com/shop/men-clothing-jeans"
+   SET @TemplateWomensJeansURL = "https://www.lee.com/shop/women-clothing-jeans"
+   SET @TemplateMensShortsURL = "https://www.lee.com/shop/men-clothing-shorts"
+   SET @TemplateWomensShortsURL = "https://www.lee.com/shop/women-clothing-shorts"
+   SET @TemplateNewArrivalsURL = "https://www.lee.com/shop/new-arrivals"
+   SET @TemplateBestSellersURL = "https://www.lee.com/shop/featured-best-sellers"
+   SET @TemplatePrivacyURL = "https://www.lee.com/help/privacy.html"
+   SET @TemplateShippingURL = "https://www.lee.com/help/shipping.html"
+   SET @TemplateReturnsURL = "https://www.lee.com/help/return-policy.html"
+   SET @TemplateContactURL = "https://www.lee.com/help/contact-us.html"
+  ENDIF
+  ]%% </div>
 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" id="backgroundWrapper">
   <tr>
     <td align="center" style="padding: 0 10px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" align="center">
@@ -118,104 +154,109 @@ table, td {
           <td width="600" align="center" height="15"></td>
         </tr>
         <tr>
-          <td width="600" align="center">
-      %%[ SET @Email = emailaddr SET @CanadianSubscriber = Lookup("Canada_AccountMaster", "EmailAddress", "EmailAddress", emailaddr) ]%% %%[IF @Email != @CanadianSubscriber THEN ]%%
-       <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Roboto Condensed', sans-serif;" width="100%">
-          <tr>
-           <td width="600" align="center">%%=ContentBlockbyKey("Lee_Loyalty_TopBanner")=%%</td>
-          </tr>
-     </table>
-          %%[ENDIF]%%
-   </td>
+          <td width="600" align="center"> %%[IF @Email != @CanadianSubscriber THEN ]%%
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Roboto Condensed', sans-serif;" width="100%">
+              <tr>
+                <td width="600" align="center">%%=ContentBlockbyKey("Lee_Loyalty_TopBanner")=%%</td>
+              </tr>
+            </table>
+            %%[ENDIF]%% </td>
         </tr>
         <tr>
           <td align="center" style="width: 600px;"><!-- Top Nav -->
+            
             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: 'Roboto Condensed', sans-serif;" width="100%">
               <tr>
                 <td class="t-pad-8" align="center" style="padding-top: 15px; padding-bottom: 15px;"><table  border="0" cellpadding="0" cellspacing="0" role="presentation">
                     <tr>
-                      <td class="shrink-text-mobile r-pad-15 t-pad-10" align="center" style="padding-right: 25px; padding-top: 22px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-right-alt: 25px; text-transform:uppercase;"><a alias="nav_women" href="http://www.lee.com/shop/women" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-right-alt: 25px; width: 100%; text-decoration: none;" target="_blank">Women</a></td>
-                      <td class="shrink-text-mobile r-pad-30 t-pad-10" align="center"  style="padding-right: 50px; padding-top: 22px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-right-alt: 50px; text-transform:uppercase;"><a alias="nav_men" href="http://www.lee.com/shop/men" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-right-alt: 50px; width: 100%; text-decoration: none;" target="_blank">Men</a></td>
-                      <td width="100" class="mobile-logo" align="center" valign="top" style=" min-width: 100px; max-width: 100px;"><a href="http://www.lee.com" alias="lee_logo" target="_blank"> <img src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/95cc1c2c-7176-4523-9116-f336831a1ef9.png" alt="Lee" width="100" style="border: 0; display: block; margin: 0; max-width: 100px; min-width: 100px;" /> </a></td>
-                      <td class="shrink-text-mobile l-pad-30 t-pad-10" align="center" style="padding-left: 50px; padding-top: 22px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-left-alt: 50px; text-transform:uppercase;"><a alias="nav_jeans" href="https://www.lee.com/shop/featured-jeans" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-left-alt: 50px; width: 100%; text-decoration: none;" target="_blank">Jeans</a></td>
-                      <td  class="shrink-text-mobile l-pad-15 t-pad-10" align="center"  style="padding-left: 25px; padding-top: 22px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-left-alt: 25px; text-transform:uppercase;"><a alias="nav_sale" href="http://www.lee.com/shop/sale" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-left-alt: 25px; width: 100%; text-decoration: none;" target="_blank">Sale</a></td>
+                      <td class="shrink-text-mobile r-pad-15 t-pad-10" align="center" style="padding-right: 25px; padding-top: 22px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-right-alt: 25px; text-transform:uppercase;"><a alias="nav_women" href="%%=RedirectTo(@TemplateWomenURL)=%%" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-right-alt: 25px; width: 100%; text-decoration: none;" target="_blank">Women</a></td>
+                      <td class="shrink-text-mobile r-pad-30 t-pad-10" align="center"  style="padding-right: 50px; padding-top: 22px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-right-alt: 50px; text-transform:uppercase;"><a alias="nav_men" href="%%=RedirectTo(@TemplateMenURL)=%%" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-right-alt: 50px; width: 100%; text-decoration: none;" target="_blank">Men</a></td>
+                      <td width="100" class="mobile-logo" align="center" valign="top" style=" min-width: 100px; max-width: 100px;"><a href="%%=RedirectTo(@TemplateLogoURL)=%%" alias="lee_logo" target="_blank"> <img src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/95cc1c2c-7176-4523-9116-f336831a1ef9.png" alt="Lee" width="100" style="border: 0; display: block; margin: 0; max-width: 100px; min-width: 100px;" /> </a></td>
+                      <td class="shrink-text-mobile l-pad-30 t-pad-10" align="center" style="padding-left: 50px; padding-top: 22px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-left-alt: 50px; text-transform:uppercase;"><a alias="nav_jeans" href="%%=RedirectTo(@TemplateJeansURL)=%%" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-left-alt: 50px; width: 100%; text-decoration: none;" target="_blank">Jeans</a></td>
+                      <td  class="shrink-text-mobile l-pad-15 t-pad-10" align="center"  style="padding-left: 25px; padding-top: 22px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-left-alt: 25px; text-transform:uppercase;"><a alias="nav_sale" href="%%=RedirectTo(@TemplateSaleURL)=%%" style="display: block; color: #2b2b2b; padding: 0px 0;  mso-padding-left-alt: 25px; width: 100%; text-decoration: none;" target="_blank">Sale</a></td>
                     </tr>
                   </table></td>
               </tr>
             </table>
-            <!-- End Top Nav -->
+            
+            <!-- End Top Nav --> 
             <!-- Begin Main Content -->
+            
             <div data-type="slot" data-key="contentarea" data-label="Body Content"></div>
+            
             <!-- End Main Content -->
-  <table cellpadding="0" cellspacing="0" role="presentation" width="600" style="border-top: 3px; border-top-color: #2b2b2b; border-top-style: solid;">
+            
+            <table cellpadding="0" cellspacing="0" role="presentation" width="600" style="border-top: 3px; border-top-color: #2b2b2b; border-top-style: solid;">
               <tr>
                 <td align="center" height="30"></td>
               </tr>
             </table>
+            
             <!-- Begin Footer Nav -->
-                    <table cellpadding="0" cellspacing="0" role="presentation" width="600">
+            
+            <table cellpadding="0" cellspacing="0" role="presentation" width="600">
               <tr>
-                <td align="center" style="font-family: 'Roboto Condensed', Arial, sans-serif; font-weight:900; font-size: 18px; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-womensjeans" href="https://www.lee.com/shop/women-clothing-jeans" style="display: block; color: #2b2b2b; font-size: 18px; text-decoration: none;" target="_blank">WOMEN'S JEANS</a></td>
-                <td align="center"  style="font-family: 'Roboto Condensed', sans-serif; font-weight:900; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-mensjeans" href="https://www.lee.com/shop/men-clothing-jeans" style="display: block; color: #2b2b2b; padding: 7px 0; font-size:18px; text-decoration: none;" target="_blank">MEN'S JEANS</a></td>
+                <td align="center" style="font-family: 'Roboto Condensed', Arial, sans-serif; font-weight:900; font-size: 18px; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-womensjeans" href="%%=RedirectTo(@TemplateWomensJeansURL)=%%" style="display: block; color: #2b2b2b; font-size: 18px; text-decoration: none;" target="_blank">WOMEN'S JEANS</a></td>
+                <td align="center"  style="font-family: 'Roboto Condensed', sans-serif; font-weight:900; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-mensjeans" href="%%=RedirectTo(@TemplateMensJeansURL)=%%" style="display: block; color: #2b2b2b; padding: 7px 0; font-size:18px; text-decoration: none;" target="_blank">MEN'S JEANS</a></td>
               </tr>
               <tr>
-                <td class="mobile-font-increase" align="center"  style="padding-top: 15px; font-family: 'Roboto Condensed', sans-serif;font-size:18px; font-weight:900; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-womensshorts" href="https://www.lee.com/shop/women-clothing-shorts" style="display: block; color: #2b2b2b; font-size:18px; text-decoration: none;" target="_blank">WOMEN'S SHORTS</a></td>
-                <td  class="mobile-font-increase"  align="center" style="padding-top: 15px;font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-mensshorts" href="https://www.lee.com/shop/men-clothing-shorts" style="display: block; color: #2b2b2b; text-decoration: none; font-size:18px;" target="_blank">MEN'S SHORTS</a></td>
+                <td class="mobile-font-increase" align="center"  style="padding-top: 15px; font-family: 'Roboto Condensed', sans-serif;font-size:18px; font-weight:900; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-womensshorts" href="%%=RedirectTo(@TemplateWomensShortsURL)=%%" style="display: block; color: #2b2b2b; font-size:18px; text-decoration: none;" target="_blank">WOMEN'S SHORTS</a></td>
+                <td  class="mobile-font-increase"  align="center" style="padding-top: 15px;font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-mensshorts" href="%%=RedirectTo(@TemplateMensShortsURL)=%%" style="display: block; color: #2b2b2b; text-decoration: none; font-size:18px;" target="_blank">MEN'S SHORTS</a></td>
               </tr>
               <tr>
-                <td class="mobile-font-increase" align="center"  style="padding-top: 20px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-newarrivals" href="https://www.lee.com/shop/new-arrivals" style="display: block; color: #2b2b2b; font-size:18px; text-decoration: none;" target="_blank">NEW ARRIVALS</a></td>
-                <td class="mobile-font-increase" align="center"  style="padding-top: 20px;font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-bestsellers" href="https://www.lee.com/shop/featured-best-sellers" style="display: block; color: #2b2b2b; text-decoration: none; font-size:18px;" target="_blank">BEST SELLERS</a></td>
+                <td class="mobile-font-increase" align="center"  style="padding-top: 20px; font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-newarrivals" href="%%=RedirectTo(@TemplateNewArrivalsURL)=%%" style="display: block; color: #2b2b2b; font-size:18px; text-decoration: none;" target="_blank">NEW ARRIVALS</a></td>
+                <td class="mobile-font-increase" align="center"  style="padding-top: 20px;font-family: 'Roboto Condensed', sans-serif;font-size:18px;font-weight:900;color:#2b2b2b; mso-padding-alt: 7px 0; text-transform:uppercase;"><a class="mobile-font-increase-footer" alias="footer-bestsellers" href="%%=RedirectTo(@TemplateBestSellersURL)=%%" style="display: block; color: #2b2b2b; text-decoration: none; font-size:18px;" target="_blank">BEST SELLERS</a></td>
               </tr>
             </table>
-  <table cellpadding="0" cellspacing="0" role="presentation" width="600">
+            <table cellpadding="0" cellspacing="0" role="presentation" width="600">
               <tr>
                 <td align="center" height="15"></td>
               </tr>
             </table>
-            <!-- End Footer Nav-->
-            %%[ SET @Email = emailaddr SET @CanadianSubscriber = Lookup("Canada_AccountMaster", "EmailAddress", "EmailAddress", emailaddr) ]%% %%[IF @Email != @CanadianSubscriber THEN ]%%
-              <table cellpadding="0" cellspacing="0" role="presentation" width="600">
+            
+            <!-- End Footer Nav--> 
+            %%[IF @Email != @CanadianSubscriber THEN ]%%
+            <table cellpadding="0" cellspacing="0" role="presentation" width="600">
               <tr>
                 <td width="600" align="center">%%=ContentBlockbyKey("Lee_Loyalty_BottomBanner")=%%</td>
               </tr>
             </table>
-             <!--SMS/Klarna Begin--> 
-                <div class="desktop">
-      <table class="desktop" role="presentation" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tr>
-    <td width="295"  class="desktop" align="center" style="padding-top: 8px;"><a href="https://lee.attn.tv/p/frE/landing-page" alias="cta_smssignup" title="Sign up for texts. Get 15% off when you join!" target="_blank"><img src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/18ce0098-eb6e-4d4a-967b-cf94be6fe513.jpg" alt="Sign up for texts. Get 15% off when you join!" width="295" style="border: 0; display: block; margin: 0; max-width: 295px;" /></a></td>
-    <td width="10" class="desktop" align="center" style="padding-top: 8px;">&nbsp;</td>
-    <td width="295"  class="desktop" align="center" style="padding-top: 8px;"><a href="https://www.lee.com/klarna.html" alias="cta_klarna" title="Klarna. Shop now. Pay in 4 with Klarna. Learn more." target="_blank"><img src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/d2393bf0-235a-4f95-a7f6-45d12452ec78.jpg" alt="Klarna. Shop now. Pay in 4 with Klarna. Learn more." width="295" style="border: 0; display: block; margin: 0; max-width: 295px;" /></a></td>
- 
-        </tr>
-</table>
-    </div>
-      <center>
-    <div class="mobile" style="display:none;">
-  <table class="mobile" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
-  <tr>
-    <td class="mobile mobile500" style="mso-hide:all;" align="center"><a href="https://lee.attn.tv/p/frE/landing-page" alias="cta_smssignupmobile" title="Sign up for texts. Get 15% off when you join!" target="_blank"><img class="mobile500" src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/e20f828f-059f-4480-bd3b-ed1d6ccc59d0.png" alt="Sign up for texts. Get 15% off when you join!" style="padding-right: 8px; padding-top: 30px; border: 0; display: block; margin: 0; max-width: 600px; min-width:600px; height: auto;" border="0"></a>
-    </td>
-  </tr>
-    <tr>
-    <td class="mobile" style="mso-hide:all; line-height: 0px; padding-top: 15px;" align="center">&nbsp;
-    </td>
-  </tr>
-    <tr>
-    <td class="mobile mobile500" style="mso-hide:all;" align="center"><a href="https://www.lee.com/klarna.html" alias="cta_klarnamobile" title="Klarna. Shop now. Pay in 4 with Klarna. Learn more." target="_blank"><img class="mobile500" src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/252bed35-8cfd-4cc5-a00d-cba8ba67f7d2.png" alt="Klarna. Shop now. Pay in 4 with Klarna. Learn more." style="border: 0; display: block; margin: 0; max-width: 600px; min-width:600px; height: auto;" border="0"></a>
-    </td>
-  </tr>
-    <tr>
-    <td class="mobile" style="mso-hide:all; line-height: 0px; padding-top: 15px;" align="center">&nbsp;
-    </td>
-  </tr>
+            
+            <!--SMS/Klarna Begin-->
+            
+            <div class="desktop">
+              <table class="desktop" role="presentation" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tr>
+                  <td width="295"  class="desktop" align="center" style="padding-top: 8px;"><a href="https://lee.attn.tv/p/eLe/landing-page" alias="cta_smssignup" title="Sign up for texts. Get 15% off when you join!" target="_blank"><img src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/014792da-9cb8-476a-a259-18a7b50e956a.jpg" alt="Sign up for texts. Get 15% off when you join!" width="295" style="border: 0; display: block; margin: 0; max-width: 295px;" /></a></td>
+                  <td width="10" class="desktop" align="center" style="padding-top: 8px;">&nbsp;</td>
+                  <td width="295"  class="desktop" align="center" style="padding-top: 8px;"><a href="https://www.lee.com/klarna.html" alias="cta_klarna" title="Klarna. Shop now. Pay in 4 with Klarna. Learn more." target="_blank"><img src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/f0800e40-46f4-4c65-9d43-b89575b0a66e.jpg" alt="Klarna. Shop now. Pay in 4 with Klarna. Learn more." width="295" style="border: 0; display: block; margin: 0; max-width: 295px;" /></a></td>
+                </tr>
+              </table>
+            </div>
+            <center>
+              <div class="mobile" style="display:none;">
+                <table class="mobile" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                  <tr>
+                    <td class="mobile mobile500" style="mso-hide:all;" align="center"><a href="https://lee.attn.tv/p/eLe/landing-page" alias="cta_smssignupmobile" title="Sign up for texts. Get free shipping on orders over $25 when you join. Learn More" target="_blank"><img class="mobile500" src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/4fbb5578-83cf-431b-81cb-e8231331a433.png" alt="Sign up for texts. Get free shipping on orders over $25 when you join. Learn More" style="padding-right: 8px; padding-top: 30px; border: 0; display: block; margin: 0; max-width: 600px; min-width:600px; height: auto;" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td class="mobile" style="mso-hide:all; line-height: 0px; padding-top: 15px;" align="center">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="mobile mobile500" style="mso-hide:all;" align="center"><a href="https://www.lee.com/klarna.html" alias="cta_klarnamobile" title="Klarna. Shop now. Pay in 4 with Klarna. Learn more." target="_blank"><img class="mobile500" src="https://image.e.lee.com/lib/fe3211717d64047d701678/m/1/901f99eb-80b9-4640-96c2-acaac33faa0a.png" alt="Klarna. Shop now. Pay in 4 with Klarna. Learn more." style="border: 0; display: block; margin: 0; max-width: 600px; min-width:600px; height: auto;" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td class="mobile" style="mso-hide:all; line-height: 0px; padding-top: 15px;" align="center">&nbsp;</td>
+                  </tr>
                 </table>
-  </div>
-       </center>
-                <!--SMS/Klarna End-->  
-            <!--SMS/Klarna End-->
-            %%[ENDIF]%%
+              </div>
+            </center>
+            
+            <!--SMS/Klarna End--> 
+            <!--SMS/Klarna End--> 
+            %%[ENDIF]%% 
             <!-- Begin Social Icons -->
+            
             <table border="0" cellpadding="0" cellspacing="0"  role="presentation" style="font-family: sans-serif;" width="100%" style="">
         <tr>
           <td align="center"><table border="0" cellpadding="0" cellspacing="0" role="presentation">
@@ -235,48 +276,45 @@ table, td {
             </table></td>
         </tr>
       </table>
+      
       <!-- End Social Icons -->
-     
-    
+      
       <table  border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
         <tr>
           <td align="center" style="padding: 10px 0 0;"><div data-type="slot" data-key="disclaimer" data-label="Disclaimer"></div>
-               %%[ SET @Email = emailaddr SET @CanadianSubscriber = Lookup("Canada_AccountMaster", "EmailAddress", "EmailAddress", emailaddr) ]%% %%[IF @Email != @CanadianSubscriber THEN ]%%
-       <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+            %%[IF @Email != @CanadianSubscriber THEN ]%%
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
               <tr>
-                <td class="mobile-font-increase-fp" align="center"  style="font-family: 'Roboto Condensed', sans-serif;font-size: 13px;color:#838383; line-height: 1.2; padding: 0 10px;"><p style="margin: 0 0 15px;"><strong>Get 15% Off When You Sign Up For Texts:</strong> By signing up, you agree to receive recurring marketing text messages from Lee. You will receive text messages at the number provided, including messages sent by an autodialer. Consent is not a condition of any purchase. Message and data rates may apply. Message frequency varies. For U.S. residents only. Reply HELP for help or STOP to cancel. Terms & Privacy. Offer expires 30 days from receipt at 11:59 pm PST. Please note that coupon codes are case sensitive. The 15% off discount applies to qualified new orders sent to a single shipment address in the U.S. Qualifying purchase based on pre-tax amount and excludes Shipping & Handling charges. No adjustments on previous purchases. May be used once per household, and may not be combined with any other offer. Offer valid for in-stock merchandise only. Excludes Lee 101, Lee X Brooklyn Circus, Stormrider jackets, Vintage jeans, Lee and Dragon Ball Z, Lee X Be@rbrick, Lee X Daydreamer, Lee X ROARINGWILD, Lee X Basquiat, Lee X The Hundreds, Dieseloves Lee, Lee X ANGEL CHEN and other select styles. Offer valid on phone orders for products available online at <a href="https://www.lee.com/" alias="disclaimer-homepage" target="_blank" style="text-decoration:underline; color:#838383;">Lee.com</a> and orders placed online at <a href="https://www.lee.com/" alias="disclaimer-homepage" target="_blank" style="text-decoration:underline; color:#838383;">Lee.com</a>. Lee reserves the right to modify or terminate this offer at any time without notice. </p></td>
+                <td class="mobile-font-increase-fp" align="center"  style="font-family: 'Roboto Condensed', sans-serif;font-size: 13px;color:#838383; line-height: 1.2; padding: 0 10px;"><p style="margin: 0 0 15px;"><strong>Get Free Shipping on $25+ Orders When You Sign Up For Texts:</strong> Offer expires 30 days from receipt at 11:59 pm PST. Please note that coupon codes are case sensitive. Free Shipping on orders $25 or more applies to Standard shipping on orders sent to a single shipment address in the U.S. Qualifying purchase based on pre-tax, post-discount amount and excludes Shipping & Handling charges. The Promotion will be applied, if eligible. Offer valid on phone orders for products available online at <a href="%%=RedirectTo(@TemplateLogoURL)=%%" alias="disclaimer-homepage" target="_blank" style="text-decoration:underline; color:#838383;">Lee.com</a> and orders placed online at <a href="%%=RedirectTo(@TemplateLogoURL)=%%" alias="disclaimer-homepage" target="_blank" style="text-decoration:underline; color:#838383;">Lee.com</a>. Phone orders require a valid email address. Not valid on purchases from retail stores where Lee products are sold. Void where prohibited. </p></td>
               </tr>
             </table>
-               %%[ENDIF]%%
-      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+            %%[ENDIF]%%
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
               <tr>
-                <td class="mobile-font-increase-fp" align="center"  style="font-family: 'Roboto Condensed', sans-serif;font-size: 13px;color:#838383; line-height: 1.2; padding: 0 10px;">
-                  <p style="margin: 0 0 15px;"> You are receiving this message because you expressed<br>
-                    interest in news and offers from <a href="https://www.lee.com/" alias="disclaimer-homepage" target="_blank" style="text-decoration:underline; color:#838383;">Lee.com</a>. Lee<br>
+                <td class="mobile-font-increase-fp" align="center"  style="font-family: 'Roboto Condensed', sans-serif;font-size: 13px;color:#838383; line-height: 1.2; padding: 0 10px;"><p style="margin: 0 0 15px;"> You are receiving this message because you expressed<br>
+                    interest in news and offers from <a href="%%=RedirectTo(@TemplateLogoURL)=%%" alias="disclaimer-homepage" target="_blank" style="text-decoration:underline; color:#838383;">Lee.com</a>. Lee<br>
                     respects your privacy. Information regarding your personal<br>
-                    information can be viewed <a href="https://www.lee.com/help/privacy.html" alias="footer-privacy" target="_blank" style="text-decoration:underline; color:#838383;">here</a>. </p>
+                    information can be viewed <a href="%%=RedirectTo(@TemplatePrivacyURL)=%%" alias="footer-privacy" target="_blank" style="text-decoration:underline; color:#838383;">here</a>. </p>
                   <p style="margin: 0 0 15px;">Tell us how often you want emails.<br>
                     <a href="%%unsub_center_url%%" alias="footer-unsubscribe" target="_blank" style="text-decoration:underline; color:#838383;">Unsubscribe</a> or <a href="%%=RedirectTo(CloudPagesURL(2219))=%%" alias="footer-updatepreferences" target="_blank" style="text-decoration:underline; color:#838383;">Manage Preferences</a> </p>
-                  <p style="margin: 0 0 15px;"><a href="https://www.lee.com/help/shipping.html" alias="footer-shippingpolicy" target="_blank" style="text-decoration:underline; color:#4e4e4e;">Shipping Policy</a>&nbsp;&nbsp; <a href="https://www.lee.com/help/return-policy.html" alias="footer-returnpolicy" target="_blank" style="text-decoration:underline; color:#4e4e4e;">Return Policy</a>&nbsp;&nbsp; <a href="https://www.lee.com/help/contact-us.html" alias="footer-contactus" target="_blank" style="text-decoration:underline; color:#4e4e4e;">Contact Us</a>&nbsp;&nbsp; <a href="https://www.lee.com/store-locator.html" alias="footer-storelocator" target="_blank" style="text-decoration:underline; color:#4e4e4e;">Store Locator</a> </p>
-                  <p style="margin: 0 0 15px;"> %%member_addr%% <br>
-                    %%member_city%%, %%member_state%%<br>
-                    %%member_postalcode%% <br>
-                    <a href="tel:1-800-453-3348" style="text-decoration:none;color:#838383;">(800) 453-3348</a> </p>
+                  <p style="margin: 0 0 15px;"><a href="%%=RedirectTo(@TemplateShippingURL)=%%" alias="footer-shippingpolicy" target="_blank" style="text-decoration:underline; color:#4e4e4e;">Shipping Policy</a>&nbsp;&nbsp; <a href="%%=RedirectTo(@TemplateReturnsURL)=%%" alias="footer-returnpolicy" target="_blank" style="text-decoration:underline; color:#4e4e4e;">Return Policy</a>&nbsp;&nbsp; <a href="%%=RedirectTo(@TemplateContactURL)=%%" alias="footer-contactus" target="_blank" style="text-decoration:underline; color:#4e4e4e;">Contact Us</a>&nbsp;&nbsp; %%[IF @Email != @CanadianSubscriber THEN ]%%<a href="https://www.lee.com/store-locator.html" alias="footer-storelocator" target="_blank" style="text-decoration:underline; color:#4e4e4e;">Store Locator</a>%%[ENDIF]%%</p>
+                  <p style="margin: 0 0 15px;"> Lee Consumer Services<br>
+                    P.O. Box 21488, Greensboro, NC 27420-1488<br>
+                    <a href="tel:1-800-453-3348" style="text-decoration:none;color:#838383;">(800) 453-3348</a> <br>
+                    <br>
+                    Please add sender to your address book to ensure delivery. </p>
                   <p style="margin: 0 0 15px;"> %%xtyear%% Kontoor Brands, All rights reserved. </p></td>
               </tr>
             </table></td>
         </tr>
       </table>
-      
-
-     <div style="display: none; max-height: 0px; overflow: hidden;">
-            <custom name="opencounter" type="tracking" />
-          </div>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+      <div style="display: none; max-height: 0px; overflow: hidden;">
+        <custom name="opencounter" type="tracking" />
+      </div></td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
 </html>
