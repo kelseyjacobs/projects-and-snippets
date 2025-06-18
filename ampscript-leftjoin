@@ -1,0 +1,6 @@
+Subscribers who exist in in one data extension but not the other
+
+SELECT a.EmailAddress
+FROM DataExtension1 a 
+LEFT JOIN DataExtension2 b ON a.EmailAddress = b.EmailAddress
+WHERE b.EmailAddress IS NULL
