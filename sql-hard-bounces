@@ -1,0 +1,4 @@
+SELECT b.SubscriberKey, b.jobID, b.BounceCategory
+FROM _Bounce b
+INNER JOIN _Job j ON b.JobID = J.JobID
+WHERE b.BounceCategory = 'Hard bounce'
