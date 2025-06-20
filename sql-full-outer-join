@@ -1,0 +1,5 @@
+Use a full outer join when columns in both tables are different. It will combine them, unlike a union which requires them to be the same. 
+
+SELECT a.EmailAddress
+FROM DataExtension1 a 
+FULL OUTER JOIN DataExtension2 b ON a.EmailAddress = b.EmailAddress
