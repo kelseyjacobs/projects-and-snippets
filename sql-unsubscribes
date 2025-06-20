@@ -1,0 +1,5 @@
+SELECT
+      u.SubscriberKey
+    , u.UnsubDateUTC
+    , u.UnsubReason
+FROM _BusinessUnitUnsubscribes u
