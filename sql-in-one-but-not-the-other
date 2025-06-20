@@ -1,0 +1,4 @@
+SELECT a.EmailAddress
+FROM DataExtension1 a 
+LEFT JOIN DataExtension2 b ON a.EmailAddress = b.EmailAddress
+WHERE b.EmailAddress IS NULL
