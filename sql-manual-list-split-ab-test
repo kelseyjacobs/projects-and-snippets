@@ -1,0 +1,12 @@
+Create the A DE 
+
+SELECT TOP 50 PERCENT EmailAddress
+FROM MainDataExtension
+
+
+Create the B DE 
+
+SELECT m.EmailAddress 
+FROM MainDataExtension m
+LEFT JOIN VersionADataExtension a ON m.EmailAddress = a.EmailAddress
+WHERE a.EmailAddress IS NULL
