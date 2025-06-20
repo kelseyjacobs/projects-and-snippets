@@ -1,0 +1,5 @@
+SELECT ss.SubscriberKey, ss.EmailAddress, c.EventDate, j.EmailName
+FROM _Click c
+INNER JOIN _Job j ON c.JobID = j.JobID
+INNER JOIN ent._Subscribers ss ON c.SubscriberID = ss.SubscriberID
+WHERE (datediff(d,c.EventDate,getdate()) <= 180)
