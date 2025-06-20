@@ -1,0 +1,6 @@
+*NOTE: This query could be replicated and used to pull number of sends, number of opens, etc. by using the same syntax but looking at a different Data View. 
+
+SELECT SubscriberKey, count(*) as Clicks_Last_180_Days 
+FROM _Click c 
+WHERE (datediff(d,EventDate,getdate()) <= 180)
+GROUP BY SubscriberKey 
