@@ -1,0 +1,5 @@
+SELECT EmailAddress, Birthday, 
+  MONTH(Birthday) as 'Birthday_Month', 
+  DATEFROMPARTS(YEAR(Birthday),MONTH(Birthday),1) AS 'Birthday_StartOfMonth', 
+FROM DataExtension
+WHERE Birthday IS NOT NULL
