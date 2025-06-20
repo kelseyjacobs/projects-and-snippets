@@ -3,3 +3,4 @@ FROM ent._Subscribers ss
 INNER JOIN _Sent s ON ss.SubscriberID = s.SubscriberID
 INNER JOIN _Job j ON s.JobID = j.JobID
 WHERE ss.EmailAddress = 'emailaddress@email.com'
+AND (datediff(d,s.EventDate,getdate()) <= 30)
