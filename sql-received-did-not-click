@@ -1,0 +1,13 @@
+SELECT sent.SubscriberKey, sent.EmailAddress
+FROM (SELECT s.SubscriberKey, ss.EmailAddress
+    FROM _Sent s
+    INNER JOIN _Job j ON s.JobID = j.JobID
+    INNER JOIN ent._Subscribers ss ON ss.SubscriberKey = s.SubscriberKey
+    WHERE j.EmailName = 'EmailName') sent
+LEFT JOIN
+    (SELECT c.SubscriberKey, ss.EmailAddress
+    FROM _Click c
+    INNER JOIN _Job j ON c.JobID = j.JobID
+    INNER JOIN ent._Subscribers ss ON ss.SubscriberKey = c.SubscriberKey
+    WHERE j.EmailName = 'EmailName') click ON sent.SubscriberKey = click.SubscriberKey
+WHERE click.EmailAddress IS NULL
