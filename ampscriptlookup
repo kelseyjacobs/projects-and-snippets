@@ -4,4 +4,4 @@
 
 
 
-  Dear %%[ if not empty([FirstName]) then FirstName]%%%%=ProperCase([FirstName])=%%%%[ else ]%%Valued Customer%%[ endif ]%%,
+%%[IF NOT EMPTY(@FirstName) THEN ]%% Hi %%=ProperCase(Trim(@FirstName))=%%%%[ELSE]%%Hello%%[endif]%%,
