@@ -1,0 +1,46 @@
+{% assign text_border_color = "#041E3A" %}
+{% assign cta1 = "THE SWEATER" %}
+{% assign cta2 = "THE POLO SHIRT" %}
+{% assign cta3 = "SHOP ALL GOLF" %}
+{% assign url1 = "https://www.ralphlauren.com/men-clothing-sweaters/r/rlx" %}
+{% assign url2 = "https://www.ralphlauren.com/brands-men-rlx-cg?prefn1=CategoryCode&prefv1=Polo%20Shirts" %}
+{% assign url3 = "https://www.ralphlauren.com/brands-men-rlx-cg" %}
+<style>
+  @media only screen and (max-width: 639px) {
+    .padd {
+      padding-left: 30px !important;
+    }
+  }
+</style>
+<tr>
+  <td align="center">
+    <table border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td style="padding-bottom:30px; text-align: center; text-align: center;">
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td align="center"><a href="{{url1}}" target="_blank" style="display:inline-block; color: {{text_border_color}}; text-decoration: none; font-size: 11px; line-height: 10px; letter-spacing: 1px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; border-bottom: 1px solid {{text_border_color}};font-family:FoundersgroteskmonoRegular,Arial,sans-serif;font-weight:400;">{{cta1}}</a></td>
+            </tr>
+            {% snippet name: 'if_mso_cta_border_bottom' %}
+          </table>
+        </td>
+        <td class="padd" style="padding-bottom:30px; padding-left: 40px;">
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td align="center"><a href="{{url2}}" target="_blank" style="display:inline-block; color: {{text_border_color}}; text-decoration: none; font-size: 11px; line-height: 10px; letter-spacing: 1px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; border-bottom: 1px solid {{text_border_color}};font-family:FoundersgroteskmonoRegular,Arial,sans-serif; font-weight:400;">{{cta2}}</a></td>
+            </tr>
+            {% snippet name: 'if_mso_cta_border_bottom' %}
+          </table>
+        </td>
+        <td class="padd" style="padding-bottom:30px; padding-left: 40px;">
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td align="center"><a href="{{url3}}" target="_blank" style="display:inline-block; color: {{text_border_color}}; text-decoration: none; font-size: 11px; line-height: 10px; letter-spacing: 1px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; border-bottom: 1px solid {{text_border_color}};font-family:FoundersgroteskmonoRegular,Arial,sans-serif; font-weight:400;">{{cta3}}</a></td>
+            </tr>
+            {% snippet name: 'if_mso_cta_border_bottom' %}
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
