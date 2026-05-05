@@ -1,0 +1,18 @@
+{% assign text_border_color = "#041E3A" %}
+{% assign cta1 = "SHOP THE COLLECTION" %}
+{% assign url1 = "https://www.ralphlauren.com/brands-prl-men-heritage-icons-cg" %}
+<tr>
+  <td align="center">
+    <table border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td style="padding-bottom:30px; text-align: center; text-align: center;">
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td align="center" width="200" style="padding-right: 20px; padding-bottom: 19px; padding-top: 19px; padding-left: 20px; border: 1px solid {{text_border_color}}; width:200px;line-height: 19px;"><a href="{{url1}}" target="_blank" style="display:inline-block;color: {{text_border_color}}; text-decoration: none; font-size: 11px; line-height: 19px; letter-spacing: 1px;font-family:FoundersgroteskmonoRegular,Arial,sans-serif;font-weight:400;">{{cta1}}</a></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
