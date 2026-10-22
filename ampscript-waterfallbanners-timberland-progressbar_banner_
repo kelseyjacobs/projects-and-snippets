@@ -1,0 +1,145 @@
+%%[ 
+SET @Email = emailaddr
+SET @LoyaltyMember = Lookup("Loyalty Master Emailable", "Email Address", "Email Address", emailaddr) 
+SET @Points = Lookup("Loyalty Master Emailable", "Loyalty Points Current Balance", "Email Address", emailaddr) 
+]%%
+
+%%[IF @Email == @LoyaltyMember  AND ((@Points >= "14") AND (@Points <= "35")) THEN]%%
+<!-- 25% progress -->
+<table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation">
+    <tr>
+        <td>
+            <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation">
+                <tr>
+                    <td width="60%" style="padding: 12px 0px 0px 25px;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" class="mobile-font-increase-progressbar" alias="banner-member-progressbar" target="_blank" style="font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: center; color: #ffffff; vertical-align: middle; text-decoration: none;">You're almost there</a>
+                    </td>
+                    <td width="40%" style="padding: 12px 25px 0px 30px; font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: center; color: #ffffff; vertical-align: middle;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" class="mobile-font-increase-progressbar" alias="banner-member-progressbar" style="text-decoration: none; color: #ffffff;">You've earned %%=v(@Points)=%% points</a>
+                    </td>
+                </tr>
+            </table>
+
+            <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation">  
+                <tr>
+                    <td width="640" align="center" style="padding: 7px 0px 0px 0px;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" target="_blank" alias="banner-member-progressbar">
+                            <img alt="progress bar" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/25_pc_banner.png" width="560" style="display: block;" title="progress bar">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+
+            <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation"> 
+                <tr>
+                    <td align="center" width="100%" style="padding: 5px 0px 15px 0px;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" class="mobile-font-increase-progressbar" alias="banner-member-progressbar" target="_blank" style="font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: center; color: #ffffff; vertical-align: middle; text-decoration: none;">Every 100 Points Earns a $10 Reward!</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+%%[ ENDIF ]%%
+
+
+
+
+
+
+%%[ 
+SET @Email = emailaddr
+SET @LoyaltyMember = Lookup("Loyalty Master Emailable", "Email Address", "Email Address", emailaddr) 
+SET @Points = Lookup("Loyalty Master Emailable", "Loyalty Points Current Balance", "Email Address", emailaddr) 
+]%%
+
+%%[IF @Email == @LoyaltyMember  AND ((@Points >= "36") AND (@Points <= "60")) THEN]%%
+<!-- 50% progress -->
+<table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation">
+    <tr>
+        <td>
+            <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation">
+                <tr>
+                    <td width="60%" style="padding: 12px 0px 0px 25px;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" class="mobile-font-increase-progressbar" alias="banner-member-progressbar" target="_blank" style="font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: center; color: #ffffff; vertical-align: middle; text-decoration: none;">You're almost there</a>
+                    </td>
+                    <td width="40%" style="padding: 12px 25px 0px 30px; font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: center; color: #ffffff; vertical-align: middle;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" class="mobile-font-increase-progressbar" alias="banner-member-progressbar" style="text-decoration: none; color: #ffffff;">You've earned %%=v(@Points)=%% points</a>
+                    </td>
+                </tr>
+            </table>
+
+            <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation">  
+                <tr>
+                    <td width="640" align="center" style="padding: 7px 0px 0px 0px;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" target="_blank" alias="banner-member-progressbar">
+                            <img alt="progress bar" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/50_pc_banner.png" width="560" style="display: block;" title="progress bar">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+
+            <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation"> 
+                <tr>
+                    <td align="center" width="100%" style="padding: 5px 0px 15px 0px;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" class="mobile-font-increase-progressbar" alias="banner-member-progressbar" target="_blank" style="font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: center; color: #ffffff; vertical-align: middle; text-decoration: none;">Every 100 Points Earns a $10 Reward!</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+%%[ENDIF]%%
+
+
+
+
+
+
+
+
+
+%%[ 
+SET @Email = emailaddr
+SET @LoyaltyMember = Lookup("Loyalty Master Emailable", "Email Address", "Email Address", emailaddr) 
+SET @Points = Lookup("Loyalty Master Emailable", "Loyalty Points Current Balance", "Email Address", emailaddr) 
+]%%
+
+%%[IF @Email == @LoyaltyMember  AND ((@Points >= "61") AND (@Points <= "99")) THEN]%%
+<!-- 75% progress -->
+<table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation">
+    <tr>
+        <td>
+            <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation">
+                <tr>
+                    <td width="60%" style="padding: 12px 0px 0px 25px;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" class="mobile-font-increase-progressbar" alias="banner-member-progressbar" target="_blank" style="font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: center; color: #ffffff; vertical-align: middle; text-decoration: none;">You're almost there</a>
+                    </td>
+                    <td width="40%" style="padding: 12px 25px 0px 30px; font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: center; color: #ffffff; vertical-align: middle;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" class="mobile-font-increase-progressbar" alias="banner-member-progressbar" style="text-decoration: none; color: #ffffff;">You've earned %%=v(@Points)=%% points</a>
+                    </td>
+                </tr>
+            </table>
+
+            <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation">  
+                <tr>
+                    <td width="640" align="center" style="padding: 7px 0px 0px 0px;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" target="_blank" alias="banner-member-progressbar">
+                            <img alt="progress bar" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/75_pc_banner.png" width="560" style="display: block;" title="progress bar">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+
+            <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%" role="presentation"> 
+                <tr>
+                    <td align="center" width="100%" style="padding: 5px 0px 15px 0px;">
+                        <a href="https://www.timberland.com/en-us/sign-in?redirectTo=/en-us/account/loyalty" class="mobile-font-increase-progressbar" alias="banner-member-progressbar" target="_blank" style="font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: center; color: #ffffff; vertical-align: middle; text-decoration: none;">Every 100 Points Earns a $10 Reward!</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+%%[ENDIF]%%
