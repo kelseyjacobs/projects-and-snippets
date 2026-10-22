@@ -1,0 +1,42 @@
+%%[
+
+VAR @Email, @WelcomeCodeNotSpent, @CanadianSubscriber, @LoyaltyMember
+SET @Email = emailaddr 
+SET @WelcomeCodeNotSpent = LOOKUP("WelcomeCode_HasNotRedeemed_Past30Days", "EmailAddress", "EmailAddress", @Email)
+SET @CanadianSubscriber = LOOKUP("Engaged_Canada", "Email Address", "Email Address", @Email) 
+SET @LoyaltyMember = LOOKUP("Loyalty Master Emailable", "Email Address", "Email Address", @Email) 
+SET @RewardAmount = Lookup("Loyalty Master Emailable", "Reward Amount", "Email Address", emailaddr)
+SET @Birthday = Lookup("Loyalty Master Emailable", "dateOfBirthStr", "Email Address", emailaddr)
+SET @Points = Lookup("Loyalty Master Emailable", "Loyalty Points Current Balance", "Email Address", emailaddr) 
+]%%
+
+%%[IF NOT EMPTY(@WelcomeCodeNotSpent) THEN
+
+var @rsCouponRow 
+var @CouponCode 
+SET @rsCouponRow = ClaimRow("PROD_TBL_Welcome_CouponCodes_US", "IsClaimed", "Email",emailaddr) 
+IF NOT EMPTY(@rsCouponRow) THEN SET @CouponCode = Trim(Field(@rsCouponRow, "CouponCode")) 
+ELSE SET @CouponCode = "Out of Order" 
+ENDIF]%%
+
+%%=ContentBlockbyKey("Welcome_Code_Reminder_Banner")=%%
+
+%%[ ELSEIF EMPTY(@CanadianSubscriber) AND EMPTY(@LoyaltyMember) THEN ]%%
+   %%=ContentBlockbyKey("Loyalty_Acquisition_Banner")=%%
+
+%%[ ELSEIF NOT EMPTY(@LoyaltyMember) AND @RewardAmount > '9' THEN ]%%
+  %%=ContentBlockbyKey("Earned_Reward_Banner")=%%
+
+%%[ ELSEIF NOT EMPTY(@LoyaltyMember) AND EMPTY (@Birthday) THEN ]%%
+  %%=ContentBlockbyKey("Missing_Birthday_Banner")=%%
+
+%%[ ELSEIF @Email == @LoyaltyMember  AND ((@Points >= "14") AND (@Points <= "35")) THEN]%%
+  %%=ContentBlockbyKey("progressbar_banner_25")=%%
+
+%%[ ELSEIF @Email == @LoyaltyMember AND ((@Points >= "36") AND (@Points <= "60")) THEN]%%
+  %%=ContentBlockbyKey("progressbar_banner_50")=%%
+
+%%[ ELSEIF @Email == @LoyaltyMember AND ((@Points >= "61") AND (@Points <= "99")) THEN]%%
+  %%=ContentBlockbyKey("progressbar_banner_75")=%%
+
+%%[ ENDIF ]%%
