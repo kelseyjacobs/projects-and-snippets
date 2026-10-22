@@ -1,0 +1,38 @@
+%%[ 
+SET @Email = emailaddr
+SET @LoyaltyMember = Lookup("Loyalty Master Emailable", "Email Address", "Email Address", emailaddr) 
+SET @Birthday = Lookup("Loyalty Master Emailable", "dateOfBirthStr", "Email Address", emailaddr)
+]%%
+
+
+%%[IF @Email == @LoyaltyMember AND empty(@Birthday) THEN ]%%
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="640">
+  <tr>
+    <td align="left" width="223" style="padding: 8px 0px 3px 18px; max-width: 223px; font-family: Arial, sans-serif; color: #000000;" bgcolor="#faf6ec"><a href="https://www.timberland.com/en-us/sign-in" target="_blank" alias="banner-member-missingbirthday" style="text-decoration: none; ">
+      <table cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img alias="img-community" alt="Community" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/Community05.png" style="display: block; width: 100px; max-width: 100px; padding-left: 3px;" title="Community" width="100">
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td style="max-width: 20px;" width="20"><img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/loyalty_gift_box.png" width="20" style="max-width: 20px;" />
+                </td>
+                <td style="font-size: 13px; color: #000000; padding-top: 5px;" width="100%">
+                  <strong>20% Off On Your Birthday</strong>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table></a></td>
+    <td class="mobile-font-increase-birthdaybanner" align="center" width="256" style="padding: 0px 5px 0px 5px; font-family: Arial, sans-serif!important; font-size: 12px; font-weight: medium; line-height: 16px; letter-spacing: normal;text-align: center;color: #ffffff; max-width: 256px; vertical-align: middle;" bgcolor="#2a1e17"><a alias="banner-member-missingbirthday" href="https://www.timberland.com/en-us/sign-in" style="text-decoration:none; color:#ffffff;">Complete your profile to receive your&nbsp;gift!
+</a></td>
+ <td class="mobile-font-increase-birthdaybanner" align="right" width="161" style="padding: 0px 5px 0px 0px; font-family: Arial, sans-serif!important; font-size: 12px; font-weight: medium; line-height: 19px; letter-spacing: normal; text-align: left;color: #ffffff; max-width: 161px; vertical-align: middle;" bgcolor="#2a1e17"><a alias="banner-member-missingbirthday" href="https://www.timberland.com/en-us/sign-in" style="text-decoration:underline; color:#ffffff; font-weight: bold; text-align: left;">Sign in & Update Now</a></td>
+   </tr>
+</table>
+%%[ENDIF]%%
