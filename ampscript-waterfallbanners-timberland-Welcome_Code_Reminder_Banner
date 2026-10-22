@@ -1,0 +1,51 @@
+%%[
+var @Email
+SET @Email = emailaddr 
+SET @WelcomeCodeNotSpent = LOOKUP("WelcomeCode_HasNotRedeemed_Past30Days","EmailAddress","EmailAddress",emailaddr)
+]%% 
+
+
+%%[IF @Email==@WelcomeCodeNotSpent THEN]%%
+
+%%[
+var @rsCouponRow 
+var @CouponCode 
+SET @rsCouponRow = ClaimRow("PROD_TBL_Welcome_CouponCodes_US", "IsClaimed", "Email",emailaddr) 
+IF NOT EMPTY(@rsCouponRow) THEN SET @CouponCode = Trim(Field(@rsCouponRow, "CouponCode")) 
+ELSE SET @CouponCode = "Out of Order" 
+ENDIF]%%
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="640">
+  <tr>
+    <td align="left" width="450" style="padding: 10px 0px 10px 15px; max-width: 450px; width: 450px; font-family: Arial, sans-serif;" bgcolor="#000000">
+      <table cellpadding="0" cellspacing="0" style="font-family: Arial, sans-serif;">
+  <tr>
+    <td style="padding-top: 5px; padding-bottom: 10px;"><a href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" target="_blank" alias="banner-member-welcomecodereminder" style="text-decoration: none; "><img alias="banner-member-welcomecodereminder" alt="Community" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/community-lock-up.png" style="display: block; max-width: 142px; width: 142px;" width="142" title="Community"></a>
+          </td>
+        </tr>  
+        <tr>
+          <td class="mobile-font-increase-progressbar"><a alias="banner-member-welcomecodereminder" href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" style="text-decoration:none; font-size: 13px; line-height: 19px; letter-spacing: normal;text-align: center;color: #ffffff; font-weight: bold;">Use your first member perk! Take <span style="color: #ac743c; font-weight:bold;">10%</span> Off Your Next Online Order
+</a>
+          </td>
+        </tr>
+      </table>
+   </td>
+    <td align="right" width="190" style="padding: 12px 15px 10px 0px; max-width: 190px; width: 190px; font-family: Arial, sans-serif;" bgcolor="#000000">
+     <table align="right" style="border-left: 2px solid #ffffff; font-family: Arial, sans-serif;" bgcolor="#000000" cellpadding="0" cellspacing="0">
+        <tr>
+           <td style="vertical-align: bottom; padding-top: 15px; color:#ffffff; font-size: 12px; line-height: 18px; letter-spacing: normal;text-align: left;color: #ffffff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use code:
+          </td>
+        </tr>
+      <tr>
+          <td style="vertical-align: bottom; padding-bottom: 10px; padding-top: 3px; color:#ac743c; font-size: 18px; font-weight: bold; line-height: 19px; letter-spacing: normal; text-align: left;">&nbsp;&nbsp;&nbsp;%%=V(@CouponCode)=%%
+          </td>
+        </tr>
+      </table>
+   </td>
+ </tr>
+</table>
+%%[ENDIF]%%
+
+
+
+
