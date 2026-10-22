@@ -1,0 +1,15 @@
+Dark mode text
+
+Apply the “white-bg-dm” class when dark text appears on a white background. This forces the font color to white in inverted dark mode, preventing it from disappearing.
+- Apply the class to a tags wrapping the text
+- Colored text on a white background does not require this class
+
+Without applying “white-bg-dm” in inverted dark mode, there will be dark text against a dark background (no contrast)
+
+
+If a white background color is applied, Apple Mail applies both the class and the background color (double white, no contrast). Therefore, never apply a white background color. The template’s container already sets a white background, so nested tables don't need it.
+
+
+Apply “dm-button” class when the button has a dark color against a white background.  This forces the background color of the button to white on inverting dark mode so it does not lose its shape. 
+- Apply the class on the innermost td of the button block
+- This issue is only relevant for black buttons. Colored buttons do not need the dm-button class applied. 
