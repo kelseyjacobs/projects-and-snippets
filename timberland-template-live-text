@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <!--Help character display properly.-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--Set the initial scale of the email.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Force Outlook clients to render with a better MS engine.-->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <!--Help prevent blue links and autolinking-->
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <!--prevent Apple from reformatting and zooming messages.-->
+  <meta name="x-apple-disable-message-reformatting">
+
+    <!--target dark mode-->
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark only">
+    
+    <!-- Allow for better image rendering on Windows hi-DPI displays. -->
+  <!--[if mso]>
+<noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+</noscript>
+<![endif]-->
+    
+    
+ <!--to support dark mode meta tags-->
+  <style type="text/css">
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+  </style>    
+
+<!--resets-->    
+  <style type="text/css">
+    .body-fix {
+      height: 100% !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+        word-spacing: normal;
+         align-content:center;
+    }
+
+    div[style*="margin:16px 0"] {
+      margin: 0 !important;
+    }
+
+    table,
+    td {
+      border-collapse: collapse !important;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    img {
+      border: 0;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+    }
+
+    p,
+    h1,
+    h2,
+    h3 {
+      padding: 0;
+      margin: 0;
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    u+#body a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+    }
+
+    #MessageViewBody a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+    }
+ 
+ <!--mobile styles-->
+    @media only screen and (max-width: 600px) {
+            .desktop {
+                text-indent: -99999em !important;
+                display: none !important;
+                mso-hide:all !important;
+                overflow: hidden !important;
+                font-size: 0px !important;
+              
+            }
+            .mobile {
+                text-indent: 0 !important;
+                display: block !important;
+                height: auto !important;
+                visibility: visible !important;
+                overflow: visible !important;
+                max-height: none !important;
+                width: 100% ! important;
+                 align-content:center !important;
+            }      
+    }
+       
+ @media only screen and (max-width: 480px) {
+ 
+.showMobile {
+    display: block;
+    width: 100% !important;
+    align-content: center;
+}
+
+td {
+    max-width: 640px;
+}
+ .t-pad-0 {
+   padding-top: 0px !important;
+   }
+   .t-paf-10 {
+   padding-top: 10px !important;
+   }
+   .t-pad-20 {
+   padding-top: 20px !important;
+   }
+   .t-pad-25 {
+   padding-top: 25px !important;
+   }
+   .t-pad-30 {
+   padding-top: 30px !important;
+   }
+   .t-pad-35 {
+   padding-top: 35px !important;
+   }
+     .t-pad-40 {
+   padding-top: 40px !important;
+   }
+     .t-pad-45 {
+   padding-top: 45px !important;
+   } 
+     .t-pad-50 {
+   padding-top: 50px !important;
+   } 
+     .b-pad-0 {
+   padding-bottom: 0px !important;
+   }
+     .b-pad-0 {
+   padding-bottom: 0px !important;
+   }
+     .b-pad-10 {
+   padding-bottom: 10px !important;
+   }
+     .b-pad-20 {
+   padding-bottom: 20px !important;
+   }
+     .b-pad-25 {
+   padding-bottom: 25px !important;
+   }
+     .b-pad-30 {
+   padding-bottom: 30px !important;
+   }
+     .b-pad-35 {
+   padding-bottom: 35px !important;
+   }
+     .b-pad-40 {
+   padding-bottom: 40px !important;
+   }
+     .b-pad-45 {
+   padding-bottom: 45px !important;
+   }
+     .b-pad-50 {
+   padding-bottom: 50px !important;
+   }
+     
+   .mobile-font-decrease  {
+   font-size: 11px !important;
+   line-height: 11px !important;
+      }
+   
+   .mobile-font-increase-headline{
+   font-size: 40px !important;
+   line-height: 48px !important;
+      }
+     
+   .mobile-font-increase-body{
+   font-size: 24px !important;
+   line-height: 38px !important;
+      }
+   
+      .mobile-font-increase-body-2{
+   font-size: 22px !important;
+   line-height: 26px !important;
+      }
+   
+       .mobile-font-increase-progressbar{
+   font-size: 16px !important;
+   line-height: 22px !important;
+      }
+   
+    .mobile-font-increase-birthdaybanner{
+   font-size: 14px !important;
+   line-height: 17px !important;
+      }
+ 
+   .mod__pm__cta-wrap {
+        padding:18px 0 16px !important;
+      }
+     
+   .mobile-btn-width {
+    width:400px !important;}
+ }
+ }
+    </style>
+
+<!--dark mode-->   
+ <style>
+    @media (prefers-color-scheme: dark) {    
+    /* custom dark mode colors */
+      .footer-dm {
+        color: #fdfdfd !important;
+      }
+      .white-bg-dm {
+        color: #fdfdfd !important;
+      }
+      .lines-dm {
+        border-top-color: #fdfdfd !important;
+    }
+       .lines-dm-left {
+        border-left: 3px solid #fdfdfd !important;
+    }
+       .dm-button {
+       background-color: #faf6ec !important;
+       color: #000000 !important;
+    }
+}
+    </style>
+<title>Timberland</title>
+  <!--[if gte mso 9]><xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml><![endif]-->
+</head>
+
+<body class="body-fix body" style="padding-top: 10px;">
+    <center>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+      <tr>
+        <td align="center" style="padding: 0px;">         
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="center" width="640px" style="max-width: 640px;">
+            <tr>
+              <td align="center">
+                <table class="header" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                 <tr>
+                     <td align="center" style="padding: 15px 0;">
+                            <a target="_blank" href="https://www.timberland.com" alias="topnav_logo" title="timberland.com">
+                              <img alt="timberland.com" style="display:block; max-width:70px !important;" border="0" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/logo-2.png" width="70" /></a>
+                          </td>
+                         
+                        </tr>
+                </table>
+    
+
+<!-- Begin Main Content -->
+  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"> 
+  <!--Headline start-->
+ <tr>
+  <td class="mobile-font-increase-headline" align="center" width="100%" style="padding: 40px 0px 30px 0px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 34px; line-height: 40px; font-weight: bold; text-align: center;">
+                            <a class="white-bg-dm" href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" alias="hero" target="_blank" style="color: #2a1e17; text-decoration: none; text-align: center;">
+                             Crafted to Last. <br>Ready for Anything.</a>
+    </td>
+    </tr>
+<!--Headline end-->
+<!--Hero image start--> 
+        <tr>
+        <td align="center">
+                            <a target="_blank" href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" alias="hero">
+                              <img alt="Best Sellers" style="display:block; max-width:640px !important;" border="0" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/01_23_26_US_ValentinePack_Hero.png" width="640"></a>
+                          </td>
+        </tr>
+<!--Hero image end--> 
+<!--Body copy start-->
+  <tr>
+  <td class="mobile-font-increase-body t-pad-40" align="center" style="padding: 25px 40px 40px 40px; font-family: Arial, Helvetica, sans-serif; font-size: 19px; line-height: 28px;text-align: center;">
+                            <a class="white-bg-dm" href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" alias="hero" target="_blank" style="color: #2a1e17; text-decoration: none; text-align: center;">
+                             Shop our best sellers, ready to support you wherever the day takes you.</a>
+    </td>
+    </tr>
+<!--Body copy end--> 
+  </table><table bgcolor="#2a1e17" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"> 
+<!--Headline start-->
+ <tr>
+  <td class="mobile-font-increase-headline t-pad-40" align="center" width="100%" style="padding: 40px 0px 0px 0px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 34px; line-height: 40px; font-weight: bold; text-align: center;">
+                            <a href="https://www.timberland.com/en-ca/c/timberland-pro/mens-pro-footwear/athletic-and-casual-102002" alias="hero" target="_blank" style="color: #ffffff; text-decoration: none; text-align: center;">Comfortable Putting In the&nbsp;Work</a>
+    </td>
+    </tr>
+<!--Headline end-->
+<!--Button start-->
+  <tr>
+  <td>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%";>
+  <tr>
+  <td class="t-pad-40" align="center" style="padding-top: 40px;">
+<table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="350" class="dm-button mobile-btn-width" style="padding: 15px 50px 15px 50px;  background-color: #ffffff;" align="center">
+            <a alias="" class="mobile-font-increase-body" rel="noopener" target="_blank" rel="noopener" target="_blank" href="https://www.timberland.com/en-ca/c/timberland-pro/mens-pro-footwear/athletic-and-casual-102002" target="_blank" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #000000; text-decoration: none; display: inline-block;">Get Your Pair</a>
+        </td>
+    </tr>
+</table>
+ </td>
+ </tr>
+</table>
+    </td></tr>
+  <tr>
+<!--Button end-->
+  <tr>
+    <td class="t-pad-40" align="center" style="padding-top: 40px;"></td></tr>
+  </table><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%";>
+  <tr>
+  <td class="t-pad-50" align="center" style="padding-top: 40px;">
+<table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="350" class="mobile-btn-width" style="padding: 15px 50px 15px 50px;  background-color: #a02822;" align="center">
+            <a alias="" class="mobile-font-increase-body" rel="noopener" target="_blank" rel="noopener" target="_blank" href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" target="_blank" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; display: inline-block;">Shop Best Sellers</a>
+        </td>
+    </tr>
+</table>
+ </td>
+ </tr>
+</table><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="640">
+  <tr>
+  <td class="t-pad-50" align="center" style="padding-top: 40px;">
+<table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="350" class="dm-button mobile-btn-width" style="padding: 15px 50px 15px 50px;  background-color: #000000;" align="center">
+            <a alias="grid-cta" class="dm-button mobile-font-increase-body" rel="noopener" target="_blank" rel="noopener" target="_blank" href="https://www.timberland.com/en-us/c/featured-collections/collaborations/timberland-x-new-era-91670" target="_blank" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; display: inline-block;">Shop Footwear And Headwear</a>
+        </td>
+    </tr>
+</table>
+ </td>
+ </tr>
+  <tr>
+  <td style="padding-top: 40px;" class="t-pad-40"></td></tr>
+</table><!--Headline start-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="640";>
+    <tr>
+     <td align="center" width="100%" style="padding: 40px 0px 0px 0px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 30px; line-height: 40px; font-weight: bold; text-align: center;">
+      <a href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" class="white-bg-dm" alias="grid-headline" target="_blank" style="color: #000000; text-decoration: none; text-align: center;">Proven Where It Counts</a>
+     </td>
+    </tr>
+</table>
+<!--Headline end-->
+<!--Grid start-->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="640";>
+  <tr>
+  <td class="mobile-font-increase-body t-pad-40" align="center" style="padding: 25px 40px 0px 40px; font-family: Arial, Helvetica, sans-serif; font-size: 19px; line-height: 28px;text-align: center;">
+                            <a href="https://www.timberland.com/en-us/c/timberland-pro/featured/best-sellers-46002" class="white-bg-dm" alias="grid-copy" target="_blank" style="color: #000000; text-decoration: none; text-align: center;">These are the styles that keep coming back to the job site. Soft toe, steel toe, alloy toe, built for shifts that don't let up.</a>
+    </td>
+    </tr>
+</table>
+<!--Body copy end-->
+<!--Grid start-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="640";>
+  <tr>
+    <td valign="top">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%";>
+     <tr>
+      <td align="center" style="padding-top: 35px; max-width: 280px; min-width: 280px;" width="280">
+    <a href="https://www.timberland.com/en-us/p/timberland-pro/mens-footwear-10171/mens-timberland-pro-direct-attach-6-waterproof-insulated-steel-toe-work-boot-TB165016713?width=M" target="_blank" alias="grid-boondock-img"><img alt="Men's Boondock Ultralight 6-inch Soft Toe Waterproof Work Boot" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/260923_P01.png" style="display: block; max-width: 280px; min-width: 280px; width: 280px;" title="Men's Boondock Ultralight 6-inch Soft Toe Waterproof Work Boot" width="280"></a>
+    </td>
+    </tr>
+    <tr>
+    <td align="center" style="padding: 25px 15px 0 15px; max-width: 280px; min-width: 280px;" width="280">
+    <a alias="grid-boondock-copy" class="white-bg-dm mobile-font-increase-body" href="https://www.timberland.com/en-us/p/timberland-pro/mens-footwear-10171/mens-timberland-pro-direct-attach-6-waterproof-insulated-steel-toe-work-boot-TB165016713?width=M" target="_blank" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;text-align: center; text-decoration: none; color: #000000;">Men's Boondock Ultralight 6" Soft Toe Waterproof Work Boot</a>
+     </td>
+     </tr>
+    </table>
+     </td>
+     <td valign="top">
+       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%";>
+        <tr>
+        <td align="center" style="padding-top: 35px; max-width: 280px; min-width: 280px;" width="280">
+    <a href="https://www.timberland.com/en-us/p/timberland-pro/mens-footwear-10171/mens-tempe-6-soft-toe-waterproof-work-boot-TB0A63WQEPB?width=M" target="_blank" alias="grid-morphix-img"><img alt="Men's Timberland PRO® Morphix Outdoor 6-inch Waterproof Comp-Toe Work Boot" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/260923_P02.png" style="display: block; max-width: 280px; min-width: 280px; width: 280px;" title="Men's Timberland PRO® Morphix Outdoor 6-inch Waterproof Comp-Toe Work Boot" width="280"></a>
+       </td>
+      </tr>
+      <tr>
+      <td align="center" style="padding: 25px 15px 0 15px; max-width: 280px; min-width: 280px;" width="280">
+    <a alias="grid-morphix-copy" class="white-bg-dm mobile-font-increase-body" href="https://www.timberland.com/en-us/p/timberland-pro/mens-footwear-10171/mens-tempe-6-soft-toe-waterproof-work-boot-TB0A63WQEPB?width=M" target="_blank" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;text-align: center; text-decoration: none; color: #000000;">Men's Timberland PRO<sup>®</sup> Morphix Outdoor 6" Waterproof Comp-Toe Work Boot</a>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr>
+    <td valign="top">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%";>
+     <tr>
+      <td align="center" style="padding-top: 35px; max-width: 280px; min-width: 280px;" width="280">
+    <a href="https://www.timberland.com/en-us/p/timberland-pro/mens-footwear-10171/mens-timberland-pro-direct-attach-6-waterproof-insulated-steel-toe-work-boot-TB165016713?width=M" target="_blank" alias="grid-intercept-img"><img alt="Men's Intercept Mid Steel Toe Work Sneaker" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/260923_P03.png" style="display: block; max-width: 280px; min-width: 280px; width: 280px;" title="Men's Intercept Mid Steel Toe Work Sneaker" width="280"></a>
+    </td>
+    </tr>
+    <tr>
+    <td align="center" style="padding: 25px 15px 0 15px; max-width: 280px; min-width: 280px;" width="280">
+    <a alias="grid-intercept-copy" class="white-bg-dm mobile-font-increase-body" href="https://www.timberland.com/en-us/p/timberland-pro/mens-footwear-10171/mens-timberland-pro-direct-attach-6-waterproof-insulated-steel-toe-work-boot-TB165016713?width=M" target="_blank" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;text-align: center; text-decoration: none; color: #000000;">Men's Intercept Mid Steel Toe Work Sneaker</a>
+     </td>
+     </tr>
+    </table>
+     </td>
+     <td valign="top">
+       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%";>
+        <tr>
+        <td align="center" style="padding-top: 35px; max-width: 280px; min-width: 280px;" width="280">
+    <a href="https://www.timberland.com/en-us/p/timberland-pro/mens-footwear-10171/mens-tempe-6-soft-toe-waterproof-work-boot-TB0A63WQEPB?width=M" target="_blank" alias="grid-tempe-img"><img alt="Men's Tempe 6-inch Alloy Toe Waterproof Work Boot" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/260923_P04.png" style="display: block; max-width: 280px; min-width: 280px; width: 280px;" title="Men's Tempe 6-inch Alloy Toe Waterproof Work Boot" width="280"></a>
+       </td>
+      </tr>
+      <tr>
+      <td alias="grid-tempe-copy" align="center" style="padding: 25px 15px 0 15px; max-width: 280px; min-width: 280px;" width="280">
+    <a class="white-bg-dm mobile-font-increase-body" href="https://www.timberland.com/en-us/p/timberland-pro/mens-footwear-10171/mens-tempe-6-soft-toe-waterproof-work-boot-TB0A63WQEPB?width=M" target="_blank" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px;text-align: center; text-decoration: none; color: #000000;">Men's Tempe 6" Alloy Toe Waterproof Work Boot</a>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+<!--Grid end-->
+<!-- End Main Content -->    
+    
+      
+
+<!-- Begin Footer Nav -->
+<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%";>
+ <tr>
+  <td align="left" width="100%" style="max-width: 640px; padding: 80px 20px 0px 20px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 30px; font-weight: bold; text-align: left;">
+                            <a href="https://www.timberland.com/en-us/c/sale-10184" alias="footer_sale" title="Sale" target="_blank" class="footer-dm" style="color: #000000; text-decoration: none; text-align: left;">
+                             Sale</a>
+                          </td>
+ </tr>
+<tr>
+ <td align="left" width="100%" style="max-width: 640px; padding: 15px 20px 0px 20px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 30px; font-weight: bold; text-align: left;">
+                            <a href="https://www.timberland.com/en-us/c/men/featured/best-sellers-10033" alias="footer_mensbestsellers" title="Men's Best Sellers" target="_blank" class="footer-dm" style="color: #000000; text-decoration: none; text-align: left;">
+                              Men’s Best Sellers</a>
+                          </td>
+ </tr>
+ 
+ <tr>
+   <td align="left" width="100%" style="max-width: 640px; padding: 15px 20px 0px 20px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 30px; font-weight: bold; text-align: left;">
+                            <a href="https://www.timberland.com/en-us/c/women/featured/best-sellers-10090" alias="footer_womensbestsellers" title="Women's Best Sellers" target="_blank" class="footer-dm" style="color: #000000; text-decoration: none; text-align: left;">
+                             Women’s Best Sellers</a>
+                          </td>
+ </tr>
+  <tr>
+     <td align="left" width="100%" style="max-width: 640px; padding: 15px 20px 0px 20px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 30px; font-weight: bold; text-align: left;">
+                            <a href="https://www.timberland.com/en-us/timberlandpro" alias="footer_pro" title="Timberland PRO Work" target="_blank" class="footer-dm" style="color: #000000; text-decoration: none; text-align: left;">
+                                Timberland PRO Work</a>
+                          </td>
+ </tr>
+ <tr>
+      <td align="left" width="100%" style="max-width: 640px; padding: 15px 20px 25px 20px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 30px; font-weight: bold; text-align: left;">
+                            <a href="https://www.timberland.com/en-us/timberland-community" alias="footer_community" title="Community" target="_blank " class="footer-dm" style="color: #000000; text-decoration: none; text-align: left;">
+                             Community</a>
+                          </td>
+ 
+ </tr>
+       
+      </table>
+<!-- End Footer Nav-->      
+     
+<!-- Main Container Ends to not interfere with table borders - Begin Social Icons / Store Locator Row -->
+<table bgcolor="ffffff" align="center" cellpadding="0" cellspacing="0" role="presentation" style="border-top: 3px; border-top-color: #000000; border-top-style: solid; width: 640px;">
+    <tr>
+        <td style="line-height: 0px; font-size: 0px; width: 640px;">
+            &nbsp;
+        </td>
+    </tr>
+  </table>
+<table align="center" cellpadding="0" cellspacing="0" role="presentation" style=" width: 640px;">
+    <tr>
+<tr>
+    <td>
+       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, Helvetica, sans-serif;" width="320">
+           <tr>
+               <td>
+                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="320">
+                            <tr>
+               <td class="footer-dm mobile-font-increase" align="center" style="padding: 20px 0px 5px 0px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px;">
+                   FOLLOW US
+               </td>
+           </tr>
+                   </table>
+               </td>
+           </tr>
+        </table>
+              
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, Helvetica, sans-serif;" width="320">
+           
+    
+           
+                          <td align="center" width="110" style="padding: 10px 20px 20px 20px">
+                            <a href="https://www.tiktok.com/@timberland" alias="tiktok_social" title="TikTok" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/tik-tok-1.png" alt="TikTok" style="display:block; max-width:50px !important;" border="0" width="50" align="center" /></a>
+                          </td>
+        
+             <td align="center" width="105" style="padding: 10px 20px 20px 20px">
+                            <a href="https://www.facebook.com/timberland" alias="facebook_social" title="Facebook" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/facebook-1.png" alt="Facebook" style="display:block; max-width:50px !important;" border="0" width="50" /></a>
+                          </td>
+        
+      <td align="center" width="105" style="padding: 10px 30px 20px 10px">
+                            <a href="http://www.instagram.com/timberland" alias="instgram_social" title="Instagram" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/instagram-1.png" alt="Instagram" style="display:block; max-width:50px !important;" border="0" width="50" /></a>
+                          </td>
+        </table>
+    </td>
+    <td>
+       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="320" style="border-left: 3px solid #000000; ">
+         <tr>
+               <td>
+                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                            <tr>
+              <td class="footer-dm mobile-font-increase" align="center" style="padding: 20px 0px 5px 0px;text-align: center; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px;"> <a class="footer-dm" href="https://www.timberland.com/en-us/store-locator" alias="footer_storelocator" title="Find A Store" target="_blank" style="color: #000000; text-decoration: none;">
+                            FIND A STORE</a>
+               </td>
+           </tr>
+                   </table>
+               </td>
+           </tr>
+           
+                        <td align="center" width="320" style="padding: 10px 20px 20px 20px">
+                            <a href="https://www.timberland.com/en-us/store-locator" alias="footer_storelocator" title="Find A Store" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/pin-1.png" alt="Find A Store" style="display:block; max-width:50px !important;" border="0" width="50" /></a>
+                          </td>
+    </table>
+    </td>
+                        </tr>
+    </table>        
+                    <table align="center" cellpadding="0" cellspacing="0" role="presentation" style="width: 640px;">
+        <tr>
+           <td style="line-height: 1px; border-top: 3px; border-top-color: #000000; border-top-style: solid; width: 640px;">
+               &nbsp;
+           </td>
+       </tr>
+                  </table>
+
+        
+          <!-- End Social Icons -->          
+         <!-- Begin SMS Opt-in Block Desktop -->   
+                  <div class="desktop">
+                  <table class="desktop" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="max-width: 640px">
+                       <tr>
+      <td class="desktop footer-dm" align="center" width="100%" style="max-width: 640px; padding: 30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold;">
+                            <a href="https://www.timberland.com/en-us/account/profile" alias="smsoptin_desktop" title="Text TIMBS to 67968" target="_blank " class="footer-dm" style="color: #000000; text-decoration: none;">
+                                <strong>Text TIMBS to 67968</strong><br><br>
+          To sign up for exclusive offers, product drops & more!
+          </a>
+                          </td>
+                      </tr>
+                           <tr>
+                               <td class="desktop" align="center">
+                            <a href="https://www.timberland.com/en-us/account" alias="Text TIMBS to 67968" title="Text TIMBS to 67968" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/phone-1.png" alt="Text TIMBS to 67968" style="display:block;" border="0" width="50" /></a>
+                          </td>
+                      </tr>     
+                  </table>
+                  </div>
+           <!-- End SMS Desktop-->   
+           <!-- Begin SMS Opt-in Block Mobile -->  
+                   <div class="mobile" style="display:none; text-align: center; width: 640px; max-width: 640px;">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="display: block; width: 100%; align-content:center; max-height: none; visibility: visible; overflow: visible;">
+                       <tr>
+     <td class="mobile footer-dm" align="center" style="mso-hide:all; padding: 30px 20px 20px 40px; margin: auto; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold;" align="center">
+                            <a class="footer-dm" href="sms:+67968?&body=TIMBS" alias="smsoptin_mobile" title="Text TIMBS to 67968" target="_blank " style="color: #000000; text-decoration: none; text-align: center;">
+                                <strong>Text TIMBS to 67968</strong><br><br>
+          To sign up for exclusive offers, product drops & more!
+          </a>
+          </td>
+                      </tr>
+                           <tr>
+                               <td class="mobile" align="center" style="mso-hide:all; padding-left: 35px;">
+                            <a href="sms:+67968?&body=TIMBS" alias="Text TIMBS to 67968" title="Text TIMBS to 67968" target="_blank">
+                              <img src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/phone-1.png" alt="Text TIMBS to 67968" style="display:block; max-width: 50px" border="0" width="50" /></a>
+                                  </td>
+                      </tr>     
+                  </table>
+                  </div>
+           <!-- End SMS Opt-in Block Mobile -->
+           <!-- Start View Online -->
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="max-width: 640px">
+                   <tr>
+       <td class="footer-dm" align="center" style="padding: 40px 10px 20px 10px;">
+                            <a class="footer-dm" href="%%view_email_url%%" alias="footer_viewonline" title="View Online" target="_blank" style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; text-decoration: underline; color: #000000;">
+                             View Online </a>
+                          </td>
+    </tr>
+                  </table>
+              <!-- End View Online -->
+             
+
+ 
+                         <tr>
+                    <td align="center">
+                      
+     </td> 
+                        </tr>
+   
+              
+              
+              
+                </td>
+              </tr>
+                      </table>
+     
+     <div style="display: none; max-height: 0px; overflow: hidden;">
+            <custom name="opencounter" type="tracking" />
+          </div>
+              </td>
+  </tr>
+ </table>
+    </center>
+  </body>
+</html>
