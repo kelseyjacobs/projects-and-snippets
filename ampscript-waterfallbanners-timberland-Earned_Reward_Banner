@@ -1,0 +1,20 @@
+%%[ 
+SET @Email = emailaddr
+SET @LoyaltyMember = Lookup("Loyalty Master Emailable", "Email Address", "Email Address", emailaddr) 
+SET @RewardAmount = Lookup("Loyalty Master Emailable", "Reward Amount", "Email Address", emailaddr)
+SET @Name = Lookup("Loyalty Master Emailable", "First Name", "Email Address", emailaddr)
+SET @FirstNameProperCase = ProperCase(@Name) 
+]%%
+
+
+%%[IF @Email == @LoyaltyMember AND @RewardAmount > '9' THEN ]%%
+<table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="100%">
+  <tr>
+    <td align="center" width="175" style="padding: 20px 0px 20px 10px; max-width: 175px;"><a href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" target="_blank" alias="banner-member-earnedreward"><img alias="img-community" alt="Community" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/community-lock-up.png" style="display: block; max-width: 150px;" title="Community" width="165"></a></td>
+    <td align="left" width="325" style="padding: 20px 5px 20px 0px; font-family: Arial, sans-serif!important; font-size: 16px; font-weight: medium; line-height: 19px; letter-spacing: normal;text-align: center;color: #ffffff; max-width: 325px; vertical-align: bottom;"><a alias="banner-member-earnedreward" href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" style="text-decoration:none; color:#ffffff;">
+%%[ if not empty(@Name) then ]%% %%=ProperCase(@Name)=%%, You've Earned A Reward of%%[ else ]%%You've Earned A Reward of%%[ endif ]%% <strong>$%%=v(@RewardAmount)=%%</strong>
+</a></td>
+ <td align="right" width="100" style="padding: 20px 0px 20px 0px; font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 18px; letter-spacing: normal; text-align: left;color: #ffffff; max-width: 100px; vertical-align: middle;"><a alias="banner-member-earnedreward" href="https://www.timberland.com/en-us/c/featured-collections/mens-and-womens-best-sellers-256505" style="text-decoration:underline; color:#ffffff; font-weight: bold; text-align: left;">Shop Now</a></td>
+   </tr>
+</table>
+%%[ENDIF]%%
