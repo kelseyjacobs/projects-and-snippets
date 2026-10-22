@@ -1,0 +1,112 @@
+%%[ 
+SET @Email = emailaddr
+SET @SouthShore = Lookup("South Shore New Store Opening - 519 06022026", "Email Address", "Email Address", emailaddr) 
+SET @AmericanDream = Lookup("American Dream New Store Opening - 273 06022026", "Email Address", "Email Address", emailaddr) 
+SET @BirchRun = Lookup("Birch Run PO New Store Opening - 347 06022026", "Email Address", "Email Address", emailaddr) 
+SET @HoustonGalleria = Lookup("Houston Galleria New Store Opening - 276 06122026", "Email Address", "Email Address", emailaddr) 
+SET @GrandRapids = Lookup("Grand Rapids Outlets New Store Opening - 348 06122", "Email Address", "Email Address", emailaddr) 
+SET @Tampa = Lookup("Tampa Premium Outlets New Store Opening - 346 0612", "Email Address", "Email Address", emailaddr) 
+SET @Houston = Lookup("Houston New Store Opening - 343 05212026", "Email Address", "Email Address", emailaddr) 
+SET @Menlo = Lookup("Menlo Park Mall New Store Opening - 275 06262026", "Email Address", "Email Address", emailaddr) 
+SET @Leesburg = Lookup("Leesburg Premium Outlets New Store Opening - 344 0", "Email Address", "Email Address", emailaddr) 
+SET @Crabtree = Lookup("Crabtree Valley Mall Store Opening - 279 06262026", "Email Address", "Email Address", emailaddr) 
+SET @Galleria = Lookup("Galleria Dallas Store Opening - 277 06302036", "Email Address", "Email Address", emailaddr) 
+SET @Charlotte = Lookup("Charlotte Premium Outlets - 345 06302026", "Email Address", "Email Address", emailaddr) 
+SET @CherryHill = Lookup("278_NSO_82126", "Email Address", "Email Address", emailaddr) 
+SET @Irvine = Lookup("518_NSO_82126", "Email Address", "Email Address", emailaddr) 
+
+
+
+
+IF @Email == @SouthShore THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 519) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 519)   
+
+ELSEIF @Email == @AmericanDream THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 273) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 273)   
+
+ELSEIF @Email == @BirchRun THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 347) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 347)   
+
+ELSEIF @Email == @HoustonGalleria THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 276) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 276) 
+
+ELSEIF @Email == @GrandRapids THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 348) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 348) 
+
+ELSEIF @Email == @Tampa THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 346) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 346) 
+
+ELSEIF @Email == @Houston THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 343) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 343) 
+
+ELSEIF @Email == @Menlo THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 275) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 275) 
+
+ELSEIF @Email == @Leesburg THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 344) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 344) 
+
+ELSEIF @Email == @Crabtree THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 279) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 279) 
+
+ELSEIF @Email == @Galleria THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 277) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 277) 
+
+ELSEIF @Email == @Charlotte THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 345) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 345) 
+
+ELSEIF @Email == @CherryHill THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 278) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 278) 
+
+ELSEIF @Email == @Irvine THEN
+SET @StoreName = Lookup("NSO_Banner_Content", "StoreName", "StoreNumber", 518) 
+SET @StoreURL = Lookup("NSO_Banner_Content", "Link", "StoreNumber", 518) 
+
+ENDIF
+
+]%%
+
+
+%%[ IF @Email == @AmericanDream OR @Email == @SouthShore OR @Email == @BirchRun OR @Email == @HoustonGalleria OR @Email == @Tampa OR @Email == @Houston OR @Email == @Menlo OR @Email == @Leesburg OR @Email == @Crabtree OR @Email == @Galleria OR @Email == @Charlotte OR @Email == @CherryHill OR @Email == @Irvine THEN ]%%
+<table bgcolor="#183528" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"> 
+  <tr>
+  <td class="mobile-font-increase-body" align="center" style="padding: 40px 30px 25px 30px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 32px; line-height: 38px;text-align: center;">
+                            <a href="%%=RedirectTo(@StoreURL)=%%" alias="NSOBanner" target="_blank" style="color: #ffffff; text-decoration: none; text-align: center;">A New Store Has Opened Near You</a>
+    </td>
+    </tr>
+   <tr>
+  <td class="mobile-font-increase-body" align="center" style="padding: 0px 30px 40px 30px; font-family: Georgia, Arial, Helvetica, sans-serif; font-size: 18px; line-height: 26px;text-align: center;">
+                            <a href="%%=RedirectTo(@StoreURL)=%%" target="_blank" alias="NSOBanner" style="color: #ffffff; text-decoration: none; text-align: center;">Check out Timberland at %%=v(@StoreName)=%%</a>
+    </td>
+    </tr>
+  </table>
+<!--Button start-->
+ <table bgcolor="#183528" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" ;="">
+  <tr>
+  <td style="padding-bottom: 60px;" align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="300" class="dm-button mobile-btn-width" style="padding: 15px 50px 15px 50px;  background-color: #ffffff;" align="center">
+            <a alias="NSOBanner" class="mobile-font-increase-body" rel="noopener" target="_blank" href="%%=RedirectTo(@StoreURL)=%%" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #000000; text-decoration: none; display: inline-block;">Visit Our New Store</a>
+        </td>
+    </tr>
+</table>
+ </td>
+ </tr>
+</table>
+
+%%[ENDIF]%%
+
+
