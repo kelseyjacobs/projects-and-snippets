@@ -1,0 +1,4 @@
+Jinja to only show a block if it has x amount of products to fill:
+{% if block_1 is defined and block_1.products is defined and block_1.products|length >= 3 %}
+CONTENT
+{% endif %}
