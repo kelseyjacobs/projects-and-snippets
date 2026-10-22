@@ -1,0 +1,23 @@
+%%[ 
+SET @Email = emailaddr
+SET @CanadianSubscriber = Lookup("Engaged_Canada", "Email Address", "Email Address", emailaddr) 
+SET @LoyaltyMember = Lookup("Loyalty Master Emailable", "Email Address", "Email Address", emailaddr) 
+]%%
+
+%%[IF @Email != @CanadianSubscriber AND @Email != @LoyaltyMember THEN ]%%
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px;" width="640">
+  <tr>
+    <td align="left" width="130" style="padding: 15px 0px 15px 25px; max-width: 130px; width: 130px; font-family: Arial, sans-serif; color: #ffffff;" bgcolor="#000000"><a href="https://www.timberland.com/en-us/timberland-community" target="_blank" alias="banner-nonmember-acquisition" style="text-decoration: none; ">
+      <table cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img alias="img-community" alt="Community" src="https://image.t.timberland.com/lib/fe3111717164057c7d1175/m/1/community-lock-up.png" style="display: block; max-width: 120px; width: 120px;" width="120" title="Community">
+          </td>
+        </tr>
+      </table></a></td>
+    <td align="center" width="350" style="padding: 0px 20px 0px 0px; font-family: Arial, sans-serif!important; font-size: 15px; font-weight: medium; line-height: 19px; letter-spacing: normal;text-align: center;color: #ffffff; max-width: 350px; vertical-align: middle;" bgcolor="#000000"><a alias="banner-nonmember-acquisition" href="https://www.timberland.com/en-us/timberland-community" style="text-decoration:none; color:#ffffff;">Enjoy 10% Off Your Next Purchase
+</a></td>
+ <td align="right" width="160" style="padding: 0px 0px 0px 0px; font-family: Arial, sans-serif!important; font-size: 15px; font-weight: 400; line-height: 19px; letter-spacing: normal; text-align: left;color: #ffffff; max-width: 160px; vertical-align: middle;" bgcolor="#000000"><a alias="banner-nonmember-acquisition" href="https://www.timberland.com/en-us/timberland-community" style="text-decoration:underline; color:#ffffff; text-align: left;">Join our Community</a></td>
+   </tr>
+</table>
+%%[ENDIF]%%
