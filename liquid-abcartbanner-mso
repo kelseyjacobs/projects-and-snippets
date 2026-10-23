@@ -1,0 +1,102 @@
+{%- event evts | event_type: 'us_current_cart' | count: 10 -%}
+{%- assign current_cart_evt = evts[0].us_current_cart -%}
+
+{%- capture SKUs -%}
+{%- assign cart_items = current_cart_evt.current_cart -%}
+{%- assign cart_items = cart_items | uniq -%}
+
+{%- assign valid_cart_items = "" -%}
+{%- assign valid_count = 0 -%}
+
+{%- for c_item in cart_items -%}
+
+{%- assign p_resource_id = c_item -%}
+{%- assign req_res_type = "product-us" -%}
+
+{%- resources prods 
+| filter: 'resource-id', '=', p_resource_id
+| filter: 'resource-type', '=', req_res_type
+| filter: 'recoeligible', '=', 'true'
+| filter: 'ats', 'AFTER', '1'
+-%}
+
+{%- for prod in prods -%}
+
+{%- assign z_res_id = prod.resource_id -%}
+{%- assign z_res_type = prod.resource_type -%}
+
+{%- if req_res_type == z_res_type -%}
+{%- if p_resource_id == z_res_id -%}
+
+{%- if valid_cart_items == "" -%}
+{%- assign valid_cart_items = c_item -%}
+{{ valid_cart_items | strip }}{% unless forloop.last and forloop.parentloop.last %},{% endunless %}
+{%- else -%}
+{%- assign valid_cart_items = valid_cart_items | append: "," | append: c_item -%}
+{{ valid_cart_items | strip }}{% unless forloop.last and forloop.parentloop.last %},{% endunless %}
+{%- endif -%}
+{%- assign valid_count = valid_count | plus: 1 -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+{%- endcapture -%}
+
+{%- assign unique_SKUs_array = SKUs | split: "," | uniq -%}
+{%- assign unique_SKUs_count = unique_SKUs_array | size -%}
+{%- assign unique_SKUs_final = unique_SKUs_array | reverse | join: "," -%}
+
+{%- global unique_SKUs = {{unique_SKUs_final}} -%}
+{%- global int_unique_SKUs = unique_SKUs_final  -%}
+
+{%- global unique_SKUs_count = {{unique_SKUs_count}} -%}
+{%- global int_unique_SKUs_count = unique_SKUs_count  -%}
+
+{%- assign pids = int_unique_SKUs | split: "," -%}
+
+
+{%- if int_unique_SKUs_count >= 1 -%}
+<table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" bgcolor="#efeeee">
+  <tr>
+    <td align="center" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#efeeee" width="100%">
+        <tr>
+          <td align="center" height="25"></td>
+        </tr>
+        <tr>
+          <td width="20"> </td>
+          <td width="40" style="text-align: center; text-align: center; vertical-align: middle;" align="right">
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td width="40" style="vertical-align: middle;"><a href="https://www.ralphlauren.com/cart?utm_banner=abandonedcart" target="_blank" style="display:inline-block;"><img alt="Items in Your Cart" border="0" src="https://cdn.app.zetaglobal.net/images/b0d96060122141c01d070d2c4915cece/299aa482d644e44d01e17d20b5a0d45e.png" style="display:block; border-spacing:0;" width="30" /></a> <span style="vertical-align: super; color: #041E3A; text-decoration: none; font-size: 14px; font-family:FoundersgroteskmonoRegular,Arial,sans-serif;font-weight:600;"></span></td>
+              </tr>
+            </table>
+          </td>
+          <td width="20" align="center"></td>
+          <td width="275" style="text-align: center;" align="center">
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td width="275" style="text-align: center;" align="center"><a href="https://www.ralphlauren.com/cart?utm_banner=abandonedcart" target="_blank" style="display:inline-block; color: #041E3A; text-decoration: none; font-size: 12px; line-height: 22px; letter-spacing: 1px; font-family:FoundersgroteskmonoRegular,Arial,sans-serif;font-weight:600; text-align: center;">Don’t forget the items in your shopping bag</a></td>
+              </tr>
+            </table>
+          </td>
+          <td width="20" align="center"></td>
+          <td width="80" style="text-align: center; text-align: center;" align="left">
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td align="left" width="80"><a href="https://www.ralphlauren.com/cart?utm_banner=abandonedcart" target="_blank" style="display:inline-block; color: #041E3A; text-decoration: none; font-size: 12px; line-height: 15px; letter-spacing: 1px;  border-bottom: 1px solid #041E3A;font-family:FoundersgroteskmonoRegular,Arial,sans-serif;font-weight:600; padding-bottom: 10px; text-align: center;">VIEW BAG</a></td>
+              </tr>
+              <!-- border bottom --> 
+            <!--[if mso]>                                         <tr>                                             <td align="center" height="10" style="vertical-align:bottom; height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px; border-bottom: 1px solid {{text_border_color}};">                                             </td>                                         </tr>                                         <![endif]-->
+            </table>
+          </td>
+          <td width="20"> </td>
+        </tr>
+        <tr>
+          <td align="center" height="25"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+{%- endif -%}
