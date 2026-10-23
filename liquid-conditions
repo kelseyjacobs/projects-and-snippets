@@ -1,0 +1,9 @@
+Only show banner if record is in mile radius of x and x stores
+
+{% segments segment_names | map: "name" %} 
+{% assign segment_join = segment_names|join: "*" %} 
+{% if segment_join contains "Promo_Detox_30MileRadius_Store240" or e_store_pref == "240" %}
+
+xxxx
+
+{% endif %}
